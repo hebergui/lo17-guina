@@ -1,0 +1,55 @@
+2 Tâches
+	2.1 Repérage et normalisation de la partie informative des pages LCI-Monde
+
+		1. Vérifiez que cela est vrai sur quelques fichiers :
+		La partie informative d’une page est contenue entre les expressions “IBL_ID=27303” ou “Blc=27303” et “IBL_ID=27916 - Temps” ou “Blc=27916, [0-9]”.
+**************************************************
+La vérification est faite grâce au script "verification.pl".
+On peut comparer les deux fichiers en les ouvrant avec un navigateur et on voit qu'il ne reste que la partie informative.
+On affiche le nombre de lignes du fichier d'entrée et celui du fichier de sortie pour constater qu'il y a bien eu un "tri" au niveau du contenu.
+**************************************************
+
+		2. Ecrivez un script Perl qui, pour un fichier du répertoire initial dont le nom est entré en paramètre,
+génère dans un nouveau répertoire de sortie, une copie du fichier initial dont le nom est identique
+à celui lu en entrée mais qui n’en contient plus que la partie informative.
+**************************************************
+Le script "verification.pl" s'occupe de copier le contenu informatif de la page LCI rentrée en paramètre et de le mettre dans un fichier qui porte le même nom (en rajoutant _copie à la fin du nom) dans un autre dossier "LCI_temp", ce dossier est créé si jamais il n'existe pas.
+**************************************************
+
+		3. Intégrez à ce script, les lignes utiles du script de normalisation convert.pl disponible en télécharge-
+ment de façon à obtenir un fichier normalisé au format iso8859-1.
+**************************************************
+Le script "verification.pl" le fait également grâce à la méthode $u = Unicode::String->new($_) puis $u->latin1
+Petit soucis pour utiliser le package Unicode::String, sous Ubuntu (mais réglé avec apt-get install)
+**************************************************
+
+		4. Ecrivez un script Perl qui répète l’opération sur l’ensemble des fichiers du répertoire d’entré.
+**************************************************
+Le script "verification-boucle.pl" utilise le script "verification.pl" avec un argument en plus pour signaler que c'est une boucle qui sera faite. On lui passe juste en argument le dossier dans lequel il y a les fichiers à traiter.
+Lors du contrôle, on obtient bien un traitement de 328 fichiers / 329. L'écart est du à la présence du fichier "." sous LInux d'ailleurs on a du retirer le traitement des fichier "." et ".." présents dans les dossiers linux : mais même avec ces deux fichiers le script les détecte (il affiche un message d'erreur).
+Lors du traitement de tous les fichiers, il y a eu un problème pour la normalisation au format iso8859-1, il a fallu ajouter un traitement (conversion des caractères spéciaux) avant d'effectuer le traitement.
+**************************************************
+
+	2.2 Mise sur une seule ligne
+		1. De façon à faciliter les tâches de structuration qui vont suivre, écrivez un script Perl qui, pour un fichier du répertoire que vous venez de créer, supprime tous les caractères LF ("line feed" : \n), CR ("carriage return" : \r), FF ("form feed" : \f) et génère dans un nouveau répertoire de sortie un fichier, dont le nom est identique à celui lu en entrée.
+**************************************************
+Le script "oneline.pl" s'occupe de mettre sur une ligne le fichier passer en argument.
+Par contre, on peut voit que le nombre de ligne devient nul et que le nombre de mots entre le fichier d'entrée et celui de sortie est quasiment le même à 2 mots près : je ne sais pas d'où l'erreur vient, mais je pense que cela vient de la manière de compter le nombre de mots et de ligne avec la commande "wc"...
+**************************************************
+
+		2. Ecrivez un script Perl qui répète l’opération sur l’ensemble des fichiers du répertoire d’entré
+**************************************************
+Le script "oneline-boucle.pl" s'occupe de le faire en appelant le script "oneline.pl" pour chaque fichier que le répertoire rentré en argument contient.
+**************************************************
+
+	2.3 Création d’une ligne par rubrique
+	Ecrivez des expressions régulières qui caractérisent le début de chaque structure de niveau 1 (UNE, LES_VOIRAUSSI, FOCUS, LES_GROSTITRES, LES_RAPPELS).
+UNE 			: <!-- Bloc IBL_ID=27352 - "GeneralTeaserLibre" -->
+LES_VOIRAUSSI	: 
+FOCUS 			: 
+LES_GROSTITRES	: 
+LES_RAPPELS		: 
+
+		1. Ecrivez un script Perl qui, pour un fichier du répertoire que vous venez de créer, le recopie dans un nouveau répertoire de sortie avec un nom identique à celui lu en entrée, de telle sorte que chaque rubrique se retrouve entièrement sur une ligne spécifique.
+	
+		2. Ecrivez un script Perl qui répète l’opération sur l’ensemble des fichiers du répertoire d’entré.
