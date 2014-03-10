@@ -44,7 +44,7 @@ Le script "oneline-boucle.pl" s'occupe de le faire en appelant le script "onelin
 
 	2.3 Création d’une ligne par rubrique
 	Ecrivez des expressions régulières qui caractérisent le début de chaque structure de niveau 1 (UNE, LES_VOIRAUSSI, FOCUS, LES_GROSTITRES, LES_RAPPELS).
-UNE 			: <!-- Bloc IBL_ID=27914 || <!-- Blc=27914  (...)  <!-- /Blc=27914
+UNE 			: <!-- Bloc IBL_ID=27914 || <!-- Blc=27914  (...)   <!-- /Blc=27914
 LES_VOIRAUSSI	: 	  <!-- Bloc IBL_ID=27914 (...) <span class="S301" (...) 
 FOCUS 			: <!--Bloc IBL_ID=27913 
 LES_GROSTITRES	: 	  <!--Bloc IBL_ID=27915 
