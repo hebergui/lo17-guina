@@ -18,19 +18,19 @@ chomp $pwd;
 
 my $file_in = $pwd . "/LCI_normalise/" . $ARGV[0];
 my $file_out;
-my $directory_name = "/LCI_oneline/";
+my $directory_out = "/LCI_oneline/";
 
 if ( $ARGV[0] =~ m/(.+?)\.(.*$)/ ) {
 	#si l'on veut changer le nom du fichier
 	#$file_out = $pwd . "/LCI_tmp/" . $1 . "_copie." . $2 ;
-	$file_out = $pwd . $directory_name . $1 . "." . $2 ;
+	$file_out = $pwd . $directory_out . $1 . "." . $2 ;
 }
 else {
 	die "$ARGV[0] est un mauvais nom de fichier !";
 }
 
 open(my $f_in, "$file_in") or die "Impossible d'ouvrir en lecture $file_in\n";
-mkdir($pwd . $directory_name);
+mkdir($pwd . $directory_out);
 open(my $f_out, ">", $file_out) or die "Impossible d'ouvrir en écriture $file_out\n";
 
 while ( <$f_in> ) {

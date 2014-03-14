@@ -5,18 +5,16 @@
 use strict;
 use warnings;
 
-#shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode]
-#Ex. : perl verification-boucle.pl LCI/
+#shebang inutile : lancer avec la commande : perl [*.pl] [dossier] ([mode])
+#Ex. : perl ligne_rubrique_boucle.pl LCI_oneline/
 
 system("clear");
-print "*** Script 2.1.4 : répétition de l'opération sur tout un répertoire ***\n";
+print "*** Script 2.1.4 : répétition de l'opération sur tout un répertoire (/LCI_oneline -> /LCI_rubrique) ***\n";
 
 my $pwd = `pwd`;
 chomp $pwd;
-my $directory_in = $pwd . "/" . $ARGV[0] . "/";
-
+my $directory_in = $pwd . "/LCI_oneline/";
 my $directory_out = "/LCI_rubrique/";
-mkdir($pwd . $directory_out);
 
 opendir(my $d_in, $directory_in) or die "Impossible d'ouvrir le répertoire $directory_in\n";
 my $count_loop = 0;
@@ -25,23 +23,14 @@ while(readdir($d_in))
 {
 	if ($_ ne ".." && $_ ne ".") {
 		
-		my $file_out = $pwd . $directory_out . $_;
-		open(my $f_out, ">$file_out") or die "Impossible de creer le fichier $file_out\n $!";
-	
-		#if($ARGV[2])
-		#{
-			#system("perl ligne_rubrique.pl $_ loop $ARGV[1] $ARGV[2]");
-		#}
-		#else
-		#{
-		#	#system("perl ligne_rubrique.pl $_ loop $ARGV[1]");
-		#}
-
-		system("perl ligne_rubrique.pl $_ loop 27914");
-		system("perl ligne_rubrique.pl $_ loop 27914 S301");
-		system("perl ligne_rubrique.pl $_ loop 27913");
-		system("perl ligne_rubrique.pl $_ loop 27915");
-		system("perl ligne_rubrique.pl $_ loop 27916");
+		#my $file_out = $pwd . $directory_out . $_;
+		#open(my $f_out, ">$file_out") or die "Impossible de creer le fichier $file_out\n $!";
+		
+		system("perl ligne_rubrique.pl $_ loop 27914"); #UNE
+		system("perl ligne_rubrique.pl $_ loop 27914 S301"); #LES_VOIRAUSSI
+		system("perl ligne_rubrique.pl $_ loop 27913"); #FOCUS
+		system("perl ligne_rubrique.pl $_ loop 27915"); #LES_GROSTITRES
+		system("perl ligne_rubrique.pl $_ loop 27916"); #LES_RAPPELS
 		$count_loop++;
 	}
 }
