@@ -1,0 +1,21 @@
+	<PAGE_LCI>
+		<FICHIER>lci-monde-2005-02-25.html</FICHIER>
+		<DATE_PAGE></DATE_PAGE>
+		<UNE>
+je suis la ligne 1
+		</UNE>
+		<LES_VOIRAUSSI>
+			<VOIRAUSSI>
+je suis la ligne 2
+			</VOIRAUSSI>
+		</LES_VOIRAUSSI>
+		<FOCUS>
+je suis la ligne 3
+		</FOCUS>
+		<LES_GROSTITRES>
+je suis la ligne 4
+		</LES_GROSTITRES>
+		<LES_RAPPELS>
+je suis la ligne 5
+		</LES_RAPPELS>
+	</PAGE_LCI>

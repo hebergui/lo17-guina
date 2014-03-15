@@ -27,11 +27,9 @@ my $file_out = $directory_out . $ARGV[0];
 my $reg = $ARGV[2];
 
 open(my $f_in, "$file_in") or die "Impossible d'ouvrir en lecture $file_in\n";
-mkdir($pwd . $directory_out);
+mkdir($directory_out);
 open(my $f_out, ">>$file_out") or die "Impossible d'ouvrir en ajout $file_out\n";
 
-
-# MARCHE PAS POUR BLC
 while(<$f_in>)
 {
 	if( m/(IBL_ID=$reg(.*?)-->|Blc=$reg(.*?)-->)(.*?)(<!--(.*?)IBL_ID=$reg|<!--(.*?)\/Blc=$reg)/ )

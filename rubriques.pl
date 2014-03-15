@@ -47,8 +47,8 @@ while(<$f_in>)
 }
 
 #print "count = $count";
-print "il y a 0 balise(s) dans le fichier $file_in \n" if($count==0);
-print "il y a $count balise(s) dans le fichier $file_in \n" if($count>1);
+print "Balise non trouvée dans $file_in \n" if($count==0);
+print "Balise trouvée $count fois dans $file_in \n" if($count>0);
 
 close($f_in);
 
