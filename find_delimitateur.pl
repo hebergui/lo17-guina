@@ -24,12 +24,12 @@ my $ligne = 0;
 
 while(<$f_in>)
 {
-	#if ($ligne == 0 ) {
-		if ( m/javascript:VerifCookie.+'(\/news.*\.html).*class="S48">(.+?)<\/a>/g ) {
-			print "$2\n";
-			$count++;
+	if ($ligne == 0 ) {
+			if ( m/class="S431"(.+?)<img src="(http.+?)"/ ) {
+				#print "$2\n";
+				$count++;
 		}
-	#}
+	}
 }
 
 print "[ligne $ligne] Balise non trouvée dans $file_in \n" if($count==0);

@@ -59,10 +59,8 @@ sub VOIRAUSSI {
 	my $f_out = $_[0];
 	my $l = $_[1];
 	
-	while ( $l =~ m/<a href.+(\/news.*\.html?).*class="S48">(.+?)<\/a>/g ) {
+	while ( $l =~ m/<a\shref.+?(\/news.*?\.html).+?class="S48">(.+?)<\/a>/g ) {
 		print $f_out "\t\t\t<VOIRAUSSI>\n";
-		print "$1\n";
-		print "$2\n";
 		my $url = $1;
 		my $titre = $2;
 		
