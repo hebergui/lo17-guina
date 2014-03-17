@@ -10,10 +10,13 @@ use Switch;
 #Ex. page avec toutes les rubriques : 			perl pageXML.pl lci-monde-2005-02-25.html 
 #Ex. page où il manque rubrique voir_aussi :	perl pageXML.pl lci-monde-2005-10-26.html
 
-sub urlArticle {
+#################################### URL ########################################
+sub UNE {
 	my $f_out = $_[0];
 	my $l = $_[1];
+	my $date = $_[2];
 
+	############ urlArticle ############
 	print $f_out "\t\t\t<urlArticle>";
 	if( $l =~ m/class="S431"(.+)">/ )
 		{
@@ -22,46 +25,69 @@ sub urlArticle {
 			}
 		}
 	print $f_out "\t\t\t</urlArticle>";
-}
 
-sub titreArticle {
-	my $f_out = $_[0];
-	my $l = $_[1];
-
+	############ titreArticle ############
 	print $f_out "\t\t\t<titreArticle>";
-	
 	if( $l =~ m/class="S431"(.+?)>(.+?)<\/a>/ )
 		{
 			print $f_out $2;
 		}
 	print $f_out "\t\t\t</titreArticle>";
-}
-
-sub urlImage {
-	my $f_out = $_[0];
-	my $l = $_[1];
-
-	print $f_out "\t\t\t<urlImage>";
 	
+	############ dateArticle ############
+	print $f_out "\t\t<dateArticle>$date</dateArticle>\n";
+	
+	############ urlImage ############
+	print $f_out "\t\t\t<urlImage>";
 	if( $l =~ m/class="S431".+<img src="(http.+?)"/ )
 		{
 			print $f_out $1;
 		}
 	print $f_out "\t\t\t</urlImage>";
-}
 
-sub resumeArticle {
-	my $f_out = $_[0];
-	my $l = $_[1];
-
+	############ resumeArticle ############
 	print $f_out "\t\t\t<resumeArticle>";
-	
-	my @matches = ( $l =~ m/\/img\/news\/puce_rouge\.gif.+>(.+?)<\/a>/ );
-	foreach my $match (@matches) {
-   		print "$match\n";
+	while ( $l =~ m/\/img\/news\/puce_rouge\.gif.+?>(.+?)<\/a>/g ) {
+		print $f_out $1;
 	}
 	print $f_out "\t\t\t</resumeArticle>";
 }
+##################################### * ##########################################
+
+################################ VOIRAUSSI #######################################
+sub VOIRAUSSI {
+	my $f_out = $_[0];
+	my $l = $_[1];
+	
+	while ( $l =~ m/<a href.+(\/news.*\.html?).*class="S48">(.+?)<\/a>/g ) {
+		print $f_out "\t\t\t<VOIRAUSSI>\n";
+		print "$1\n";
+		print "$2\n";
+		my $url = $1;
+		my $titre = $2;
+		
+		############ dateArticle ############
+		if ( $2 =~ m/\(((.{2})\/(.{2})\/(.{4}))\)/ ) {
+			print $f_out "\t\t\t\t<dateArticle>";
+			print $f_out $1;
+			print $f_out "\t\t\t\t</dateArticle>";
+		}
+
+		############ urlArticle ############
+		print $f_out "\t\t\t\t<urlArticle>";
+		print $f_out $url;
+		print $f_out "\t\t\t\t</urlArticle>";
+
+		############ titreArticle ############
+		print $f_out "\t\t\t\t<titreArticle>";
+		print $f_out $titre;
+		print $f_out "\t\t\t\t</titreArticle>";
+
+		print $f_out "\t\t\t</VOIRAUSSI>\n";
+	}
+}
+
+##################################### * ##########################################
 
 system("clear");
 print "*** Script 2.x.x : Mise en format xml ***\n";
@@ -100,17 +126,12 @@ while ( <$f_in> ) {
 	switch ($ligne) {
 		case 1 {
 			print $f_out "\t\t<UNE>\n";
-			&urlArticle($f_out, $_);
-			&titreArticle($f_out, $_);
-			print $f_out "\t\t<dateArticle>$date</dateArticle>\n";
-			&urlImage($f_out, $_);
-			&resumeArticle($f_out, $_);
+			&UNE($f_out, $_, $date);
 			print $f_out "\t\t</UNE>\n";
 		}
 		case 2 {
 			print $f_out "\t\t<LES_VOIRAUSSI>\n";	
-			print $f_out "\t\t\t<VOIRAUSSI>\n";	
-			print $f_out "\t\t\t</VOIRAUSSI>\n";
+			&VOIRAUSSI($f_out, $_);
 			print $f_out "\t\t</LES_VOIRAUSSI>\n";
 		}
 		case 3 {
