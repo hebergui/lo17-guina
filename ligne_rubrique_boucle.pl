@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 #shebang inutile : lancer avec la commande : perl [*.pl] [dossier] ([mode])
-#Ex. : perl ligne_rubrique_boucle.pl LCI_oneline/
+#Ex. : perl ligne_rubrique_boucle.pl
 
 system("clear");
 print "*** Script 2.1.4 : répétition de l'opération sur tout un répertoire (/LCI_oneline -> /LCI_rubrique) ***\n";
@@ -15,6 +15,10 @@ my $pwd = `pwd`;
 chomp $pwd;
 my $directory_in = $pwd . "/LCI_oneline/";
 my $directory_out = "/LCI_rubrique/";
+
+#supprime le dossier puisque le code d'ajout sur un fichier ne l'écrase pas... (on le recrée à chaque fois)
+my $tmp = $pwd . $directory_out;
+system("rm -Rf $tmp");
 
 opendir(my $d_in, $directory_in) or die "Impossible d'ouvrir le répertoire $directory_in\n";
 my $count_loop = 0;

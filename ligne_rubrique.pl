@@ -4,19 +4,15 @@
 
 use strict;
 use warnings;
-use Unicode::String qw(utf8 latin1); # si erreur : sudo apt-get install libunicode-string-perl (sous Ubuntu)
 use utf8; #pour les erreurs de type "Data outside latin1 range (pos=xxx, ch=U+xxx)"
 
 #shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode] [délimitateur1] ([délimitateur2])
-#Ex. : perl ligne_rubriques.pl lci-monde-2005-02-25.html loop 27914
+#Ex. : perl ligne_rubrique.pl lci-monde-2005-02-25.html loop 27914 S301
 
 if ( not defined $ARGV[1] ) {
 	system("clear");
 	print "*** Script 2.3.1 : Ecriture du contenu délimité par le(s) délimitateur(s) rentrés en paramètre(s) ***\n";
 }
-
-# spécifie le format par défaut des chaînes en entrée
-Unicode::String->stringify_as('utf8');
 
 my $pwd = `pwd`;
 chomp $pwd;
@@ -38,9 +34,9 @@ while(<$f_in>)
 		{
 			my $reg2 = $ARGV[3];
 			my $text = $4;
-			if( $4 =~ m/$reg2/)
+			if( $4 =~ m/$reg2">(.+)span/)
 			{
-				print $f_out $text;
+				print $f_out $1;
 			}
 		}
 		else

@@ -1,21 +1,18 @@
 	<PAGE_LCI>
 		<FICHIER>lci-monde-2005-02-25.html</FICHIER>
-		<DATE_PAGE></DATE_PAGE>
+		<DATE_PAGE>25/02/2005</DATE_PAGE>
 		<UNE>
-je suis la ligne 1
-		</UNE>
+			<urlArticle>/news/monde/0,,3204466-VU5WX0lEIDUy,00.html
+			</urlArticle>			<titreArticle>Le pape muet			</titreArticle>		<dateArticle>25/02/2005</dateArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/20/4/609204.gif			</urlImage>			<resumeArticle>			</resumeArticle>		</UNE>
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
-je suis la ligne 2
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-je suis la ligne 3
 		</FOCUS>
 		<LES_GROSTITRES>
-je suis la ligne 4
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
-je suis la ligne 5
 		</LES_RAPPELS>
 	</PAGE_LCI>

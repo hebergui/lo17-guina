@@ -4,7 +4,6 @@
 
 use strict;
 use warnings;
-use Unicode::String qw(utf8 latin1); # si erreur : sudo apt-get install libunicode-string-perl (sous Ubuntu)
 use utf8; #pour les erreurs de type "Data outside latin1 range (pos=xxx, ch=U+xxx)"
 
 #shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode] [délimitateur1] ([délimitateur2])
@@ -14,9 +13,6 @@ if ( not defined $ARGV[1] ) {
 	system("clear");
 	print "*** Script 2.3.1 : Ecriture du contenu délimité par le(s) délimitateur(s) rentrés en paramètre(s) ***\n";
 }
-
-# spécifie le format par défaut des chaînes en entrée
-Unicode::String->stringify_as('utf8');
 
 my $pwd = `pwd`;
 chomp $pwd;

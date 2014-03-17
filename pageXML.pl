@@ -10,6 +10,59 @@ use Switch;
 #Ex. page avec toutes les rubriques : 			perl pageXML.pl lci-monde-2005-02-25.html 
 #Ex. page où il manque rubrique voir_aussi :	perl pageXML.pl lci-monde-2005-10-26.html
 
+sub urlArticle {
+	my $f_out = $_[0];
+	my $l = $_[1];
+
+	print $f_out "\t\t\t<urlArticle>";
+	if( $l =~ m/class="S431"(.+)">/ )
+		{
+			if ( $1 =~ m/<a class="S2" href="(.+)">Lire l'article<\/a>/ ) {
+				print $f_out "$1\n";
+			}
+		}
+	print $f_out "\t\t\t</urlArticle>";
+}
+
+sub titreArticle {
+	my $f_out = $_[0];
+	my $l = $_[1];
+
+	print $f_out "\t\t\t<titreArticle>";
+	
+	if( $l =~ m/class="S431"(.+?)>(.+?)<\/a>/ )
+		{
+			print $f_out $2;
+		}
+	print $f_out "\t\t\t</titreArticle>";
+}
+
+sub urlImage {
+	my $f_out = $_[0];
+	my $l = $_[1];
+
+	print $f_out "\t\t\t<urlImage>";
+	
+	if( $l =~ m/class="S431".+<img src="(http.+?)"/ )
+		{
+			print $f_out $1;
+		}
+	print $f_out "\t\t\t</urlImage>";
+}
+
+sub resumeArticle {
+	my $f_out = $_[0];
+	my $l = $_[1];
+
+	print $f_out "\t\t\t<resumeArticle>";
+	
+	my @matches = ( $l =~ m/\/img\/news\/puce_rouge\.gif.+>(.+?)<\/a>/ );
+	foreach my $match (@matches) {
+   		print "$match\n";
+	}
+	print $f_out "\t\t\t</resumeArticle>";
+}
+
 system("clear");
 print "*** Script 2.x.x : Mise en format xml ***\n";
 
@@ -47,6 +100,11 @@ while ( <$f_in> ) {
 	switch ($ligne) {
 		case 1 {
 			print $f_out "\t\t<UNE>\n";
+			&urlArticle($f_out, $_);
+			&titreArticle($f_out, $_);
+			print $f_out "\t\t<dateArticle>$date</dateArticle>\n";
+			&urlImage($f_out, $_);
+			&resumeArticle($f_out, $_);
 			print $f_out "\t\t</UNE>\n";
 		}
 		case 2 {
