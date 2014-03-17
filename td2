@@ -1,0 +1,1 @@
+cat corpus.xml | segment.f | sort | uniq -c/e | more >tf.txt

@@ -18,39 +18,43 @@ sub UNE {
 
 	############ urlArticle ############
 	print $f_out "\t\t\t<urlArticle>";
-	if( $l =~ m/class="S431"(.+)">/ )
-		{
-			if ( $1 =~ m/<a class="S2" href="(.+)">Lire l'article<\/a>/ ) {
-				print $f_out "$1\n";
-			}
+	if( $l =~ m/class="S431"(.+)">/ ) {
+		if ( $1 =~ m/<a class="S2" href="(.+)">Lire l'article<\/a>/ ) {
+			print $f_out "$1";
 		}
-	print $f_out "\t\t\t</urlArticle>";
+	}
+	print $f_out "</urlArticle>\n";
 
 	############ titreArticle ############
 	print $f_out "\t\t\t<titreArticle>";
-	if( $l =~ m/class="S431"(.+?)>(.+?)<\/a>/ )
-		{
+	if( $l =~ m/class="S431"(.+?)>(.+?)<\/a>/ ) {
 			print $f_out $2;
-		}
-	print $f_out "\t\t\t</titreArticle>";
+	}
+	print $f_out "</titreArticle>\n";
 	
 	############ dateArticle ############
-	print $f_out "\t\t<dateArticle>$date</dateArticle>\n";
+	print $f_out "\t\t\t<dateArticle>$date</dateArticle>\n";
 	
 	############ urlImage ############
 	print $f_out "\t\t\t<urlImage>";
-	if( $l =~ m/class="S431".+<img src="(http.+?)"/ )
-		{
-			print $f_out $1;
-		}
-	print $f_out "\t\t\t</urlImage>";
+	if( $l =~ m/class="S431".+<img src="(http.+?)"/ ) {
+		print $f_out $1;
+	}
+	print $f_out "</urlImage>\n";
 
 	############ resumeArticle ############
 	print $f_out "\t\t\t<resumeArticle>";
 	while ( $l =~ m/\/img\/news\/puce_rouge\.gif.+?>(.+?)<\/a>/g ) {
 		print $f_out $1;
 	}
-	print $f_out "\t\t\t</resumeArticle>";
+	print $f_out "</resumeArticle>\n";
+
+	############ mailto ############
+	print $f_out "\t\t\t<mailto>";
+	while ( $l =~ m/<a\shref="mailto:(.*?)".*?class="S14".+?<\/a>/g ) {
+		print $f_out $1;
+	}
+	print $f_out "</mailto>\n";
 }
 ##################################### * ##########################################
 
@@ -68,24 +72,80 @@ sub VOIRAUSSI {
 		if ( $2 =~ m/\(((.{2})\/(.{2})\/(.{4}))\)/ ) {
 			print $f_out "\t\t\t\t<dateArticle>";
 			print $f_out $1;
-			print $f_out "\t\t\t\t</dateArticle>";
+			print $f_out "</dateArticle>\n";
 		}
 
 		############ urlArticle ############
 		print $f_out "\t\t\t\t<urlArticle>";
 		print $f_out $url;
-		print $f_out "\t\t\t\t</urlArticle>";
+		print $f_out "</urlArticle>\n";
 
 		############ titreArticle ############
 		print $f_out "\t\t\t\t<titreArticle>";
 		print $f_out $titre;
-		print $f_out "\t\t\t\t</titreArticle>";
+		print $f_out "</titreArticle>\n";
 
 		print $f_out "\t\t\t</VOIRAUSSI>\n";
 	}
 }
-
 ##################################### * ##########################################
+
+################################ FOCUS #######################################
+sub FOCUS {
+	my $f_out = $_[0];
+	my $l = $_[1];
+	my $url;
+	
+	#<titreArticle> </titreArticle>
+	#<dateArticle> </dateArticle>
+	#<urlImage> </urlImage>
+	#<resumeArticle> </resumeArticle>
+	#<mailto> </mailto>
+	#<auteur> </auteur>
+		
+	############ urlArticle ############
+	if ( m/<a class="S531" href="(.+)">Lire l'article<\/a>/ ) {
+		$url = $1;
+		print $f_out "\t\t\t\t<urlArticle>";
+		print $f_out $1;
+		print $f_out "</urlArticle>\n";
+	}
+
+	############ titreArticle ############
+	print $f_out "\t\t\t<titreArticle>";
+	if( $l =~ m/class="S401">(.+?)<\/a>/ )	{
+		print $f_out $1;
+	}
+	print $f_out "</titreArticle>\n";
+
+	############ dateArticle ############
+
+	############ urlImage ############
+	print $f_out "\t\t\t<urlImage>";
+	if( $l =~ m/$url.+<img src="(http.+?)"/ ) {
+		print $f_out $1;
+	}
+	print $f_out "</urlImage>\n";
+
+	############ resumeArticle ############
+	print $f_out "\t\t\t<resumeArticle>";
+	if( $l =~ m/$url.+class="S48">(.+?)<\/a>/ ) {
+		print $f_out $1;
+	}
+	print $f_out "</resumeArticle>\n";
+
+	############ mailto ############
+	print $f_out "\t\t\t<mailto>";
+	while ( $l =~ m/<a\shref="mailto:(.*?)".*?class="S14".+?<\/a>/g ) {
+		print $f_out $1;
+	}
+	print $f_out "</mailto>\n";
+
+	############ auteur ############
+
+}
+##################################### * ##########################################
+
 
 system("clear");
 print "*** Script 2.x.x : Mise en format xml ***\n";
@@ -133,7 +193,8 @@ while ( <$f_in> ) {
 			print $f_out "\t\t</LES_VOIRAUSSI>\n";
 		}
 		case 3 {
-			print $f_out "\t\t<FOCUS>\n";	
+			print $f_out "\t\t<FOCUS>\n";
+			&FOCUS($f_out, $_);
 			print $f_out "\t\t</FOCUS>\n";
 		}
 		case 4 {
