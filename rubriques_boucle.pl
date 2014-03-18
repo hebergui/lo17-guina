@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 #shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode]
-#Ex. : perl rubriques_boucle.pl
+#Ex. : perl rubriques_boucle.pl 
 
 system("clear");
 print "*** Script 2.2.1 : vérification de l'opération sur tout un répertoire ***\n";

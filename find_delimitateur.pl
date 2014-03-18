@@ -6,9 +6,9 @@ use strict;
 use warnings;
 
 #shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode]
-#Ex. : perl find_delimitateur.pl lci-monde-2005-02-25.html
+#Ex. : perl find_delimitateur.pl lci-monde-2005-02-25.html regexp
 
-if ( not defined $ARGV[1] ) {
+if ( not defined $ARGV[2] ) {
 	system("clear");
 	print "*** Script : Vérification du nombre d'aparition du délimitateur rentré en argument et voir si ça marche bien ***\n";
 }
@@ -25,15 +25,15 @@ my $ligne = 0;
 while(<$f_in>)
 {
 	if ($ligne == 0 ) {
-			if ( m/class="S431"(.+?)<img src="(http.+?)"/ ) {
-				#print "$2\n";
-				$count++;
-		}
+		if ( $ARGV[1] ) {
+			#print "$2\n";
+			$count++;
+	}
 	}
 }
 
 print "[ligne $ligne] Balise non trouvée dans $file_in \n" if($count==0);
-#print "[ligne $ligne] Balise trouvée $count fois dans $file_in \n" if($count>0);
+print "[ligne $ligne] Balise trouvée $count fois dans $file_in \n" if($count>0);
 
 close($f_in);
 
