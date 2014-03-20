@@ -9,6 +9,7 @@ use Switch;
 #shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode]
 #Ex. page avec toutes les rubriques : 			perl pageXML.pl lci-monde-2005-02-25.html 
 #Ex. page où il manque rubrique voir_aussi :	perl pageXML.pl lci-monde-2005-10-26.html
+#perl pageXML.pl lci-monde-2005-03-28.html
 
 #################################### URL ########################################
 sub UNE {
@@ -104,11 +105,16 @@ sub FOCUS {
 	#<auteur> </auteur>
 		
 	############ urlArticle ############
-	if ( m/<a class="S531" href="(.+)">Lire l'article<\/a>/ ) {
+	if ( m/<a\sclass="S531"\shref="(.+)">Lire l'article<\/a>/ ) {
 		$url = $1;
-		print $f_out "\t\t\t\t<urlArticle>";
+		print $f_out "\t\t\t<urlArticle>";
 		print $f_out $1;
 		print $f_out "</urlArticle>\n";
+	}
+
+	#S'il n'y a pas de Focus : pour la page lci-monde-2006-01-30.html nottamment !
+	if (not defined $url) {
+		return;
 	}
 
 	############ titreArticle ############
@@ -122,14 +128,14 @@ sub FOCUS {
 
 	############ urlImage ############
 	print $f_out "\t\t\t<urlImage>";
-	if( $l =~ m/$url.+<img src="(http.+?)"/ ) {
+	if( $l =~ m/$url.+?<img\ssrc="(http.+?)"/ ) {
 		print $f_out $1;
 	}
 	print $f_out "</urlImage>\n";
 
 	############ resumeArticle ############
 	print $f_out "\t\t\t<resumeArticle>";
-	if( $l =~ m/$url.+class="S48">(.+?)<\/a>/ ) {
+	if( $l =~ m/$url.+?class="S48">(.+?)<\/a>/ ) {
 		print $f_out $1;
 	}
 	print $f_out "</resumeArticle>\n";
@@ -146,9 +152,91 @@ sub FOCUS {
 }
 ##################################### * ##########################################
 
+################################ LES_GROSTITRES #######################################
+sub LES_GROSTITRES {
+	my $f_out = $_[0];
+	my $l = $_[1];
+	my $url;
+							         #$1                    $2                    $3                        $4                        $5
+	while ( $l =~ m/<a\shref.+?(\/news.*?\.html).+?<img\ssrc="(.+?)".+?class="S301">(.+?)<\/span>.+?class="S63">(.+?)<\/a>.+?class="S48">(.+?)<\/a>/g ) {
+		print $f_out "\t\t\t<GROSTITRE>\n";
 
-system("clear");
-print "*** Script 2.x.x : Mise en format xml ***\n";
+		############ urlArticle ############
+		print $f_out "\t\t\t\t<urlArticle>";
+		print $f_out $1;
+		print $f_out "</urlArticle>\n";
+
+		############ themeArticle ############
+		print $f_out "\t\t\t\t<themeArticle>";
+		print $f_out $3;
+		print $f_out "</themeArticle>\n";
+
+		############ titreArticle ############
+		print $f_out "\t\t\t\t<titreArticle>";
+		print $f_out $4;
+		print $f_out "</titreArticle>\n";
+
+		############ dateArticle ############
+
+		############ urlImage ############
+		print $f_out "\t\t\t\t<urlImage>";
+		print $f_out $2;
+		print $f_out "</urlImage>\n";
+
+		############ resumeArticle ############
+		print $f_out "\t\t\t\t<resumeArticle>";
+		print $f_out $5;
+		print $f_out "</resumeArticle>\n";
+
+		############ mailto ############
+
+		############ auteur ############
+
+
+		print $f_out "\t\t\t</GROSTITRE>\n";
+	}
+
+}
+##################################### * ##########################################
+
+################################ LES_RAPPELS #######################################
+sub LES_RAPPELS {
+	my $f_out = $_[0];
+	my $l = $_[1];
+	my $url;
+							     #$1                         $2                    $3                      $4
+	while ( $l =~ m/class="S48">(.+?)<\/span>.+?class="S301">(.+?)<\/span>.+?(\/news.+?\.html).+?class="S63">(.+?)<\/a>/g ) {
+		print $f_out "\t\t\t<RAPPEL>\n";
+
+		############ dateArticle ############
+		print $f_out "\t\t\t\t<dateArticle>";
+		print $f_out $1;
+		print $f_out "</dateArticle>\n";
+
+		############ themeArticle ############
+		print $f_out "\t\t\t\t<themeArticle>";
+		print $f_out $2;
+		print $f_out "</themeArticle>\n";
+
+		############ titreArticle ############
+		print $f_out "\t\t\t\t<titreArticle>";
+		print $f_out $4;
+		print $f_out "</titreArticle>\n";
+
+		############ urlArticle ############
+		print $f_out "\t\t\t\t<urlArticle>";
+		print $f_out $3;
+		print $f_out "</urlArticle>\n";
+
+		print $f_out "\t\t\t</RAPPEL>\n";
+	}
+
+}
+##################################### * ##########################################
+if ( not defined $ARGV[1] ) {
+	system("clear");
+	print "*** Script 2.x.x : Mise en format xml ***\n";
+}
 
 my $pwd = `pwd`;
 chomp $pwd;
@@ -198,11 +286,13 @@ while ( <$f_in> ) {
 			print $f_out "\t\t</FOCUS>\n";
 		}
 		case 4 {
-			print $f_out "\t\t<LES_GROSTITRES>\n";	
+			print $f_out "\t\t<LES_GROSTITRES>\n";
+			&LES_GROSTITRES($f_out, $_);
 			print $f_out "\t\t</LES_GROSTITRES>\n";
 		}
 		case 5 {
-			print $f_out "\t\t<LES_RAPPELS>\n";	
+			print $f_out "\t\t<LES_RAPPELS>\n";
+			&LES_RAPPELS($f_out, $_);
 			print $f_out "\t\t</LES_RAPPELS>\n";
 		}
 		else {
