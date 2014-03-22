@@ -4,36 +4,56 @@
 
 use strict;
 use warnings;
+use utf8; #pour les erreurs de type "Data outside latin1 range (pos=xxx, ch=U+xxx)"
 
-#shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode]
-#Ex. : perl find_delimitateur.pl lci-monde-2005-02-25.html regexp
+#shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode] [délimitateur1] ([délimitateur2])
+#Ex. : perl find_delimitateur.pl lci-monde-2005-02-25.html voir_aussi loop 27914 S301
 
-if ( not defined $ARGV[2] ) {
+if ( not defined $ARGV[1] ) {
 	system("clear");
-	print "*** Script : Vérification du nombre d'aparition du délimitateur rentré en argument et voir si ça marche bien ***\n";
+	print "*** Script 2.3.1 : Recherche du contenu délimité par le(s) délimitateur(s) rentrés en paramètre(s) ***\n";
 }
 
 my $pwd = `pwd`;
 chomp $pwd;
 
-my $file_in = $pwd . "/LCI_rubrique/" . $ARGV[0];
+my $file_in = $pwd . "/LCI_oneline/" . $ARGV[0];
+my $reg = $ARGV[3];
 
 open(my $f_in, "$file_in") or die "Impossible d'ouvrir en lecture $file_in\n";
 my $count = 0;
-my $ligne = 0;
 
 while(<$f_in>)
 {
-	if ($ligne == 0 ) {
-		if ( $ARGV[1] ) {
-			#print "$2\n";
+	if( m/(IBL_ID=$reg|Blc=$reg)(.*?)(IBL_ID=$reg|\/Blc=$reg)/ )
+	{
+		if(defined $ARGV[4])
+		{
+			my $reg2 = $ARGV[4];
+			if( $2 =~ m/$reg2/)
+			{
+				$count++;
+			}
+		}
+		else
+		{
 			$count++;
-	}
+		}
 	}
 }
 
-print "[ligne $ligne] Balise non trouvée dans $file_in \n" if($count==0);
-print "[ligne $ligne] Balise trouvée $count fois dans $file_in \n" if($count>0);
+
+if($count!=1)
+{
+	print "Balise non trouvée dans $file_in \n";
+
+	my $f_log;
+	open($f_log, ">>","log/id_rubrique/".$ARGV[2]) or die "Impossible d'ouvrir en lecture log/id_rubrique/$ARGV[2] \n";
+	print $f_log "$count dans $file_in \n";
+}
+
+#print "count = $count";
+#print "Balise trouvée $count fois dans $file_in \n" if($count>0);
 
 close($f_in);
 

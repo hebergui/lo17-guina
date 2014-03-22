@@ -18,6 +18,19 @@ my $directory_in = $pwd . "/LCI_rubrique/";
 opendir(my $d_in, $directory_in) or die "Impossible d'ouvrir le répertoire $directory_in\n";
 my $count_loop = 0;
 
+#creation/troncage des fichiers de log (1 par rubrique)
+my $f_log;
+open($f_log, "+>","log/id_partie/une") or die "Impossible de creer/tronquer log/id_partie/une\n";
+print $f_log "***Liste des problemes releves pour les differentes regexp utilisees***\n\n";
+open($f_log, "+>","log/id_partie/voir_aussi") or die "Impossible de creer/tronquer log/id_partie/voir_aussi\n";
+print $f_log "***Liste des problemes releves pour les differentes regexp utilisees***\n\n";
+open($f_log, "+>","log/id_partie/focus") or die "Impossible de creer/tronquer log/id_partie/focus\n";
+print $f_log "***Liste des problemes releves pour les differentes regexp utilisees***\n\n";
+open($f_log, "+>","log/id_partie/gros_titre") or die "Impossible de creer/tronquer log/id_partie/gros_titre\n";
+print $f_log "***Liste des problemes releves pour les differentes regexp utilisees***\n\n";
+open($f_log, "+>","log/id_partie/rappel") or die "Impossible de creer/tronquer log/id_partie/rappel\n";
+print $f_log "***Liste des problemes releves pour les differentes regexp utilisees***\n\n";
+
 while(readdir($d_in))
 {
 	if ($_ ne ".." && $_ ne ".") {
