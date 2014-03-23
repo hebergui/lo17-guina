@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3239124-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Crash au P&#195;&#169;rou : les images (24/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239189-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inondations</themeArticle>
+				<titreArticle>Nouvelles victimes en Europe centrale</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/85/7/2047857_2.jpg</urlImage>
+				<resumeArticle>La situation s'am&#195;&#169;liore lentement sur le front des crues en Suisse, en Autriche et en Roumanie, o&#195;&#185; de nouveaux morts ont &#195;&#169;t&#195;&#169; retrouv&#195;&#169;s mercredi. En Allemagne, plusieurs villes travers&#195;&#169;es par le Danube et ses affluents redoutent encore une mont&#195;&#169;e des eaux.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239019-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inondations</themeArticle>
+				<titreArticle>Cote d'alerte franchie dans l'arc alpin</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/3/2047773_2.jpg</urlImage>
+				<resumeArticle>Suisse, Autriche, Allemagne sont frapp&#195;&#169;es par une vague d'inondations qui ont d&#195;&#169;j&#195;&#160; fait plusieurs morts et d'&#195;&#169;normes d&#195;&#169;g&#195;&#162;ts. 2.500 personnes ont d&#195;&#187; &#195;&#170;tre &#195;&#169;vacu&#195;&#169;es en Suisse.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239020-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Un t&#195;&#169;l&#195;&#169;vang&#195;&#169;liste appelle &#195;&#160; tuer le pr&#195;&#169;sident v&#195;&#169;n&#195;&#169;zu&#195;&#169;lien</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/2/2047772_2.jpg</urlImage>
+				<resumeArticle>Pat Robertson, c&#195;&#169;l&#195;&#168;bre t&#195;&#169;l&#195;&#169;vang&#195;&#169;liste am&#195;&#169;ricain, a exhort&#195;&#169; les Etats-Unis &#195;&#160; assassiner le pr&#195;&#169;sident v&#195;&#169;n&#195;&#169;zu&#195;&#169;lien Hugo Chavez. Un appel au meurtre lanc&#195;&#169; lors d'une &#195;&#169;mission religieuse diffus&#195;&#169;e &#195;&#160; la t&#195;&#169;l&#195;&#169;vision lundi soir.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239004-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>L'&#195;&#169;vacuation des colons est termin&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/72/6/2047726_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s celles de Gaza, Tsahal a &#195;&#169;vacu&#195;&#169; mardi les implantations isol&#195;&#169;es du Nord de la Cisjordanie concern&#195;&#169;es par le plan Sharon. Le face-&#195;&#160;-face avec les 2 000 extr&#195;&#169;mistes regroup&#195;&#169;s &#195;&#160; Homesh et Sanour a &#195;&#169;t&#195;&#169; tendu, mais les incidents ont &#195;&#169;t&#195;&#169; limit&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238808-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Portugal</themeArticle>
+				<titreArticle>11 incendies hors de contr&#195;&#180;le</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/57/0/2047570_2.jpg</urlImage>
+				<resumeArticle>Les feux de for&#195;&#170;ts s&#195;&#169;vissent toujours au centre et au nord du Portugal, o&#195;&#185; quelque 3.000 pompiers luttent contre les flammes. Le corps calcin&#195;&#169; d'une femme de 88 ans a &#195;&#169;t&#195;&#169; d&#195;&#169;couvert pr&#195;&#168;s de sa maison isol&#195;&#169;e dans le centre du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238795-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Helios</themeArticle>
+				<titreArticle>Le corps du stewart identifi&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/6/2046766_2.jpg</urlImage>
+				<resumeArticle>Le corps du jeune homme qui a peut-&#195;&#170;tre essay&#195;&#169; de reprendre le contr&#195;&#180;le de l'appareil avant le crash a &#195;&#169;t&#195;&#169; retrouv&#195;&#169;. L'enqu&#195;&#170;te montre, &#195;&#160; ce stade, qu'un individu portant un masque &#195;&#160; oxyg&#195;&#168;ne a essay&#195;&#169; d'envoyer en vain deux messages de d&#195;&#169;tresse.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238780-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Mohamed Ouathi de retour en France</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/79/4/2047794_2.jpg</urlImage>
+				<resumeArticle>Le preneur de son de France 3 qui avait &#195;&#169;t&#195;&#169; enlev&#195;&#169; le 14 ao&#195;&#187;t &#195;&#160; Gaza est de retour en France. Il a &#195;&#169;t&#195;&#169; accueilli mardi soir par Philippe Douste-Blazy &#195;&#160; l'a&#195;&#169;roport de Roissy.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/insolite/0,,3238800-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>"Piano man" est allemand</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/2/2029172_2.jpg</urlImage>
+				<resumeArticle>Le myst&#195;&#169;rieux jeune homme a fini par r&#195;&#169;v&#195;&#169;ler qu'il &#195;&#169;tait allemand et homosexuel. Il &#195;&#169;tait hospitalis&#195;&#169; depuis avril en Angleterre apr&#195;&#168;s avoir &#195;&#169;t&#195;&#169; retrouv&#195;&#169; errant sur une plage, des partitions &#195;&#160; la main.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

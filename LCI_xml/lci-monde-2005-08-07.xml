@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/08/2005</dateArticle>
-				<urlArticle>/news/france/0,,3236199-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Images du sauvetage des sous-mariniers russes (07/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,90 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236237-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Haroon Aswat extrad&#195;&#169; vers le Royaume-Uni</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/14/3/2044143_2.jpg</urlImage>
+				<resumeArticle>L'homme d&#195;&#169;tenu par la Zambie depuis juillet et soup&#195;&#167;onn&#195;&#169; d'&#195;&#170;tre l'un des instigateurs des attentats du 7 juillet a &#195;&#169;t&#195;&#169; renvoy&#195;&#169; dimanche matin vers le Royaume-Uni par vol sp&#195;&#169;cial.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236109-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>D&#195;&#169;c&#195;&#168;s de Robin Cook</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/35/2/2045352_2.jpg</urlImage>
+				<resumeArticle>L'ancien ministre britannique des Affaires &#195;&#169;trang&#195;&#168;res, &#195;&#162;g&#195;&#169; de 59 ans, est d&#195;&#169;c&#195;&#169;d&#195;&#169; apr&#195;&#168;s un malaise lors d'une randonn&#195;&#169;e. Il avait d&#195;&#169;missionn&#195;&#169; du gouvernement Blair en mars 2003 pour protester contre la guerre en Irak.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236192-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>50 millions d'euros r&#195;&#169;clam&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Une plainte des passagers de l'airbus accident&#195;&#169; a &#195;&#169;t&#195;&#169; d&#195;&#169;pos&#195;&#169;e samedi devant la justice canadienne contre Air France, l'a&#195;&#169;roport de Toronto et l'exploitant de la tour de contr&#195;&#180;le. Par ailleurs, les enqu&#195;&#170;teurs canadiens ont relev&#195;&#169; des dysfonctionnements lors de l'&#195;&#169;vacuation de l'appareil.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236103-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Atterrissage r&#195;&#162;t&#195;&#169; en Italie, 13 morts</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/35/3/2045353_2.jpg</urlImage>
+				<resumeArticle>Un charter ATR 42 d'une filiale de Tunisair a amerri pr&#195;&#168;s de Palerme. L'avion assurait la liaison entre Bari et Djerba. Il y 23 survivants. 13 personnes sont mortes et trois port&#195;&#169;es disparues.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236045-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chine</themeArticle>
+				<titreArticle>Le typhon Matsa fait 3 morts et d'importants d&#195;&#169;g&#195;&#162;ts</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/31/5/2045315_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s Ta&#195;&#175;wan, le typhon Matsa s'est abattu sur la Chine, o&#195;&#185; il a provoqu&#195;&#169; inondations et destructions. Trois d&#195;&#169;c&#195;&#168;s sont &#195;&#160; d&#195;&#169;plorer et plus d'un million de personnes ont &#195;&#169;t&#195;&#169; &#195;&#169;vacu&#195;&#169;es.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236044-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Japon</themeArticle>
+				<titreArticle>60 ans apr&#195;&#168;s, Hiroshima se souvient</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/33/5/2045335_2.jpg</urlImage>
+				<resumeArticle>55.000 personnes ont assist&#195;&#169; &#195;&#160; la c&#195;&#169;r&#195;&#169;monie du souvenir en hommage aux 140.000 victimes de la premi&#195;&#168;re bombe A, le 6 ao&#195;&#187;t 1945. Le Premier ministre nippon a promis que son pays resterait un pays "pacifiste et non-nucl&#195;&#169;aire".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235842-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Russie</themeArticle>
+				<titreArticle>Nouvelle tentative pour sauver le bathyscaphe naufrag&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/31/3/2045313_2.jpg</urlImage>
+				<resumeArticle>L'op&#195;&#169;ration de sauvetage de l'engin de plong&#195;&#169;e naufrag&#195;&#169; a repris au Kamtchatka, dans l'extr&#195;&#170;me-orient russe. Des c&#195;&#162;bles ont &#195;&#169;t&#195;&#169; plac&#195;&#169;s autour de l'engin. A bord, l'&#195;&#169;quipage b&#195;&#169;n&#195;&#169;ficie d'oxyg&#195;&#168;ne jusqu'&#195;&#160; lundi, 3h du matin.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235934-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>L'Airbus s'est-il pos&#195;&#169; trop loin ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/78/3/2044783_2.jpg</urlImage>
+				<resumeArticle>Les enqu&#195;&#170;teurs canadiens estiment que l'Airbus d'Air France a touch&#195;&#169; le sol "un peu plus loin que la normale", ce qui expliquerait la vitesse &#195;&#169;lev&#195;&#169;e &#195;&#160; laquelle il a quitt&#195;&#169; l'asphalte pour finir sa course dans un foss&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235544-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aviation</themeArticle>
+				<titreArticle>"Le couple pilote-contr&#195;&#180;leur est interactif"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/88/7/253887_2.jpg</urlImage>
+				<resumeArticle>St&#195;&#169;phane Durand, contr&#195;&#180;leur a&#195;&#169;rien &#195;&#160; Roissy, explique &#195;&#160; tf1.fr comment se g&#195;&#168;re un atterrissage par mauvais temps, comme ce fut le cas mardi pour le Paris-Toronto. Outre les proc&#195;&#169;dures bien pr&#195;&#169;cises &#195;&#160; respecter, il souligne que l'exp&#195;&#169;rience du pilote et du contr&#195;&#180;leur est &#195;&#169;galement primordiale.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235855-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Blair annonce des mesures plus radicales</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/25/3/2045253_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre britannique a promis de nouvelles mesures autorisant l'expulsion de ceux qui professent la violence, apr&#195;&#168;s les attentats de Londres.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235844-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Isra&#195;&#171;l</themeArticle>
+				<titreArticle>Un Juif tue 4 personnes et se fait lyncher</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/3/2045073_2.jpg</urlImage>
+				<resumeArticle>L'homme, un soldat d&#195;&#169;serteur de 19 ans, a abattu de sang froid quatre civils arabes isra&#195;&#169;liens jeudi soir dans le nord du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235736-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Al-Qaida menace Londres</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/97/3/2044973_2.jpg</urlImage>
+				<resumeArticle>Dans une vid&#195;&#169;o diffus&#195;&#169;e jeudi apr&#195;&#168;s-midi par la cha&#195;&#174;ne Al-Jazira, le bras droit de ben Laden fait r&#195;&#169;f&#195;&#169;rence aux attentats de Londres. Il promet "davantage de destructions" au Royaume-Uni.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

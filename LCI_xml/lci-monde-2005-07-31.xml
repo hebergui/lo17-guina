@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3234808-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Un suspect de Londres aid&#195;&#169; par un "r&#195;&#169;seau italien" ? (30/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3234813-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : la Zambie confirme d&#195;&#169;tenir Haroon Aswat (30/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>31/07/2005</dateArticle>
-				<urlArticle>/news/0,,3234901-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : la piste d'une troisi&#195;&#168;me cellule terroriste (31/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234921-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inde</themeArticle>
+				<titreArticle>Un millier de morts recens&#195;&#169;s apr&#195;&#168;s les pluies</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/01/1/2044011_2.jpg</urlImage>
+				<resumeArticle>Des pluies de mousson torrentielles se sont encore abattues dimanche sur Bombay, semant encore plus le chaos dans la m&#195;&#169;gapole o&#195;&#185; les pr&#195;&#169;cipitations historiques enregistr&#195;&#169;es depuis lundi ont d&#195;&#169;j&#195;&#160; fait un millier de morts.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234808-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Un suspect aid&#195;&#169; par un "r&#195;&#169;seau italien" ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/31/4/2044314_2.jpg</urlImage>
+				<resumeArticle>Selon le ministre de l'Int&#195;&#169;rieur italien, le 4e suspect des attentats rat&#195;&#169;s de Londres arr&#195;&#170;t&#195;&#169; vendredi &#195;&#160; Rome a &#195;&#169;t&#195;&#169; aid&#195;&#169; dans sa fuite par un "important r&#195;&#169;seau" d'Ethiopiens et d'Erythr&#195;&#169;ens.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234770-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Niger</themeArticle>
+				<titreArticle>La France mobilis&#195;&#169;e contre la famine</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/84/1/2042841_2.jpg</urlImage>
+				<resumeArticle>Bernard Kouchner, pr&#195;&#169;sident de l'association R&#195;&#169;unir, est arriv&#195;&#169; samedi matin au sud du Niger &#195;&#160; bord d'un avion cargo charg&#195;&#169; de 18 tonnes d'aide alimentaire d'urgence. Dans le m&#195;&#170;me temps, Jacques Chirac a annonc&#195;&#169; un renforcement &#194;&#160;de l'aide humanitaire fran&#195;&#167;aise au Niger.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234356-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>L'IRA d&#195;&#169;pose les armes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/06/7/2044067_2.jpg</urlImage>
+				<resumeArticle>Tout en gardant le cap d'une r&#195;&#169;unification de l'&#195;&#174;le et la fin du rattachement de l'Ulster au Royaume-Uni, l'Arm&#195;&#169;e r&#195;&#169;publicaine irlandaise a d&#195;&#169;cid&#195;&#169; de mettre fin &#195;&#160; la lutte arm&#195;&#169;e. Entam&#195;&#169;es en 1970, les activit&#195;&#169;s paramilitaires de l'organisation -3 600 morts- &#195;&#169;taient en veille depuis le cessez-le-feu de 1997.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234769-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Les 3 derniers suspects du 21/7 arr&#195;&#170;t&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/0/2044300_2.jpg</urlImage>
+				<resumeArticle>Les quatre terroristes pr&#195;&#169;sum&#195;&#169;s du 21 juillet &#195;&#160; Londres sont peut-&#195;&#170;tre d&#195;&#169;sormais sous les verrous, apr&#195;&#168;s trois nouvelles arrestations vendredi, deux &#195;&#160; Londres et une &#195;&#160; Rome.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234683-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Niger</themeArticle>
+				<titreArticle>Une catastrophe entre famine et chol&#195;&#169;ra</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/83/9/2042839_2.jpg</urlImage>
+				<resumeArticle>Ce pays tr&#195;&#168;s pauvre du Sahel est menac&#195;&#169; par une &#195;&#169;pid&#195;&#169;mie de chol&#195;&#169;ra. Un deuxi&#195;&#168;me fl&#195;&#169;au pour une population d&#195;&#169;j&#195;&#160; affaiblie par la famine qui s&#195;&#169;vit depuis l'automne. Des centaines de milliers de vies sont en jeu.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

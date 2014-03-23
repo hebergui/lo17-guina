@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3218602-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Macaulay Culkin, t&#195;&#169;moin &#195;&#160; d&#195;&#169;charge au proc&#195;&#168;s Jackson (11/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3221309-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le camp Jackson contre-attaque (24/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>26/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3221760-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Chris Tucker avait pr&#195;&#169;venu Michael Jackson (26/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>28/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3222211-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>T&#195;&#169;moignage choc au proc&#195;&#168;s de Michael Jackson (28/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>01/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3223082-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Jackson "mort de peur" (01/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3223584-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>RD Congo</themeArticle>
+				<titreArticle>Deux employ&#195;&#169;s de MSF enlev&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/13/9/2033139_2.jpg</urlImage>
+				<resumeArticle>Un employ&#195;&#169; de M&#195;&#169;decins sans fronti&#195;&#168;res et son chauffeur ont &#195;&#169;t&#195;&#169; enlev&#195;&#169;s en R&#195;&#169;publique d&#195;&#169;mocratique du Congo par un groupe arm&#195;&#169;. Dans le m&#195;&#170;me temps, les affrontements entre l'ONU et les milices ne cessent de s'amplifier en Ituri, au nord-est du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3223459-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>C&#195;&#180;te d'Ivoire</themeArticle>
+				<titreArticle>Massacres dans l'Ouest du pays</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/03/5/2033035_2.jpg</urlImage>
+				<resumeArticle>En moins de 48 heures, une soixantaine de personnes ont &#195;&#169;t&#195;&#169; tu&#195;&#169;es dans des violences ethniques dans la r&#195;&#169;gion de Duekou&#195;&#169;, &#195;&#160; l'ouest de la C&#195;&#180;te-d'Ivoire. Les tensions tribales sont attis&#195;&#169;es par les batailles pour les terres agricoles et exacerb&#195;&#169;es par la guerre civile.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3223428-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Suspense autour du r&#195;&#169;f&#195;&#169;rendum britannique</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/65/9/1003659_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s le double refus fran&#195;&#167;ais et n&#195;&#169;erlandais, les regards se tournent d&#195;&#169;sormais vers Londres. Face &#195;&#160; une opinion hostile au Trait&#195;&#169;, Tony Blair maintiendra-t-il son r&#195;&#169;f&#195;&#169;rendum ? Un abandon signifierait de fait la mort d&#195;&#169;finitive de la Constitution. R&#195;&#169;ponse lundi.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3222919-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Quel sc&#195;&#169;nario apr&#195;&#168;s le "non" n&#195;&#169;erlandais ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/2/2032442_2.jpg</urlImage>
+				<resumeArticle>Le rejet de la Constitution europ&#195;&#169;enne par un deuxi&#195;&#168;me membre fondateur aggrave la crise dans l'UE. Que peut-il d&#195;&#169;sormais se passer ? Le tour de la question avec tf1.fr.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3223208-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Six N&#195;&#169;erlandais sur dix disent "nee"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/89/1/2032891_2.jpg</urlImage>
+				<resumeArticle>Trois jours apr&#195;&#168;s la France, le "non" &#195;&#160; la Constitution europ&#195;&#169;enne l'a emport&#195;&#169; par 61,6% des voix mercredi lors du r&#195;&#169;f&#195;&#169;rendum n&#195;&#169;erlandais. La participation s'est &#195;&#169;lev&#195;&#169;e &#195;&#160; 62,8%.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3223328-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>"Coup de gr&#195;&#162;ce" pour la presse europ&#195;&#169;enne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/1/2032911_2.jpg</urlImage>
+				<resumeArticle>Pour la plupart, les quotidiens estiment dans leur &#195;&#169;dition de jeudi que le "non" n&#195;&#169;erlandais signe la fin de la Constitution europ&#195;&#169;enne.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

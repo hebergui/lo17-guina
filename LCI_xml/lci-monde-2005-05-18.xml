@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>15/01/2005</dateArticle>
-				<urlArticle>/news/0,,3197089-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Irak : le meneur d'Abou Ghraib, Charles Graner, d&#195;&#169;clar&#195;&#169; coupable (15/01/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/01/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3197121-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Irak : 10 ans pour le meneur d'Abou Ghraib (16/01/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,34 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219890-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Un nouveau vol transatlantique d&#195;&#169;rout&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/08/7/572087_2.jpg</urlImage>
+				<resumeArticle>Un avion de la compagnie italienne reliant Milan &#195;&#160; Boston a &#195;&#169;t&#195;&#169; d&#195;&#169;tourn&#195;&#169; mardi par les autorit&#195;&#169;s am&#195;&#169;ricaines. Le motif : le nom d'un passager figurait sur une liste de personnes interdites de vol vers les Etats-Unis. Un vol Air France avait &#195;&#169;t&#195;&#169; d&#195;&#169;rout&#195;&#169; la semaine derni&#195;&#168;re pour la m&#195;&#170;me raison.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219908-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Vers un dialogue entre le pouvoir et l'ETA</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/4/949004_2.jpg</urlImage>
+				<resumeArticle>Le gouvernement espagnol a &#195;&#169;t&#195;&#169; autoris&#195;&#169; mardi &#195;&#160; &#195;&#169;tablir un "dialogue" avec l'organisation terroriste pour mettre fin &#195;&#160; trente cinq ans de violence au Pays basque. Une condition est requise : que le mouvement s&#195;&#169;paratiste basque arm&#195;&#169; s'engage clairement &#195;&#160; d&#195;&#169;poser les armes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219742-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aghanistan</themeArticle>
+				<titreArticle>Une Italienne enlev&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/11/5/857115_2.jpg</urlImage>
+				<resumeArticle>Clementina Cantoni a &#195;&#169;t&#195;&#169; enlev&#195;&#169;e lundi soir en plein Kaboul. Elle y &#195;&#169;tait en mission pour l'ONG Care International.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219546-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Guantanamo</themeArticle>
+				<titreArticle>Newsweek s'est peut-&#195;&#170;tre tromp&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/08/7/2029087_2.jpg</urlImage>
+				<resumeArticle>Le magazine am&#195;&#169;ricain est revenu lundi sur ses affirmations concernant la profanation du Coran par des soldats am&#195;&#169;ricains.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

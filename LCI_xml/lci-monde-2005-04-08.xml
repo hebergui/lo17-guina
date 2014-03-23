@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/04/2005</dateArticle>
-				<urlArticle>/news/picto_moteur_camera.gi" border="0" hspace="1">&nbsp;<a href="javascript:VerifCookie('4','/news/monde/0,,3212176-VU5WX0lEIDUy,00.html</urlArticle>
-				<titreArticle>Obs&#195;&#168;ques du pape : liturgie Eucharistique (07/04/2005)</titreArticle>
+				<urlArticle>/news</urlArticle>
+				<titreArticle>&nbsp;<a href="javascript:VerifCookie('4','/news/monde/0,,3212176-VU5WX0lEIDUy,00.html',700,600,52);" class="S48">Obs&#195;&#168;ques du pape : liturgie Eucharistique (07/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212177-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Obs&#195;&#168;ques de Jean Paul II : la pri&#195;&#168;re universelle (07/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212178-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>La c&#195;&#169;r&#195;&#169;monie des offrandes (07/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212180-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le d&#195;&#169;but de la c&#195;&#169;r&#195;&#169;monie (07/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,27 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212166-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Nouveau t&#195;&#169;moignage explosif</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/1/2020001_2.jpg</urlImage>
+				<resumeArticle>Un ancien employ&#195;&#169; du chanteur am&#195;&#169;ricain a assur&#195;&#169; l'avoir vu abuser un jeune gar&#195;&#167;on dans sa propri&#195;&#169;t&#195;&#169; de Neverland au d&#195;&#169;but des ann&#195;&#169;es 1990.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212082-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Attentat au Caire : une Fran&#195;&#167;aise tu&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/6/2022766_2.jpg</urlImage>
+				<resumeArticle>L'attentat &#195;&#160; la bombe a eu lieu jeudi soir sur un march&#195;&#169; du vieux Caire, tr&#195;&#168;s fr&#195;&#169;quent&#195;&#169; par les touristes. Un Am&#195;&#169;ricain et sans doute le kamikaze ont aussi &#195;&#169;t&#195;&#169; tu&#195;&#169;s</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212050-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Vers la canonisation de Jean Paul II</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/9/2022309_2.jpg</urlImage>
+				<resumeArticle>Durant son pontificat, il a cr&#195;&#169;&#195;&#169; plus de saints que tous ses pr&#195;&#169;d&#195;&#169;cesseurs r&#195;&#169;unis. "Jean Paul II le Grand" pourrait vite les rejoindre. La condition de la canonisation : avoir accompli des miracles.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

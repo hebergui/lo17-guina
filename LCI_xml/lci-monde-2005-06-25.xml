@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/06/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3228067-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Iran : second tour de la pr&#195;&#169;sidentielle tr&#195;&#168;s serr&#195;&#169; (24/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,20 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227720-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>"Mississippi Burning"</themeArticle>
+				<titreArticle>Peine maximale pour le chef du KKK</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/29/3/2037293_2.jpg</urlImage>
+				<resumeArticle>Edgard Ray Killen, un ancien responsable de l'organisation raciste, a &#195;&#169;t&#195;&#169; condamn&#195;&#169; &#195;&#160; 60 ans de prison pour les meurtres de trois jeunes militants des droits civiques commis en juin 1964.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227570-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Blair : "Je suis un pro-europ&#195;&#169;en passionn&#195;&#169;"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/10/3/2037103_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre britannique Tony Blair a expos&#195;&#169; jeudi matin devant les eurod&#195;&#169;put&#195;&#169;s les grandes lignes qui guideront sa pr&#195;&#169;sidence de l'Union dans les six prochains mois.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

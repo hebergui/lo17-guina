@@ -12,35 +12,35 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3279134-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Regain de tension en C&#195;&#180;te d'Ivoire (18/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3279258-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>C&#195;&#180;te d'Ivoire : l'ONU d&#195;&#169;nonce les violences "orchestr&#195;&#169;es" (18/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3279337-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>C&#195;&#180;te d'Ivoire : affrontements meurtriers dans l'Ouest (18/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3279373-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>C&#195;&#180;te d'Ivoire : tensions tr&#195;&#168;s vives (18/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/01/2006</dateArticle>
-				<urlArticle>/news/multimedia/0,,3279397-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>C&#195;&#180;te d'Ivoire : une situation tr&#195;&#168;s alarmante (18/01/2006)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-			<urlArticle>javascript:openPopup('/news/infographie/0,,3278362-VU5WX0lEIDUy,00.html','url_341',930,780,50,50,0,1,0,0,1,0);</urlArticle>
+			<urlArticle>/news/infographie/0,,3278362-VU5WX0lEIDUy,00.html','url_341</urlArticle>
 			<titreArticle>Les femmes au pouvoir dans le monde</titreArticle>
-			<urlImage></urlImage>
-			<resumeArticle></resumeArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/00/6/2163006_2.jpg</urlImage>
+			<resumeArticle>Pr&#195;&#169;sidentes, Premiers ministres : quels pays sont-ils actuellement dirig&#195;&#169;s par des femmes ? La r&#195;&#169;ponse en images avec notre infographie anim&#195;&#169;e.</resumeArticle>
 			<mailto>faubert@tf1.fr</mailto>
 		</FOCUS>
 		<LES_GROSTITRES>

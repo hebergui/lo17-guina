@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>19/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232618-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : du parfum pour attiser les flammes ? (19/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>19/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232720-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : le "chimiste" blanchi (19/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>20/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232804-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : arrestations en masse au Pakistan (20/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232804-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Arrestations en masse au Pakistan</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/58/5/2042585_2.jpg</urlImage>
+				<resumeArticle>Deux des personnes arr&#195;&#170;t&#195;&#169;es dans les milieux islamistes sont soup&#195;&#167;onn&#195;&#169;es de liens &#195;&#169;troits avec les attentats de Londres.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232803-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Liban</themeArticle>
+				<titreArticle>La garde pr&#195;&#169;sidentielle mise en cause dans l'assassinat d'Hariri</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/36/7/2017367_2.jpg</urlImage>
+				<resumeArticle>L'enqu&#195;&#170;te de l'ONU sur l'assassinat de l'ancien Premier ministre libanais Rafic Hariri met en cause nomm&#195;&#169;ment le chef de la garde pr&#195;&#169;sidentielle libanaise.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232720-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le "chimiste" blanchi de toute implication</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/21/5/2042215_2.jpg</urlImage>
+				<resumeArticle>Magdi el-Nachar a &#195;&#169;t&#195;&#169; blanchi par les enqu&#195;&#170;teurs &#195;&#169;gyptiens de toute implication dans les attentats meurtriers de Londres. Ag&#195;&#169; de 33 ans, il avait &#195;&#169;t&#195;&#169; arr&#195;&#170;t&#195;&#169; au Caire la semaine derni&#195;&#168;re.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232536-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>La police mobilis&#195;&#169;e contre les colons</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/8/2042438_2.jpg</urlImage>
+				<resumeArticle>Plus de 20.000 opposants au retrait isra&#195;&#169;lien de la bande de Gaza veulent entamer mardi une marche vers le point de passage de Kissoufim.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232538-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>L'incendie de Guadalajara sous contr&#195;&#180;le</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/1/2042411_2.jpg</urlImage>
+				<resumeArticle>Dans le centre de l'Espagne, le gigantesque incendie qui a co&#195;&#187;t&#195;&#169; la vie &#195;&#160; 11 pompiers volontaires &#195;&#169;tait sous contr&#195;&#180;le mardi.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232635-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Typhon</themeArticle>
+				<titreArticle>Evacuations massives en Chine</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/46/3/2042463_2.jpg</urlImage>
+				<resumeArticle>Pr&#195;&#168;s d'un million de personnes ont &#195;&#169;t&#195;&#169; &#195;&#169;vacu&#195;&#169;es dans l'est de la Chine &#195;&#160; l'approche d'un typhon attendu en fin de journ&#195;&#169;e. Baptis&#195;&#169; Haitang, il a d&#195;&#169;j&#195;&#160; fait quatre morts et disparus &#195;&#160; Ta&#195;&#175;wan.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

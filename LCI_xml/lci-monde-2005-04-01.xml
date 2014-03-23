@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>28/03/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3210040-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>P&#195;&#162;ques se termine sans le pape (28/03/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>28/03/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3210107-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Faut-il montrer la souffrance du pape ? (28/03/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/03/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3210433-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le pape nourri par sonde (30/03/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>01/04/2005</dateArticle>
-				<urlArticle>/news/pontificat/0,,3210748-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le pape dans un &#195;&#169;tat "critique" (01/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>01/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3210775-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le communiqu&#195;&#169; du Vatican (01/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3210747-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>L'Eglise pr&#195;&#169;pare la succession</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/54/2/2021542_2.jpg</urlImage>
+				<resumeArticle>M&#195;&#170;me si personne n'ose l'&#195;&#169;voquer publiquement, l'Eglise catholique se pr&#195;&#169;pare &#195;&#160; la disparition de Jean Paul II apr&#195;&#168;s la brusque d&#195;&#169;gradation de sa sant&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3210746-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Pape</themeArticle>
+				<titreArticle>Le monde catholique se recueille</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/1/2022001_2.jpg</urlImage>
+				<resumeArticle>De la place Saint-Pierre aux Philippines, des fid&#195;&#168;les se rassemblent depuis la nuit derni&#195;&#168;re pour prier pour le pape. Au Mexique, le S&#195;&#169;nat a m&#195;&#170;me observ&#195;&#169; une minute de silence apr&#195;&#168;s une information erron&#195;&#169;e sur la mort de Jean-Paul II.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3210657-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Monaco</themeArticle>
+				<titreArticle>"Peu d'espoir d'une issue favorable" pour Rainier</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/16/5/164165_2.jpg</urlImage>
+				<resumeArticle>Le dernier communiqu&#195;&#169; de sant&#195;&#169; du prince Rainier, en r&#195;&#169;animation depuis le 22 mars, est tr&#195;&#168;s pessimiste. Albert de Monaco a pris jeudi soir la direction de la principaut&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3210776-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Br&#195;&#169;sil</themeArticle>
+				<titreArticle>Sanglante &#195;&#169;quip&#195;&#169;e &#195;&#160; Rio</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/6/836076_2.jpg</urlImage>
+				<resumeArticle>Une trentaine de personnes ont &#195;&#169;t&#195;&#169; abattues jeudi soir par un groupe arm&#195;&#169; se d&#195;&#169;pla&#195;&#167;ant dans deux villes de la banlieue nord de Rio.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3210638-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Vive la majorit&#195;&#169; ! (6/15)</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/33/8/813338_2.jpg</urlImage>
+				<resumeArticle>Suite du dossier de la r&#195;&#169;daction de tf1.fr sur le contenu du trait&#195;&#169; sur lequel les Fran&#195;&#167;ais sont appel&#195;&#169;s &#195;&#160; se prononcer le 29 mai. 6e volet : les nouvelles modalit&#195;&#169;s de vote au Conseil, o&#195;&#185; la majorit&#195;&#169; "qualifi&#195;&#169;e" prend le pas sur l'unanimit&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3210655-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Terri Schiavo est morte</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/1/2021411_2.jpg</urlImage>
+				<resumeArticle>Cette Am&#195;&#169;ricaine de 41 ans qui vivait dans un &#195;&#169;tat v&#195;&#169;g&#195;&#169;tatif depuis 15 ans est d&#195;&#169;c&#195;&#169;d&#195;&#169;e jeudi. La justice avait rejet&#195;&#169; quelques heures plus t&#195;&#180;t un dernier recours de ses parents demandant que son cath&#195;&#169;ter d'alimentation soit rebranch&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

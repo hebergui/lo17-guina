@@ -40,7 +40,7 @@ open(my $f_out, ">", $file_out) or die "Impossible d'ouvrir en écriture $file_o
 my $count = 0;
 
 while( <$f_in> ) {
-	if ( /IBL_ID=27303/ || /Blc=27303/ ) {
+	if ( /IBL_ID=27914/ ) {
 		do {
 			# convertir la ligne DOCTYPE .. UTF-8 en DOCTYPE .. iso8859-1
 			(/DOCTYPE HTML/) && (s/[Uu][Tt][Ff]\-8/iso8859-1/);

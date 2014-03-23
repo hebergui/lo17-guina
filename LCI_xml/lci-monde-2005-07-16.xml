@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231039-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentat dans une station baln&#195;&#169;aire turque (10/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232206-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Nouvel attentat en Turquie (16/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,27 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232183-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La piste internationale</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/21/5/2042215_2.jpg</urlImage>
+				<resumeArticle>L'enqu&#195;&#170;te sur les attentats de Londres a pris vendredi une dimension internationale avec une arrestation au Caire et l'aveu par Scotland Yard d'un "lien avec le Pakistan et d'autres pays". D'apr&#195;&#168;s la BBC, l'explosif utilis&#195;&#169; &#195;&#169;tait de type artisanal, et non militaire.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231949-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>"Carte blanche" pour Tsahal</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/5/2042005_2.jpg</urlImage>
+				<resumeArticle>Alors que la tension est remont&#195;&#169;e depuis l'attentat suicide de mardi &#195;&#160; Netanya, Ariel Sharon a donn&#195;&#169; toute latitude &#195;&#160; l'arm&#195;&#169;e isra&#195;&#169;lienne pour lutter contre le Hamas et le Jihad islamique. Plusieurs raids ont eu lieu vendredi.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231814-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Hommage silencieux aux victimes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/78/1/2041781_2.jpg</urlImage>
+				<resumeArticle>Le Royaume-Uni et les 24 autres pays d'Europe ont observ&#195;&#169; deux minutes de silence &#195;&#160; 13 heures, jeudi, en souvenir des victimes des attentats de la semaine derni&#195;&#168;re.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/09/2004</dateArticle>
-				<urlArticle>/news/0,,3174207-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Comment se forme un cyclone ? (13/09/2004)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>27/08/2005</dateArticle>
-				<urlArticle>/news/0,,3239984-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'ouragan Katrina a tavers&#195;&#169; la Floride : 7 morts (27/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>28/08/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3240128-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Etats-Unis : le cyclone Katrina menace la Nouvelle-Orl&#195;&#169;ans (28/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>29/08/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3240308-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'exode des habitants de La Nouvelle-Orl&#195;&#169;ans (29/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,83 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240087-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>La constitution est pr&#195;&#170;te</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/55/6/2046556_2.jpg</urlImage>
+				<resumeArticle>Malgr&#195;&#169; quelques r&#195;&#169;serves des sunnites, le pr&#195;&#169;sident irakien a d&#195;&#169;clar&#195;&#169; que la Constitution pourrait &#195;&#170;tre pr&#195;&#169;sent&#195;&#169;e au r&#195;&#169;f&#195;&#169;rendum du 15 octobre.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240151-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Zarqaoui viserait l'Europe</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/2/2005872_2.jpg</urlImage>
+				<resumeArticle>Selon l'hebdomadaire Time, l'islamiste Abou al-Zarqaoui pr&#195;&#169;pare une action d'envergure en Europe. Le magazine am&#195;&#169;ricain s'appuie sur des informations recueillies aupr&#195;&#168;s des services de renseignements europ&#195;&#169;ens.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240147-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Le num&#195;&#169;ro 2 des Fr&#195;&#168;res musulmans lib&#195;&#169;r&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/34/2/19342_2.jpg</urlImage>
+				<resumeArticle>Mahmoud Ezzat, a &#195;&#169;t&#195;&#169; lib&#195;&#169;r&#195;&#169; au terme de trois mois de d&#195;&#169;tention. Cette lib&#195;&#169;ration intervient alors que la direction des Fr&#195;&#168;res musulmans a demand&#195;&#169; &#195;&#160; ses partisans de ne pas voter pour le pr&#195;&#169;sident Hosni Moubarak lors de l'&#195;&#169;lection du 7 septembre.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240084-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Un attentat frappe le sud d'Isra&#195;&#171;l</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/02/1/2098021_2.jpg</urlImage>
+				<resumeArticle>Cinq personnes ont &#195;&#169;t&#195;&#169; bless&#195;&#169;es dans un attentat suicide perp&#195;&#169;tr&#195;&#169; &#195;&#160; Beersheva, ville du sud d'Isra&#195;&#171;l. Le kamikaze est mort sur le coup. L'attentat a &#195;&#169;t&#195;&#169; revendiqu&#195;&#169; par les Brigades des martyrs d'Al Aqsa, li&#195;&#169;es au Fatah, et les Brigades Al Qods du Jihad islamique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240003-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>"La Palestine va devenir un enfer"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/80/8/729808_2.jpg</urlImage>
+				<resumeArticle>Un dirigeant du Hamas a d&#195;&#169;clar&#195;&#169; samedi que l'Etat h&#195;&#169;breu avait &#195;&#169;t&#195;&#169; humili&#195;&#169; par son retrait de la bande de Gaza. Mohammed Deif demande aux activistes de poursuivre la lutte arm&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240012-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Intemp&#195;&#169;ries</themeArticle>
+				<titreArticle>D&#195;&#169;crue confirm&#195;&#169;e en Europe</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/88/6/2047886_2.jpg</urlImage>
+				<resumeArticle>Le reflux se confirmait samedi dans les cours d'eau de Roumanie, d'Allemagne, de Suisse, d'Autriche, de Bulgarie et de Pologne. Des pays o&#195;&#185; les inondations ont caus&#195;&#169; la mort de pr&#195;&#168;s de 70 personnes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3240006-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Un millier de prisonniers rel&#195;&#162;ch&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/98/4/2083984_2.jpg</urlImage>
+				<resumeArticle>L'arm&#195;&#169;e am&#195;&#169;ricaine a annonc&#195;&#169; samedi avoir lib&#195;&#169;r&#195;&#169; sur trois jours, &#195;&#160; la demande du gouvernement irakien, un millier de d&#195;&#169;tenus de s&#195;&#169;curit&#195;&#169; de la prison d'Abou Ghraib.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239794-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Turquie-UE</themeArticle>
+				<titreArticle>Chirac veut discuter de Chypre</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/34/5/19345_2.jpg</urlImage>
+				<resumeArticle>La France veut discuter avec ses partenaires europ&#195;&#169;ens du refus de la Turquie de reconna&#195;&#174;tre Chypre. Jacques Chirac estime que cela "n'est pas dans l'esprit qu'on attend d'un candidat &#195;&#160; l'Union".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239945-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Nucl&#195;&#169;aire</themeArticle>
+				<titreArticle>L'Iran annonce de nouvelles propositions</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/5/2044435_2.jpg</urlImage>
+				<resumeArticle>Le chef du programme nucl&#195;&#169;aire iranien Ali Larijani a annonc&#195;&#169; vendredi que l'Iran ferait de nouvelles propositions n&#195;&#169;goci&#195;&#169;es aux Europ&#195;&#169;ens d'ici un mois. Mais T&#195;&#169;h&#195;&#169;ran maintient ses activit&#195;&#169;s nucl&#195;&#169;aires et affirme ne pas craindre d'&#195;&#169;ventuelles sanctions des Nations unies.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239773-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Sondage</themeArticle>
+				<titreArticle>Comment les Am&#195;&#169;ricains voient la France</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/69/1/1066691_2.jpg</urlImage>
+				<resumeArticle>Selon un sondage Sofres pour Le Figaro Magazine, la perception qu'ont les Am&#195;&#169;ricains de la France est mitig&#195;&#169;e, sans &#195;&#170;tre forc&#195;&#169;ment n&#195;&#169;gative. L'enqu&#195;&#170;te r&#195;&#169;v&#195;&#168;le surtout le clivage r&#195;&#169;publicains-d&#195;&#169;mocrates.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3239428-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>La maman de GI qui d&#195;&#169;fie Bush</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/66/2/2050662_2.jpg</urlImage>
+				<resumeArticle>M&#195;&#168;re d'un soldat tu&#195;&#169; en Irak, Cindy Sheehan est devenue le symbole de l'opposition &#195;&#160; la guerre. Apr&#195;&#168;s une interruption de quelques jours, elle a repris son mouvement de protestation devant le ranch de Crawford, o&#195;&#185; George W. Bush passe ses vacances.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>02/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3211148-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Portraits des "papabili" (02/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3211398-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Pape vieux ou jeune ? (1/4) (11/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3211595-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Pape italien ou non ? (2/4) (12/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212675-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Pape "gestionnaire" ou "voyageur" ? (4/4) (14/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212692-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Conclave : mode d'emploi (11/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,34 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213804-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Japon</themeArticle>
+				<titreArticle>Les autorit&#195;&#169;s chinoises refusent de s'excuser</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/73/0/2023730_2.jpg</urlImage>
+				<resumeArticle>En visite &#195;&#160; P&#195;&#169;kin, le chef de la diplomatie japonaise a d&#195;&#169;plor&#195;&#169; "tr&#195;&#168;s vivement" les violences anti-nippones en Chine tandis que son homologue chinois refuse de pr&#195;&#169;senter des excuses.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213873-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Suisse</themeArticle>
+				<titreArticle>Un autocar s'&#195;&#169;crase dans un ravin</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/75/0/2023750_2.jpg</urlImage>
+				<resumeArticle>L'accident est survenu dimanche, vers 10 heures du matin, sur une route de haute montagne. Douze personnes ont &#195;&#169;t&#195;&#169; tu&#195;&#169;es et une quinzaine bless&#195;&#169;es. La route &#195;&#169;tait d&#195;&#169;neig&#195;&#169;e, mais mouill&#195;&#169;e lors du passage de l'autocar, rendant plausible l'hypoth&#195;&#168;se d'une fausse manoeuvre du chauffeur.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213813-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Les Basques mod&#195;&#169;r&#195;&#169;s perdent leur pari</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/75/1/2023751_2.jpg</urlImage>
+				<resumeArticle>Le Parti Nationaliste Basque arrive, sans surptise, en t&#195;&#170;te aux &#195;&#169;lections r&#195;&#169;gionales de dimanche. Mais il n'a pu parvenir &#195;&#160; la majorit&#195;&#169; absolue qui lui aurait permis de relancer le plan souverainiste de "libre association" avec l'Espagne, rejet&#195;&#169; en f&#195;&#169;vrier par le Parlement national.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213707-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Confusion autour d'une prise d'otages</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/74/6/2023746_2.jpg</urlImage>
+				<resumeArticle>Une op&#195;&#169;ration d'envergure a &#195;&#169;t&#195;&#169; lanc&#195;&#169;e dans une localit&#195;&#169; du sud de Bagdad pour tenter de lib&#195;&#169;rer plusieurs dizaines de chiites pris en otages par la r&#195;&#169;bellion sunnite. Les violences se poursuivent : un attentat a co&#195;&#187;t&#195;&#169; la vie &#195;&#160; un Fran&#195;&#167;ais.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>17/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232303-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Isra&#195;&#171;l menace d'une offensive "dans les heures &#195;&#160; venir" (17/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232635-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Typhon</themeArticle>
+				<titreArticle>Evacuations massives en Chine</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/46/3/2042463_2.jpg</urlImage>
+				<resumeArticle>Pr&#195;&#168;s d'un million de personnes ont &#195;&#169;t&#195;&#169; &#195;&#169;vacu&#195;&#169;es dans l'est de la Chine &#195;&#160; l'approche d'un typhon attendu en fin de journ&#195;&#169;e. Baptis&#195;&#169; Haitang, il a d&#195;&#169;j&#195;&#160; fait quatre morts et disparus &#195;&#160; Ta&#195;&#175;wan.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232618-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Du parfum pour attiser les flammes ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/24/1/2042241_2.jpg</urlImage>
+				<resumeArticle>Les enqu&#195;&#170;teurs se demandent si les terroristes n'ont pas utilis&#195;&#169; l'alcool des parfums pour renforcer l'effet d&#195;&#169;vastateur de leurs bombes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232431-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Rove accul&#195;&#169; dans l'affaire Plame</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/06/8/2007068_2.jpg</urlImage>
+				<resumeArticle>Un reporter du Time assure que le conseiller politique du pr&#195;&#169;sident Bush est le premier &#195;&#160; lui avoir parl&#195;&#169; de l'agent de la CIA.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232530-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Justice</themeArticle>
+				<titreArticle>Polanski vs Vanity Fair : dr&#195;&#180;le de proc&#195;&#168;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/61/1/646611_2.jpg</urlImage>
+				<resumeArticle>Roman Polanski poursuit Vanity Fair en diffamation &#195;&#160; Londres. Mais le r&#195;&#169;alisateur qui risque d'&#195;&#170;tre arr&#195;&#170;t&#195;&#169; en Grande-Bretagne, suit le proc&#195;&#168;s, en vid&#195;&#169;o, depuis un h&#195;&#180;tel parisien.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232526-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Attentats</themeArticle>
+				<titreArticle>Londres rejette tout lien avec l'Irak</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/74/6/2033746_2.jpg</urlImage>
+				<resumeArticle>Un rapport d'experts estime que l'intervention en Irak a facilit&#195;&#169; le d&#195;&#169;veloppement d'Al-Qa&#195;&#175;da, en divisant les Occidentaux et en d&#195;&#169;tournant les d&#195;&#169;mocraties de leur lutte contre le terrorisme islamiste.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232420-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Onze pompiers tu&#195;&#169;s dans un feu de for&#195;&#170;t</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/3/2042303_2.jpg</urlImage>
+				<resumeArticle>Onze pompiers pompiers sont morts dimanche en luttant contre un feu de for&#195;&#170;t pr&#195;&#168;s de Guadalajara, dans le centre de l'Espagne.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232426-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Cyclone</themeArticle>
+				<titreArticle>Emily : plus de peur que le mal</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/5/2042305_2.jpg</urlImage>
+				<resumeArticle>Le cyclone a travers&#195;&#169; dans la nuit de dimanche &#195;&#160; lundi la p&#195;&#169;ninsule du Yucatan, &#195;&#160; l'est du Mexique. Des mesures massives de pr&#195;&#169;vention et l'&#195;&#169;vacuation de dizaines de milliers de touristes ont &#195;&#169;vit&#195;&#169; le pire.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232303-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Isra&#195;&#171;l menace d'une offensive</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/4/2015174_2.jpg</urlImage>
+				<resumeArticle>Le vice-ministre de la D&#195;&#169;fense a menac&#195;&#169; dimanche les Palestiniens d'un assaut terrestre dans la bande de Gaza si les tirs de roquettes ne cessaient pas. Quatre sont tomb&#195;&#169;es dimanche matin dans le sud d'Isra&#195;&#171;l.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

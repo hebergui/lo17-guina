@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233145-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attaques &#195;&#160; Londres : r&#195;&#169;actions internationales (21/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233146-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : la chronologie des attaques (21/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/07/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3233214-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Une r&#195;&#169;ponse au volontarisme antiterroriste britannique ? (21/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/07/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3233215-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Quatre attaques "quasi-simultan&#195;&#169;es" (21/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/07/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3233216-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le point sur la menace islamiste dans le monde (21/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233253-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Un terroriste pr&#195;&#169;sum&#195;&#169; abattu &#195;&#160; Londres</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/09/7/2043097_2.jpg</urlImage>
+				<resumeArticle>La police britannique a confirm&#195;&#169; avoir tir&#195;&#169; ce matin sur un terroriste pr&#195;&#169;sum&#195;&#169; dans la station de m&#195;&#169;tro de Stockwell, au sud de Londres. Selon LCI, l'homme aurait &#195;&#169;t&#195;&#169; abattu alors qu'il tentait d'actionner une ceinture d'explosifs. Deux lignes du m&#195;&#169;tro ont &#195;&#169;t&#195;&#169; ferm&#195;&#169;es.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233146-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La chronologie des attaques</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/8/2042918_2.jpg</urlImage>
+				<resumeArticle>Le fil des &#195;&#169;v&#195;&#169;nements qui ont pour la deuxi&#195;&#168;me fois en deux semaines frapp&#195;&#169; Londres, jeudi, en faisant cette fois un seul bless&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233100-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Londres : "l'intention devait &#195;&#170;tre de tuer"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/95/8/2042958_2.jpg</urlImage>
+				<resumeArticle>De nouveaux attentats, qui auraient fait au moins un bless&#195;&#169;, ont frapp&#195;&#169; jeudi 3 stations de m&#195;&#169;tro et un bus de Londres. Le Premier ministre Tony Blair a appel&#195;&#169; les Britanniques au calme.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233145-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>R&#195;&#169;actions internationales</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/95/7/2042957_2.jpg</urlImage>
+				<resumeArticle>Jacques Chirac a r&#195;&#169;affirm&#195;&#169; la solidarit&#195;&#169; de la France &#195;&#160; la Grande-Bretagne &#195;&#160; la suite des explosions survenues &#195;&#160; Londres, deux semaines jour pour jour apr&#195;&#168;s les attaques suicide du 7 juillet.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233237-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Executive lie </themeArticle>
+				<titreArticle>Condamn&#195;&#169;e, Art&#195;&#169;mis garde espoir</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/71/5/298715_2.jpg</urlImage>
+				<resumeArticle>Le tribunal de Los Angeles a condamn&#195;&#169; jeudi la holding de Fran&#195;&#167;ois Pinault &#195;&#160; 700 millions de dollars de dommages et int&#195;&#169;r&#195;&#170;ts en r&#195;&#168;glement de l'affaire du rachat ill&#195;&#169;gal de la compagnie d'assurances en 1991. Mais la nature du jugement laisse planer un doute sur son application.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232948-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Humanitaire</themeArticle>
+				<titreArticle>Dramatique famine au Niger</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/5/2042775_2.jpg</urlImage>
+				<resumeArticle>Pays d&#195;&#169;sertique, le Niger est confront&#195;&#169; &#195;&#160; une grave crise alimentaire. 3,6 millions de vie sont menac&#195;&#169;es. L'Onu lance un appel mondial aux dons.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

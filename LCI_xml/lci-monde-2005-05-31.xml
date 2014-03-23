@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>26/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3215476-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Zarqaoui aurait pu &#195;&#170;tre arr&#195;&#170;t&#195;&#169; en f&#195;&#169;vrier (26/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3221422-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Irak : Zarqaoui serait bless&#195;&#169; (24/05/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3222830-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Russie</themeArticle>
+				<titreArticle>Neuf ans de prison pour Khodorkovski</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/57/6/827576_2.jpg</urlImage>
+				<resumeArticle>La condamnation du milliardaire russe, jug&#195;&#169; coupable de fraude fiscale et escroquerie &#195;&#160; grande &#195;&#169;chelle lors d'un proc&#195;&#168;s consid&#195;&#169;r&#195;&#169; comme hautement politique, met fin &#195;&#160; "l'affaire Ioukos".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3222542-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Allemagne</themeArticle>
+				<titreArticle>Une femme pour affronter Schr&#195;&#182;der</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/22/5/2032225_2.jpg</urlImage>
+				<resumeArticle>Comme pr&#195;&#169;vu, Angela Merkel a &#195;&#169;t&#195;&#169; d&#195;&#169;sign&#195;&#169;e ce lundi comme candidate de la CDU/CSU aux l&#195;&#169;gislatives anticip&#195;&#169;es de septembre. Si elle l'emporte face &#195;&#160; Gerhard Schr&#195;&#182;der, elle sera la premi&#195;&#168;re femme &#195;&#160; diriger l'Allemagne.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3222370-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Liban</themeArticle>
+				<titreArticle>Saad Hariri rafle les si&#195;&#168;ges de Beyrouth</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/06/3/2032063_2.jpg</urlImage>
+				<resumeArticle>Le camp de Saad Hariri, qui m&#195;&#168;ne l'opposition, a officiellement remport&#195;&#169; la premi&#195;&#168;re &#195;&#169;tape des &#195;&#169;lections l&#195;&#169;gislatives qui se tenait dimanche &#195;&#160; Beyrouth.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3222069-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Et maintenant ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/81/0/2021810_2.jpg</urlImage>
+				<resumeArticle>Que va-t-il d&#195;&#169;sormais se passer dans l'Union europ&#195;&#169;enne apr&#195;&#168;s le "non" fran&#195;&#167;ais au Trait&#195;&#169; sur la Constitution ? Le tour de la question avec tf1.fr.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3222495-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>"Nous avons un probl&#195;&#168;me"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/0/1067680_2.jpg</urlImage>
+				<resumeArticle>Jos&#195;&#169; Manuel Barroso, le pr&#195;&#169;sident de la Commission europ&#195;&#169;enne, souligne que l'Europe se trouve d&#195;&#169;sormais confront&#195;&#169;e &#195;&#160; un "probl&#195;&#168;me" tandis que Jean Claude Juncker, pr&#195;&#169;sident en exercice de l'UE et Gerhard Schr&#195;&#182;der affirment que le processus de ratification doit se poursuivre.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3222533-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>La faute &#195;&#160; Chirac pour la presse europ&#195;&#169;enne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/20/3/2032203_2.jpg</urlImage>
+				<resumeArticle>Tous les quotidiens europ&#195;&#169;ens reviennent &#195;&#169;videmment lundi matin sur le "non" fran&#195;&#167;ais. La plupart d&#195;&#169;plorent le rejet du trait&#195;&#169;, qui &#195;&#169;branle "la France et l'Europe". Ils d&#195;&#169;signent un responsable : Jacques Chirac.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

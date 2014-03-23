@@ -12,10 +12,10 @@
 		<LES_VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-			<urlArticle>javascript:openPopup('/news/monde/0,,3286874-VU5WX0lEIDUy,00.html','url_25',700,600,50,50,0,0,0,0,0,0);</urlArticle>
+			<urlArticle>/news/monde/0,,3286874-VU5WX0lEIDUy,00.html','url_25</urlArticle>
 			<titreArticle>La Nouvelle-Orl&#195;&#169;ans f&#195;&#170;te Mardi Gras</titreArticle>
-			<urlImage></urlImage>
-			<resumeArticle></resumeArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/51/1/2169511_2.jpg</urlImage>
+			<resumeArticle>Six mois apr&#195;&#168;s le passage de Katrina, la ville organise son traditionnel carnaval de Mardi Gras. Les d&#195;&#169;fil&#195;&#169;s apportent une bouff&#195;&#169;e d'oxyg&#195;&#168;ne aux habitants. Diaporama.</resumeArticle>
 			<mailto>faubert@tf1.fr</mailto>
 		</FOCUS>
 		<LES_GROSTITRES>

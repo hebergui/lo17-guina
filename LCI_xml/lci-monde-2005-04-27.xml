@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3215161-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Violences post-&#195;&#169;lectorales au Togo (24/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>25/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3215465-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Un accord pour mettre fin aux violences au Togo (25/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215465-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Togo</themeArticle>
+				<titreArticle>Un accord pour mettre fin aux violences</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/80/1/2024801_2.jpg</urlImage>
+				<resumeArticle>Faure Gnassingb&#195;&#169; et le dirigeant historique de l'opposition togolaise, Gilchrist Olympio, ont conclu lundi soir sous l'&#195;&#169;gide de l'Union africaine un accord pour un gouvernement d'union nationale, quel que soit le r&#195;&#169;sultat de la pr&#195;&#169;sidentielle.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215161-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Togo</themeArticle>
+				<titreArticle>Violences post-&#195;&#169;lectorales</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/67/0/2024670_2.jpg</urlImage>
+				<resumeArticle>Les r&#195;&#169;sultats de la pr&#195;&#169;sidentielle qui s'est tenue ce dimanche au Togo ne seront pas connus avant mardi. Le scrutin a &#195;&#169;t&#195;&#169; marqu&#195;&#169; par des violences ayant fait au moins trois morts et plus de 20 bless&#195;&#169;s &#195;&#160; Lom&#195;&#169;. Le pouvoir et l'opposition s'accusent mutuellement de fraudes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215667-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Derni&#195;&#168;res heures de sursis pour les otages roumains</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/2/2003042_2.jpg</urlImage>
+				<resumeArticle>Selon Al-Jazira, les ravisseurs de trois journalistes roumains ont accord&#195;&#169; un dernier d&#195;&#169;lai de 24 heures &#195;&#160; la Roumanie, jusqu'&#195;&#160; mercredi, 15 heures, pour qu'elle retire ses troupes d'Irak. Faute de quoi les prisonniers seront ex&#195;&#169;cut&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215267-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Japon</themeArticle>
+				<titreArticle>Le train roulait trop vite</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/61/3/2024613_2.jpg</urlImage>
+				<resumeArticle>Selon la presse japonaise, les enregistrements des instruments du train qui a d&#195;&#169;raill&#195;&#169; lundi, faisant 73 morts et 442 bless&#195;&#169;s, confirment la th&#195;&#168;se d'une vitesse excessive. Mardi, un second accident a eu lieu dans le centre de l'archipel sans faire de victimes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215096-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>L'appel &#195;&#160; l'unit&#195;&#169; du pape</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/51/8/2024518_2.jpg</urlImage>
+				<resumeArticle>Le pape a c&#195;&#169;l&#195;&#169;br&#195;&#169; dimanche la messe d'inauguration de son pontificat devant quelques 500.000 fid&#195;&#168;les r&#195;&#169;unis place Saint-Pierre. Au coeur de son hom&#195;&#169;lie, des hommages &#195;&#160; Jean Paul II, un salut &#195;&#160; tous les hommes, croyants ou non, et un appel aux jeunes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215383-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Rapport</themeArticle>
+				<titreArticle>Le calvaire oubli&#195;&#169; des filles soldats</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/1/995681_2.jpg</urlImage>
+				<resumeArticle>Le sort des enfants soldats, combattants sacrifi&#195;&#169;s de nombreux conflits dans le monde, commence &#195;&#160; &#195;&#170;tre connu gr&#195;&#162;ce au travail d'associations comme Save the Children. Celui des filles soldats reste encore m&#195;&#169;connu.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215257-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Un week-end particuli&#195;&#168;rement meurtrier</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/4/2023434_2.jpg</urlImage>
+				<resumeArticle>Une centaine d'Irakiens ont &#195;&#169;t&#195;&#169; tu&#195;&#169;s samedi et dimanche dans des attentats. Dans ce climat de violences, les groupes politiques n'ont pas finalis&#195;&#169; d'accord sur la formation d'un cabinet qui se fait attendre depuis le 7 avril.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

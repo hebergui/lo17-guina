@@ -12,35 +12,35 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/01/2006</dateArticle>
-				<urlArticle>/news/france/0,,3278303-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Chili : le portrait de Michelle Bachelet (12/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3278450-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Bachelet ou Pinera, le Chili retient son souffle (14/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3278474-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Michelle Bachelet, une Chilienne pas comme les autres (14/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>15/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3278699-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Chili : le parcours de Michelle Bachelet (15/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/01/2006</dateArticle>
-				<urlArticle>/news/france/0,,3278867-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Michelle Bachelet, pr&#195;&#169;sidente du Chili (16/01/2006)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-			<urlArticle>javascript:openPopup('/news/infographie/0,,3278362-VU5WX0lEIDUy,00.html','url_341',930,780,50,50,0,1,0,0,1,0);</urlArticle>
+			<urlArticle>/news/infographie/0,,3278362-VU5WX0lEIDUy,00.html','url_341</urlArticle>
 			<titreArticle>Les femmes au pouvoir dans le monde</titreArticle>
-			<urlImage></urlImage>
-			<resumeArticle></resumeArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/00/6/2163006_2.jpg</urlImage>
+			<resumeArticle>Pr&#195;&#169;sidentes, Premiers ministres : quels pays sont-ils actuellement dirig&#195;&#169;s par des femmes ? La r&#195;&#169;ponse en images avec notre infographie anim&#195;&#169;e.</resumeArticle>
 			<mailto>faubert@tf1.fr</mailto>
 		</FOCUS>
 		<LES_GROSTITRES>

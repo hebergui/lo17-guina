@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3225623-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>La semaine de tous les dangers (13/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3225860-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>"D&#195;&#169;saccord aigu" entre Blair et Chirac (14/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3225901-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Entretien avec Tony Blair (14/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225859-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>"D&#195;&#169;saccord aigu" entre Blair et Chirac</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/48/0/2035480_2.jpg</urlImage>
+				<resumeArticle>Tony Blair a reconnu l'existence d'un "d&#195;&#169;saccord aigu" sur le budget europ&#195;&#169;en, mardi &#195;&#160; l'issue d'un entretien &#195;&#160; l'Elys&#195;&#169;e avec Jacques Chirac. Ce dernier souhaite "un accord raisonnable et &#195;&#169;quitable" au sommet de Bruxelles.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/france/0,,3225980-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>La correspondante de "l'Huma" pri&#195;&#169;e de partir</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/2/2003042_2.jpg</urlImage>
+				<resumeArticle>L'ambassadeur de France &#195;&#160; Bagdad a &#195;&#169;crit &#195;&#160; Anne-Sophie Le Mauff, seule journaliste fran&#195;&#167;aise pr&#195;&#169;sente de fa&#195;&#167;on permanente en Irak, pour lui demander de quitter le pays, rapporte mercredi "Le Canard encha&#195;&#174;n&#195;&#169;".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225971-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Le chanteur crie victoire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/02/9/2016029_2.jpg</urlImage>
+				<resumeArticle>Au lendemain de son acquittement, le chanteur exprime toute sa joie et sa gratitude envers ses fans sur son site Internet. Pendant ce temps, la population est partag&#195;&#169;e sur le verdict du jury et la presse sp&#195;&#169;cule sur l'avenir musicale de la star.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225947-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Br&#195;&#168;ve alerte au tsunami</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/40/3/362403_2.jpg</urlImage>
+				<resumeArticle>L'alerte au tsunami qui avait &#195;&#169;t&#195;&#169; lanc&#195;&#169;e mardi soir le long de la c&#195;&#180;te pacifique des Etats-Unis apr&#195;&#168;s un violent s&#195;&#169;isme au large de la Californie a &#195;&#169;t&#195;&#169; lev&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225738-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Le chanteur sonn&#195;&#169; par son acquittement</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/0/2016040_2.jpg</urlImage>
+				<resumeArticle>Le verdict acquittant la star a &#195;&#169;t&#195;&#169; accueilli dans les cris de joie et d'&#195;&#169;moi des fans. Michael Jackson est rest&#195;&#169; impassible, comme sonn&#195;&#169;, par cette annonce. Retour sur les minutes les plus longues de sa vie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225709-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Michael Jackson acquitt&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/22/1/2035221_2.jpg</urlImage>
+				<resumeArticle>Au bout de 32 heures et demi de d&#195;&#169;lib&#195;&#169;rations, les jur&#195;&#169;s du tribunal de Santa Maria ont d&#195;&#169;clar&#195;&#169; lundi le chanteur innocent des 10 chefs d'inculpation qui pesaient sur lui. Un verdict accueilli par une explosion de joie des supporters de Michael Jackson, rassembl&#195;&#169;s en masse devant la salle d'audience.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

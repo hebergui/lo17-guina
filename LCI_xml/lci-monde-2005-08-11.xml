@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236864-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Retrait de Gaza : Socrate Soussan, colon sur le d&#195;&#169;part, retrouve sa m&#195;&#168;re (10/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236890-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JMJ</themeArticle>
+				<titreArticle>Pr&#195;&#169;servatifs et visas cr&#195;&#169;ent la pol&#195;&#169;mique</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/09/6/2046096_2.jpg</urlImage>
+				<resumeArticle>Les jeunes catholiques arrivent petit &#195;&#160; petit &#195;&#160; Cologne, o&#195;&#185; l'&#195;&#169;dition 2005 des Journ&#195;&#169;es Mondiales de la Jeunesse d&#195;&#169;butera lundi. Mais d&#195;&#169;j&#195;&#160;, le projet de distribution de pr&#195;&#169;servatifs et le refus d'accorder des visas &#195;&#160; des ressortissants africains et philippins cr&#195;&#169;ent la pol&#195;&#169;mique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236795-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Nucl&#195;&#169;aire</themeArticle>
+				<titreArticle>D&#195;&#169;saccord international sur l'Iran</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/6/2045916_2.jpg</urlImage>
+				<resumeArticle>Incapable de trouver un compromis sur une r&#195;&#169;solution, l'AIEA a annul&#195;&#169; sa r&#195;&#169;union de mercredi sur les suites &#195;&#160; donner &#195;&#160; la reprise des activit&#195;&#169;s nucl&#195;&#169;aires de T&#195;&#169;h&#195;&#169;ran. Pendant ce temps, les scell&#195;&#169;s de l'usine d'Ispahan ont &#195;&#169;t&#195;&#169; lev&#195;&#169;s, permettant ainsi &#195;&#160; la centrale de fonctionner &#195;&#160; pleine capacit&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/people/0,,3236726-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Diana</themeArticle>
+				<titreArticle>Une enqu&#195;&#170;te &#195;&#160; 3 millions d'euros</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/67/6/244676_2.jpg</urlImage>
+				<resumeArticle>L'enqu&#195;&#170;te lanc&#195;&#169;e en 2004, sous la responsabilit&#195;&#169; du patron de la police britannique, au sujet de la mort de la princesse Diana, pourrait co&#195;&#187;ter jusqu'&#195;&#160; 2 millions de livres, selon une estimation de l'agence anglaise Press Association.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236797-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Br&#195;&#169;sil</themeArticle>
+				<titreArticle>La Banque centrale n'&#195;&#169;tait pas assur&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/69/0/2045690_2.jpg</urlImage>
+				<resumeArticle>Les 68 millions de dollars d&#195;&#169;rob&#195;&#169;s par d'audacieux cambrioleurs au si&#195;&#168;ge de la Banque centrale du Br&#195;&#169;sil n'&#195;&#169;taient pas assur&#195;&#169;s. Si l'argent n'est pas retrouv&#195;&#169;, le pr&#195;&#169;judice sera comptabilis&#195;&#169; dans le bilan de la Banque.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236697-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>Une seconde plainte d&#195;&#169;pos&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Une seconde plainte en nom collectif a &#195;&#169;t&#195;&#169; d&#195;&#169;pos&#195;&#169;e par des passagers du vol Paris-Toronto qui a br&#195;&#187;l&#195;&#169; en bout de piste. Les plaignants r&#195;&#169;clament 124 millions de dollars pour l'ensemble des passagers.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236730-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Incidents a&#195;&#169;riens en s&#195;&#169;rie au Caire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/13/9/2029139_2.jpg</urlImage>
+				<resumeArticle>Aile en feu, probl&#195;&#168;mes de pressurisation.... Quatre avions ont connu mardi et mercredi des incidents techniques dans le ciel &#195;&#169;gyptien. Aucun bless&#195;&#169; n'est &#195;&#160; d&#195;&#169;plorer.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236511-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inographie</themeArticle>
+				<titreArticle>Qui poss&#195;&#168;de l'arme nucl&#195;&#169;aire ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/84/6/2045846_2.gif</urlImage>
+				<resumeArticle>Quels pays disposent de la bombe atomique, officiellement ou non ? La r&#195;&#169;ponse en images avec notre infographie.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

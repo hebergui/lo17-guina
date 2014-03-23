@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3237094-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Des camps islamistes dans le Sussex ? (12/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3237176-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Royaume-Uni : Qatada vers l'expulsion, Bakri banni (12/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,90 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237251-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>11/9</themeArticle>
+				<titreArticle>Les t&#195;&#169;moignages des protagonistes enfin publi&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/97/5/279975_2.jpg</urlImage>
+				<resumeArticle>Les pompiers new-yorkais ont rendu public vendredi des milliers de documents sur les attentats du 11 septembre 2001.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236717-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>"Ici, c'est le paradis. Mais il faut partir"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/6/2045926_2.jpg</urlImage>
+				<resumeArticle>L'&#195;&#169;vacuation des colons juifs de Gaza d&#195;&#169;bute le 15 ao&#195;&#187;t. Socrate Soussan, mara&#195;&#174;cher, est l'un des rares Fran&#195;&#167;ais install&#195;&#169;s sur place. Avant de partir, il raconte &#195;&#160; tf1.fr pourquoi il accepte de tirer un trait sur plus de quinze ans de sa vie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237176-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Qatada vers l'expulsion, Bakri banni</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/2/2046302_2.jpg</urlImage>
+				<resumeArticle>Les autorit&#195;&#169;s britanniques ont l'intention de se "d&#195;&#169;barrasser" des deux leaders islamistes du "Londonistan" interpell&#195;&#169;s jeudi. Abou Qatada devrait ainsi &#195;&#170;tre expuls&#195;&#169; vers la Jordanie. Omar Bakri, arr&#195;&#170;t&#195;&#169; puis rel&#195;&#162;ch&#195;&#169; par le Liban, a &#195;&#169;t&#195;&#169; quant &#195;&#160; lui interdit de s&#195;&#169;jour au Royaume-Uni.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237094-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Des camps islamistes dans le Sussex ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/85/0/874850_2.jpg</urlImage>
+				<resumeArticle>Selon The Times, des camps d'entra&#195;&#174;nement et d'endoctrinement tenus par la mouvance d'Omar Bakri existent sur le sol britannique. Leurs chefs tenteraient de recruter des jeunes dans les mosqu&#195;&#169;es.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236986-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>"On est l&#195;&#160; jusqu'&#195;&#160; la derni&#195;&#168;re minute"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/28/7/2046287_2.jpg</urlImage>
+				<resumeArticle>L'&#195;&#169;vacuation des colons juifs de Gaza d&#195;&#169;bute le 15 ao&#195;&#187;t. Abraham Berrebi fait partie de ceux qui refusent le plan Sharon. Croyant au "miracle" qui emp&#195;&#170;chera son d&#195;&#169;part, il explique &#195;&#160; TF1 pourquoi et comment il entend protester lorsque l'arm&#195;&#169;e isra&#195;&#169;lienne viendra l'expulser de sa maison.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237009-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Le baroud d'honneur des opposants au retrait</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/3/2046303_2.jpg</urlImage>
+				<resumeArticle>200.000 opposants au retrait de la bande de Gaza se sont rassembl&#195;&#169;s jeudi &#195;&#160; Tel-Aviv pour protester contre l'&#195;&#169;vacuation des colonies juives de ce territoire &#195;&#160; partir de mercredi.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237005-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Nucl&#195;&#169;aire</themeArticle>
+				<titreArticle>L'AIEA engage le bras-de-fer avec l'Iran</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/5/2044435_2.jpg</urlImage>
+				<resumeArticle>Sous l'impulsion de l'Union europ&#195;&#169;enne, l'Agence internationale &#195;&#160; l'Energie atomique a adopt&#195;&#169; une r&#195;&#169;solution demandant &#195;&#160; l'Iran d'arr&#195;&#170;ter la reprise de ses activit&#195;&#169;s nucl&#195;&#169;aires. R&#195;&#169;ponse n&#195;&#169;gative de T&#195;&#169;h&#195;&#169;ran, qui entend n&#195;&#169;anmoins poursuivre les n&#195;&#169;gociations.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236511-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inographie</themeArticle>
+				<titreArticle>Qui poss&#195;&#168;de l'arme nucl&#195;&#169;aire ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/84/6/2045846_2.gif</urlImage>
+				<resumeArticle>Quels pays disposent de la bombe atomique, officiellement ou non ? La r&#195;&#169;ponse en images avec notre infographie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236890-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JMJ</themeArticle>
+				<titreArticle>Pr&#195;&#169;servatifs et visas cr&#195;&#169;ent la pol&#195;&#169;mique</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/09/6/2046096_2.jpg</urlImage>
+				<resumeArticle>Les jeunes catholiques arrivent petit &#195;&#160; petit &#195;&#160; Cologne, o&#195;&#185; l'&#195;&#169;dition 2005 des Journ&#195;&#169;es Mondiales de la Jeunesse d&#195;&#169;butera lundi. Mais d&#195;&#169;j&#195;&#160;, le projet de distribution de pr&#195;&#169;servatifs et le refus d'accorder des visas &#195;&#160; des ressortissants africains et philippins cr&#195;&#169;ent la pol&#195;&#169;mique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236878-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Isra&#195;&#171;l</themeArticle>
+				<titreArticle>L'appel du pr&#195;&#169;sident Katzav aux colons</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/08/4/2046084_2.jpg</urlImage>
+				<resumeArticle>A quelques jours du d&#195;&#169;but pr&#195;&#169;vu de l'&#195;&#169;vacuation de la bande de Gaza, le pr&#195;&#169;sident isra&#195;&#169;lien s'est adress&#195;&#169; aux colons. "Au nom de l'Etat d'Isra&#195;&#171;l, je vous demande pardon", a-t-il dit. Mais "l'heure est venue de respecter la d&#195;&#169;cision des autorit&#195;&#169;s".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/people/0,,3236726-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Diana</themeArticle>
+				<titreArticle>Une enqu&#195;&#170;te &#195;&#160; 3 millions d'euros</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/67/6/244676_2.jpg</urlImage>
+				<resumeArticle>L'enqu&#195;&#170;te lanc&#195;&#169;e en 2004, sous la responsabilit&#195;&#169; du patron de la police britannique, au sujet de la mort de la princesse Diana, pourrait co&#195;&#187;ter jusqu'&#195;&#160; 2 millions de livres, selon une estimation de l'agence anglaise Press Association.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236797-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Br&#195;&#169;sil</themeArticle>
+				<titreArticle>La Banque centrale n'&#195;&#169;tait pas assur&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/69/0/2045690_2.jpg</urlImage>
+				<resumeArticle>Les 68 millions de dollars d&#195;&#169;rob&#195;&#169;s par d'audacieux cambrioleurs au si&#195;&#168;ge de la Banque centrale du Br&#195;&#169;sil n'&#195;&#169;taient pas assur&#195;&#169;s. Si l'argent n'est pas retrouv&#195;&#169;, le pr&#195;&#169;judice sera comptabilis&#195;&#169; dans le bilan de la Banque.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

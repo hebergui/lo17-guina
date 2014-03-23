@@ -12,25 +12,25 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3277319-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Nucl&#195;&#169;aire : la CIA au secours de l'Iran ? (06/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3277727-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'Iran lance un nouveau d&#195;&#169;fi nucl&#195;&#169;aire (10/01/2006)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/01/2006</dateArticle>
-				<urlArticle>/news/monde/0,,3278268-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'Iran risque le Conseil de s&#195;&#169;curit&#195;&#169; (12/01/2006)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-			<urlArticle>javascript:openPopup('/news/infographie/0,,3278362-VU5WX0lEIDUy,00.html','url_95',800,600,0,0,0,1,0,0,0,0);</urlArticle>
+			<urlArticle>/news/infographie/0,,3278362-VU5WX0lEIDUy,00.html','url_95</urlArticle>
 			<titreArticle>Les femmes au pouvoir dans le monde</titreArticle>
-			<urlImage></urlImage>
-			<resumeArticle></resumeArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/00/6/2163006_2.jpg</urlImage>
+			<resumeArticle>Pr&#195;&#169;sidentes, Premiers ministres : quels pays sont-ils actuellement dirig&#195;&#169;s par des femmes ? La r&#195;&#169;ponse en images avec notre infographie anim&#195;&#169;e.</resumeArticle>
 			<mailto>faubert@tf1.fr</mailto>
 		</FOCUS>
 		<LES_GROSTITRES>

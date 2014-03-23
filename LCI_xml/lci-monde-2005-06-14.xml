@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/06/2005</dateArticle>
-				<urlArticle>/news/france/0,,3225498-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Julia mis en cause (13/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/06/2005</dateArticle>
-				<urlArticle>/news/france/0,,3225716-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>"Today, Paris" (14/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225709-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Michael Jackson acquitt&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/22/1/2035221_2.jpg</urlImage>
+				<resumeArticle>Au bout de 32 heures et demi de d&#195;&#169;lib&#195;&#169;rations, les jur&#195;&#169;s du tribunal de Santa Maria ont d&#195;&#169;clar&#195;&#169; lundi le chanteur innocent des 10 chefs d'inculpation qui pesaient sur lui. Un verdict accueilli par une explosion de joie des supporters de Michael Jackson, rassembl&#195;&#169;s en masse devant la salle d'audience.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225738-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Le chanteur sonn&#195;&#169; par son acquittement</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/0/2016040_2.jpg</urlImage>
+				<resumeArticle>Le verdict acquittant la star a &#195;&#169;t&#195;&#169; accueilli dans les cris de joie et d'&#195;&#169;moi des fans. Michael Jackson est rest&#195;&#169; impassible, comme sonn&#195;&#169;, par cette annonce. Retour sur les minutes les plus longues de sa vie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225627-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Schr&#195;&#182;der appelle &#195;&#160; "d&#195;&#169;passer les &#195;&#169;go&#195;&#175;smes"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/4/2023004_2.jpg</urlImage>
+				<resumeArticle>A quelques jours du sommet de Bruxelles, les sujets pol&#195;&#169;miques se bousculaient au menu du d&#195;&#174;ner qui r&#195;&#169;unissait lundi soir &#195;&#160; Berlin le Premier ministre britannique et le chancelier allemand.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225618-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Des nouvelles de Saddam Hussein</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/12/2/2035122_2.jpg</urlImage>
+				<resumeArticle>Pour la premi&#195;&#168;re fois depuis presque un an, la vid&#195;&#169;o d'un interrogatoire de l'ancien dictateur irakien a &#195;&#169;t&#195;&#169; autoris&#195;&#169;e &#195;&#160; la diffusion. Les d&#195;&#169;fenseurs de Saddam Hussein d&#195;&#169;noncent cette audition r&#195;&#169;alis&#195;&#169;e sans la pr&#195;&#169;sence d'un avocat.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225515-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aubenas/Hanoun</themeArticle>
+				<titreArticle>"Dans une cave, les mains li&#195;&#169;es, les yeux band&#195;&#169;s"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/86/3/2018863_2.jpg</urlImage>
+				<resumeArticle>Avec les indications de Serge July et le t&#195;&#169;moignage de Hussein Hanoun dans Le Monde, on en sait d&#195;&#169;sormais un peu plus sur les conditions de d&#195;&#169;tention des ex-otages.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225608-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aubenas/Hanoun</themeArticle>
+				<titreArticle>Hussein Hanoun raconte</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/90/3/2034903_2.jpg</urlImage>
+				<resumeArticle>Dans une interview au Monde, le guide de Florence Aubenas explique que leurs ravisseurs &#195;&#169;taient des islamistes sunnites et salafistes, "plut&#195;&#180;t mod&#195;&#169;r&#195;&#169;s".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225340-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Echec du scrutin sur la bio&#195;&#169;thique</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/2/247682_2.jpg</urlImage>
+				<resumeArticle>Le r&#195;&#169;f&#195;&#169;rendum proposant de faciliter l'acc&#195;&#168;s &#195;&#160; la f&#195;&#169;condation assist&#195;&#169;e n'a pas pu r&#195;&#169;unir le quorum n&#195;&#169;cessaire &#195;&#160; sa validation. Une r&#195;&#169;ussite symbolique pour l'Eglise catholique, qui avait appel&#195;&#169; &#195;&#160; l'abstention, m&#195;&#170;me si cette d&#195;&#169;saffection des votants italiens a peut-&#195;&#170;tre d'autres raisons.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

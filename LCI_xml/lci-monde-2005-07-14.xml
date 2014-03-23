@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/0,,3231822-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : 3 poseurs de bombes identifi&#195;&#169;s (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/0,,3231825-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'hommage europ&#195;&#169;en aux victimes des attentats de Londres (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231810-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le "cerveau" identifi&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/7/2041687_2.jpg</urlImage>
+				<resumeArticle>La police pense avoir identifi&#195;&#169; le chef des quatre auteurs pr&#195;&#169;sum&#195;&#169;s des attentats de Londres le 7 juillet, affirme jeudi le Times. Britannique d'origine pakistanaise, il aurait quitt&#195;&#169; le pays la veille des attaques. Par ailleurs Scotland Yard a confirm&#195;&#169; que les attentats avaient &#195;&#169;t&#195;&#169; commis par des kamikazes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231704-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Tony Blair appelle au sang froid</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/64/1/2041641_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre a demand&#195;&#169; mercredi aux Britanniques de r&#195;&#169;agir de fa&#195;&#167;on "calme et mesur&#195;&#169;e" aux attentats de jeudi et a "condamn&#195;&#169; sans r&#195;&#169;serve toute attaque" visant des musulmans. Tony Blair a promis de s&#195;&#169;vir contre l'extr&#195;&#169;misme.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231735-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Vaste op&#195;&#169;ration anti-terroriste</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/39/9/1060399_2.jpg</urlImage>
+				<resumeArticle>La police italienne a arr&#195;&#170;t&#195;&#169; 174 personnes lors d'une op&#195;&#169;ration antiterroriste men&#195;&#169;e dans les milieux islamistes. Ce coup de filet a &#195;&#169;t&#195;&#169; lanc&#195;&#169; &#195;&#160; travers toute l'Italie, de Milan &#195;&#160; Naples.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231429-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Isra&#195;&#171;l</themeArticle>
+				<titreArticle>Tsahal boucle les territoires palestiniens</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/23/8/2041238_2.jpg</urlImage>
+				<resumeArticle>L'arm&#195;&#169;e isra&#195;&#169;lienne a impos&#195;&#169; mercredi matin un bouclage de la Cisjordanie et de la bande de Gaza "jusqu'&#195;&#160; nouvel ordre", au lendemain de l'attentat suicide de Netanya, qui a co&#195;&#187;t&#195;&#169; la vie &#195;&#160; trois Isra&#195;&#169;liennes. Par ailleurs, un ressortissant britannique et un autre &#195;&#169;tranger ont &#195;&#169;t&#195;&#169; enlev&#195;&#169;s dans le nord de la bande de Gaza.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231619-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Un lieutenant de Zarqaoui captur&#195;&#169; &#195;&#160; Bagdad</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/65/0/830650_2.jpg</urlImage>
+				<resumeArticle>Les forces am&#195;&#169;ricaines ont captur&#195;&#169; &#195;&#160; Bagdad un proche du chef d'Al-Qa&#195;&#175;da en Irak, portant un coup&#194;&#160;"assez significatif" &#195;&#160; l'organisation. Un attentat-suicide au sud de Bagdad ce matin a entra&#195;&#174;n&#195;&#169; la mort d'au moins 24 enfants.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231402-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Pays-Bas</themeArticle>
+				<titreArticle>Le meurtrier de van Gogh a agi au "nom" de l'islam</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/20/4/2041204_2.jpg</urlImage>
+				<resumeArticle>Au 2e jour de son proc&#195;&#168;s, le Maroco-N&#195;&#169;erlandais Mohammed Bouyeri a avou&#195;&#169; pour la premi&#195;&#168;re fois le meurtre du cin&#195;&#169;aste n&#195;&#169;erlandais. Il a affirm&#195;&#169; avoir agi "au nom de sa religion" et se dit pr&#195;&#170;t "&#195;&#160; refaire la m&#195;&#170;me chose".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231306-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le sc&#195;&#169;nario des attentats se dessine</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/23/4/2041234_2.jpg</urlImage>
+				<resumeArticle>Scotland Yard a annonc&#195;&#169; que les quatre terroristes sont arriv&#195;&#169;s en train &#195;&#160; Londres le matin des attentats jeudi dernier. Un homme a &#195;&#169;t&#195;&#169; arr&#195;&#170;t&#195;&#169; mardi dans l'ouest du Yorkshire, dans le nord de l'Angleterre, &#195;&#160; l'issue d'une vaste perquisition.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

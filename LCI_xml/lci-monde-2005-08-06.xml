@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/08/2001</dateArticle>
-				<urlArticle>/news/monde/2001/0,,807476-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Il y a un an, le Koursk sombrait (12/08/2001)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>09/10/2001</dateArticle>
-				<urlArticle>/news/sciences/2001/0,,825517-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le myst&#195;&#168;re du Koursk enfin d&#195;&#169;voil&#195;&#169; ? (09/10/2001)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>05/08/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3236029-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Un sous-marin russe bloqu&#195;&#169; &#195;&#160; 190m de profondeur (05/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235544-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aviation</themeArticle>
+				<titreArticle>"Le couple pilote-contr&#195;&#180;leur est interactif"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/88/7/253887_2.jpg</urlImage>
+				<resumeArticle>St&#195;&#169;phane Durand, contr&#195;&#180;leur a&#195;&#169;rien &#195;&#160; Roissy, explique &#195;&#160; tf1.fr comment se g&#195;&#168;re un atterrissage par mauvais temps, comme ce fut le cas mardi pour le Paris-Toronto. Outre les proc&#195;&#169;dures bien pr&#195;&#169;cises &#195;&#160; respecter, il souligne que l'exp&#195;&#169;rience du pilote et du contr&#195;&#180;leur est &#195;&#169;galement primordiale.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236045-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chine</themeArticle>
+				<titreArticle>Plus d'un million d'&#195;&#169;vacu&#195;&#169;s pour cause de typhon</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/31/5/2045315_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s Ta&#195;&#175;wan, le typhon Matsa s'est abattu sur la Chine, o&#195;&#185; il provoque inondations et destructions. Un d&#195;&#169;c&#195;&#168;s est &#195;&#160; d&#195;&#169;plorer et plus d'un million de personnes ont &#195;&#169;t&#195;&#169; &#195;&#169;vacu&#195;&#169;es.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235934-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>L'Airbus s'est-il pos&#195;&#169; trop loin ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/78/3/2044783_2.jpg</urlImage>
+				<resumeArticle>Les enqu&#195;&#170;teurs canadiens estiment que l'Airbus d'Air France a touch&#195;&#169; le sol "un peu plus loin que la normale", ce qui expliquerait la vitesse &#195;&#169;lev&#195;&#169;e &#195;&#160; laquelle il a quitt&#195;&#169; l'asphalte pour finir sa course dans un foss&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235855-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Blair annonce des mesures plus radicales</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/25/3/2045253_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre britannique a promis de nouvelles mesures autorisant l'expulsion de ceux qui professent la violence, apr&#195;&#168;s les attentats de Londres.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235844-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Isra&#195;&#171;l</themeArticle>
+				<titreArticle>Un Juif tue 4 personnes et se fait lyncher</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/3/2045073_2.jpg</urlImage>
+				<resumeArticle>L'homme, un soldat d&#195;&#169;serteur de 19 ans, a abattu de sang froid quatre civils arabes isra&#195;&#169;liens jeudi soir dans le nord du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235736-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Al-Qaida menace Londres</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/97/3/2044973_2.jpg</urlImage>
+				<resumeArticle>Dans une vid&#195;&#169;o diffus&#195;&#169;e jeudi apr&#195;&#168;s-midi par la cha&#195;&#174;ne Al-Jazira, le bras droit de ben Laden fait r&#195;&#169;f&#195;&#169;rence aux attentats de Londres. Il promet "davantage de destructions" au Royaume-Uni.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235759-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>L'atterrissage &#195;&#169;tait normal</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Les premi&#195;&#168;res constatations des enqu&#195;&#170;teurs n'ont pas permis de relever d'anomalies dans la proc&#195;&#169;dure d'atterrissage de l'Airbus A-340 sorti de la piste mardi &#195;&#160; Toronto. Auparavant, la France et le Canada se sont rejet&#195;&#169;es les responsabilit&#195;&#169;s de l'accident.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235568-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Attentats du 21 juillet</themeArticle>
+				<titreArticle>Le premier inculp&#195;&#169; renvoy&#195;&#169; en d&#195;&#169;tention provisoire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/95/8/2042958_2.jpg</urlImage>
+				<resumeArticle>Le premier suspect inculp&#195;&#169; en Grande-Bretagne dans l'enqu&#195;&#170;te sur les attentats du 21 juillet &#195;&#160; Londres, a &#195;&#169;t&#195;&#169; renvoy&#195;&#169; jeudi en d&#195;&#169;tention provisoire jusqu'au 11 ao&#195;&#187;t.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

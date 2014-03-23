@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3221309-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le camp Jackson contre-attaque (24/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>26/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3221760-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Chris Tucker avait pr&#195;&#169;venu Michael Jackson (26/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>28/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3222211-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>T&#195;&#169;moignage choc au proc&#195;&#168;s de Michael Jackson (28/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>01/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3223082-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Jackson "mort de peur" (01/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3224082-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Proc&#195;&#168;s Jackson : reprise des d&#195;&#169;lib&#195;&#169;rations (06/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224647-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Londres extrade Ramda vers Paris</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/0/296440_2.jpg</urlImage>
+				<resumeArticle>A l'issue d'une longue proc&#195;&#169;dure, le Royaume-Uni a finalement d&#195;&#169;cid&#195;&#169; d'extrader l'un des organisateurs pr&#195;&#169;sum&#195;&#169;s des attentats commis en France en 1995.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224623-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Cherie Blair &#195;&#169;clabouss&#195;&#169;e par ses "m&#195;&#169;nages"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/15/2/2034152_2.jpg</urlImage>
+				<resumeArticle>La conf&#195;&#169;rence donn&#195;&#169;e par l'&#195;&#169;pouse du Premier ministre britannique lundi &#195;&#160; Washington a relanc&#195;&#169; la pol&#195;&#169;mique autour des prestations grassement pay&#195;&#169;es qu'elle d&#195;&#169;livre r&#195;&#169;guli&#195;&#168;rement sur sa vie quotidienne &#195;&#160; Downing Street.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224608-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Blair pose les conditions de son r&#195;&#169;f&#195;&#169;rendum</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/66/4/648664_2.jpg</urlImage>
+				<resumeArticle>Deux jours apr&#195;&#168;s l'annonce du gel de son r&#195;&#169;f&#195;&#169;rendum sur le Trait&#195;&#169; europ&#195;&#169;en, le Premier ministre britannique a expliqu&#195;&#169; qu'il ne reprendrait pas le processus avant que la situation engendr&#195;&#169;e par les "non" fran&#195;&#167;ais et n&#195;&#169;erlandais ait &#195;&#169;t&#195;&#169; clarifi&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224502-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>D&#195;&#169;veloppement</themeArticle>
+				<titreArticle>Bush et Blair proposent d'effacer l'ardoise</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/8/2034048_2.jpg</urlImage>
+				<resumeArticle>Les Etats-Unis et la Grande-Bretagne vont proposer d'&#195;&#169;liminer la dette des pays les plus pauvres au prochain sommet du G8.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224498-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chili</themeArticle>
+				<titreArticle>Pinochet blanchi pour Condor, mais poursuivi par le fisc</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/4/51774_2.jpg</urlImage>
+				<resumeArticle>La Cour d'appel de Santiago a mis fin aux poursuites contre l'ex-dictateur pour l'op&#195;&#169;ration de r&#195;&#169;pression d'opposants Condor. Mais elle a lev&#195;&#169; son immunit&#195;&#169; d'ancien pr&#195;&#169;sident pour l'affaire de ses comptes secrets aux Etats-Unis.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224312-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Faudra-t-il payer pour rouler ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/81/0/642810_2.jpg</urlImage>
+				<resumeArticle>Le gouvernement britannique projette de faire payer aux automobilistes chaque kilom&#195;&#168;tre parcouru sur toutes les routes pour r&#195;&#169;duire le trafic. Un plan qui est loin de faire l'unanimit&#195;&#169; et qui suscite de vives protestations.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

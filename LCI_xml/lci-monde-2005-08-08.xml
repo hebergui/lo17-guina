@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>15/11/2004</dateArticle>
-				<urlArticle>/news/monde/2004/0,,3185572-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L&#226;&#128;&#153;Iran suspend l&#226;&#128;&#153;enrichissement de l&#226;&#128;&#153;uranium (15/11/2004)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>02/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3235240-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'UE durcit le ton face au d&#195;&#169;fi iranien (02/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>03/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3235564-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'Iran recule pour des raisons... techniques (03/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,69 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236413-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Le mariage gay ouvert aux &#195;&#169;trangers</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/37/0/2024370_2.jpg</urlImage>
+				<resumeArticle>Que la loi de leur pays autorise ou non le mariage gay ou lesbien, deux &#195;&#169;trangers de m&#195;&#170;me sexe pourront se marier en Espagne, affirme le minist&#195;&#168;re de la Justice espagnol. Seule condition : l'un des deux devra &#195;&#170;tre domicili&#195;&#169; en Espagne.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236341-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Questions sur l'accident de l'ATR-72 tunisien</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/49/5/2045495_2.jpg</urlImage>
+				<resumeArticle>Pourquoi les deux moteurs de l'appareil qui s'est ab&#195;&#174;m&#195;&#169; en mer au large de la Sicile se sont-ils arr&#195;&#170;t&#195;&#169;s ? Parmi les hypoth&#195;&#168;ses &#195;&#169;voqu&#195;&#169;es par les enqu&#195;&#170;teurs, la premi&#195;&#168;re met en cause la qualit&#195;&#169; du carburant.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236321-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Les auteurs des attentats devant le juge</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/23/6/2044236_2.jpg</urlImage>
+				<resumeArticle>Les auteurs pr&#195;&#169;sum&#195;&#169;s des attentats du 21 juillet d&#195;&#169;tenus en Grande-Bretagne vont &#195;&#170;tre pr&#195;&#169;sent&#195;&#169;s lundi au tribunal de&#194;&#160;Belmarsh, dans le sud-est de Londres. Ils ont &#195;&#169;t&#195;&#169; inculp&#195;&#169;s au cours du week-end pour complot d'homicide et d&#195;&#169;tention de substance explosive.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236334-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Le myst&#195;&#168;re Piano man reste entier</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/2/2029172_2.jpg</urlImage>
+				<resumeArticle>Les m&#195;&#169;decins craignent que le jeune virtuose amn&#195;&#169;sique, retrouv&#195;&#169; il y a quelques mois sur une plage anglaise, ne soit jamais identifi&#195;&#169;. Personne pour l'instant ne l'a reconnu ou ne s'est pr&#195;&#169;sent&#195;&#169; comme &#195;&#169;tant de sa famille. Le myst&#195;&#168;re reste entier.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236249-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Isra&#195;&#171;l</themeArticle>
+				<titreArticle>Netanyahu claque la porte</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/1/2045411_2.jpg</urlImage>
+				<resumeArticle>Benjamin Netanyahu a pr&#195;&#169;sent&#195;&#169; dimanche sa d&#195;&#169;mission du gouvernement d'Ariel Sharon en raison de son opposition au retrait de Gaza. Le cabinet isra&#195;&#169;lien n'en a pas moins approuv&#195;&#169; la premi&#195;&#168;re phase du retrait, portant sur trois colonies. Netanyahu devrait &#195;&#170;tre remplac&#195;&#169; par Ehud Olmert, un proche de Sharon.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236237-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Haroon Aswat extrad&#195;&#169; de Zambie</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/14/3/2044143_2.jpg</urlImage>
+				<resumeArticle>L'homme d&#195;&#169;tenu par la Zambie depuis juillet et soup&#195;&#167;onn&#195;&#169; d'&#195;&#170;tre l'un des instigateurs des attentats du 7 juillet a &#195;&#169;t&#195;&#169; renvoy&#195;&#169; dimanche vers le Royaume-Uni par vol sp&#195;&#169;cial.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236188-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Russie</themeArticle>
+				<titreArticle>L'&#195;&#169;quipage du bathyscaphe arriv&#195;&#169; &#195;&#160; bon port</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/38/0/2045380_2.jpg</urlImage>
+				<resumeArticle>Les sept marins du bathyscaphe russe qui &#195;&#169;tait bloqu&#195;&#169; dans les eaux du Kamtchatka sont arriv&#195;&#169;s dimanche au port de Petropavlovsk Kamtchatski. Ils se portent bien. Un robot sous-marin britannique les a sauv&#195;&#169;s en coupant les c&#195;&#162;bles qui retenait prisonnier l'engin russe.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236192-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>L'avion s'est pos&#195;&#169; trop tard</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Le responsable de l'enqu&#195;&#170;te sur l'accident du vol Paris-Toronto a confirm&#195;&#169; dimanche que l'appareil s'est pos&#195;&#169; beaucoup trop loin, presque au milieu de la piste. Par ailleurs, les enqu&#195;&#170;teurs canadiens ont relev&#195;&#169; des dysfonctionnements lors de l'&#195;&#169;vacuation.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236109-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>D&#195;&#169;c&#195;&#168;s de Robin Cook</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/35/2/2045352_2.jpg</urlImage>
+				<resumeArticle>L'ancien ministre britannique des Affaires &#195;&#169;trang&#195;&#168;res, &#195;&#162;g&#195;&#169; de 59 ans, est d&#195;&#169;c&#195;&#169;d&#195;&#169; apr&#195;&#168;s un malaise lors d'une randonn&#195;&#169;e. Il avait d&#195;&#169;missionn&#195;&#169; du gouvernement Blair en mars 2003 pour protester contre la guerre en Irak.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

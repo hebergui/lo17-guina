@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/07/2005</dateArticle>
-				<urlArticle>/news/0,,3230412-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats &#195;&#160; Londres (07/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>15/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231950-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : le "chimiste" pr&#195;&#169;sum&#195;&#169; arr&#195;&#170;t&#195;&#169; en Egypte (15/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232183-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : la piste internationale (16/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232262-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le pass&#195;&#169; et le recrutement des terroristes (16/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3232265-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : le profil des 4 terroristes (16/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,34 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232352-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Premi&#195;&#168;re inculpation contre Saddam Hussein</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/89/3/1026893_2.jpg</urlImage>
+				<resumeArticle>Le tribunal sp&#195;&#169;cial irakien a formul&#195;&#169; sa premi&#195;&#168;re inculpation contre l'ancien dictateur. Il est accus&#195;&#169;, avec trois anciens membres de son r&#195;&#169;gime, du meurtre en 1982 de chiites dans le village de Doudjail. La date de son proc&#195;&#168;s devrait bient&#195;&#180;t &#195;&#170;tre annonc&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232303-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Isra&#195;&#171;l menace d'une offensive</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/4/2015174_2.jpg</urlImage>
+				<resumeArticle>Le vice-ministre de la D&#195;&#169;fense a menac&#195;&#169; dimanche les Palestiniens d'un assaut terrestre dans la bande de Gaza si les tirs de roquettes ne cessaient pas. Quatre sont tomb&#195;&#169;es dimanche matin dans le sud d'Isra&#195;&#171;l.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232297-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Carnage pr&#195;&#168;s d'une mosqu&#195;&#169;e chiite</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/26/3/2042263_2.jpg</urlImage>
+				<resumeArticle>71 personnes ont &#195;&#169;t&#195;&#169; tu&#195;&#169;es samedi soir dans un attentat suicide commis &#195;&#160; l'aide d'un camion citerne pi&#195;&#169;g&#195;&#169; pr&#195;&#168;s d'une mosqu&#195;&#169;e chitte de Moussayeb, au sud de Bagdad.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3232187-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Turquie</themeArticle>
+				<titreArticle>Attentat meurtrier contre des touristes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/24/0/2042240_2.jpg</urlImage>
+				<resumeArticle>Un attentat, peut-&#195;&#170;tre commis par un kamikaze, a eu lieu samedi &#195;&#160; bord d'un minibus &#195;&#160; Kusadasi, sur la mer Eg&#195;&#169;e. Le dernier bilan fait &#195;&#169;tat d'au moins cinq morts et d'une quinzaine de bless&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

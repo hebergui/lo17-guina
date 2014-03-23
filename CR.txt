@@ -58,3 +58,30 @@ Pour chaque partie :
 		1. Ecrivez un script Perl qui, pour un fichier du répertoire que vous venez de créer, le recopie dans un nouveau répertoire de sortie avec un nom identique à celui lu en entrée, de telle sorte que chaque rubrique se retrouve entièrement sur une ligne spécifique.
 	
 		2. Ecrivez un script Perl qui répète l’opération sur l’ensemble des fichiers du répertoire d’entré.
+
+
+
+
+
+
+***** BROUILLON (A REDIGER PLUS TARD) ******
+
+Construction du XML :
+
+pb mailto dans une et focus ! (A FAIRE)
+ 
+partie voir_aussi : regexp non trouvee dans 89 fichiers (log id_partie) alors que la rubrique est absente de 87 fichiers seulement (log id_rubrique) 
+cause : absence du .html dans le href d'un des fichiers 
+solution : ajout possibilite de ne pas avoir le .html dans la regexp (RESOLU!)
+Il reste 2 fichiers problematiques : 27/05/2005 et 28/05/2005 (lien du voir aussi avec format different) (A FAIRE)
+
+
+partie focus : pb images+resume 
+cause : presence d'un "javascript:openPopup" dans l'url qui fausse l'url retournee et utilisee dans les regexp
+solution : ajout d'une clause OR dans la regexp pour faire le matching avec les cas ou il y a le javascript:openPopup. Cette clause doit etre ecrite en 1er afin que les fichiers problematiques matchent avec cette regexp en priorite (en effet, ils matchaient deja avec la regexp initiale mais l'url selectionee etait alors fausse) (RESOLU!)
+
+
+partie gros-titre : 135 fichiers problematiques
+--> manque le f dans le href du lien
+--> mettre le f du href en optionnel (symbole ?) dans la regexp (RESOLU!)
+

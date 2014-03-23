@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>20/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3238480-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Proche-Orient : "Aucune nouvelle" de Mohamed Ouathi (20/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/08/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3238690-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Gaza : Mohammed Ouathi de France 3 enlev&#195;&#169; il y a 8 jours (21/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238618-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>L'&#195;&#169;vacuation des colonies entre dans sa derni&#195;&#168;re phase</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/42/9/2047429_2.jpg</urlImage>
+				<resumeArticle>Isra&#195;&#171;l va achever ces deux prochains jours l'&#195;&#169;vacuation des colonies de la bande de Gaza, bien avant la date pr&#195;&#169;vue et va d&#195;&#169;manteler pour la premi&#195;&#168;re fois des implantations de Cisjordanie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238609-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Venezuela</themeArticle>
+				<titreArticle>"Notre &#195;&#169;motion commune est grande"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/42/5/2047425_2.jpg</urlImage>
+				<resumeArticle>Une messe a &#195;&#169;t&#195;&#169; dite dimanche matin dans une &#195;&#169;glise de Seine-Saint-Denis, pr&#195;&#168;s de Paris, en hommage aux victimes martiniquaises de la catastrophe a&#195;&#169;rienne de mardi au Venezuela.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238567-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JMJ</themeArticle>
+				<titreArticle>Prochaine &#195;&#169;dition en 2008 en Australie</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/3/2047413_2.jpg</urlImage>
+				<resumeArticle>Le pape a c&#195;&#169;l&#195;&#169;br&#195;&#169; dimanche matin la messe de cl&#195;&#180;ture des Journ&#195;&#169;es mondiales de la Jeunesse devant une assistance &#195;&#169;valu&#195;&#169;e &#195;&#160; un million de fid&#195;&#168;les.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238565-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Portugal</themeArticle>
+				<titreArticle>Demande de renforts contres les incendies</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/0/2047410_2.jpg</urlImage>
+				<resumeArticle>Le Portugal a demand&#195;&#169; samedi de l'aide &#195;&#160; l'Union europ&#195;&#169;enne, notamment en mati&#195;&#168;re de moyens a&#195;&#169;riens.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237189-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Calendrier du d&#195;&#169;sengagement d'Isra&#195;&#171;l</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/58/1/2046581_2.jpg</urlImage>
+				<resumeArticle>Le d&#195;&#169;sengagement total d'Isra&#195;&#171;l de la bande de Gaza, d&#195;&#169;but&#195;&#169; lundi avec le d&#195;&#169;part des colons juifs, se poursuivra jusqu'en octobre avec le retrait de Tsahal.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237183-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Les sc&#195;&#169;narios catastrophes de l'&#195;&#169;vacuation</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/46/5/2046465_2.jpg</urlImage>
+				<resumeArticle>Le d&#195;&#169;part des colons juifs de Gaza est obligatoire depuis ce mercredi. Pour minimiser les risques, l'arm&#195;&#169;e et la police ont d&#195;&#169;ploy&#195;&#169; des effectifs consid&#195;&#169;rables : 55 000 hommes doivent proc&#195;&#169;der aux &#195;&#169;vacuations, couvrir l'op&#195;&#169;ration et r&#195;&#169;agir en cas d'attaques palestiniennes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238430-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JMJ</themeArticle>
+				<titreArticle>L'appel du pape aux musulmans</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/38/1/2047381_2.jpg</urlImage>
+				<resumeArticle>Beno&#195;&#174;t XVI a rencontr&#195;&#169; samedi, &#195;&#160; Cologne, des repr&#195;&#169;sentants de la communaut&#195;&#169; musulmane. Ce soir, le souverain pontife devrait animer une veill&#195;&#169;e de pri&#195;&#168;re avec 400.000 jeunes participant aux JMJ.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

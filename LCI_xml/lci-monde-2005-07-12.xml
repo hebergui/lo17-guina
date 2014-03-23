@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231231-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>"Des islamistes locaux, radicalis&#195;&#169;s et marginalis&#195;&#169;s" (12/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/07/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3231293-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les vid&#195;&#169;os amateurs des attentats de Londres (11/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231400-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Cinq victimes de Londres identifi&#195;&#169;es (12/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231400-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Cinq victimes identifi&#195;&#169;es</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/98/5/2040985_2.jpg</urlImage>
+				<resumeArticle>Le travail des l&#195;&#169;gistes britanniques est fastidieux. Mardi, deux nouveaux noms de victimes des attentats ont &#195;&#169;t&#195;&#169; livr&#195;&#169;s &#195;&#160; la presse. Deux autres doivent l'&#195;&#170;tre demain.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231402-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Pays-Bas</themeArticle>
+				<titreArticle>Le meurtrier de van Gogh a agi au "nom" de l'islam</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/20/4/2041204_2.jpg</urlImage>
+				<resumeArticle>Au 2e jour de son proc&#195;&#168;s, le Maroco-N&#195;&#169;erlandais Mohammed Bouyeri a avou&#195;&#169; pour la premi&#195;&#168;re fois le meurtre du cin&#195;&#169;aste n&#195;&#169;erlandais. Il a affirm&#195;&#169; avoir agi "au nom de sa religion" et se dit pr&#195;&#170;t "&#195;&#160; refaire la m&#195;&#170;me chose".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231314-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Liban</themeArticle>
+				<titreArticle>Le ministre de la D&#195;&#169;fense &#195;&#169;chappe &#195;&#160; un attentat</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/12/2/2041122_2.jpg</urlImage>
+				<resumeArticle>Elias Murr, pro-syrien, a &#195;&#169;t&#195;&#169; l&#195;&#169;g&#195;&#168;rement bless&#195;&#169; dans une explosion qu a vis&#195;&#169; son convoi dans un secteur chr&#195;&#169;tien du nord de Beyrouth. Le dernier bilan fait &#195;&#169;tat d'au moins deux morts.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231319-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Les premiers mari&#195;&#169;s gays</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/12/4/2041124_2.jpg</urlImage>
+				<resumeArticle>Emilio Menendes et Carlos Baturin ont officialis&#195;&#169; trente ans de vie commune lundi, devenant le premier couple gay &#195;&#160; se marier en Espagne. La nouvelle l&#195;&#169;gislation en vigueur depuis le 4 juillet permet aux homosexuels de s'unir.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231223-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Monaco</themeArticle>
+				<titreArticle>Albert II acc&#195;&#168;de au tr&#195;&#180;ne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/2/2041172_2.jpg</urlImage>
+				<resumeArticle>Trois mois apr&#195;&#168;s les obs&#195;&#168;ques officielles de son p&#195;&#168;re, le prince Albert est officiellement devenu Albert II lors d'une c&#195;&#169;r&#195;&#169;monie r&#195;&#169;solument proche des Mon&#195;&#169;gasques.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231210-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Srebrenica</themeArticle>
+				<titreArticle>"La honte de la communaut&#195;&#169; internationale"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/02/3/2041023_2.jpg</urlImage>
+				<resumeArticle>La Bosnie a comm&#195;&#169;mor&#195;&#169; lundi le 10e anniversaire du massacre de Srebrenica. Le ministre britannique des Affaires &#195;&#169;trang&#195;&#168;res a dit "la honte de la communaut&#195;&#169; internationale" de ne pas avoir pu emp&#195;&#170;cher les forces serbes de tuer 8 000 musulmans.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231227-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le Royaume-Uni "ne sera pas vaincu par le terrorisme"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/08/0/2041080_2.jpg</urlImage>
+				<resumeArticle>Dans sa premi&#195;&#168;re intervention aux Communes depuis les attentats qui ont fait 52 morts jeudi &#195;&#160; Londres, le Premier ministre britannique a affirm&#195;&#169; lundi sa farouche d&#195;&#169;termination &#195;&#160; lutter contre les terroristes. Tony Blair s'est &#195;&#169;galement dit "fier" de la communaut&#195;&#169; musulmane de son pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3230913-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Constitution</themeArticle>
+				<titreArticle>Les Luxembourgeois disent "oui"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/93/7/2040937_2.jpg</urlImage>
+				<resumeArticle>Le "Jo" l'emporte avec 56,52% des voix lors du r&#195;&#169;f&#195;&#169;rendum sur la Constitution europ&#195;&#169;enne organis&#195;&#169; dimanche au Luxembourg. Le Grand Duch&#195;&#169; est le treizi&#195;&#168;me pays &#195;&#160; ratifier la Constitution, le premier par r&#195;&#169;f&#195;&#169;rendum apr&#195;&#168;s les "Non" fran&#195;&#167;ais et n&#195;&#169;erlandais.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

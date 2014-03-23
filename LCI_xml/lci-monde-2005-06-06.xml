@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>04/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3223564-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Michael Jackson : verdict imminent (04/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,34 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224056-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Liban</themeArticle>
+				<titreArticle>Victoire des alli&#195;&#169;s de Damas</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/59/8/2033598_2.jpg</urlImage>
+				<resumeArticle>La deuxi&#195;&#168;me &#195;&#169;tape des l&#195;&#169;gislatives libanaises, qui s'est tenue ce dimanche dans le sud du pays, r&#195;&#169;gion frontali&#195;&#168;re avec Isra&#195;&#171;l, a consacr&#195;&#169; la domination de l'alliance Amal-Hezbollah, proche de la Syrie. Les r&#195;&#169;sultats officiels montrent une victoire sans appel.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224070-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Londres devrait geler son r&#195;&#169;f&#195;&#169;rendum</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/64/0/2020640_2.jpg</urlImage>
+				<resumeArticle>Londres devrait annoncer lundi le gel de son r&#195;&#169;f&#195;&#169;rendum sur la Constitution europ&#195;&#169;enne. Un soulagement pour Tony Blair sur le plan int&#195;&#169;rieur et une d&#195;&#169;cision aux risques mesur&#195;&#169;s au niveau europ&#195;&#169;en.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3223973-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Suisse</themeArticle>
+				<titreArticle>Les accords Schengen approuv&#195;&#169;s&#194;&#160;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/61/4/2033614_2.jpg</urlImage>
+				<resumeArticle>Les accords de Schengen-Dublin, instaurant l'Europe sans fronti&#195;&#168;re, ont &#195;&#169;t&#195;&#169; accept&#195;&#169;s par 54,6% des Suisses lors d'un r&#195;&#169;f&#195;&#169;rendum dimanche. "L'effet d'entra&#195;&#174;nement" redout&#195;&#169; des "non" fran&#195;&#167;ais et n&#195;&#169;erlandais n'a pas eu lieu.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3223684-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>"Le processus doit se poursuivre"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/45/4/2033454_2.jpg</urlImage>
+				<resumeArticle>Jacques Chirac et Gerhard Schr&#195;&#182;der se sont retrouv&#195;&#169;s samedi &#195;&#160; Berlin pour un premier entretien apr&#195;&#168;s la victoire du "non" en France et aux Pays-Bas. Tous deux ont adress&#195;&#169; un message aux pays de l'UE qui ne se sont pas encore prononc&#195;&#169;s sur la Constitution : pas question de stopper le processus de ratification.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

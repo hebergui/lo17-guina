@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3219192-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Col&#195;&#168;re dans le monde musulman (13/05/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,34 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219556-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Ouzb&#195;&#169;kistan</themeArticle>
+				<titreArticle>Peut-&#195;&#170;tre 500 tu&#195;&#169;s &#195;&#160; Andijan</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/94/2/2028942_2.jpg</urlImage>
+				<resumeArticle>La ville de l'est de l'Ouzb&#195;&#169;kistan &#195;&#169;tait toujours en &#195;&#169;tat de si&#195;&#168;ge lundi, boucl&#195;&#169;e par un dispositif militaire et policier.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219400-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Visite surprise de Condoleezza Rice</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/98/6/2028986_2.jpg</urlImage>
+				<resumeArticle>Deux nouveaux attentats suicide ont fait cinq morts et 39 bless&#195;&#169;s tandis que les corps de dizaines d'Irakiens ont &#195;&#169;t&#195;&#169; d&#195;&#169;couverts.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219303-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>C&#195;&#180;te d'Ivoire</themeArticle>
+				<titreArticle>Accord de d&#195;&#169;sarmement</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/89/7/2008897_2.jpg</urlImage>
+				<resumeArticle>Au terme d'une semaine de discr&#195;&#168;tes n&#195;&#169;gociations entre l'arm&#195;&#169;e ivoirienne et les rebelles des Forces Nouvelles, un accord sur les modalit&#195;&#169;s du d&#195;&#169;sarmement a &#195;&#169;t&#195;&#169; sign&#195;&#169; samedi &#195;&#160; Yamoussoukro. Il s'agit d'un des points-cl&#195;&#169; de la crise qui touche la C&#195;&#180;te d'Ivoire depuis le coup d'Etat rat&#195;&#169; de septembre 2002.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219192-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Guantanamo</themeArticle>
+				<titreArticle>Col&#195;&#168;re dans le monde musulman</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/71/8/2028718_2.jpg</urlImage>
+				<resumeArticle>Selon des journaux am&#195;&#169;ricains, des soldats de Guantanamo auraient jet&#195;&#169; un Coran aux toilettes pour humilier les prisonniers musulmans. Les manifestations anti-am&#195;&#169;ricaines se multiplient dans le monde, de l'Afghanistan &#195;&#160; la bande de Gaza. Washington promet une enqu&#195;&#170;te.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236717-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Gaza : "Ici, c'est le paradis. Mais il faut partir" (11/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236986-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Gaza : "on est l&#195;&#160; jusqu'&#195;&#160; la derni&#195;&#168;re minute" (12/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3237189-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Proche-Orient : calendrier du d&#195;&#169;sengagement d'Isra&#195;&#171;l (14/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>21/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3238618-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'&#195;&#169;vacuation des colonies entre dans sa derni&#195;&#168;re phase (21/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/08/2005</dateArticle>
-				<urlArticle>/news/france/0,,3238956-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les derniers colons &#195;&#169;vacuent la bande de Gaza (23/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238780-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Mohamed Ouathi lib&#195;&#169;r&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/56/2/2047562_2.jpg</urlImage>
+				<resumeArticle>Enlev&#195;&#169; le 14 ao&#195;&#187;t &#195;&#160; Gaza alors qu'il couvrait le retrait isra&#195;&#169;lien, le preneur de son de France 3 a &#195;&#169;t&#195;&#169; remis en libert&#195;&#169; lundi. Il est en bonne sant&#195;&#169; et sera de retour en France dans le courant de la journ&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238808-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Portugal</themeArticle>
+				<titreArticle>11 incendies hors de contr&#195;&#180;le</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/57/0/2047570_2.jpg</urlImage>
+				<resumeArticle>Les feux de for&#195;&#170;ts s&#195;&#169;vissent toujours au centre et au nord du Portugal, o&#195;&#185; quelque 3.000 pompiers luttent contre les flammes. Le corps calcin&#195;&#169; d'une femme de 88 ans a &#195;&#169;t&#195;&#169; d&#195;&#169;couvert pr&#195;&#168;s de sa maison isol&#195;&#169;e dans le centre du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/insolite/0,,3238800-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>"Piano man" est allemand</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/2/2029172_2.jpg</urlImage>
+				<resumeArticle>Le myst&#195;&#169;rieux jeune homme a fini par r&#195;&#169;v&#195;&#169;ler qu'il &#195;&#169;tait allemand et homosexuel. Il &#195;&#169;tait hospitalis&#195;&#169; depuis avril en Angleterre apr&#195;&#168;s avoir &#195;&#169;t&#195;&#169; retrouv&#195;&#169; errant sur une plage, des partitions &#195;&#160; la main.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238609-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Venezuela</themeArticle>
+				<titreArticle>"Notre &#195;&#169;motion commune est grande"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/42/5/2047425_2.jpg</urlImage>
+				<resumeArticle>Une messe a &#195;&#169;t&#195;&#169; dite dimanche matin dans une &#195;&#169;glise de Seine-Saint-Denis, pr&#195;&#168;s de Paris, en hommage aux victimes martiniquaises de la catastrophe a&#195;&#169;rienne de mardi au Venezuela.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238567-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JMJ</themeArticle>
+				<titreArticle>Prochaine &#195;&#169;dition en 2008 en Australie</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/3/2047413_2.jpg</urlImage>
+				<resumeArticle>Le pape a c&#195;&#169;l&#195;&#169;br&#195;&#169; dimanche matin la messe de cl&#195;&#180;ture des Journ&#195;&#169;es mondiales de la Jeunesse devant une assistance &#195;&#169;valu&#195;&#169;e &#195;&#160; un million de fid&#195;&#168;les.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238605-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Helios</themeArticle>
+				<titreArticle>Les victimes vivantes au moment du crash</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/57/4/2046574_2.jpg</urlImage>
+				<resumeArticle>L'autopsie des 118 corps retrouv&#195;&#169;s dans les d&#195;&#169;combres du Boeing 737 d'Helios permet d'&#195;&#169;carter l'hypoth&#195;&#168;se selon laquelle les passagers &#195;&#169;taient morts de froid avant le crash.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237189-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Calendrier du d&#195;&#169;sengagement d'Isra&#195;&#171;l</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/58/1/2046581_2.jpg</urlImage>
+				<resumeArticle>Le d&#195;&#169;sengagement total d'Isra&#195;&#171;l de la bande de Gaza, d&#195;&#169;but&#195;&#169; lundi avec le d&#195;&#169;part des colons juifs, se poursuivra jusqu'en octobre avec le retrait de Tsahal.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237183-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Les sc&#195;&#169;narios catastrophes de l'&#195;&#169;vacuation</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/46/5/2046465_2.jpg</urlImage>
+				<resumeArticle>Le d&#195;&#169;part des colons juifs de Gaza est obligatoire depuis ce mercredi. Pour minimiser les risques, l'arm&#195;&#169;e et la police ont d&#195;&#169;ploy&#195;&#169; des effectifs consid&#195;&#169;rables : 55 000 hommes doivent proc&#195;&#169;der aux &#195;&#169;vacuations, couvrir l'op&#195;&#169;ration et r&#195;&#169;agir en cas d'attaques palestiniennes.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

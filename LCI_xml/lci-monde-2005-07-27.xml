@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>26/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233997-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Sharon &#195;&#160; Paris pour le d&#195;&#169;gel (26/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>26/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3234074-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Sharon embarrass&#195;&#169; par une affaire de corruption (26/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>27/07/2005</dateArticle>
-				<urlArticle>/news/france/0,,3234154-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>La lutte contre l'antis&#195;&#169;mitisme (27/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233997-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Diplomatie</themeArticle>
+				<titreArticle>Sharon &#195;&#160; Paris pour le d&#195;&#169;gel</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/82/7/2043827_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre isra&#195;&#169;lien est en visite officielle de trois jours, sa premi&#195;&#168;re depuis quatre ans. Au menu de ce voyage : des entretiens avec Jacques Chirac et Dominique de Villepin, notamment sur le retrait de Gaza.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233886-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Pays-Bas</themeArticle>
+				<titreArticle>Perp&#195;&#169;tuit&#195;&#169; pour l'assassin de van Gogh</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/20/4/2041204_2.jpg</urlImage>
+				<resumeArticle>L'islamiste maroco-n&#195;&#169;erlandais, Mohammed Bouyeri, a &#195;&#169;t&#195;&#169; reconnu coupable de l'assassinat du cin&#195;&#169;aste n&#195;&#169;erlandais Theo van Gogh dans un but terroriste.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233892-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Charm el-Cheikh : aucun Pakistanais impliqu&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/56/1/2043561_2.jpg</urlImage>
+				<resumeArticle>Contrairement &#195;&#160; ce qu'avait indiqu&#195;&#169; la police &#195;&#169;gyptienne lundi, aucun ressortissant du Pakistan ne serait impliqu&#195;&#169; dans les attentats commis dans la nuit de vendredi &#195;&#160; samedi. Le bilan des explosions a &#195;&#169;t&#195;&#169; revu &#195;&#160; la baisse, avec 64 morts comptabilis&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233621-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Blair et Villepin sur une m&#195;&#170;me ligne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/56/2/2043562_2.jpg</urlImage>
+				<resumeArticle>Dominique de Villepin a rencontr&#195;&#169; Tony Blair lundi &#195;&#160; Londres pour un entretien consacr&#195;&#169; au renforcement de la coop&#195;&#169;ration antiterroriste.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233789-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La famille du Br&#195;&#169;silien veut porter plainte</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/9/2043449_2.jpg</urlImage>
+				<resumeArticle>La famille de Jean Charles de Menezes, abattu par erreur vendredi par la police britannique, envisage des poursuites judiciaires. Downing Street a soutenu lundi la strat&#195;&#169;gie du "tirer pour tuer" de Scotland Yard. La BBC affirme par ailleurs que le visa du jeune homme avait expir&#195;&#169;, ce qui pourrait expliquer sa fuite.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233502-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Scotland Yard d&#195;&#169;fend la r&#195;&#168;gle du "shoot to kill"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/8/2043448_2.jpg</urlImage>
+				<resumeArticle>Tout en d&#195;&#169;plorant la mort d'un &#195;&#169;lectricien br&#195;&#169;silien pris &#195;&#160; tort pour un terroriste, la police britannique justifie ses consignes concernant les pr&#195;&#169;sum&#195;&#169;s kamikazes : ils doivent &#195;&#170;tre abattus d'une balle dans la t&#195;&#170;te.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

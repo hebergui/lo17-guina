@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3234769-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : les trois derniers suspects du 21/7 arr&#195;&#170;t&#195;&#169;s (30/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/07/2005</dateArticle>
-				<urlArticle>/news/france/0,,3234796-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : le point sur l'enqu&#195;&#170;te (30/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,69 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234769-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Les 3 derniers suspects du 21/7 arr&#195;&#170;t&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/0/2044300_2.jpg</urlImage>
+				<resumeArticle>Les quatre terroristes pr&#195;&#169;sum&#195;&#169;s du 21 juillet &#195;&#160; Londres sont peut-&#195;&#170;tre d&#195;&#169;sormais sous les verrous, apr&#195;&#168;s trois nouvelles arrestations vendredi, deux &#195;&#160; Londres et une &#195;&#160; Rome.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234770-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Niger</themeArticle>
+				<titreArticle>Kouchner d&#195;&#169;barque avec 18 tonnes d'aides</titreArticle>
+				<urlImage>/img/str/x.gif</urlImage>
+				<resumeArticle>Bernard Kouchner, pr&#195;&#169;sident de l'association R&#195;&#169;unir, est arriv&#195;&#169; samedi matin au sud du Niger &#195;&#160; bord d'un avion cargo charg&#195;&#169; de 18 tonnes d'aide alimentaire d'urgence. Dans le m&#195;&#170;me temps, Jacques Chirac a annonc&#195;&#169; un renforcement &#194;&#160;de l'aide humanitaire fran&#195;&#167;aise au Niger.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234683-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Niger</themeArticle>
+				<titreArticle>Une catastrophe entre famine et chol&#195;&#169;ra</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/83/9/2042839_2.jpg</urlImage>
+				<resumeArticle>Ce pays tr&#195;&#168;s pauvre du Sahel est menac&#195;&#169; par une &#195;&#169;pid&#195;&#169;mie de chol&#195;&#169;ra. Un deuxi&#195;&#168;me fl&#195;&#169;au pour une population d&#195;&#169;j&#195;&#160; affaiblie par la famine qui s&#195;&#169;vit depuis l'automne. Des centaines de milliers de vies sont en jeu.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234564-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Classement</themeArticle>
+				<titreArticle>"Condi" wonderwoman</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/97/3/2016973_2.jpg</urlImage>
+				<resumeArticle>Condoleezza Rice, la chef de la diplomatie am&#195;&#169;ricaine, a &#195;&#169;t&#195;&#169; r&#195;&#169;&#195;&#169;lue "femme la plus puissante de la plan&#195;&#168;te" par le magazine Forbes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234337-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Une s&#195;&#169;rie TV sur la guerre en Irak</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/2/819302_2.jpg</urlImage>
+				<resumeArticle>Les t&#195;&#169;l&#195;&#169;spectateurs am&#195;&#169;ricains ont d&#195;&#169;couvert mercredi le premier &#195;&#169;pisode de la s&#195;&#169;rie t&#195;&#169;l&#195;&#169;vis&#195;&#169;e "Over There", une chronique de la vie au jour le jour d'une unit&#195;&#169; de l'arm&#195;&#169;e am&#195;&#169;ricaine en Irak. Cette diffusion, en plein conflit, est une premi&#195;&#168;re qui provoque le d&#195;&#169;bat.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234516-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le possible cerveau du 7 juillet en Zambie ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/14/3/2044143_2.jpg</urlImage>
+				<resumeArticle>Selon CNN, Haroon Aswat, un Britannique d'origine pakistanaise, a &#195;&#169;t&#195;&#169; arr&#195;&#170;t&#195;&#169; &#195;&#160; Lusaka. Ag&#195;&#169; de 31 ans, il est soup&#195;&#167;onn&#195;&#169; d'avoir jou&#195;&#169; un r&#195;&#180;le-cl&#195;&#169; dans les attentats de Londres qui ont tu&#195;&#169; 56 personnes il y a trois semaines.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234308-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inde</themeArticle>
+				<titreArticle>Pr&#195;&#168;s de 800 morts dans des pluies &#195;&#160; Bombay</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/01/1/2044011_2.jpg</urlImage>
+				<resumeArticle>Plus de 800 personnes ont perdu la vie apr&#195;&#168;s les plus importantes pr&#195;&#169;cipitations jamais connues dans le pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234307-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Seize bombes dans une voiture &#195;&#160; Luton</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/01/0/2044010_2.jpg</urlImage>
+				<resumeArticle>Parall&#195;&#168;lement &#195;&#160; cette d&#195;&#169;couverte, la police a commenc&#195;&#169; hier soir &#195;&#160; interroger Yacine Hassan Omar, l'un des kamikazes pr&#195;&#169;sum&#195;&#169;s du 21 juillet.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234137-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Diplomatie</themeArticle>
+				<titreArticle>Vers "un rapprochement" franco-isra&#195;&#169;lien</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/6/2043876_2.jpg</urlImage>
+				<resumeArticle>Au 2e jour de sa visite dans l'Hexagone, le Premier ministre isra&#195;&#169;lien a rencontr&#195;&#169; Jacques Chirac &#195;&#160; l'Elys&#195;&#169;e. Les deux hommes ont c&#195;&#169;l&#195;&#169;br&#195;&#169; l'av&#195;&#168;nement de nouvelles relations entre leurs deux pays, apr&#195;&#168;s plusieurs ann&#195;&#169;es de tension.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

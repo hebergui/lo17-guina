@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233585-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Quel lien entre Londres et Charm el-Cheikh ? (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>25/07/2005</dateArticle>
-				<urlArticle>/news/france/0,,3233738-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Quel impact des attentats sur le tourisme &#195;&#169;gyptien ? (25/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>25/07/2005</dateArticle>
-				<urlArticle>/news/france/0,,3233741-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le point sur l'enqu&#195;&#170;te &#195;&#160; Charm El-Cheikh (25/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233789-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La famille du jeune br&#195;&#169;silen abattu veut porter plainte</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/8/2043448_2.jpg</urlImage>
+				<resumeArticle>La famille de Jean Charles de Menezes, abattu par erreur vendredi par la police britannique, envisage des poursuites judiciaires. Downing Street a soutenu lundi la strat&#195;&#169;gie du "tirer pour tuer" de Scotland Yard.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233495-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Nouvelle arrestation</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/13/6/2043136_2.jpg</urlImage>
+				<resumeArticle>La police britannique a proc&#195;&#169;d&#195;&#169; ce week-end &#195;&#160; une troisi&#195;&#168;me arrestation dans l'enqu&#195;&#170;te sur les attentats manqu&#195;&#169;s de jeudi. Une nouvelle fois, c'est non loin de Stockwell que le suspect a &#195;&#169;t&#195;&#169; interpell&#195;&#169;. Autre piste possible : un centre de rafting du Pays de Galles...</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233621-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Diplomatie</themeArticle>
+				<titreArticle>Villepin &#195;&#160; Londres pour tourner la page des querelles</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/90/3/2038903_2.jpg</urlImage>
+				<resumeArticle>Dominique de Villepin et Tony Blair tiennent en ce moment une conf&#195;&#169;rence de presse commune &#195;&#160; Londres, &#195;&#160; l'occasion d'une rencontre cens&#195;&#169;e clore le chapitre des tensions entre les deux pays. Au centre des entretiens qui se sont tenus entre les deux hommes : un renforcement de la coop&#195;&#169;ration dans la lutte anti-terroriste.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233623-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>L'Egypte fait front face au terrorisme</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/47/7/2043477_2.jpg</urlImage>
+				<resumeArticle>Une manifestation symbolique s'est d&#195;&#169;roul&#195;&#169;e dimanche &#195;&#160; Charm el-Cheikh, o&#195;&#185; une s&#195;&#169;rie d'attentats ont fait samedi 88 morts. La traque des terroristes se poursuit, avec des dizaines d'arrestations.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233502-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Scotland Yard d&#195;&#169;fend la r&#195;&#168;gle du "shoot to kill"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/8/2043448_2.jpg</urlImage>
+				<resumeArticle>Tout en d&#195;&#169;plorant la mort d'un &#195;&#169;lectricien br&#195;&#169;silien pris &#195;&#160; tort pour un terroriste, la police britannique justifie ses consignes concernant les pr&#195;&#169;sum&#195;&#169;s kamikazes : ils doivent &#195;&#170;tre abattus d'une balle dans la t&#195;&#170;te.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233631-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Niger</themeArticle>
+				<titreArticle>Un pont a&#195;&#169;rien contre la faim</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/83/9/2042839_2.jpg</urlImage>
+				<resumeArticle>D'ici lundi, les Hercules C-130 de l'arm&#195;&#169;e de l'air fran&#195;&#167;aise auront transport&#195;&#169; au Niger 28 tonnes d'aide d'urgence rassembl&#195;&#169;e par l'association R&#195;&#169;unir. Celle-ci devra &#195;&#170;tre distribu&#195;&#169;e dans les r&#195;&#169;gions les plus touch&#195;&#169;es par le d&#195;&#169;but de famine qui menace 3,5 millions de personnes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233506-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Rassurer les touristes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/40/2/2043402_2.jpg</urlImage>
+				<resumeArticle>Sit&#195;&#180;t apr&#195;&#168;s les attentats, les autorit&#195;&#169;s &#195;&#169;gyptiennes ont publi&#195;&#169; des communiqu&#195;&#169;s rassurants destin&#195;&#169;s &#195;&#160; limiter les cons&#195;&#169;quences pour l'industrie touristique, cruciale dans ce pays. Malgr&#195;&#169; de nombreux d&#195;&#169;parts de touristes choqu&#195;&#169;s, il n'y a pas eu de mouvement g&#195;&#169;n&#195;&#169;ral de panique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233586-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Un pays frapp&#195;&#169; au coeur par le terrorisme</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/3/2043433_2.jpg</urlImage>
+				<resumeArticle>C'est une ville hautement symbolique, l'un des lieux les plus touristiques de l'Egypte et o&#195;&#185; r&#195;&#169;side r&#195;&#169;guli&#195;&#168;rement le pr&#195;&#169;sident Moubarak, qui a &#195;&#169;t&#195;&#169; frapp&#195;&#169;e samedi par les attentats. Les explosions de Charm el-Cheikh ont fait au moins 88 morts et 110 bless&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

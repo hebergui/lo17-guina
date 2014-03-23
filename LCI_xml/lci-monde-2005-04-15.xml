@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211680-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Rainier, prince insubmersible (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211723-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Rainier, une vie jalonn&#195;&#169;e de drames (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3212549-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Chapelle ardente au palais de Monaco (10/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3213077-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>"Evolution favorable" pour le prince de Hanovre (13/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,34 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213402-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aubenas et Hanoun</themeArticle>
+				<titreArticle>"L&#195;&#162;chez-les, 100 jours &#195;&#167;a suffit !"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/48/1/2023481_2.jpg</urlImage>
+				<resumeArticle>La journaliste de Lib&#195;&#169;ration et son interpr&#195;&#168;te sont retenus en Irak depuis 100 jours. Pendant 24 heures, tous les m&#195;&#169;dias fran&#195;&#167;ais se mobilisent pour eux.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213285-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jackson</themeArticle>
+				<titreArticle>"Il m'a dit que mon fils &#195;&#169;tait en danger"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/13/6/307136_2.jpg</urlImage>
+				<resumeArticle>La m&#195;&#168;re du gar&#195;&#167;on qui accuse Michael Jackson d'abus sexuels a commenc&#195;&#169; mercredi &#195;&#160; t&#195;&#169;moigner au tribunal de Santa Maria (Californie).</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213383-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Double attentat &#195;&#160; Bagdad : 11 tu&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/4/2023434_2.jpg</urlImage>
+				<resumeArticle>Un double attentat suicide, revendiqu&#195;&#169; par le groupe de Zarqaoui, a caus&#195;&#169; la mort de 11 Irakiens, pour la plupart des policiers, jeudi matin &#195;&#160; Bagdad.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212675-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Pape "gestionnaire" ou "voyageur" ? (4/4)</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/03/2/2023032_2.jpg</urlImage>
+				<resumeArticle>Quatri&#195;&#168;me et dernier volet de notre s&#195;&#169;rie consacr&#195;&#169;e aux crit&#195;&#168;res sur lesquels les 115 cardinaux vont se baser pour d&#195;&#169;signer parmi eux le successeur de Jean Paul II : vont-ils pr&#195;&#169;f&#195;&#169;rer un "administrateur" de la Curie ou un "pasteur" ?</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

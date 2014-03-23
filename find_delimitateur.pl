@@ -30,7 +30,7 @@ while(<$f_in>)
 		if(defined $ARGV[4])
 		{
 			my $reg2 = $ARGV[4];
-			if( $2 =~ m/$reg2/)
+			if( $2 =~ m/$reg2">(.+)span/)
 			{
 				$count++;
 			}

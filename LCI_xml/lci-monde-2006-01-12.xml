@@ -12,15 +12,15 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/01/2006</dateArticle>
-				<urlArticle>/news/multimedia/0,,3278168-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Ali Agca lib&#195;&#169;r&#195;&#169; de la prison d'Istanbul (12/01/2006)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-			<urlArticle>javascript:openPopup('/news/monde/0,,3236511-VU5WX0lEIDUy,00.html','url_15',640,600,50,50,0,0,0,0,1,0);</urlArticle>
+			<urlArticle>/news/monde/0,,3236511-VU5WX0lEIDUy,00.html','url_15</urlArticle>
 			<titreArticle>Qui poss&#195;&#168;de l'arme nucl&#195;&#169;aire ?</titreArticle>
-			<urlImage></urlImage>
-			<resumeArticle></resumeArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/84/6/2045846_2.gif</urlImage>
+			<resumeArticle>Quels pays disposent de la bombe atomique, officiellement ou non ? La r&#195;&#169;ponse en images avec notre infographie.</resumeArticle>
 			<mailto>faubert@tf1.fr</mailto>
 		</FOCUS>
 		<LES_GROSTITRES>

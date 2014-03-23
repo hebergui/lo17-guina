@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>03/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3229535-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Un million et demi de personnes au Live 8 (03/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>02/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3229537-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Mobilisation monstre contre la pauvret&#195;&#169; &#195;&#160; Edimbourg (02/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,41 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3229968-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Immigration </themeArticle>
+				<titreArticle>Sarkozy annonce des charters europ&#195;&#169;ens</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/50/2/2003502_2.jpg</urlImage>
+				<resumeArticle>R&#195;&#169;unis &#195;&#160; Evian, les ministres de l'Int&#195;&#169;rieur du G5 ont d&#195;&#169;cid&#195;&#169; d'organiser dans les mois qui viennent des vols communs pour expulser les immigr&#195;&#169;s clandestins. Nicolas Sarkozy s'est par ailleurs d&#195;&#169;clar&#195;&#169; favorable &#195;&#160; une harmonisation europ&#195;&#169;enne des conditions du regroupement familial.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3229841-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JO 2012</themeArticle>
+				<titreArticle>Chirac-Blair, le duel se poursuit &#195;&#160; Singapour</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/70/8/2039708_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s leur diff&#195;&#169;rend sur l'Union europ&#195;&#169;enne et avant le sommet du G8, le chef de l'Etat et le Premier ministre britannique s'affrontent sur la d&#195;&#169;signation de la ville h&#195;&#180;te des JO de 2012. Ils vont se croiser &#195;&#160; Singapour pour d&#195;&#169;fendre respectivement les candidatures de Paris et Londres.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3229739-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Blair repart en guerre contre la PAC</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/33/6/2035336_2.jpg</urlImage>
+				<resumeArticle>Dans une tribune au Figaro, le Premier ministre britannique remet une nouvelle fois en cause la grande part faite selon lui &#195;&#160; l'agriculture dans le budget de l'UE.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3229641-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Rapt d'un haut diplomate &#195;&#169;gyptien &#195;&#160; Bagdad</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/7/2039767_2.jpg</urlImage>
+				<resumeArticle>Le futur ambassadeur &#195;&#169;gyptien en Irak a &#195;&#169;t&#195;&#169; enlev&#195;&#169; samedi soir dans la capitale irakienne.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3229642-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Arabie</themeArticle>
+				<titreArticle>Le chef local pr&#195;&#169;sum&#195;&#169; d'Al-Qa&#195;&#175;da tu&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/7/992917_2.jpg</urlImage>
+				<resumeArticle>Le Marocain Youn&#195;&#168;s Hayari, chef pr&#195;&#169;sum&#195;&#169; d'Al-Qa&#195;&#175;da en Arabie Saoudite, a &#195;&#169;t&#195;&#169; tu&#195;&#169; dimanche &#195;&#160; Ryad lors d'un accrochage avec la police. Trois autres activistes pr&#195;&#169;sum&#195;&#169;s ont &#195;&#169;t&#195;&#169; arr&#195;&#170;t&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

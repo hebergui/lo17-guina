@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>01/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3235008-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le roi Fahd, monarque tenace et prudent (01/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>01/08/2005</dateArticle>
-				<urlArticle>/news/france/0,,3235062-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Arabie saoudite : le roi est mort, vive le roi (01/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235016-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>La France mod&#195;&#168;le de l'anti-terrorisme ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/5/2044415_2.jpg</urlImage>
+				<resumeArticle>Alors que la pol&#195;&#169;mique enfle apr&#195;&#168;s que l'un des terroristes du 21 juillet a pu fuir par le train, le gouvernement britannique envisage de renforcer les contr&#195;&#180;les aux fronti&#195;&#168;res. Prenant exemple sur notre l&#195;&#169;gislation, la presse l'appelle &#195;&#160; convoquer d'urgence une session du Parlement pour faire entrer les mesures en application plus rapidement.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235012-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Soudan</themeArticle>
+				<titreArticle>Mort "accidentelle" de John Garang</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/1/2044411_2.jpg</urlImage>
+				<resumeArticle>Mythique leader de la r&#195;&#169;bellion soudanaise, John Garang est mort dans un crash d'h&#195;&#169;licopt&#195;&#168;re. Il &#195;&#169;tait devenu le vice-pr&#195;&#169;sident du pays, au c&#195;&#180;t&#195;&#169; de son vieil ennemi al-B&#195;&#169;chir, apr&#195;&#168;s les accords de paix de janvier. De violentes &#195;&#169;meutes ont lieu en ce moment &#195;&#160; Khartoum et Juba.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234886-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La traque aux terroristes se poursuit</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/6/2044176_2.jpg</urlImage>
+				<resumeArticle>Sept nouvelles arrestations ont eu lieu dimanche dans le sud de l'Angleterre, alors que onze personnes &#195;&#169;taient toujours interrog&#195;&#169;es par la police. La presse britannique a r&#195;&#169;v&#195;&#169;l&#195;&#169; la possible existence d'une troisi&#195;&#168;me cellule terroriste. Un sac rempli de faux passeports aurait &#195;&#169;tait retrouv&#195;&#169; pr&#195;&#168;s de l'a&#195;&#169;roport d'Heathrow.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234933-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Nucl&#195;&#169;aire</themeArticle>
+				<titreArticle>L'Iran met ses menaces &#195;&#160; ex&#195;&#169;cution</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/5/2044435_2.jpg</urlImage>
+				<resumeArticle>T&#195;&#169;h&#195;&#169;ran a remis ce lundi &#195;&#160; l'AIEA une lettre annon&#195;&#167;ant la reprise de la conversion d'uranium dans l'usine d'Ispahan.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234921-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Inde</themeArticle>
+				<titreArticle>Un millier de morts recens&#195;&#169;s apr&#195;&#168;s les pluies</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/36/4/2044364_2.jpg</urlImage>
+				<resumeArticle>Des pluies de mousson torrentielles se sont encore abattues dimanche sur Bombay, semant encore plus le chaos dans la m&#195;&#169;gapole o&#195;&#185; les pr&#195;&#169;cipitations historiques enregistr&#195;&#169;es depuis lundi ont d&#195;&#169;j&#195;&#160; fait un millier de morts.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234937-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Nouvelle arrestation en Italie</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/39/9/1060399_2.jpg</urlImage>
+				<resumeArticle>La police italienne a arr&#195;&#170;t&#195;&#169; dimanche un deuxi&#195;&#168;me fr&#195;&#168;re de l'homme interpell&#195;&#169; vendredi &#195;&#160; Rome et suspect&#195;&#169; dans les attentats du 21 juillet &#195;&#160; Londres. L'enqu&#195;&#170;te se concentre sur les communaut&#195;&#169;s provenant de la Corne de l'Afrique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234813-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La Zambie confirme d&#195;&#169;tenir Haroon Aswat</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/14/3/2044143_2.jpg</urlImage>
+				<resumeArticle>Un communiqu&#195;&#169; de la police zambienne a officiellement annonc&#195;&#169; samedi l'arrestation, "le 20 juillet &#195;&#160; Lusaka", de celui qui pourrait &#195;&#170;tre le "cerveau" des attentats du 7 juillet.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234808-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Un suspect aid&#195;&#169; par un "r&#195;&#169;seau italien" ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/31/4/2044314_2.jpg</urlImage>
+				<resumeArticle>Selon le ministre de l'Int&#195;&#169;rieur italien, le 4e suspect des attentats rat&#195;&#169;s de Londres arr&#195;&#170;t&#195;&#169; vendredi &#195;&#160; Rome a &#195;&#169;t&#195;&#169; aid&#195;&#169; dans sa fuite par un "important r&#195;&#169;seau" d'Ethiopiens et d'Erythr&#195;&#169;ens.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231810-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : le "cerveau" identifi&#195;&#169; (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231814-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Hommage silencieux aux victimes de Londres (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/0,,3231904-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'hommage des Britanniques &#195;&#160; Trafalgar Square (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/newsthemes/monde/0,,3231906-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : des kamikazes &#195;&#160; l'origine des attentats (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/07/2005</dateArticle>
-				<urlArticle>/news/0,,3231910-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>La communaut&#195;&#169; musulmane de Leeds sous le choc (14/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,41 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231949-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Raids isra&#195;&#169;liens &#195;&#160; Gaza et en Cisjordanie</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/5/2042005_2.jpg</urlImage>
+				<resumeArticle>L'arm&#195;&#169;e isra&#195;&#169;lienne a men&#195;&#169; plusieurs raids a&#195;&#169;riens vendredi &#195;&#160; Gaza et en Cisjordanie, en r&#195;&#169;pr&#195;&#169;sailles des tirs de roquettes palestiniens de la veille. Toujours &#195;&#160; Gaza, les heurts se multiplient entre policiers palestiniens et activistes du Hamas.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231814-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Hommage silencieux aux victimes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/78/1/2041781_2.jpg</urlImage>
+				<resumeArticle>Le Royaume-Uni et les 24 autres pays d'Europe ont observ&#195;&#169; deux minutes de silence &#195;&#160; 13 heures, jeudi, en souvenir des victimes des attentats de la semaine derni&#195;&#168;re.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231810-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le "cerveau" identifi&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/7/2041687_2.jpg</urlImage>
+				<resumeArticle>La police pense avoir identifi&#195;&#169; le chef des quatre auteurs pr&#195;&#169;sum&#195;&#169;s des attentats de Londres le 7 juillet, affirme jeudi le Times. Britannique d'origine pakistanaise, il aurait quitt&#195;&#169; le pays la veille des attaques. Scotland Yard a confirm&#195;&#169; que les attentats avaient &#195;&#169;t&#195;&#169; commis par des kamikazes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231704-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Tony Blair appelle au sang froid</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/64/1/2041641_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre a demand&#195;&#169; mercredi aux Britanniques de r&#195;&#169;agir de fa&#195;&#167;on "calme et mesur&#195;&#169;e" aux attentats de jeudi et a "condamn&#195;&#169; sans r&#195;&#169;serve toute attaque" visant des musulmans. Tony Blair a promis de s&#195;&#169;vir contre l'extr&#195;&#169;misme.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231735-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Vaste op&#195;&#169;ration anti-terroriste</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/39/9/1060399_2.jpg</urlImage>
+				<resumeArticle>La police italienne a arr&#195;&#170;t&#195;&#169; 174 personnes lors d'une op&#195;&#169;ration antiterroriste men&#195;&#169;e dans les milieux islamistes. Ce coup de filet a &#195;&#169;t&#195;&#169; lanc&#195;&#169; &#195;&#160; travers toute l'Italie, de Milan &#195;&#160; Naples.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

@@ -12,38 +12,80 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>02/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3235240-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'UE durcit le ton face au d&#195;&#169;fi iranien (02/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236342-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Nucl&#195;&#169;aire : l'Iran passe &#195;&#160; l'acte, "crise grave" pour Paris (08/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236501-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Nucl&#195;&#169;aire iranien : n&#195;&#169;gociation encore possible (10/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>09/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236511-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Qui poss&#195;&#168;de l'arme nucl&#195;&#169;aire ? (09/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>09/08/2005</dateArticle>
-				<urlArticle>/news/france/0,,3236673-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le nucl&#195;&#169;aire dans le monde : qui a la bombe, qui cherche &#195;&#160; l'avoir ? (09/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
 		<FOCUS>
-			<urlArticle>javascript:openPopup('/news/monde/0,,3236511-VU5WX0lEIDUy,00.html','url_15',640,600,50,50,0,0,0,0,1,0);</urlArticle>
+			<urlArticle>/news/monde/0,,3236511-VU5WX0lEIDUy,00.html','url_15</urlArticle>
 			<titreArticle>Qui poss&#195;&#168;de l'arme nucl&#195;&#169;aire ?</titreArticle>
-			<urlImage></urlImage>
-			<resumeArticle></resumeArticle>
+			<urlImage>http://s.tf1.fr/mmdia/i/84/6/2045846_2.gif</urlImage>
+			<resumeArticle>Quels pays disposent de la bombe atomique, officiellement ou non ? La r&#195;&#169;ponse en images avec notre infographie.</resumeArticle>
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236726-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Turquie</themeArticle>
+				<titreArticle>Des attentats anti-isra&#195;&#169;liens &#195;&#169;vit&#195;&#169;s ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/73/1/2004731_2.jpg</urlImage>
+				<resumeArticle>Selon les services de s&#195;&#169;curit&#195;&#169; turcs, dix extr&#195;&#169;mistes qui s'appr&#195;&#170;taient &#195;&#160; commettre des attentats contre des bateaux de croisi&#195;&#168;re isra&#195;&#169;liens ont &#195;&#169;t&#195;&#169; arr&#195;&#170;t&#195;&#169;s au sud de la Turquie. L'un d'eux, de nationalit&#195;&#169; syrienne, serait soup&#195;&#167;onn&#195;&#169; d'avoir particip&#195;&#169; aux attentats d'Istanbul en novembre 2003.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236697-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>Une seconde plainte d&#195;&#169;pos&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Une seconde plainte en nom collectif a &#195;&#169;t&#195;&#169; d&#195;&#169;pos&#195;&#169;e par des passagers du vol Paris-Toronto qui a br&#195;&#187;l&#195;&#169; en bout de piste. Les plaignants r&#195;&#169;clament 124 millions de dollars pour l'ensemble des passagers.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236730-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Incidents a&#195;&#169;riens en s&#195;&#169;rie au Caire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/13/9/2029139_2.jpg</urlImage>
+				<resumeArticle>Aile en feu, probl&#195;&#168;mes de pressurisation.... Quatre avions ont connu mardi et mercredi des incidents techniques dans le ciel &#195;&#169;gyptien, les obligeant pour trois d'entre eux &#195;&#160; rebrousser chemin. Aucun bless&#195;&#169; n'est &#195;&#160; d&#195;&#169;plorer parmi les passagers.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236506-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Musharraf agac&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/3/346763_2.jpg</urlImage>
+				<resumeArticle>Dans une interview &#195;&#160; la BBC, le pr&#195;&#169;sident pakistanais affirme avec v&#195;&#169;h&#195;&#169;mence que son pays n'a jou&#195;&#169; aucun r&#195;&#180;le central dans les attentats du 7 juillet. Il accuse &#195;&#169;galement le Royaume-Uni d'avoir &#195;&#169;t&#195;&#169; trop indulgent avec les extr&#195;&#169;mistes pr&#195;&#169;sents sur son territoire.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236499-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Br&#195;&#169;sil</themeArticle>
+				<titreArticle>Le casse du si&#195;&#168;cle</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/69/0/2045690_2.jpg</urlImage>
+				<resumeArticle>Des cambrioleurs ont d&#195;&#169;rob&#195;&#169; 65 millions de dollars au si&#195;&#168;ge de la Banque centrale du Br&#195;&#169;sil. C'est le plus gros cambriolage jamais effectu&#195;&#169; au Br&#195;&#169;sil et l'un des plus importants de ces quarante derni&#195;&#168;res ann&#195;&#169;es dans le monde.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236413-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Le mariage gay ouvert aux &#195;&#169;trangers</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/37/0/2024370_2.jpg</urlImage>
+				<resumeArticle>Que la loi de leur pays autorise ou non le mariage gay ou lesbien, deux &#195;&#169;trangers de m&#195;&#170;me sexe pourront se marier en Espagne. Seule condition : l'un des deux devra &#195;&#170;tre domicili&#195;&#169; en Espagne.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

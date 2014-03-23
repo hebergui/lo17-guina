@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>17/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3226291-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Iran : le retour de Rafsandjani ? (17/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3226589-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Iran : Rafsandjani face &#195;&#160; un conservateur (18/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>18/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3226630-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Iran : il y aura un second tour (18/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227570-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Blair : "Je suis un pro-europ&#195;&#169;en passionn&#195;&#169;"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/10/3/2037103_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre britannique Tony Blair a expos&#195;&#169; jeudi matin devant les eurod&#195;&#169;put&#195;&#169;s les grandes lignes qui guideront sa pr&#195;&#169;sidence de l'Union dans les six prochains mois.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227720-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>"Mississippi Burning"</themeArticle>
+				<titreArticle>Peine maximale pour le chef du KKK</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/29/3/2037293_2.jpg</urlImage>
+				<resumeArticle>Edgard Ray Killen, un ancien responsable de l'organisation raciste, a &#195;&#169;t&#195;&#169; condamn&#195;&#169; &#195;&#160; 60 ans de prison pour les meurtres de trois jeunes militants des droits civiques commis en juin 1964.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227494-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Suisse</themeArticle>
+				<titreArticle>Panne g&#195;&#169;ante sur les rails</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/06/0/2037060_2.jpg</urlImage>
+				<resumeArticle>Pratiquement tous les trains sont rest&#195;&#169;s bloqu&#195;&#169;s plusieurs heures mercredi soir en Suisse. La cause de ce grand embouteillage sur les chemins de fer : une panne d'&#195;&#169;lectricit&#195;&#169; survenue en pleine heure de pointe, bloquant quelque 100.000 voyageurs.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227363-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Nouvelle joute Chirac-Blair</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/33/6/2035336_2.jpg</urlImage>
+				<resumeArticle>"De l'argent pour des emplois, pas pour des vaches" : c'est l'argument choc anti-PAC d&#195;&#169;velopp&#195;&#169; par le Premier ministre britannique dans une tribune que publie le quotidien allemand Bild. En riposte, le chef de l'Etat pointe de nouveau "l'intransigeance britannique" et affirme sa volont&#195;&#169; de placer le social "au coeur" des politiques europ&#195;&#169;ennes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227236-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Saddam, "fou singulier et affectueux"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/93/3/2011933_2.jpg</urlImage>
+				<resumeArticle>Interrog&#195;&#169;s par le magazine GQ, les gardes de l'ancien dictateur irakien le d&#195;&#169;crivent comme un homme plut&#195;&#180;t jovial et lunatique. Il se consid&#195;&#168;re toujours comme le pr&#195;&#169;sident du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3227216-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Fourniret</themeArticle>
+				<titreArticle>Vers un proc&#195;&#168;s unique en France</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/64/8/1048648_2.jpg</urlImage>
+				<resumeArticle>Au centre de plusieurs enqu&#195;&#170;tes tant en France qu'en Belgique, le tueur en s&#195;&#169;rie pr&#195;&#169;sum&#195;&#169; devrait compara&#195;&#174;tre lors d'un proc&#195;&#168;s unique &#195;&#160; Charleville-M&#195;&#169;zi&#195;&#168;res en juin 2006. Les magistrats belges et fran&#195;&#167;ais charg&#195;&#169;s de l'affaire Fourniret se sont r&#195;&#169;unis mardi matin afin de permettre la jonction des dossiers.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

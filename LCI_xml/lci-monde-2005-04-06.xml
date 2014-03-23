@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211680-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Rainier, prince insubmersible (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211685-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Rainier III : les grandes dates (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211690-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les grands moments de la vie de Rainier III (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211691-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Rainier III de Monaco est mort (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211709-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les r&#195;&#169;actions &#195;&#160; la mort de Rainier III (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211741-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Le conclave d&#195;&#169;butera le 18 avril</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/29/7/2022297_2.jpg</urlImage>
+				<resumeArticle>Les cardinaux-&#195;&#169;lecteurs charg&#195;&#169;s d'&#195;&#169;lire le nouveau pape se r&#195;&#169;uniront le lundi 18 avril dans l'apr&#195;&#168;s-midi. Il s'agissait de la premi&#195;&#168;re date possible en vertu de la Constitution apostolique promulgu&#195;&#169;e en 1996.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211705-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Un Kurde pr&#195;&#169;sident</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/52/8/2022528_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s de longues tractations avec les chiites, Jalal Talabani a &#195;&#169;t&#195;&#169; &#195;&#169;lu ce mercredi &#195;&#160; la pr&#195;&#169;sidence de l'Irak. C'est la premi&#195;&#168;re fois qu'un non-arabe dirigera un pays arabe.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211687-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Lourde charge contre Jackson</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/94/5/2015945_2.jpg</urlImage>
+				<resumeArticle>Son ancienne femme de m&#195;&#169;nage a racont&#195;&#169; aux jur&#195;&#169;s de Santa Maria avoir vu le chanteur prendre une douche avec un petit gar&#195;&#167;on dans sa propri&#195;&#169;t&#195;&#169; de Neverland.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211590-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jean Paul II</themeArticle>
+				<titreArticle>Le casse-t&#195;&#170;te des fun&#195;&#169;railles</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/4/2022414_2.jpg</urlImage>
+				<resumeArticle>Deux millions de fid&#195;&#168;les attendus, plus de 200 chefs d'Etat ou t&#195;&#170;tes couronn&#195;&#169;es, un dispositif de s&#195;&#169;curit&#195;&#169; impressionnant : Rome r&#195;&#168;gle avec le Vatican les d&#195;&#169;tails des obs&#195;&#168;ques de Jean Paul II, pr&#195;&#169;vues vendredi matin.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211591-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jean Paul II</themeArticle>
+				<titreArticle>L'hommage d'un million de fid&#195;&#168;les</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/47/7/2022477_2.jpg</urlImage>
+				<resumeArticle>Fid&#195;&#168;les ou touristes, ils &#195;&#169;taient encore des dizaines de milliers &#195;&#160; converger mercredi vers la basilique Saint-Pierre pour rendre un dernier hommage au pape.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211380-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jean Paul II</themeArticle>
+				<titreArticle>"Un pape moderne mais trop intransigeant "</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/90/5/692905_2.jpg</urlImage>
+				<resumeArticle>Christian Terras, directeur de la revue catholique contestataire Golias, porte un regard critique sur le pontificat de Jean-Paul II. Il reproche au pape son "intransigeance" sur de nombreuses questions morales.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

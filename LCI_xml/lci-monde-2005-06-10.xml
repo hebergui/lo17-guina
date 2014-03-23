@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3224613-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Blair pose les conditions de son r&#195;&#169;f&#195;&#169;rendum (08/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3224637-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Villepin et l'Europe : "L'aventure ne s'arr&#195;&#170;te pas" (08/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,41 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224892-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aghanistan</themeArticle>
+				<titreArticle>Lib&#195;&#169;ration de l'otage italienne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/42/4/2034424_2.jpg</urlImage>
+				<resumeArticle>Clementina Cantoni a &#195;&#169;t&#195;&#169; lib&#195;&#169;r&#195;&#169;e jeudi soir. La jeune coop&#195;&#169;rante italienne de 32 ans est en bonne sant&#195;&#169; et doit retrouver son pays vendredi.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224970-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Bolivie</themeArticle>
+				<titreArticle>Un pr&#195;&#169;sident par int&#195;&#169;rim pour sortir de la crise</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/45/5/2034455_2.jpg</urlImage>
+				<resumeArticle>Jeudi, un nouveau pr&#195;&#169;sident, Eduardo Rodriguez, a &#195;&#169;t&#195;&#169; d&#195;&#169;sign&#195;&#169; par le Congr&#195;&#168;s. Il s'est engag&#195;&#169; &#195;&#160; convoquer de nouvelles &#195;&#169;lections.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224768-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Le cirque m&#195;&#169;diatique attend le verdict</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/27/8/2034278_2.jpg</urlImage>
+				<resumeArticle>Alors que les d&#195;&#169;lib&#195;&#169;rations du jury se poursuivent, les abords du tribunal de Santa Maria sont pris d'assaut par les m&#195;&#169;dias et les fans de Michael Jackson. L'entourage de la star a m&#195;&#170;me d&#195;&#187; appeler au calme.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224647-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Londres extrade Ramda vers Paris</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/0/296440_2.jpg</urlImage>
+				<resumeArticle>A l'issue d'une longue proc&#195;&#169;dure, le Royaume-Uni a finalement d&#195;&#169;cid&#195;&#169; d'extrader l'un des organisateurs pr&#195;&#169;sum&#195;&#169;s des attentats commis en France en 1995.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224623-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Cherie Blair &#195;&#169;clabouss&#195;&#169;e par ses "m&#195;&#169;nages"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/15/2/2034152_2.jpg</urlImage>
+				<resumeArticle>La conf&#195;&#169;rence donn&#195;&#169;e par l'&#195;&#169;pouse du Premier ministre britannique lundi &#195;&#160; Washington a relanc&#195;&#169; la pol&#195;&#169;mique autour des prestations grassement pay&#195;&#169;es qu'elle d&#195;&#169;livre r&#195;&#169;guli&#195;&#168;rement sur sa vie quotidienne &#195;&#160; Downing Street.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

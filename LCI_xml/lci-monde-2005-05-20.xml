@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/01/2004</dateArticle>
-				<urlArticle>/news/monde/2004/0,,1557636-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Saddam Hussein, ex-dictateur, prisonnier de guerre (10/01/2004)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/06/2004</dateArticle>
-				<urlArticle>/news/monde/2004/0,,3075479-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Saddam a le moral (23/06/2004)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/06/2004</dateArticle>
-				<urlArticle>/news/monde/2004/0,,3094807-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Saddam : "Le vrai criminel, c'est Bush" (30/06/2004)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/12/2004</dateArticle>
-				<urlArticle>/news/monde/2004/0,,3190839-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Saddam Hussein en gr&#195;&#168;ve de la faim ? (12/12/2004)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3220434-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Revers pour la d&#195;&#169;fense</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/03/0/2016030_2.jpg</urlImage>
+				<resumeArticle>Le journaliste vedette de CNN Larry King, cit&#195;&#169; par la d&#195;&#169;fense de Michael Jackson, ne sera pas entendu au proc&#195;&#168;s. Ainsi en a d&#195;&#169;cid&#195;&#169; le juge Rodney Melville, estimant son t&#195;&#169;moignage insuffisant. Idem pour un autre t&#195;&#169;moin, Michael Winner. Au fil des jours, la liste des personnalit&#195;&#169;s cit&#195;&#169;es par la d&#195;&#169;fense se r&#195;&#169;duit.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3220544-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aghanistan</themeArticle>
+				<titreArticle>Le ravisseur veut faire lib&#195;&#169;rer sa m&#195;&#168;re</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/2/2003042_2.jpg</urlImage>
+				<resumeArticle>Le ravisseur pr&#195;&#169;sum&#195;&#169; de la coop&#195;&#169;rante italienne enlev&#195;&#169;e lundi &#195;&#160; Kaboul demanderait la lib&#195;&#169;ration de sa m&#195;&#168;re afin de la rel&#195;&#162;cher. C'est ce qu'ont affirm&#195;&#169; vendredi plusieurs journaux italiens.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3220271-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Donald Trump veut reconstruire les Twin</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/85/7/2029857_2.jpg</urlImage>
+				<resumeArticle>Le magnat de l'immobilier new-yorkais propose, maquette &#195;&#160; l'appui, de reconstruire, "en plus grandes" encore, les deux gratte-ciel du World Trade Center d&#195;&#169;truits le 11 septembre 2001.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3220425-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chili</themeArticle>
+				<titreArticle>Pinochet de nouveau hospitalis&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/4/51774_2.jpg</urlImage>
+				<resumeArticle>L'ancien dictateur, en mauvaise sant&#195;&#169; depuis plusieurs ann&#195;&#169;es et qui a d&#195;&#169;j&#195;&#160; connu plusieurs alertes cardiaques, s'est &#195;&#169;vanoui jeudi dans sa propri&#195;&#169;t&#195;&#169; proche de la c&#195;&#180;te du Pacifique. Il a &#195;&#169;t&#195;&#169; conduit d'urgence &#195;&#160; l'h&#195;&#180;pital.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3220127-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Un "chicano" &#195;&#160; la t&#195;&#170;te de L.A.</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/70/8/2029708_2.jpg</urlImage>
+				<resumeArticle>Antonio Villaraigosa, fils d'immigr&#195;&#169;s mexicains, a &#195;&#169;t&#195;&#169; &#195;&#169;lu mardi maire de Los Angeles. Premier latino &#195;&#160; occuper la fonction depuis 1872, ce d&#195;&#169;mocrate de 52 ans repr&#195;&#169;sente l'arch&#195;&#169;type du r&#195;&#170;ve am&#195;&#169;ricain.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3220020-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Le manuel du parfait sniper</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/74/6/2023746_2.jpg</urlImage>
+				<resumeArticle>Le Pentagone a mis en garde les responsables de son contingent pr&#195;&#169;sent en Irak contre les nouvelles tactiques de formation des djihadistes, diffus&#195;&#169;es sur Internet. Les manuels indiquent notamment aux insurg&#195;&#169;s comment reconna&#195;&#174;tre un grad&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

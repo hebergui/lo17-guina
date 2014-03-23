@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3225860-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>"D&#195;&#169;saccord aigu" entre Blair et Chirac (14/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3226052-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>La derni&#195;&#168;re offre de Juncker (16/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,48 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3226052-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>La derni&#195;&#168;re offre de Juncker</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/6/2035766_2.jpg</urlImage>
+				<resumeArticle>A la veille du sommet qui s'ouvre ce jeudi &#195;&#160; Bruxelles, alors que l'Union semble dans l'impasse sur le budget, Jean-Claude Juncker a tent&#195;&#169; une derni&#195;&#168;re fois de vaincre la r&#195;&#169;sistance de Tony Blair. Tout en maintenant le gel du rabais britannique, il abandonne l'id&#195;&#169;e de le diminuer par la suite.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3226177-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Cambodge</themeArticle>
+				<titreArticle>Un enfant tu&#195;&#169; dans le d&#195;&#169;nouement d'une prise d'otage</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/86/1/2035861_2.jpg</urlImage>
+				<resumeArticle>Un petit Canadien a &#195;&#169;t&#195;&#169; tu&#195;&#169; jeudi matin lors de l'intervention de la police cambodgienne pour mettre fin &#195;&#160; une prise d'otages dans une &#195;&#169;cole internationale.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3226085-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aubenas/Hanoun</themeArticle>
+				<titreArticle>Hussein ce soir Paris</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/72/0/2035720_2.jpg</urlImage>
+				<resumeArticle>Le guide irakien de Florence Aubenas arrive ce soir en France avec sa famille. Depuis sa lib&#195;&#169;ration, cet ancien pilote de chasse, reconverti dans le r&#195;&#180;le de "fixeur", avait fait savoir qu'il comptait abandonner son activit&#195;&#169; d'"ange gardien" de journalistes en Irak.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/france/0,,3225980-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>La correspondante de "l'Huma" pri&#195;&#169;e de partir</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/72/7/2035727_2.jpg</urlImage>
+				<resumeArticle>L'ambassadeur de France &#195;&#160; Bagdad a &#195;&#169;crit &#195;&#160; Anne-Sophie Le Mauff, seule journaliste fran&#195;&#167;aise pr&#195;&#169;sente de fa&#195;&#167;on permanente en Irak, pour lui demander de quitter le pays, rapporte mercredi "Le Canard encha&#195;&#174;n&#195;&#169;".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225971-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Le chanteur crie victoire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/02/9/2016029_2.jpg</urlImage>
+				<resumeArticle>Au lendemain de son acquittement, le chanteur exprime toute sa joie et sa gratitude envers ses fans sur son site Internet. Pendant ce temps, la population est partag&#195;&#169;e sur le verdict du jury et la presse sp&#195;&#169;cule sur l'avenir musicale de la star.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225859-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>"D&#195;&#169;saccord aigu" entre Blair et Chirac</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/48/0/2035480_2.jpg</urlImage>
+				<resumeArticle>Tony Blair a reconnu l'existence d'un "d&#195;&#169;saccord aigu" sur le budget europ&#195;&#169;en, mardi &#195;&#160; l'issue d'un entretien &#195;&#160; l'Elys&#195;&#169;e avec Jacques Chirac. Ce dernier souhaite "un accord raisonnable et &#195;&#169;quitable" au sommet de Bruxelles.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

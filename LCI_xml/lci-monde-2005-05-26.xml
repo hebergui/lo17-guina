@@ -12,27 +12,27 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>14/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3213285-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Proc&#195;&#168;s Jackson : "Il m'a dit que mon fils &#195;&#169;tait en danger" (14/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>28/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3215900-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Proc&#195;&#168;s Jackson : "Il est mon ami" (28/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3218602-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Macaulay Culkin, t&#195;&#169;moin &#195;&#160; d&#195;&#169;charge au proc&#195;&#168;s Jackson (11/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>19/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3220434-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Revers pour la d&#195;&#169;fense de Jackson (19/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3221309-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le camp Jackson contre-attaque (24/05/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -44,6 +44,41 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3221682-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Un engagement am&#195;&#169;ricain "clair"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/58/1/2016581_2.jpg</urlImage>
+				<resumeArticle>Le leader palestinien a r&#195;&#169;clam&#195;&#169; mercredi un engagement am&#195;&#169;ricain "clair" en faveur d'un Etat palestinien. C'est sa premi&#195;&#168;re visite &#195;&#160; Washington depuis son &#195;&#169;lection en janvier. Jeudi, il devait rencontrer le pr&#195;&#169;sident Bush.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3221536-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Attentat &#195;&#160; Madrid : trois bless&#195;&#169;s l&#195;&#169;gers</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/4/949004_2.jpg</urlImage>
+				<resumeArticle>Une camionnette pi&#195;&#169;g&#195;&#169;e a explos&#195;&#169; mercredi matin dans le nord de Madrid, faisant un bless&#195;&#169; l&#195;&#169;ger selon la police. L'attentat a &#195;&#169;t&#195;&#169; annonc&#195;&#169; &#195;&#160; un journal ind&#195;&#169;pendantiste basque par l'ETA.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3221551-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Russie</themeArticle>
+				<titreArticle>Gigantesque panne d'&#195;&#169;lectricit&#195;&#169; &#195;&#160; Moscou</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/50/4/757504_2.jpg</urlImage>
+				<resumeArticle>Une gigantesque panne d'&#195;&#169;lectricit&#195;&#169; a paralys&#195;&#169; une grande partie du sud de l'agglom&#195;&#169;ration de Moscou mercredi. 20.000 personnes ont &#195;&#169;t&#195;&#169; bloqu&#195;&#169;es dans le m&#195;&#169;tro. Tout devait &#195;&#170;tre rentr&#195;&#169; dans l'ordre jeudi. La panne serait due &#195;&#160; une explosion dans un centre de distribution.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3221544-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Belgique</themeArticle>
+				<titreArticle>Elle vend son b&#195;&#169;b&#195;&#169; sur Internet</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/73/8/823738_2.jpg</urlImage>
+				<resumeArticle>C'est une affaire "sordide" que r&#195;&#169;v&#195;&#168;le un quotidien belge lundi. Une habitante de la province de Limbourg, au nord-ouest de la Belgique, &#195;&#169;tait pr&#195;&#170;te &#195;&#160; tout pour &#195;&#169;changer l'enfant qu'elle portait contre de l'argent.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3221422-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Zarqaoui serait bless&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/2/2005872_2.jpg</urlImage>
+				<resumeArticle>Le chef d'Al-Qa&#195;&#175;da en Irak serait bless&#195;&#169;. C'est ce qu'affirme l'organisation terroriste dans un communiqu&#195;&#169; qui lui est attribu&#195;&#169;. La t&#195;&#170;te de ce Jordanien de 38 ans a &#195;&#169;t&#195;&#169; mise &#195;&#160; prix pour 25 millions de dollars.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

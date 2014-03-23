@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3217880-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>1945-2005 : l'Europe se souvient (08/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>09/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3218010-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>"Rester fid&#195;&#168;les au souvenir de nos p&#195;&#168;res" (09/05/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,20 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3218010-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Seconde guerre mondiale</themeArticle>
+				<titreArticle>"Rester fid&#195;&#168;les au souvenir de nos p&#195;&#168;res"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/26/9/2027269_2.jpg</urlImage>
+				<resumeArticle>Vladimir Poutine a d&#195;&#169;fendu lundi &#195;&#160; Moscou "un ordre mondial, fond&#195;&#169; sur la s&#195;&#169;curit&#195;&#169; et la justice" pour &#195;&#169;viter la r&#195;&#169;p&#195;&#169;tition des guerres. Un discours prononc&#195;&#169; devant les principaux chefs d'Etat du monde lors des c&#195;&#169;r&#195;&#169;monies du 60e anniversaire de la victoire sur l'Allemagne nazie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217930-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Alg&#195;&#169;rie</themeArticle>
+				<titreArticle>Il y a 60 ans, la r&#195;&#169;pression de S&#195;&#169;tif</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/17/3/2027173_2.jpg</urlImage>
+				<resumeArticle>Des milliers de personnes ont particip&#195;&#169; dimanche &#195;&#160; S&#195;&#169;tif, en Alg&#195;&#169;rie, &#195;&#160; une marche comm&#195;&#169;morant les massacres du 8 mai 1945, lors desquels des milliers de personnes avaient &#195;&#169;t&#195;&#169; tu&#195;&#169;es par les forces fran&#195;&#167;aises.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

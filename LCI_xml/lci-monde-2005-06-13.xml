@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3225414-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Hussein Hanoun retrouve sa famille (12/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3225444-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Premi&#195;&#168;re conf&#195;&#169;rence de presse de l'ex-otage Florence Aubenas (12/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3225480-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Cinq mois d'espoirs et de tractations (12/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,27 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225414-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aubenas/Hanoun</themeArticle>
+				<titreArticle>Hussein retrouve sa famille</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/90/4/2034904_2.jpg</urlImage>
+				<resumeArticle>Le guide irakien de la journaliste fran&#195;&#167;aise Florence Aubenas, lui aussi lib&#195;&#169;r&#195;&#169;, a retrouv&#195;&#169; sa famille &#195;&#160; Bagdad au milieu des cris et des larmes de joie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225340-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Faible participation au scrutin sur la bio&#195;&#169;thique</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/2/247682_2.jpg</urlImage>
+				<resumeArticle>Les Italiens sont appel&#195;&#169;s aux urnes dimanche et lundi pour un r&#195;&#169;f&#195;&#169;rendum proposant de faciliter l'acc&#195;&#168;s &#195;&#160; la f&#195;&#169;condation assist&#195;&#169;e. La participation &#195;&#169;tait tr&#195;&#168;s faible dimanche soir, favorisant les esp&#195;&#169;rances de l'Eglise catholique, qui a appel&#195;&#169; &#195;&#160; l'abstention pour faire &#195;&#169;chouer le scrutin.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3225267-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>G8</themeArticle>
+				<titreArticle>Plus de dette pour les pays pauvres</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/08/9/374089_2.jpg</urlImage>
+				<resumeArticle>Les pays membres du G8 ont annul&#195;&#169; la dette des 18 pays les plus pauvres, qui repr&#195;&#169;sente 40 milliards de dollars. D'autres pays pourraient voir &#195;&#169;galement leur dette annul&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

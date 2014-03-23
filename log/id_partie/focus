@@ -3,8 +3,6 @@
 regexp mailto non trouvee dans lci-monde-2005-05-18.html
 regexp mailto non trouvee dans lci-monde-2005-05-29.html
 regexp mailto non trouvee dans lci-monde-2005-08-15.html
-regexp image non trouvee dans lci-monde-2006-01-16.html
-regexp resume non trouvee dans lci-monde-2006-01-16.html
 regexp mailto non trouvee dans lci-monde-2005-11-24.html
 regexp mailto non trouvee dans lci-monde-2005-07-28.html
 regexp mailto non trouvee dans lci-monde-2006-02-13.html
@@ -70,12 +68,8 @@ regexp mailto non trouvee dans lci-monde-2005-09-02.html
 regexp mailto non trouvee dans lci-monde-2005-11-02.html
 regexp mailto non trouvee dans lci-monde-2005-12-07.html
 regexp mailto non trouvee dans lci-monde-2005-09-07.html
-regexp image non trouvee dans lci-monde-2006-01-17.html
-regexp resume non trouvee dans lci-monde-2006-01-17.html
 regexp mailto non trouvee dans lci-monde-2005-12-11.html
 regexp mailto non trouvee dans lci-monde-2005-09-15.html
-regexp image non trouvee dans lci-monde-2006-01-15.html
-regexp resume non trouvee dans lci-monde-2006-01-15.html
 regexp mailto non trouvee dans lci-monde-2005-04-14.html
 regexp mailto non trouvee dans lci-monde-2005-11-25.html
 regexp mailto non trouvee dans lci-monde-2005-09-18.html
@@ -91,8 +85,6 @@ regexp mailto non trouvee dans lci-monde-2005-04-03.html
 regexp mailto non trouvee dans lci-monde-2006-01-08.html
 regexp mailto non trouvee dans lci-monde-2005-07-16.html
 regexp mailto non trouvee dans lci-monde-2005-05-10.html
-regexp image non trouvee dans lci-monde-2006-01-18.html
-regexp resume non trouvee dans lci-monde-2006-01-18.html
 regexp mailto non trouvee dans lci-monde-2005-07-21.html
 regexp mailto non trouvee dans lci-monde-2005-08-01.html
 regexp mailto non trouvee dans lci-monde-2005-06-23.html
@@ -117,8 +109,6 @@ regexp mailto non trouvee dans lci-monde-2005-09-21.html
 regexp mailto non trouvee dans lci-monde-2005-04-26.html
 regexp mailto non trouvee dans lci-monde-2005-08-17.html
 regexp mailto non trouvee dans lci-monde-2005-05-21.html
-regexp image non trouvee dans lci-monde-2006-01-19.html
-regexp resume non trouvee dans lci-monde-2006-01-19.html
 regexp mailto non trouvee dans lci-monde-2005-07-17.html
 regexp mailto non trouvee dans lci-monde-2005-07-27.html
 regexp mailto non trouvee dans lci-monde-2005-04-13.html
@@ -165,8 +155,6 @@ regexp mailto non trouvee dans lci-monde-2005-04-18.html
 regexp mailto non trouvee dans lci-monde-2005-04-27.html
 regexp mailto non trouvee dans lci-monde-2005-09-10.html
 regexp mailto non trouvee dans lci-monde-2005-05-28.html
-regexp image non trouvee dans lci-monde-2006-01-14.html
-regexp resume non trouvee dans lci-monde-2006-01-14.html
 regexp mailto non trouvee dans lci-monde-2005-06-09.html
 regexp mailto non trouvee dans lci-monde-2005-06-08.html
 regexp mailto non trouvee dans lci-monde-2005-08-13.html
@@ -184,15 +172,11 @@ regexp mailto non trouvee dans lci-monde-2005-04-08.html
 regexp mailto non trouvee dans lci-monde-2005-11-05.html
 regexp mailto non trouvee dans lci-monde-2005-12-13.html
 regexp mailto non trouvee dans lci-monde-2005-08-21.html
-regexp image non trouvee dans lci-monde-2006-01-12.html
-regexp resume non trouvee dans lci-monde-2006-01-12.html
 regexp mailto non trouvee dans lci-monde-2005-05-09.html
 regexp mailto non trouvee dans lci-monde-2005-05-11.html
 regexp mailto non trouvee dans lci-monde-2005-10-17.html
 regexp mailto non trouvee dans lci-monde-2006-02-06.html
 regexp mailto non trouvee dans lci-monde-2005-07-20.html
-regexp image non trouvee dans lci-monde-2006-01-13.html
-regexp resume non trouvee dans lci-monde-2006-01-13.html
 regexp mailto non trouvee dans lci-monde-2005-09-17.html
 regexp mailto non trouvee dans lci-monde-2005-09-23.html
 regexp mailto non trouvee dans lci-monde-2005-12-02.html
@@ -224,8 +208,6 @@ regexp mailto non trouvee dans lci-monde-2005-07-26.html
 regexp mailto non trouvee dans lci-monde-2005-04-17.html
 regexp mailto non trouvee dans lci-monde-2005-03-14.html
 regexp mailto non trouvee dans lci-monde-2005-05-14.html
-regexp image non trouvee dans lci-monde-2006-02-28.html
-regexp resume non trouvee dans lci-monde-2006-02-28.html
 regexp mailto non trouvee dans lci-monde-2005-12-14.html
 regexp mailto non trouvee dans lci-monde-2005-06-16.html
 regexp mailto non trouvee dans lci-monde-2005-06-02.html
@@ -248,8 +230,6 @@ regexp mailto non trouvee dans lci-monde-2005-07-25.html
 regexp mailto non trouvee dans lci-monde-2006-01-09.html
 regexp mailto non trouvee dans lci-monde-2005-06-26.html
 regexp mailto non trouvee dans lci-monde-2005-09-28.html
-regexp image non trouvee dans lci-monde-2005-08-10.html
-regexp resume non trouvee dans lci-monde-2005-08-10.html
 regexp mailto non trouvee dans lci-monde-2005-08-10.html
 regexp mailto non trouvee dans lci-monde-2005-10-10.html
 regexp mailto non trouvee dans lci-monde-2005-07-04.html

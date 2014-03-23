@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>15/01/2005</dateArticle>
-				<urlArticle>/news/0,,3197089-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Irak : le meneur d'Abou Ghraib, Charles Graner, d&#195;&#169;clar&#195;&#169; coupable (15/01/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>16/01/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3197121-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Irak : 10 ans pour le meneur d'Abou Ghraib (16/01/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,13 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3219742-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aghanistan</themeArticle>
+				<titreArticle>Une Italienne enlev&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/11/5/857115_2.jpg</urlImage>
+				<resumeArticle>Clementina Cantoni, a &#195;&#169;t&#195;&#169; enlev&#195;&#169;e lundi soir en plain Kaboul. Elle y &#195;&#169;tait en mission pour l'ONG Care International.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

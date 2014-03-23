@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/11/2000</dateArticle>
-				<urlArticle>/news/monde/2000/0,,711202-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Une collision serait &#195;&#160; l'origine du naufrage du Koursk (08/11/2000)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/08/2001</dateArticle>
-				<urlArticle>/news/monde/2001/0,,807476-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Il y a un an, le Koursk sombrait (12/08/2001)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>09/10/2001</dateArticle>
-				<urlArticle>/news/sciences/2001/0,,825517-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le myst&#195;&#168;re du Koursk enfin d&#195;&#169;voil&#195;&#169; ? (09/10/2001)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>30/10/2001</dateArticle>
-				<urlArticle>/news/sciences/2001/0,,835095-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Koursk : la "bo&#195;&#174;te noire" expliquera-t-elle le drame ? (30/10/2001)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,97 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235934-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>L'Airbus s'est-il pos&#195;&#169; trop loin ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/78/3/2044783_2.jpg</urlImage>
+				<resumeArticle>Les enqu&#195;&#170;teurs canadiens estiment que l'Airbus d'Air France a touch&#195;&#169; le sol "un peu plus loin que la normale", ce qui expliquerait la vitesse &#195;&#169;lev&#195;&#169;e &#195;&#160; laquelle il a quitt&#195;&#169; l'asphalte pour finir sa course dans un foss&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235855-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Droits de l'Homme</themeArticle>
+				<titreArticle>Tony Blair compte modifier sa loi</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/3/2042923_2.jpg</urlImage>
+				<resumeArticle>Le Premier ministre britannique a promis de nouvelles mesures autorisant l'expulsion de ceux qui professent la violence, apr&#195;&#168;s les attentats de Londres.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235844-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Isra&#195;&#171;l</themeArticle>
+				<titreArticle>Un Juif tue 4 personnes et se fait lyncher</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/3/2045073_2.jpg</urlImage>
+				<resumeArticle>L'homme, un soldat d&#195;&#169;serteur de 19 ans, a abattu de sang froid quatre civils arabes isra&#195;&#169;liens jeudi soir dans le nord du pays.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235736-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>Al-Qaida menace Londres</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/97/3/2044973_2.jpg</urlImage>
+				<resumeArticle>Dans une vid&#195;&#169;o diffus&#195;&#169;e jeudi apr&#195;&#168;s-midi par la cha&#195;&#174;ne Al-Jazira, le bras droit de ben Laden fait r&#195;&#169;f&#195;&#169;rence aux attentats de Londres. Il promet "davantage de destructions" au Royaume-Uni.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235759-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>L'atterrissage &#195;&#169;tait normal</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Les premi&#195;&#168;res constatations des enqu&#195;&#170;teurs n'ont pas permis de relever d'anomalies dans la proc&#195;&#169;dure d'atterrissage de l'Airbus A-340 sorti de la piste mardi &#195;&#160; Toronto. Auparavant, la France et le Canada se sont rejet&#195;&#169;es les responsabilit&#195;&#169;s de l'accident.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235568-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Attentats du 21 juillet</themeArticle>
+				<titreArticle>Le premier inculp&#195;&#169; renvoy&#195;&#169; en d&#195;&#169;tention provisoire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/95/8/2042958_2.jpg</urlImage>
+				<resumeArticle>Le premier suspect inculp&#195;&#169; en Grande-Bretagne dans l'enqu&#195;&#170;te sur les attentats du 21 juillet &#195;&#160; Londres, a &#195;&#169;t&#195;&#169; renvoy&#195;&#169; jeudi en d&#195;&#169;tention provisoire jusqu'au 11 ao&#195;&#187;t.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235649-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vol Paris-Toronto</themeArticle>
+				<titreArticle>Le Canada et Air France se rejettent la responsabilit&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/4/2044914_2.jpg</urlImage>
+				<resumeArticle>Le ministre des Transports canadien a estim&#195;&#169; hier que la d&#195;&#169;cision d'atterrir avait &#195;&#169;t&#195;&#169; prise par le seul pilote de l'A340 reliant Paris &#195;&#160; Toronto tandis que la compagnie a&#195;&#169;rienne fran&#195;&#167;aise a assur&#195;&#169; que les autorit&#195;&#169;s a&#195;&#169;roportuaires avaient jug&#195;&#169; possible un atterrissage.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235456-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Accident</themeArticle>
+				<titreArticle>L'Airbus &#195;&#169;tait parti "sans probl&#195;&#168;me technique"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/80/5/2044805_2.jpg</urlImage>
+				<resumeArticle>Jean-Cyril Spinetta, PDG d'Air France, a confirm&#195;&#169; mercredi le bon &#195;&#169;tat &#195;&#160; son d&#195;&#169;part de Paris de l'appareil qui a pris feu &#195;&#160; l'atterrissage mardi &#195;&#160; Toronto, sans faire de victime.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235421-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Canada</themeArticle>
+				<titreArticle>"Les gens ont senti que l'avion allait se crasher"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/78/2/2044782_2.jpg</urlImage>
+				<resumeArticle>Les passagers du vol Air France Roissy-Toronto racontent minute par minute l'angoisse d'un atterrissage mouvement&#195;&#169; et l'&#195;&#169;vacuation de l'avion en flammes, sous une pluie battante.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235413-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Accident</themeArticle>
+				<titreArticle>A Toronto, le soulagement</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/9/2044779_2.jpg</urlImage>
+				<resumeArticle>Le vol Air France 358, un Airbus A340 en provenance de Paris a quitt&#195;&#169; la piste d'atterrissage et a pris feu mardi &#195;&#160; son arriv&#195;&#169;e &#195;&#160; Toronto au Canada. Les 297 passagers et 12 membres d'&#195;&#169;quipage sont sains et saufs. On d&#195;&#169;plore de 22 &#195;&#160; 43 bless&#195;&#169;s l&#195;&#169;gers. Selon plusieurs t&#195;&#169;moins, l'appareil aurait &#195;&#169;t&#195;&#169; touch&#195;&#169; par la foudre.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235441-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Mauritanie</themeArticle>
+				<titreArticle>Les putschistes promettent la d&#195;&#169;mocratie...</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/80/4/2044804_2.jpg</urlImage>
+				<resumeArticle>Des putschistes ont annonc&#195;&#169; qu'un conseil militaire allait diriger la Mauritanie pendant deux ans. Le coup d'Etat a d&#195;&#169;but&#195;&#169; mercredi matin &#195;&#160; Nouakchott &#195;&#160; l'initiative de militaires. Le pr&#195;&#169;sident Maaouiya Ould Taya &#195;&#169;tait parti pour assister aux fun&#195;&#169;railles du roi Fahd, en Arabie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235564-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Nucl&#195;&#169;aire</themeArticle>
+				<titreArticle>L'Iran recule pour des raisons... techniques</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/42/5/890425_2.jpg</urlImage>
+				<resumeArticle>Alors que le nouveau pr&#195;&#169;sident Mahmoud Ahmadinejad a &#195;&#169;t&#195;&#169; investi mercredi, l'Iran a de nouveau affirm&#195;&#169; qu'il entendait reprendre des activit&#195;&#169;s nucl&#195;&#169;aires ultra-sensibles. Mais en a report&#195;&#169; le d&#195;&#169;but, officiellement pour des probl&#195;&#168;mes l&#195;&#169;gaux et techniques.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235100-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Terrorisme</themeArticle>
+				<titreArticle>"Al Qa&#195;&#175;da est incapable d'organiser quoi que ce soit"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/88/5/402885_2.jpg</urlImage>
+				<resumeArticle>Alain Chouet, ancien chef du Service de renseignement de s&#195;&#169;curit&#195;&#169; de la DGSE, explique &#195;&#160; tf1.fr que les attaques contre Londres et de Charm el-Cheikh ne sont pas le fruit d'un plan pr&#195;&#169;par&#195;&#169; par une seule et m&#195;&#170;me personne. Affirmant que ben Laden et son organisation ont perdu leur capacit&#195;&#169; d'action, il met en cause la frange extr&#195;&#170;me de la Confr&#195;&#169;rie des Fr&#195;&#168;res musulmans.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

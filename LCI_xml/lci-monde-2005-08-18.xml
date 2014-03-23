@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236717-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Gaza : "Ici, c'est le paradis. Mais il faut partir" (11/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>12/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3236986-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Gaza : "on est l&#195;&#160; jusqu'&#195;&#160; la derni&#195;&#168;re minute" (12/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>17/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3237183-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les sc&#195;&#169;narios catastrophes de l'&#195;&#169;vacuation de Gaza (17/08/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>17/08/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3237843-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les colons s'opposent &#195;&#160; Tsahal &#195;&#160; Gaza (17/08/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,97 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3238041-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Suisse</themeArticle>
+				<titreArticle>Traque d'un sadique zoophile</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/7/2046927_2.jpg</urlImage>
+				<resumeArticle>La police de trois cantons du nord de la Suisse offre une r&#195;&#169;compense de 26 000 francs suisses pour la capture de la personne qui mutile des animaux depuis plusieurs semaines. Des actes de zoophilie ont &#195;&#169;t&#195;&#169; commis sur certaines b&#195;&#170;tes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237937-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>JMJ</themeArticle>
+				<titreArticle>Accueil chaleureux pour le pape &#195;&#160; Cologne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/95/1/2046951_2.jpg</urlImage>
+				<resumeArticle>Beno&#195;&#187;it XVI est arriv&#195;&#169; &#195;&#160; midi &#195;&#160; Cologne, en Allemagne, pour assister aux Journ&#195;&#169;es mondiales de la jeunesse. Lors de son premier discours, il est revenu sur la dimension europ&#195;&#169;enne du christianisme et a salu&#195;&#169; "le tr&#195;&#168;s riche patrimoine culturel et spirituel (de l'Allemagne) qui (...) t&#195;&#169;moigne de la f&#195;&#169;condit&#195;&#169; de la foi".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237951-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>West Caribbean</themeArticle>
+				<titreArticle>La compagnie montr&#195;&#169;e du doigt</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/90/2/2046902_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s le crash d'un de ses appareils au Venezuela qui a co&#195;&#187;t&#195;&#169; la vie &#195;&#160; ses 160 occupants, dont 152 Fran&#195;&#167;ais, la compagnie colombienne est sur la sellette, avec des doutes s&#195;&#169;rieux sur son fonctionnement.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237841-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>West Caribbean</themeArticle>
+				<titreArticle>La recherche des corps s'ach&#195;&#168;ve</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/4/2046874_2.jpg</urlImage>
+				<resumeArticle>Le difficile travail des &#195;&#169;quipes de secours v&#195;&#169;n&#195;&#169;zu&#195;&#169;liennes touche &#195;&#160; son terme sur le lieu du crash de l'avion de la West Caribbean Airways. La quasi-totalit&#195;&#169; des corps des 160 occupants, presque tous fran&#195;&#167;ais, ont &#195;&#169;t&#195;&#169; r&#195;&#169;cup&#195;&#169;r&#195;&#169;s, ainsi que les deux bo&#195;&#174;tes noires.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237945-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>West Caribbean</themeArticle>
+				<titreArticle>Le carburant au centre des hypoth&#195;&#168;ses</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/86/8/2046868_2.jpg</urlImage>
+				<resumeArticle>Dans l'attente des r&#195;&#169;sultats de l'enqu&#195;&#170;te officielle, plusieurs hypoth&#195;&#168;ses sont avanc&#195;&#169;es pour expliquer le crash du MD-82 de la West Caribbean, au Venezuela. Notamment des probl&#195;&#168;mes li&#195;&#169;s au carburant.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237944-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Bangladesh</themeArticle>
+				<titreArticle>Un groupe islamiste fait exploser 350 bombes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/7/2046877_2.jpg</urlImage>
+				<resumeArticle>Plus de 350 bombes de faible puissance ont explos&#195;&#169; quasi-simultan&#195;&#169;ment mercredi &#195;&#160; travers tout le Bangladesh, tuant au moins deux personnes. La police privil&#195;&#169;gie la piste islamiste.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237843-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Les colons s'opposent &#195;&#160; Tsahal</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/5/2046925_2.jpg</urlImage>
+				<resumeArticle>L'arm&#195;&#169;e isra&#195;&#169;lienne est entr&#195;&#169;e mercredi matin dans plusieurs implantations pour proc&#195;&#169;der &#195;&#160; l'&#195;&#169;vacuation forc&#195;&#169;e des colons juifs. Malgr&#195;&#169; les heurts avec les plus extr&#195;&#169;mistes, l'op&#195;&#169;ration se d&#195;&#169;roule conform&#195;&#169;ment aux pr&#195;&#169;visions.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237183-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Les sc&#195;&#169;narios catastrophes de l'&#195;&#169;vacuation</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/46/5/2046465_2.jpg</urlImage>
+				<resumeArticle>Le d&#195;&#169;part des colons juifs de Gaza est obligatoire depuis ce mercredi. Pour minimiser les risques, l'arm&#195;&#169;e et la police ont d&#195;&#169;ploy&#195;&#169; des effectifs consid&#195;&#169;rables : 55 000 hommes doivent proc&#195;&#169;der aux &#195;&#169;vacuations, couvrir l'op&#195;&#169;ration et r&#195;&#169;agir en cas d'attaques palestiniennes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237189-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Calendrier du d&#195;&#169;sengagement d'Isra&#195;&#171;l</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/58/1/2046581_2.jpg</urlImage>
+				<resumeArticle>Le d&#195;&#169;sengagement total d'Isra&#195;&#171;l de la bande de Gaza, d&#195;&#169;but&#195;&#169; lundi avec le d&#195;&#169;part des colons juifs, se poursuivra jusqu'en octobre avec le retrait de Tsahal.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236717-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>"Ici, c'est le paradis. Mais il faut partir"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/6/2045926_2.jpg</urlImage>
+				<resumeArticle>L'&#195;&#169;vacuation des colons juifs de Gaza a d&#195;&#169;but&#195;&#169; lundi. Socrate Soussan, mara&#195;&#174;cher, est l'un des rares Fran&#195;&#167;ais install&#195;&#169;s sur place. Avant de partir, il raconte &#195;&#160; tf1.fr pourquoi il accepte de tirer un trait sur plus de quinze ans de sa vie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3236986-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>"On est l&#195;&#160; jusqu'&#195;&#160; la derni&#195;&#168;re minute"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/28/7/2046287_2.jpg</urlImage>
+				<resumeArticle>L'&#195;&#169;vacuation des colons juifs de Gaza a d&#195;&#169;but&#195;&#169; lundi. Abraham Berrebi fait partie de ceux qui refusent le plan Sharon. Croyant au "miracle" qui emp&#195;&#170;chera son d&#195;&#169;part, il explique &#195;&#160; TF1 pourquoi et comment il entend protester lorsque l'arm&#195;&#169;e isra&#195;&#169;lienne viendra l'expulser de sa maison.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237682-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Crash</themeArticle>
+				<titreArticle>152 Fran&#195;&#167;ais tu&#195;&#169;s dans un crash au Venezuela</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/7/2046767_2.jpg</urlImage>
+				<resumeArticle>Un MD-82 de la West Caribbean Airways s'est &#195;&#169;cras&#195;&#169; mardi au Venezuela. Il n'y aurait aucun survivant parmi les 160 personnes, essentiellement des Fran&#195;&#167;ais, qui &#195;&#169;taient &#195;&#160; bord. Plusieurs dizaines de cadavres ont &#195;&#169;t&#195;&#169; r&#195;&#169;cup&#195;&#169;r&#195;&#169;s, ainsi qu'une bo&#195;&#174;te noire.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3237762-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Crash</themeArticle>
+				<titreArticle>La Gr&#195;&#168;ce en deuil, l'enqu&#195;&#170;te progresse</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/6/2046766_2.jpg</urlImage>
+				<resumeArticle>La Gr&#195;&#168;ce &#195;&#169;tait en deuil mardi apr&#195;&#168;s l'accident d'un Boeing 737 chypriote qui a fait 121 morts dimanche au nord-est d'Ath&#195;&#168;nes. L'enqu&#195;&#170;te r&#195;&#169;v&#195;&#168;le qu'au moins une partie des victimes, dont le copilote, &#195;&#169;taient vivantes lorsque l'avion s'est &#195;&#169;cras&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

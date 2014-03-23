@@ -12,12 +12,12 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>20/10/2003</dateArticle>
-				<urlArticle>/news/0,,1421564-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Etats-Unis : suite du proc&#195;&#168;s de Zacarias Moussaoui (20/10/2003)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>24/04/2004</dateArticle>
-				<urlArticle>/news/monde/2004/0,,2198687-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Vers un proc&#195;&#168;s contre Moussaoui (24/04/2004)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -29,6 +29,125 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215039-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Berlusconi pr&#195;&#169;sente son nouveau gouvernement</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/15/2/2024152_2.jpg</urlImage>
+				<resumeArticle>Silvio Berlusconi a pr&#195;&#169;sent&#195;&#169; samedi au pr&#195;&#169;sident de la R&#195;&#169;publique italienne la liste du nouvel ex&#195;&#169;cutif. L'ex-ministre de l'Economie Giulio Tremonti revient au gouvernement, au poste de vice-pr&#195;&#169;sident du conseil.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3215037-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Etats-Unis</themeArticle>
+				<titreArticle>Une &#195;&#169;coli&#195;&#168;re de cinq ans menott&#195;&#169;e</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/46/4/2024464_2.jpg</urlImage>
+				<resumeArticle>Devenue incontr&#195;&#180;lable en classe, une fillette de cinq ans a &#195;&#169;t&#195;&#169; menott&#195;&#169;e par des policiers appel&#195;&#169;s par les enseignants. La famille de l'enfant menace de porter plainte tandis qu'une enqu&#195;&#170;te a &#195;&#169;t&#195;&#169; lanc&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214750-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Espagne</themeArticle>
+				<titreArticle>Le mariage gay possible cet &#195;&#169;t&#195;&#169;</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/37/0/2024370_2.jpg</urlImage>
+				<resumeArticle>Le parlement espagnol a adopt&#195;&#169; jeudi un projet de loi autorisant le mariage entre homosexuels et l'adoption par les couples homosexuels. C'est une premi&#195;&#168;re europ&#195;&#169;enne qui devrait entrer en vigueur l'&#195;&#169;t&#195;&#169; prochain.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214844-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Flamb&#195;&#169;e de violences</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/35/7/2024357_2.jpg</urlImage>
+				<resumeArticle>Un h&#195;&#169;licopt&#195;&#168;re civil abattu, 19 soldats irakiens retrouv&#195;&#169;s cribl&#195;&#169;s de balle, attentat anti-chiite... l'Irak s'enfonce dans un regain de violences tandis que la formation d'un nouveau gouvernement a &#195;&#169;t&#195;&#169; report&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214768-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Equateur</themeArticle>
+				<titreArticle>Palacio d&#195;&#169;sign&#195;&#169; pr&#195;&#169;sident</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/34/6/2024346_2.jpg</urlImage>
+				<resumeArticle>Le nouveau pr&#195;&#169;sident de l'Equateur, Alfredo Palacio, 66 ans, a pris formellement ses fonctions jeudi tandis que la capitale retrouvait le calme. Il avait &#195;&#169;t&#195;&#169; d&#195;&#169;sign&#195;&#169; mercredi par le parlement pour remplacer Lucio Gutierrez destitu&#195;&#169; par le congr&#195;&#168;s.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214708-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI </themeArticle>
+				<titreArticle>Une &#195;&#169;lection &#195;&#169;clair et sans r&#195;&#169;elle opposition</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/86/2/2023862_2.jpg</urlImage>
+				<resumeArticle>Les journalistes sp&#195;&#169;cialistes du Vatican expliquent jeudi que Joseph Ratzinger a &#195;&#169;t&#195;&#169; &#195;&#169;lu facilement. Ses opposants n'auraient pas eu la possibilit&#195;&#169; de se faire "entendre".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214292-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Joseph Ratzinger, gardien de la doctrine</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/84/4/2023844_2.jpg</urlImage>
+				<resumeArticle>Champion du camp conservateur, pr&#195;&#169;fet sortant de la congr&#195;&#169;gation pour la doctrine de la foi, le cardinal Ratzinger succ&#195;&#168;de &#195;&#160; Jean Paul II, dont il &#195;&#169;tait proche.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214507-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Berlusconi d&#195;&#169;missionne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/15/2/2024152_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s avoir r&#195;&#169;sist&#195;&#169; pendant deux jours aux pressions des membres de sa propre coalition, Silvio Berlusconi a pr&#195;&#169;sent&#195;&#169; sa d&#195;&#169;mission au chef de l'Etat italien et annonc&#195;&#169; sa d&#195;&#169;cision de former un nouveau gouvernement.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214603-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Equateur</themeArticle>
+				<titreArticle>Destitution et fuite de Gutierrez</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/18/4/2024184_2.jpg</urlImage>
+				<resumeArticle>Au lendemain de violentes manifestations, le parlement &#195;&#169;quatorien a vot&#195;&#169; mercredi la destitution du pr&#195;&#169;sident Gutierrez, qui a quitt&#195;&#169; son palais pr&#195;&#169;sidentiel en h&#195;&#169;licopt&#195;&#168;re vers une destination inconnue.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214516-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Allaoui &#195;&#169;chappe &#195;&#160; un attentat</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/85/1/937851_2.jpg</urlImage>
+				<resumeArticle>Le convoi du Premier ministre irakien sortant a &#195;&#169;t&#195;&#169; vis&#195;&#169; mercredi soir par un attentat &#195;&#160; la voiture pi&#195;&#169;g&#195;&#169;e. Le m&#195;&#170;me jour, une cinquantaine de corps, peut-&#195;&#170;tre ceux de villageois pris en otages, ont &#195;&#169;t&#195;&#169; rep&#195;&#170;ch&#195;&#169;s dans le Tigre. Une vingtaine de soldats ont &#195;&#169;t&#195;&#169; ex&#195;&#169;cut&#195;&#169;s par la r&#195;&#169;bellion.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214387-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Dans les pas de Jean Paul II</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/6/2024076_2.jpg</urlImage>
+				<resumeArticle>Dans son hom&#195;&#169;lie en forme de programme, le souverain pontife s'engage notamment &#195;&#160; poursuivre le travail engag&#195;&#169; par ses pr&#195;&#169;d&#195;&#169;cesseurs et notamment Jean Paul II &#195;&#160; qui il rend hommage.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214278-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Habemus Ratzinger</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/0/2024000_2.jpg</urlImage>
+				<resumeArticle>Au deuxi&#195;&#168;me jour de leur conclave, les 115 cardinaux &#195;&#169;lecteurs ont r&#195;&#169;ussi &#195;&#160; d&#195;&#169;signer un successeur &#195;&#160; Jean Paul II. La fum&#195;&#169;e blanche sortant de la chemin&#195;&#169;e de la chapelle Sixtine, mardi &#195;&#160; 17h50, est venue apprendre au monde le r&#195;&#169;sultat positif de leur vote. Le nouveau souverain pontife est le cardinal Ratzinger.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214380-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Les plaies de l'histoire allemande</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/3/2024073_2.jpg</urlImage>
+				<resumeArticle>Huiti&#195;&#168;me pape allemand sous le nom de Beno&#195;&#174;t XVI, Joseph Ratzinger garde dans sa vie les traces de l'histoire troubl&#195;&#169;e de son pays au cours du XX&#195;&#168;me si&#195;&#168;cle. Il fut ainsi contraint, durant les ann&#195;&#169;es 40, de participer aux jeunesses hitl&#195;&#169;riennes.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214294-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Les r&#195;&#169;actions &#195;&#160; l'&#195;&#169;lection du pape</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/01/0/2024010_2.jpg</urlImage>
+				<resumeArticle>De Lech Walesa &#195;&#160; Jacques Chirac, de l'archev&#195;&#170;que de Paris au recteur de la mosqu&#195;&#169;e de Paris, l'&#195;&#169;lection de Joseph Ratzinger comme successeur de Karol Wojtyla a suscit&#195;&#169; des r&#195;&#169;actions nombreuses.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214300-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>L'Allemagne entre fiert&#195;&#169; et prudence</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/03/6/2024036_2.jpg</urlImage>
+				<resumeArticle>Si l'heure &#195;&#169;tait &#195;&#160; la f&#195;&#170;te mardi soir dans le village natal du nouveau pape en Haute-Bavi&#195;&#168;re, pas de c&#195;&#169;l&#195;&#169;bration &#195;&#160; Berlin o&#195;&#185; les passants &#195;&#169;taient partag&#195;&#169;s entre joie et d&#195;&#169;ception.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214299-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Les d&#195;&#169;&#195;&#167;us de la place Saint-Pierre</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/7/2024007_2.jpg</urlImage>
+				<resumeArticle>Mardi soir, des sifflements de col&#195;&#168;re sont venus se m&#195;&#170;ler aux applaudissements de la foule r&#195;&#169;unie sous le balcon de la basilique Saint-Pierre et saluant l'apparition du nouveau pape.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3214378-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Beno&#195;&#174;t XVI</themeArticle>
+				<titreArticle>Emeute pour un journal</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/07/1/2024071_2.jpg</urlImage>
+				<resumeArticle>En Italie, les journaux consacr&#195;&#169;s &#195;&#160; Benoit XVI s'arrachent d&#195;&#169;j&#195;&#160;, et l'un d'eux a m&#195;&#170;me d&#195;&#187;, mardi soir, suspendre la vente sur la Place Saint-Pierre. Ses vendeurs &#195;&#169;taient assaillis par la foule.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

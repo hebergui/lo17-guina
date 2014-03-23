@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>31/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3234933-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'Iran met ses menaces &#195;&#160; ex&#195;&#169;cution (31/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,69 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235212-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Arabie saoudite</themeArticle>
+				<titreArticle>Chirac aux obs&#195;&#168;ques du roi Fahd</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/67/2/2044672_2.jpg</urlImage>
+				<resumeArticle>Les Saoudiens ont inhum&#195;&#169; mardi leur roi, Fahd ben Abdel Aziz, d&#195;&#169;c&#195;&#169;d&#195;&#169; la veille &#195;&#160; l'&#195;&#162;ge de 84 ans apr&#195;&#168;s une longue maladie. De nombreux chefs d'Etat, dont Jacques Chirac, seront ensuite pr&#195;&#169;sents &#195;&#160; la c&#195;&#169;r&#195;&#169;monie internationale.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235220-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Gaza</themeArticle>
+				<titreArticle>Les colons volontaires commencent &#195;&#160; partir</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/51/7/2044517_2.jpg</urlImage>
+				<resumeArticle>Deux semaines avant la date impos&#195;&#169;e par le gouvernement isra&#195;&#169;lien, les premiers d&#195;&#169;parts volontaires de colons install&#195;&#169;s dans les implantations juives de la bande de Gaza sont en cours. Rencontre avec un couple qui d&#195;&#169;couvre son relogement provisoire.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235012-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Soudan</themeArticle>
+				<titreArticle>Emeutes apr&#195;&#168;s la mort de Garang</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/50/2/2044502_2.jpg</urlImage>
+				<resumeArticle>Des &#195;&#169;meutes, qui auraient fait plusieurs morts et jusqu'&#195;&#160; cent bless&#195;&#169;s, ont &#195;&#169;clat&#195;&#169; lundi &#195;&#160; Khartoum et Juba apr&#195;&#168;s l'annonce du d&#195;&#169;c&#195;&#168;s du mythique leader de la r&#195;&#169;bellion soudanaise, John Garang.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235111-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>ONU</themeArticle>
+				<titreArticle>Bush impose son "faucon"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/49/8/2044498_2.jpg</urlImage>
+				<resumeArticle>Se dispensant de l'aval du S&#195;&#169;nat qui a refus&#195;&#169; d'ent&#195;&#169;riner son choix, le pr&#195;&#169;sident am&#195;&#169;ricain a nomm&#195;&#169; par d&#195;&#169;cret John Bolton comme ambassadeur des Etats-Unis aux Nations unies.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/multimedia/0,,3235121-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Les Britanniques ferment les sites extr&#195;&#169;mistes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/2/2043432_2.jpg</urlImage>
+				<resumeArticle>Selon le Times, plusieurs sites pr&#195;&#180;nant le terrorisme auraient &#195;&#169;t&#195;&#169; coup&#195;&#169;s par les services secrets britanniques.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235016-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>La France mod&#195;&#168;le de l'anti-terrorisme ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/5/2044415_2.jpg</urlImage>
+				<resumeArticle>Alors que la pol&#195;&#169;mique enfle apr&#195;&#168;s que l'un des terroristes du 21 juillet a pu fuir par le train, le gouvernement britannique envisage de renforcer les contr&#195;&#180;les aux fronti&#195;&#168;res. Prenant exemple sur notre l&#195;&#169;gislation, la presse l'appelle &#195;&#160; convoquer d'urgence une session du Parlement pour faire entrer les mesures en application plus rapidement.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235008-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Arabie saoudite</themeArticle>
+				<titreArticle>Fahd, monarque tenace et prudent</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/39/7/485397_2.jpg</urlImage>
+				<resumeArticle>Le roi Fahd est d&#195;&#169;c&#195;&#169;d&#195;&#169; lundi &#195;&#160; l'&#195;&#162;ge probable de 84 ans. Ses deux d&#195;&#169;cennies de r&#195;&#168;gne auront &#195;&#169;t&#195;&#169; marqu&#195;&#169;es par deux guerres du Golfe, une chute spectaculaire des cours du p&#195;&#169;trole et l'apparition du terrorisme d'Al-Qa&#195;&#175;da sur le sol saoudien.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3235003-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Arabie saoudite</themeArticle>
+				<titreArticle>Succession &#195;&#169;clair</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/2/2044412_2.jpg</urlImage>
+				<resumeArticle>C'est officiel : hospitalis&#195;&#169; depuis le 27 mai &#195;&#160; Ryad, le roi Fahd d'Arabie saoudite est mort lundi matin &#195;&#160; l'&#195;&#162;ge probable de 84 ans. Son demi-fr&#195;&#168;re, le prince Abdallah lui succ&#195;&#168;de.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3234933-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Nucl&#195;&#169;aire</themeArticle>
+				<titreArticle>L'Iran met ses menaces &#195;&#160; ex&#195;&#169;cution</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/5/2044435_2.jpg</urlImage>
+				<resumeArticle>Lundi soir, quelques heures apr&#195;&#168;s la remise &#195;&#160; l'AIEA d'une lettre annon&#195;&#167;ant la reprise de la conversion d'uranium dans l'usine d'Ispahan, T&#195;&#169;h&#195;&#169;ran a indiqu&#195;&#169; que les travaux en vue de la remise en activit&#195;&#169; du site avaient commenc&#195;&#169;.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

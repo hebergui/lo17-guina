@@ -27,13 +27,13 @@ my $log_name;
 
 if (uc($choix) eq 'U') {
 	$reg1 = "27914";
-	$regexp = quotemeta "m/<a\sclass=\"S2\"\shref=\"(.+)\">Lire l'article<\/a>/";
+	#$regexp = quotemeta "m/<a\sclass=\"S2\"\shref=\"(.+)\">Lire l'article<\/a>/";
 	$log_name = "une";
 }
 elsif (uc($choix) eq 'V') {
 	$reg1 = "27914";
 	$reg2 = "S301";
-	$regexp = quotemeta "m/<a\shref.+?(\/news.*?\.html).+?class=\"S48\">(.+?)<\/a>/g";
+	#$regexp = quotemeta "m/<a\shref.+?(\/news.*?\.html).+?class=\"S48\">(.+?)<\/a>/g";
 	$log_name = "voir_aussi";
 }
 elsif (uc($choix) eq 'F') {
@@ -72,11 +72,11 @@ while(readdir($d_in))
 	if ($_ ne ".." && $_ ne ".") {
 		if(defined $reg2)
 		{
-			system("perl rubriques.pl $_ loop $log_name $reg1 $reg2");
+			system("perl find_delimitateur.pl $_ loop $log_name $reg1 $reg2");
 		}
 		else
 		{
-			system("perl rubriques.pl $_ loop $log_name $reg1");
+			system("perl find_delimitateur.pl $_ loop $log_name $reg1");
 		}
 		$count_loop++;
 	}

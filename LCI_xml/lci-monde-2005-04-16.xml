@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3211723-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Rainier, une vie jalonn&#195;&#169;e de drames (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3213558-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les temps forts de la c&#195;&#169;r&#195;&#169;monie fun&#195;&#168;bre du Prince Rainier III (13/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>13/04/2005</dateArticle>
-				<urlArticle>/news/people/0,,3213559-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Emotion lors des obs&#195;&#168;ques du prince Rainier III (13/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,41 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213639-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Liban</themeArticle>
+				<titreArticle>Miqati nomm&#195;&#169; Premier ministre</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/67/9/2023679_2.jpg</urlImage>
+				<resumeArticle>Le Parlement libanais a d&#195;&#169;sign&#195;&#169; vendredi soir cet ancien ministre de 49 ans consid&#195;&#169;r&#195;&#169; comme proche de la Syrie au poste de Premier ministre. Le chef de l'Etat Emile Lahoud l'a charg&#195;&#169; de former le nouveau gouvernement.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213402-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Florence et Hussein</themeArticle>
+				<titreArticle>Les m&#195;&#169;dias mobilis&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/48/1/2023481_2.jpg</urlImage>
+				<resumeArticle>Journaux, t&#195;&#169;l&#195;&#169;visions, et radios ont affich&#195;&#169; toute la journ&#195;&#169;e de vendredi une solidarit&#195;&#169; sans faille pour les 100 jours de captivit&#195;&#169; de la journaliste de Lib&#195;&#169;ration et de son guide irakien.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213285-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jackson</themeArticle>
+				<titreArticle>"Il m'a dit que mon fils &#195;&#169;tait en danger"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/13/6/307136_2.jpg</urlImage>
+				<resumeArticle>La m&#195;&#168;re du gar&#195;&#167;on qui accuse Michael Jackson d'abus sexuels a commenc&#195;&#169; mercredi &#195;&#160; t&#195;&#169;moigner au tribunal de Santa Maria (Californie).</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213383-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Double attentat &#195;&#160; Bagdad : 11 tu&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/4/2023434_2.jpg</urlImage>
+				<resumeArticle>Un double attentat suicide, revendiqu&#195;&#169; par le groupe de Zarqaoui, a caus&#195;&#169; la mort de 11 Irakiens, pour la plupart des policiers, jeudi matin &#195;&#160; Bagdad.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212675-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Pape "gestionnaire" ou "voyageur" ? (4/4)</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/03/2/2023032_2.jpg</urlImage>
+				<resumeArticle>Quatri&#195;&#168;me et dernier volet de notre s&#195;&#169;rie consacr&#195;&#169;e aux crit&#195;&#168;res sur lesquels les 115 cardinaux vont se baser pour d&#195;&#169;signer parmi eux le successeur de Jean Paul II : vont-ils pr&#195;&#169;f&#195;&#169;rer un "administrateur" de la Curie ou un "pasteur" ?</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

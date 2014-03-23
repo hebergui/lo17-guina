@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/03/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3206314-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le proc&#195;&#168;s de Michael Jackson comme si vous y &#195;&#169;tiez (07/03/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3211687-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Une femme de m&#195;&#169;nage charge lourdement Jackson (06/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212166-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Nouveau t&#195;&#169;moignage explosif contre Jackson (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213181-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Aubenas</themeArticle>
+				<titreArticle>Le p&#195;&#168;re de Florence "confiant"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/86/3/2018863_2.jpg</urlImage>
+				<resumeArticle>Dans un entretien &#195;&#160; l'AFP, le p&#195;&#168;re de la journaliste de Lib&#195;&#169;ration, retenue en Irak depuis pr&#195;&#168;s de cent jours, se montre optimiste quant &#195;&#160; la prochaine lib&#195;&#169;ration de sa fille.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213179-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Conclave </themeArticle>
+				<titreArticle>Les pronostics de la presse italienne</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/81/8/2022818_2.jpg</urlImage>
+				<resumeArticle>A cinq jours de l'ouverture du conclave, les journaux italiens croient savoir que le cardinal allemand Joseph Ratzinger, doyen du Sacr&#195;&#169; coll&#195;&#168;ge, pourrait d&#195;&#169;j&#195;&#160; compter sur les voix de 40 &#195;&#160; 50 cardinaux.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3213069-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Monaco</themeArticle>
+				<titreArticle>S&#195;&#169;curit&#195;&#169; maximale sur le Rocher</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/74/0/2022740_2.jpg</urlImage>
+				<resumeArticle>En pr&#195;&#169;vision des obs&#195;&#168;ques de Rainier III de Monaco, la principaut&#195;&#169; se transforme peu &#195;&#160; peu en forteresse. Une cinquantaine de chefs d'Etat et de t&#195;&#170;tes couronn&#195;&#169;es sont attendues vendredi.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212692-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Conclave : mode d'emploi</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/05/2/2023052_2.gif</urlImage>
+				<resumeArticle>O&#195;&#185; ? Qui ? Comment ? D&#195;&#169;couvrez avec notre infographie anim&#195;&#169;e la mani&#195;&#168;re dont le prochain pape sera &#195;&#169;lu lors du conclave qui d&#195;&#169;bute le 18 avril.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211850-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Pape conservateur ou progressiste ? (3/4)</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/59/3/2022593_2.jpg</urlImage>
+				<resumeArticle>Troisi&#195;&#168;me volet de notre s&#195;&#169;rie consacr&#195;&#169;e aux crit&#195;&#168;res sur lesquels le conclave va se baser pour &#195;&#169;lire le nouveau pape : l'Eglise doit-elle &#195;&#170;tre dirig&#195;&#169;e par un tenant d'une doctrine rigoureuse ou par un pr&#195;&#169;lat mod&#195;&#169;r&#195;&#169; ?</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211595-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Pape italien ou non ? (2/4)</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/41/9/2022419_2.jpg</urlImage>
+				<resumeArticle>Suite de notre s&#195;&#169;rie consacr&#195;&#169;e aux coulisses de l'&#195;&#169;lection du successeur de Jean Paul II. Deuxi&#195;&#168;me point cl&#195;&#169; : les cardinaux se choisiront-ils un pape italien, europ&#195;&#169;en ou issu d'un autre continent ?</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3211398-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Pape vieux ou jeune ? (1/4)</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/30/8/2022308_2.jpg</urlImage>
+				<resumeArticle>Sur quels crit&#195;&#168;res les 115 cardinaux r&#195;&#169;unis en conclave d&#195;&#169;signeront-ils parmi eux le successeur de Jean Paul II ? Dans une s&#195;&#169;rie de quatre volets, nous vous proposons les cl&#195;&#169;s de l'&#195;&#169;lection. Premier point : pontificat long ou de transition ?</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

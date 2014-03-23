@@ -12,22 +12,22 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3230858-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : sans nouvelles de moins d'une dizaine de Fran&#195;&#167;ais (11/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>11/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3230989-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Londres : le bilan passe &#195;&#160; 52 tu&#195;&#169;s (11/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3231051-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le double hommage rendu aux Londoniens (10/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>10/07/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3231118-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Attentats de Londres : le point sur l'enqu&#195;&#170;te (10/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -39,6 +39,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3230989-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Le bilan passe &#195;&#160; 52 tu&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/98/5/2040985_2.jpg</urlImage>
+				<resumeArticle>Le bilan des attentats de Londres est officiellement pass&#195;&#169; &#195;&#160; 52 tu&#195;&#169;s lundi apr&#195;&#168;s-midi. A ces chiffres, s'ajoutent les disparus. La police a annonc&#195;&#169; avoir formellement identifi&#195;&#169;, pour la premi&#195;&#168;re fois, l'une des personnes tu&#195;&#169;es.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231122-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Pays-Bas</themeArticle>
+				<titreArticle>D&#195;&#169;but du proc&#195;&#168;s du meurtrier de Theo Van Gogh</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/84/6/2008846_2.jpg</urlImage>
+				<resumeArticle>Le proc&#195;&#168;s de Mohammed Bouyeri, le Maroco-N&#195;&#169;erlandais accus&#195;&#169; d'avoir abattu le cin&#195;&#169;aste n&#195;&#169;erlandais Theo Van Gogh au nom de l'islam radical, s'est ouvert ce lundi devant un tribunal sous haute s&#195;&#169;curit&#195;&#169; d'Amsterdam.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3230913-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Constitution</themeArticle>
+				<titreArticle>Les Luxembourgeois disent "oui"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/93/7/2040937_2.jpg</urlImage>
+				<resumeArticle>Le "Jo" l'emporte avec 56,52% des voix lors du r&#195;&#169;f&#195;&#169;rendum sur la Constitution europ&#195;&#169;enne organis&#195;&#169; dimanche au Luxembourg. Le Grand Duch&#195;&#169; est le treizi&#195;&#168;me pays &#195;&#160; ratifier la Constitution, le premier par r&#195;&#169;f&#195;&#169;rendum apr&#195;&#168;s les "Non" fran&#195;&#167;ais et n&#195;&#169;erlandais.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231051-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Comm&#195;&#169;moration</themeArticle>
+				<titreArticle>Le double hommage rendu aux Londoniens</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/97/9/2040979_2.jpg</urlImage>
+				<resumeArticle>Des milliers de personnes ont assist&#195;&#169; dimanche, &#195;&#160; Londres, &#195;&#160; une c&#195;&#169;r&#195;&#169;monie pour c&#195;&#169;l&#195;&#169;brer le 60e anniversaire de la fin de la Seconde guerre mondiale. Cette comm&#195;&#169;moration intervient trois jours apr&#195;&#168;s une s&#195;&#169;rie d'attentats meurtriers.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231052-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>34 morts dans sept attentats suicide</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/4/2023434_2.jpg</urlImage>
+				<resumeArticle>Au moins 34 personnes ont &#195;&#169;t&#195;&#169; tu&#195;&#169;es dimanche en Irak dans une nouvelle s&#195;&#169;rie d'attentats suicide &#195;&#160; la voiture pi&#195;&#169;g&#195;&#169;e. Par ailleurs, les autorit&#195;&#169;s britanniques travailleraient sur un sc&#195;&#169;nario de r&#195;&#169;duction de son contingent en Irak &#195;&#160; 3.000 hommes, contre 8.500 actuellement.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3231039-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Turquie</themeArticle>
+				<titreArticle>Attentat dans une station baln&#195;&#169;aire</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/93/3/2040933_2.jpg</urlImage>
+				<resumeArticle>L'explosion, revendiqu&#195;&#169;e par un groupe arm&#195;&#169;e kurde, a fait une vingtaine de bless&#195;&#169;s dimanche dans la station touristique de Cesme, sur la c&#195;&#180;t&#195;&#169; ouest.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3230914-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Anniversaire</themeArticle>
+				<titreArticle>Il y a 20 ans, le Rainbow Warrior...</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/80/4/2040804_2.jpg</urlImage>
+				<resumeArticle>Il y a vingt ans, les services secrets fran&#195;&#167;ais coulaient le Rainbow Warrior. Aujourd'hui, Greenpeace a pris du champ par rapport au dossier nucl&#195;&#169;aire pour se mobiliser sur la question du changement climatique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3230625-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>La fin du "Londonistan"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/57/0/2040570_2.jpg</urlImage>
+				<resumeArticle>En raison de sa tradition lib&#195;&#169;rale et pour des questions pragmatiques, le Royaume-Uni a longtemps men&#195;&#169; une politique laxiste envers les pr&#195;&#169;dicateurs islamistes pr&#195;&#169;sents sur son sol. D&#195;&#169;j&#195;&#160; &#195;&#169;branl&#195;&#169;e par le 11 septembre puis la guerre en Irak, cette donne, qui faisait de Londres un "sanctuaire", a d&#195;&#169;finitivement disparu jeudi.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

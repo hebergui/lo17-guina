@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3224070-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Le r&#195;&#169;f&#195;&#169;rendum britannique au placard (06/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>07/06/2005</dateArticle>
-				<urlArticle>/news/europe/0,,3224320-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Douste-Blazy : "surmonter la crise ensemble" (07/06/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/06/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3224544-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Un non franco-n&#195;&#169;erlandais de crise (08/06/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224502-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>D&#195;&#169;veloppement</themeArticle>
+				<titreArticle>Bush et Blair proposent d'effacer l'ardoise</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/04/8/2034048_2.jpg</urlImage>
+				<resumeArticle>Les Etats-Unis et la Grande-Bretagne vont proposer d'&#195;&#169;liminer la dette des pays les plus pauvres au prochain sommet du G8.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224498-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chili</themeArticle>
+				<titreArticle>Pinochet blanchi pour Condor, mais poursuivi par le fisc</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/4/51774_2.jpg</urlImage>
+				<resumeArticle>La Cour d'appel de Santiago a mis fin aux poursuites contre l'ex-dictateur pour l'op&#195;&#169;ration de r&#195;&#169;pression d'opposants Condor. Mais elle a lev&#195;&#169; son immunit&#195;&#169; d'ancien pr&#195;&#169;sident pour l'affaire de ses comptes secrets aux Etats-Unis.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224312-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>R-U</themeArticle>
+				<titreArticle>Les Britanniques devront-ils payer pour rouler?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/81/0/642810_2.jpg</urlImage>
+				<resumeArticle>Le gouvernement britannique projette de faire payer aux automobilistes chaque kilom&#195;&#168;tre parcouru sur toutes les routes pour r&#195;&#169;duire le trafic. Un plan qui est loin de faire l'unanimit&#195;&#169; et qui suscite de vives protestations.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3224320-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Douste-Blazy : "surmonter la crise ensemble"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/90/2/2011902_2.jpg</urlImage>
+				<resumeArticle>Au lendemain de la d&#195;&#169;cision britannique de reporter le r&#195;&#169;f&#195;&#169;rendum sur la constitution europ&#195;&#169;enne, Philippe Douste-Blazy a r&#195;&#169;affirm&#195;&#169; la n&#195;&#169;cessit&#195;&#169; de ne pas arr&#195;&#170;ter le processus de ratification.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224070-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>Le r&#195;&#169;f&#195;&#169;rendum britannique au placard</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/74/6/2033746_2.jpg</urlImage>
+				<resumeArticle>Le ministre britannique des Affaires &#195;&#169;trang&#195;&#168;res a annonc&#195;&#169; ce lundi que son pays reportait &#195;&#160; une date ind&#195;&#169;termin&#195;&#169;e son r&#195;&#169;f&#195;&#169;rendum sur le Trait&#195;&#169; europ&#195;&#169;en. Londres prendra sa d&#195;&#169;cision finale apr&#195;&#168;s le sommet de Bruxelles des 16-17 juin prochains.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/europe/0,,3224281-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>UE</themeArticle>
+				<titreArticle>"La Constitution n'est pas morte"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/64/0/2020640_2.jpg</urlImage>
+				<resumeArticle>La d&#195;&#169;cision britannique de reporter sine die le r&#195;&#169;f&#195;&#169;rendum pr&#195;&#169;vu sur la Constitution europ&#195;&#169;enne ne signera pas l'arr&#195;&#170;t de mort du trait&#195;&#169;. C'est ce qu'ont affirm&#195;&#169; en choeur lundi les dirigeants de l'UE.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3224284-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Ethique</themeArticle>
+				<titreArticle>Beno&#195;&#174;t XVI d&#195;&#169;fend "l'intangibilit&#195;&#169; de la vie"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/51/6/2024516_2.jpg</urlImage>
+				<resumeArticle>Beno&#195;&#174;t XVI a r&#195;&#169;affirm&#195;&#169; avec force lundi les dogmes de l'Eglise catholique sur l'intangibilit&#195;&#169; de la vie humaine, &#195;&#160; quelques jours d'un r&#195;&#169;f&#195;&#169;rendum en Italie sur la procr&#195;&#169;ation m&#195;&#169;dicalement assist&#195;&#169;e.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

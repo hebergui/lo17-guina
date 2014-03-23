@@ -12,17 +12,17 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>05/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3217193-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Blair sur les traces de Thatcher (05/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/05/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3217506-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Tony Blair r&#195;&#169;&#195;&#169;lu : les r&#195;&#169;actions (06/05/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>06/05/2005</dateArticle>
-				<urlArticle>/news/economie/0,,3217593-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>La victoire de Tony Blair (06/05/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -34,6 +34,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217506-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume Uni</themeArticle>
+				<titreArticle>Tony Blair r&#195;&#169;&#195;&#169;lu : les r&#195;&#169;actions</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/66/4/648664_2.jpg</urlImage>
+				<resumeArticle>La r&#195;&#169;&#195;&#169;lection de Tony Blair &#195;&#160; la t&#195;&#170;te du gouvernement britannique s'est accompagn&#195;&#169;e de nombreux commentaires. La communaut&#195;&#169; internationale salue sa victoire mais Margareth Thatcher n'a pas tenu &#195;&#160; le f&#195;&#169;liciter.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217493-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>PO</themeArticle>
+				<titreArticle>Victoire contest&#195;&#169;e du Fatah aux municipales</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/7/2026687_2.jpg</urlImage>
+				<resumeArticle>Le mouvement Fatah du pr&#195;&#169;sident de l'Autorit&#195;&#169; palestinienne Mahmoud Abbas emporterait 50 municipalit&#195;&#169;s, contre 28 au Hamas. Le Hamas conteste ces r&#195;&#169;sultats.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217321-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>USA</themeArticle>
+				<titreArticle>Attentat contre le consulat britannique &#195;&#160; NY</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/63/8/2026638_2.jpg</urlImage>
+				<resumeArticle>Un engin de faible puissance a explos&#195;&#169; t&#195;&#180;t jeudi, sans faire de victimes mais provoquant de l&#195;&#169;gers d&#195;&#169;g&#195;&#162;ts, devant les bureaux du consulat britannique &#195;&#160; New York.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217397-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Des municipales tests</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/68/7/2026687_2.jpg</urlImage>
+				<resumeArticle>Les Palestiniens &#195;&#169;lisaient jeudi des conseils municipaux en Cisjordanie et &#195;&#160; Gaza. Le scrutin devait permettre de mesurer le rapport de force entre le Fatah du pr&#195;&#169;sident Abbas et les radicaux du Hamas avant les l&#195;&#169;gislatives du 17 juillet. Selon des r&#195;&#169;sultats partiels, le Fatah devancerait le Hamas.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217399-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>La victoire annonc&#195;&#169;e de Tony Blair</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/69/4/2026694_2.jpg</urlImage>
+				<resumeArticle>Selon les sondages, le travailliste semblait assur&#195;&#169; de conserver son poste de Premier ministre &#195;&#160; l'issue des l&#195;&#169;gislatives de jeudi au Royaume-Uni. La majorit&#195;&#169; dont il disposera &#195;&#160; la Chambre des communes restait la grande inconnue. Elle devrait baisser selon les experts.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217193-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Royaume-Uni</themeArticle>
+				<titreArticle>Blair sur les traces de Thatcher</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/50/8/2026508_2.jpg</urlImage>
+				<resumeArticle>Elu en 1997 puis r&#195;&#169;&#195;&#169;lu en 2001, le Premier ministre britannique est le grand favori des &#195;&#169;lections l&#195;&#169;gislatives qui se tiennent ce jeudi. Si sa victoire annonc&#195;&#169;e se r&#195;&#169;alise, il &#195;&#169;galerait Margaret Thatcher, vainqueur de trois scrutins.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3217312-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Pologne</themeArticle>
+				<titreArticle>Une "marche des vivants" &#195;&#160; Auschwitz</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/69/9/2026699_2.jpg</urlImage>
+				<resumeArticle>L'ancien camp, o&#195;&#185; plus d'un million de personnes furent extermin&#195;&#169;es entre 1940 et 1945, a accueilli jeudi une grande marche du souvenir de l'Holocauste. Plus de 20 000 personnes ont particip&#195;&#169; &#195;&#160; cette comm&#195;&#169;moration.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

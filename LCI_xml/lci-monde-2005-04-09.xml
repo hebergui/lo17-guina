@@ -12,32 +12,32 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212185-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les Polonais disent adieu &#195;&#160; leur pape (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212231-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Les grands moments de la c&#195;&#169;r&#195;&#169;monie (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212305-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Des fun&#195;&#169;railles plan&#195;&#169;taires (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212393-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Jean Paul II : des fun&#195;&#169;railles historiques (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212395-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'immense &#195;&#169;motion des p&#195;&#168;lerins place Saint-Pierre (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>08/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212399-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Notre-Dame de Paris &#195;&#160; l'heure du recueillement (08/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -49,6 +49,55 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/people/0,,3212290-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Charles et Camilla</themeArticle>
+				<titreArticle>Ils ont dit "Yes"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/5/2022925_2.jpg</urlImage>
+				<resumeArticle>Apr&#195;&#168;s 34 ans d'attente et une s&#195;&#169;rie de contrari&#195;&#169;t&#195;&#169;s de derni&#195;&#168;re minute, dont la mort du pape, le prince Charles et Camilla Parker Bowles se sont enfin dit oui samedi en d&#195;&#169;but d'apr&#195;&#168;s-midi &#195;&#160; la mairie de Windsor.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212414-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Manifestation anti-am&#195;&#169;ricaine &#195;&#160; Bagdad</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/4/2022924_2.jpg</urlImage>
+				<resumeArticle>Des dizaines de milliers d'Irakiens manifestaient samedi matin &#195;&#160; Bagdad contre l'occupation am&#195;&#169;ricaine, &#195;&#160; l'occasion du second anniversaire de la chute du pr&#195;&#169;sident Saddam Hussein.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212459-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chine</themeArticle>
+				<titreArticle>Violences anti-japonaises &#195;&#160; P&#195;&#169;kin</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/94/0/2022940_2.jpg</urlImage>
+				<resumeArticle>Une manifestation organis&#195;&#169;e samedi &#195;&#160; P&#195;&#169;kin contre le "r&#195;&#169;visionnisme" japonais - avec l'accord tacite des autorit&#195;&#169;s chinoises - a d&#195;&#169;g&#195;&#169;n&#195;&#169;r&#195;&#169;, avec des violences qui ont vis&#195;&#169; en particulier l'ambassade du Japon. A l'origine, une violente controverse sur des livres d'histoire minimisant les atrocit&#195;&#169;s japonaises en Chine.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212310-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Fausse alerte dans le ciel romain</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/4/2022774_2.jpg</urlImage>
+				<resumeArticle>Deux F16 italiens ont intercept&#195;&#169; un avion alors que les dirigeants du monde entier &#195;&#169;taient r&#195;&#169;unis pour les obs&#195;&#168;ques du pape. Le jet priv&#195;&#169; &#195;&#169;tait suspect&#195;&#169; de transporter une bombe. Rien n'aurait &#195;&#169;t&#195;&#169; trouv&#195;&#169; &#195;&#160; bord.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212305-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jean Paul II</themeArticle>
+				<titreArticle>Des fun&#195;&#169;railles plan&#195;&#169;taires</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/8/2022878_2.jpg</urlImage>
+				<resumeArticle>Les obs&#195;&#168;ques de Jean Paul II, premier pape de l'&#195;&#168;re m&#195;&#169;diatique globale et chef d'une &#195;&#169;glise qui revendique plus d'un milliard de fid&#195;&#168;les, se sont transform&#195;&#169;es vendredi en &#195;&#169;v&#195;&#169;nement plan&#195;&#169;taire, marqu&#195;&#169; par des rassemblements populaires et des manifestations de deuil dans le monde entier.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212166-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Nouveau t&#195;&#169;moignage explosif</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/1/2020001_2.jpg</urlImage>
+				<resumeArticle>Un ancien employ&#195;&#169; du chanteur am&#195;&#169;ricain a assur&#195;&#169; l'avoir vu abuser un jeune gar&#195;&#167;on dans sa propri&#195;&#169;t&#195;&#169; de Neverland au d&#195;&#169;but des ann&#195;&#169;es 1990.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212082-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Une Fran&#195;&#167;aise tu&#195;&#169;e dans un attentat</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/6/2022766_2.jpg</urlImage>
+				<resumeArticle>L'attentat &#195;&#160; la bombe a eu lieu jeudi soir sur un march&#195;&#169; du vieux Caire, tr&#195;&#168;s fr&#195;&#169;quent&#195;&#169; par les touristes. Un Am&#195;&#169;ricain et sans doute le kamikaze ont aussi &#195;&#169;t&#195;&#169; tu&#195;&#169;s</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

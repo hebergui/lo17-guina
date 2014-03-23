@@ -94,7 +94,7 @@ sub VOIRAUSSI {
 	my $f_log;
 	open($f_log, ">>","log/id_partie/voir_aussi") or die "Impossible d'ouvrir en lecture log/id_partie/voir_aussi \n";
 	
-	while ( $l =~ m/<a\shref.+?(\/news.*?\.html).+?class="S48">(.+?)<\/a>/g ) {
+	while ( $l =~ m/<a.*?href.+?(\/news.*?[\.html]?)"?.*?>(.+?)<\/a>/g ) {
 		print $f_out "\t\t\t<VOIRAUSSI>\n";
 		my $url = $1;
 		my $titre = $2;
@@ -149,7 +149,7 @@ sub FOCUS {
 	#<auteur> </auteur>
 		
 	############ urlArticle ############
-	if ( m/<a\sclass="S531"\shref="(.+)">Lire l'article<\/a>/ ) {
+	if ( m/<a\sclass="S531"\shref="javascript:openPopup\('(.+)',.*?">Lire l'article<\/a>/ || m/<a\sclass="S531"\shref="(.+)">Lire l'article<\/a>/ ) {
 		$url = $1;
 		print $f_out "\t\t\t<urlArticle>";
 		print $f_out $1;
@@ -227,7 +227,7 @@ sub LES_GROSTITRES {
 	my $f_log;
 	open($f_log, ">>","log/id_partie/gros_titre") or die "Impossible d'ouvrir en lecture log/id_partie/gros_titre \n";
 							         #$1                    $2                    $3                        $4                        $5
-	while ( $l =~ m/<a\shref.+?(\/news.*?\.html).+?<img\ssrc="(.+?)".+?class="S301">(.+?)<\/span>.+?class="S63">(.+?)<\/a>.+?class="S48">(.+?)<\/a>/g ) {
+	while ( $l =~ m/<a\shref?.+?(\/news.*?\.html).+?<img\ssrc="(.+?)".+?class="S301">(.+?)<\/span>.+?class="S63">(.+?)<\/a>.+?class="S48">(.+?)<\/a>/g ) {
 		print $f_out "\t\t\t<GROSTITRE>\n";
 
 		############ urlArticle ############

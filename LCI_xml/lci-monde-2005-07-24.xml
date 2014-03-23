@@ -12,32 +12,32 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233448-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Egypte : le monde exprime son horreur (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233506-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'Egypte veut rassurer les touristes (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/newsthemes/monde/0,,3233513-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Al-Qaida frappe l'Egypte &#195;&#160; Charm El-Cheikh (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/newsthemes/monde/0,,3233564-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Charm El-Cheikh : les t&#195;&#169;moignages des touristes (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233585-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Quel lien entre Londres et Charm el-Cheikh ? (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>23/07/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3233586-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>L'Egypte frapp&#195;&#169;e au coeur par le terrorisme (23/07/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -49,6 +49,62 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233586-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Un pays frapp&#195;&#169; au coeur par le terrorisme</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/43/3/2043433_2.jpg</urlImage>
+				<resumeArticle>C'est une ville hautement symbolique, l'un des lieux les plus touristiques de l'Egypte et o&#195;&#185; r&#195;&#169;side r&#195;&#169;guli&#195;&#168;rement le pr&#195;&#169;sident Moubarak, qui a &#195;&#169;t&#195;&#169; frapp&#195;&#169;e samedi par les attentats. Les explosions de Charm el-Cheikh ont fait au moins 88 morts et 110 bless&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233448-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Le monde exprime son horreur</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/37/2/2043372_2.jpg</urlImage>
+				<resumeArticle>Les attentats de Charm el-Cheikh ont soulev&#195;&#169; samedi une vague unanime de condamnations, dans les pays occidentaux comme ceux du Proche-Orient qui ont appel&#195;&#169; &#195;&#160; l'union contre le "fl&#195;&#169;au" du terrorisme.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233506-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Rassurer les touristes</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/40/2/2043402_2.jpg</urlImage>
+				<resumeArticle>Sit&#195;&#180;t apr&#195;&#168;s les attentats, les autorit&#195;&#169;s &#195;&#169;gyptiennes ont publi&#195;&#169; des communiqu&#195;&#169;s rassurants destin&#195;&#169;s &#195;&#160; limiter les cons&#195;&#169;quences pour l'industrie touristique, cruciale dans ce pays. Malgr&#195;&#169; de nombreux d&#195;&#169;parts de touristes choqu&#195;&#169;s, il n'y a pas eu de mouvement g&#195;&#169;n&#195;&#169;ral de panique.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233502-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Scotland Yard d&#195;&#169;fend la r&#195;&#168;gle du "shoot to kill"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/44/8/2043448_2.jpg</urlImage>
+				<resumeArticle>Tout en d&#195;&#169;plorant la mort d'un &#195;&#169;lectricien br&#195;&#169;silien pris &#195;&#160; tort pour un terroriste, la police britannique justifie ses consignes concernant les pr&#195;&#169;sum&#195;&#169;s kamikazes : ils doivent &#195;&#170;tre abattus d'une balle dans la t&#195;&#170;te.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233495-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Un poseur de bombe arr&#195;&#170;t&#195;&#169; ?</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/11/7/2043117_2.jpg</urlImage>
+				<resumeArticle>L'enqu&#195;&#170;te sur les attentats manqu&#195;&#169;s de jeudi &#195;&#160; Londres a progress&#195;&#169; rapidement avec l'annonce samedi d'une deuxi&#195;&#168;me arrestation. En revanche, l'homme abattu vendredi n&#195;&#169;tait pas li&#195;&#169; aux attentats.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233142-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>TEMOIGNAGES : "Ne pas tomber dans le pi&#195;&#168;ge des extr&#195;&#169;mistes !"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/7/2042917_2.jpg</urlImage>
+				<resumeArticle>Entre fatalit&#195;&#169; et d&#195;&#169;termination, les Fran&#195;&#167;ais de Londres reviennent pour tf1.fr sur les &#195;&#169;v&#195;&#169;nements de la journ&#195;&#169;e de jeudi, quinze jours exactement apr&#195;&#168;s les attentats du 7 juillet.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233443-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Allemagne</themeArticle>
+				<titreArticle>Crash pr&#195;&#168;s de la chancellerie</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/37/7/2043377_2.jpg</urlImage>
+				<resumeArticle>Un petit avion s'est &#195;&#169;cras&#195;&#169; vendredi soir entre la chancellerie de Gerhard Schr&#195;&#182;der et le Reichstag, si&#195;&#168;ge du Parlement. Le pilote, seul occupant de l'appareil, s'est vraisemblablement suicid&#195;&#169; alors qu'il est soup&#195;&#167;onn&#195;&#169; d'avoir tu&#195;&#169; son &#195;&#169;pouse.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3233253-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Londres</themeArticle>
+				<titreArticle>Quatre hommes recherch&#195;&#169;s</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/18/4/2043184_2.jpg</urlImage>
+				<resumeArticle>La police britannique a diffus&#195;&#169; vendredi les images de quatre hommes activement recherch&#195;&#169;s apr&#195;&#168;s les attentats rat&#195;&#169;s de jeudi. Deux arrestations ont eu lieu pr&#195;&#168;s de la station de m&#195;&#169;tro Stockwell, o&#195;&#185; un terroriste pr&#195;&#169;sum&#195;&#169; avait &#195;&#169;t&#195;&#169; abattu par la police le matin m&#195;&#170;me.</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>

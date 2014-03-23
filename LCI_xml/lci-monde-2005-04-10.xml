@@ -12,7 +12,7 @@
 		<LES_VOIRAUSSI>
 			<VOIRAUSSI>
 				<dateArticle>09/04/2005</dateArticle>
-				<urlArticle>/news/monde/0,,3212475-VU5WX0lEIDUy,00.html</urlArticle>
+				<urlArticle>/news</urlArticle>
 				<titreArticle>Menaces sur la tr&#195;&#170;ve (09/04/2005)</titreArticle>
 			</VOIRAUSSI>
 		</LES_VOIRAUSSI>
@@ -24,6 +24,83 @@
 			<mailto></mailto>
 		</FOCUS>
 		<LES_GROSTITRES>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212550-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Rainier</themeArticle>
+				<titreArticle>Chapelle ardente au palais de Monaco</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/98/7/2022987_2.jpg</urlImage>
+				<resumeArticle>La d&#195;&#169;pouille de Rainier III est expos&#195;&#169;e jusqu'&#195;&#160; mercredi dans la chapelle palatine du palais de Monaco. Seuls les Mon&#195;&#169;gasques et les r&#195;&#169;sidents de la Principaut&#195;&#169; ont &#195;&#169;t&#195;&#169; autoris&#195;&#169;s &#195;&#160; venir s'incliner dans la chapelle ardente dimanche apr&#195;&#168;s-midi, ainsi que mardi et mercredi, le lundi ayant &#195;&#169;t&#195;&#169; r&#195;&#169;serv&#195;&#169; aux corps constitu&#195;&#169;s.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/people/0,,3212290-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Charles et Camilla</themeArticle>
+				<titreArticle>Ils ont dit "Yes"</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/94/3/2022943_2.jpg</urlImage>
+				<resumeArticle>Charles et Camilla se sont promis fid&#195;&#169;lit&#195;&#169; samedi apr&#195;&#168;s-midi dans la chapelle St George du ch&#195;&#162;teau de Windsor, peu apr&#195;&#168;s avoir &#195;&#169;t&#195;&#169; officiellement unis &#195;&#160; la mairie de la ville.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212475-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proche-Orient</themeArticle>
+				<titreArticle>Menaces sur la tr&#195;&#170;ve</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/91/2/222912_2.jpg</urlImage>
+				<resumeArticle>La mort de trois adolescents palestiniens, tu&#195;&#169;s par des tirs isra&#195;&#169;liens dans une zone interdite par l'arm&#195;&#169;e dans le sud de la bande de Gaza, a provoqu&#195;&#169; samedi des tirs de mortier du Hamas sur des colonies juives. Un dirigeant du Jihad islamique a appel&#195;&#169; &#195;&#160; "r&#195;&#169;examiner la position de tous les mouvements sur la tr&#195;&#170;ve".</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212464-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Vatican</themeArticle>
+				<titreArticle>Les cardinaux d&#195;&#169;cident le silence m&#195;&#169;dia</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/94/2/2022942_2.jpg</urlImage>
+				<resumeArticle>Les 130 cardinaux r&#195;&#169;unis samedi en congr&#195;&#169;gation pour pr&#195;&#169;parer le conclave ont d&#195;&#169;cid&#195;&#169; "&#195;&#160; l'unanimit&#195;&#169; d'&#195;&#169;viter les interviews et les rencontres avec les m&#195;&#169;dias", a annonc&#195;&#169; le porte-parole du Vatican.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212185-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jean Paul II</themeArticle>
+				<titreArticle>L'adieu des Polonais &#195;&#160; leur pape</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/82/8/2022828_2.jpg</urlImage>
+				<resumeArticle>Vendredi, &#195;&#160; 21h37, heure du d&#195;&#169;c&#195;&#168;s de Jean Paul II, toutes les lumi&#195;&#168;res de Pologne se sont &#195;&#169;teintes. Plus t&#195;&#180;t, 800.000 personnes ont suivi les obs&#195;&#168;ques du pape retransmises en direct sur une esplanade de Cracovie.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212414-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Irak</themeArticle>
+				<titreArticle>Manifestation anti-am&#195;&#169;ricaine &#195;&#160; Bagdad</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/92/4/2022924_2.jpg</urlImage>
+				<resumeArticle>Des dizaines de milliers d'Irakiens ont manifest&#195;&#169; samedi &#195;&#160; Bagdad contre l'occupation am&#195;&#169;ricaine, deux ans apr&#195;&#168;s la chute de Saddam Hussein.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212459-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Chine</themeArticle>
+				<titreArticle>Violences anti-japonaises &#195;&#160; P&#195;&#169;kin</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/94/0/2022940_2.jpg</urlImage>
+				<resumeArticle>Une manifestation organis&#195;&#169;e samedi &#195;&#160; P&#195;&#169;kin contre le "r&#195;&#169;visionnisme" japonais - avec l'accord tacite des autorit&#195;&#169;s chinoises - a d&#195;&#169;g&#195;&#169;n&#195;&#169;r&#195;&#169;, avec des violences qui ont vis&#195;&#169; en particulier l'ambassade du Japon. A l'origine, une violente controverse sur des livres d'histoire minimisant les atrocit&#195;&#169;s japonaises en Chine.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212310-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Italie</themeArticle>
+				<titreArticle>Fausse alerte dans le ciel romain</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/77/4/2022774_2.jpg</urlImage>
+				<resumeArticle>Deux F16 italiens ont intercept&#195;&#169; un avion alors que les dirigeants du monde entier &#195;&#169;taient r&#195;&#169;unis pour les obs&#195;&#168;ques du pape. Le jet priv&#195;&#169; &#195;&#169;tait suspect&#195;&#169; de transporter une bombe. Rien n'aurait &#195;&#169;t&#195;&#169; trouv&#195;&#169; &#195;&#160; bord.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212305-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Jean Paul II</themeArticle>
+				<titreArticle>Des fun&#195;&#169;railles plan&#195;&#169;taires</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/87/8/2022878_2.jpg</urlImage>
+				<resumeArticle>Les obs&#195;&#168;ques de Jean Paul II, premier pape de l'&#195;&#168;re m&#195;&#169;diatique globale et chef d'une &#195;&#169;glise qui revendique plus d'un milliard de fid&#195;&#168;les, se sont transform&#195;&#169;es vendredi en &#195;&#169;v&#195;&#169;nement plan&#195;&#169;taire, marqu&#195;&#169; par des rassemblements populaires et des manifestations de deuil dans le monde entier.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212166-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Proc&#195;&#168;s Jackson</themeArticle>
+				<titreArticle>Nouveau t&#195;&#169;moignage explosif</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/00/1/2020001_2.jpg</urlImage>
+				<resumeArticle>Un ancien employ&#195;&#169; du chanteur am&#195;&#169;ricain a assur&#195;&#169; l'avoir vu abuser un jeune gar&#195;&#167;on dans sa propri&#195;&#169;t&#195;&#169; de Neverland au d&#195;&#169;but des ann&#195;&#169;es 1990.</resumeArticle>
+			</GROSTITRE>
+			<GROSTITRE>
+				<urlArticle>/news/monde/0,,3212082-VU5WX0lEIDUy,00.html</urlArticle>
+				<themeArticle>Egypte</themeArticle>
+				<titreArticle>Une Fran&#195;&#167;aise tu&#195;&#169;e dans un attentat</titreArticle>
+				<urlImage>http://s.tf1.fr/mmdia/i/76/6/2022766_2.jpg</urlImage>
+				<resumeArticle>L'attentat &#195;&#160; la bombe a eu lieu jeudi soir sur un march&#195;&#169; du vieux Caire, tr&#195;&#168;s fr&#195;&#169;quent&#195;&#169; par les touristes. Un Am&#195;&#169;ricain et sans doute le kamikaze ont aussi &#195;&#169;t&#195;&#169; tu&#195;&#169;s</resumeArticle>
+			</GROSTITRE>
 		</LES_GROSTITRES>
 		<LES_RAPPELS>
 			<RAPPEL>
