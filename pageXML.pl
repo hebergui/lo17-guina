@@ -9,7 +9,7 @@ use Switch;
 #shebang inutile : lancer avec la commande : perl [*.pl] [fichier] [mode]
 #Ex. page avec toutes les rubriques : 			perl pageXML.pl lci-monde-2005-02-25.html 
 #Ex. page où il manque rubrique voir_aussi :	perl pageXML.pl lci-monde-2005-10-26.html
-#perl pageXML.pl lci-monde-2005-03-28.html
+#perl pageXML.pl lci-monde-2006-02-15.html
 
 #################################### URL ########################################
 sub UNE {
@@ -94,7 +94,7 @@ sub VOIRAUSSI {
 	my $f_log;
 	open($f_log, ">>","log/id_partie/voir_aussi") or die "Impossible d'ouvrir en lecture log/id_partie/voir_aussi \n";
 	
-	while ( $l =~ m/<a.*?href.+?(\/news.*?[\.html]?)"?.*?>(.+?)<\/a>/g ) {
+	while ( $l =~ m/<a.*?href.+?(\/news.*?[\.html]?).*?class="S48">(.+?)<\/a>/g ) {
 		print $f_out "\t\t\t<VOIRAUSSI>\n";
 		my $url = $1;
 		my $titre = $2;
@@ -227,7 +227,7 @@ sub LES_GROSTITRES {
 	my $f_log;
 	open($f_log, ">>","log/id_partie/gros_titre") or die "Impossible d'ouvrir en lecture log/id_partie/gros_titre \n";
 							         #$1                    $2                    $3                        $4                        $5
-	while ( $l =~ m/<a\shref?.+?(\/news.*?\.html).+?<img\ssrc="(.+?)".+?class="S301">(.+?)<\/span>.+?class="S63">(.+?)<\/a>.+?class="S48">(.+?)<\/a>/g ) {
+	while ( $l =~ m/<a\shref?.+?(\/news.*?\.html).+?<img\ssrc="(.+?)".+?class="S301">(.+?)<\/span>.+?class="S63">(.+?)<\/a>.+?class="S48">(.*?)<\/a>/g ) {
 		print $f_out "\t\t\t<GROSTITRE>\n";
 
 		############ urlArticle ############
