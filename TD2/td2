@@ -1,1 +1,1 @@
-cat corpus.xml | segment.f | sort | uniq -c/e | more >tf.txt
+perl newsegmente.pl -f corpusA09.xml | sort | uniq -c > tf.txt 
