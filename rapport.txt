@@ -1,0 +1,19 @@
+Pour le rapport : quelques infos :
+
+extraction du contenu
+Rappeler les mode d'extraction (comment j'ai trouvé les balises d'extraction, l'unicité des balises sur l'ensemble des docs) et test que j'ai fait pour le ontrer
+Comment j'ai trouvé les balises, comment je me suis assurée de la qualité des balises
+si nécessaire, parler de la moulinette (genre les script find_delimitateur)
+mettre le moins de lignes de perl possible, mais si nécessaire il faut les mettre
+vérification de la structure
+
+indexation
+calcul idf
+tf
+(pas grand chose à dire, mais parler du pourquoi et du comment tu calcul)
+
+lors du calcul du seuil, qu'est ce qu'il restait qu'il a fallu retirer (genre le script stopList.pl)
+
+extraction des lemmes
+l'algo a des caractéristiques qui focntionnent dans certaines conditions, mais pourquoi il a sorti ca : revenir sur l'algo
+(travail d'échantillon)

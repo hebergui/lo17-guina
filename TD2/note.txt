@@ -1,12 +1,9 @@
-Script perl :
- - S'il existe motLexique = motRequète -> lemme
- - S'il existe motLexique proche motRequète -> 	préfixe (grandeur proche de grand)
- 											->	édition orthographe (grenade proche de grande)
-Fonction java :
-paramètre : mot que l'on cherche
-retour :
- - retrouver le mot du lexique, et retourner le lemme
- - chercher les préfixes les plus proches et retourner la liste des lemmes
- - chercher les mots clés les plus proches et les retourner sous forme de liste
- - sinon retourner le mot entré en paramètre (mot trop mal orthographié...)
+Commande pour trier
+sort -n -t$'\t' +2 -3 -o tfXidf_sort.txt
 
+On retire les 25% des mots qui apparaissent peu : choix de retirer le 1e quartile
+c'est à dire 88205/4 = 20702
+On prend les mots après "vie" qui est en 20761 
+tfXidf >= 0.63
+
+Liste des mots stop dans le fichier 
