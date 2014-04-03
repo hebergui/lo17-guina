@@ -44,13 +44,17 @@ while ( <$f_in> ) {
 close($f_in);
 close($f_out);
 
+my $l_in = `wc $file_in`;
+my $l_out = `wc $file_out`;
+$l_in =~ m/ +(.+?) +(.+?) /;
+$l_in = $1;
+my $w_in = $2;
+$l_out =~ m/ +(.+?) +(.+?) /;
+$l_out = $1;
+my $w_out = $2;
+
 if ( not defined $ARGV[1] ) {
-	my $l_in = `wc $file_in`;
-	my $l_out = `wc $file_out`;
-	
-	$l_in =~ m/ +(.+?) +(.+?) /;
 	print "Fichier d'entrée : $1 lignes et $2 mots \n";
-	$l_out =~ m/ +(.+?) +(.+?) /;
 	print "Fichier de sortie : $1 lignes et $2 mots \n";
 
 	print "Ouvrir les deux pages htlm pour controler [o/n] ? ";
@@ -61,5 +65,10 @@ if ( not defined $ARGV[1] ) {
 	if ($choix eq "o") {
 		print "Ouverture des deux pages html sous Firefox pour voir la différence...\n";
 		exec("firefox $file_in $file_out &") or die "Impossible d'ouvrir les pages htlm avec firefox\n";
+	}
+}
+else {
+	if ( $l_out > $l_in || $w_out > $w_in || $l_out != 0) {
+		print "Problème fichier $ARGV[0]\n";
 	}
 }

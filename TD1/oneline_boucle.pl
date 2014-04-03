@@ -27,7 +27,7 @@ while(readdir($d_in))
 	}
 }
 
-my $count_files = `ls -Al $directory_in | wc -l`;
+my $count_files = `ls -A $directory_in | wc -l`;
 chomp $count_files;
 
 print "\nLe script a traité $count_loop fichiers (sur $count_files)\n";

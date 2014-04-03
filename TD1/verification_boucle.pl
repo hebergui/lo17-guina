@@ -21,13 +21,13 @@ my $count_loop = 0;
 while(readdir($d_in))
 {
 	if ($_ ne ".." && $_ ne ".") {
-		system("perl verification.pl $_ loop");
+		my log = `perl verification.pl $_ loop`;
 		print ".";
 		$count_loop++;
 	}
 }
 
-my $count_files = `ls -Al $directory_in | wc -l`;
+my $count_files = `ls -A $directory_in | wc -l`;
 chomp $count_files;
 
 print "\nLe script a traité $count_loop fichiers (sur $count_files)\n";
