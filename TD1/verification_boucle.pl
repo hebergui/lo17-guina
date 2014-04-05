@@ -21,7 +21,7 @@ my $count_loop = 0;
 while(readdir($d_in))
 {
 	if ($_ ne ".." && $_ ne ".") {
-		my log = `perl verification.pl $_ loop`;
+		system("perl verification.pl $_ loop");
 		print ".";
 		$count_loop++;
 	}

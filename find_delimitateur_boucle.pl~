@@ -64,19 +64,19 @@ my $count_loop = 0;
 open(my $f_log, "+>","log/id_rubrique/".$log_name) or die "Impossible de creer/tronquer log/id_rubrique/$log_name\n";
 
 
-#print $f_log "***Liste des fichiers qui ne contiennent pas (ou plusieurs fois) l'identifiant $reg1***\n\n" if(!$reg2);
-#print $f_log "***Liste des fichiers qui ne contiennent pas (ou plusieurs fois) les identifiants $reg1 $reg2***\n\n" if($reg2);
+print $f_log "***Liste des fichiers qui ne contiennent pas (ou plusieurs fois) l'identifiant $reg1***\n\n" if(!$reg2);
+print $f_log "***Liste des fichiers qui ne contiennent pas (ou plusieurs fois) les identifiants $reg1 $reg2***\n\n" if($reg2);
 
 while(readdir($d_in))
 {
 	if ($_ ne ".." && $_ ne ".") {
 		if(defined $reg2)
 		{
-			system("perl find_delimitateur.pl $_ loop $log_name $reg1 $reg2");
+			system("perl rubriques.pl $_ loop $log_name $reg1 $reg2");
 		}
 		else
 		{
-			system("perl find_delimitateur.pl $_ loop $log_name $reg1");
+			system("perl rubriques.pl $_ loop $log_name $reg1");
 		}
 		$count_loop++;
 	}
@@ -86,8 +86,6 @@ while(readdir($d_in))
 
 my $count_files = `ls -Al $directory_in | wc -l`;
 chomp $count_files;
-
-$count_files--;
 
 print "\nLe script a traité $count_loop fichiers (sur $count_files)\n";
 
