@@ -38,7 +38,7 @@ print "* 2. CREATION DES LEMMES *\n";
 print "**************************\n";
 
 print "Génération du fichier des mots du corpus (>mots.txt)... ";
-$cmd = `cat corpusA09_filtre.xml | perl prof/newsegmente.pl -f | sort | cut -f1 | uniq > mots.txt`;
+$cmd = `cat corpusA09_filtre.xml | perl prof/newsegmente.pl -f | sort -u | cut -f1 | sort | uniq > mots.txt`;
 print "OK\n";
 
 $t1 = time;
@@ -48,7 +48,7 @@ $t2 = time;
 print "OK (execute en ".($t2-$t1)." sec)\n";
 
 print "Création du fichier de troncation (>filtronc.txt)... ";
-$cmd = `perl prof/filtronc.pl -v successeurs.txt > filtronc.txt`;
+$cmd = `perl prof/filtronc.pl -v successeurs.txt | sort | uniq > filtronc.txt`;
 print "OK\n";
 
 print "Création du fichier de l'ensemble des lemmes du corpus (>lemmes.txt)... ";
@@ -78,6 +78,6 @@ $cmd = `cat corpusA09_out.xml | perl prof/newsegmente.pl -f -a -t | perl prof/ne
 print "OK\n";
 
 print "Création du fichier de l'ensemble des lemmes à partir du fichier inverse (>lemmes_inverse.txt)... ";
-$cmd = `cat inverse.txt | awk '{print $1}' > lemmes_inverse.txt`;
+$cmd = `cat inverse.txt | cut -f1 > lemmes_inverse.txt`;
 print "OK\n";
 print "*******************************END*********************************\n\n";
