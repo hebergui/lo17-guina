@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 $balise = shift(@ARGV);
-print STDERR "création d'index pour la balise <$balise>...\n";
+print STDERR "\n\t\tcréation d'index pour la balise <$balise>... ";
 
 while (<>) {
 	if (/<FICHIER>(.*)<\/FICHIER>/) {

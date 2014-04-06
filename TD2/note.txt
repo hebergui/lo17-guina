@@ -1,9 +1,0 @@
-Commande pour trier
-sort -n -t$'\t' +2 -3 -o tfXidf_sort.txt
-
-On retire les 25% des mots qui apparaissent peu : choix de retirer le 1e quartile
-c'est à dire 88205/4 = 20702
-On prend les mots après "vie" qui est en 20761 
-tfXidf >= 0.63
-
-Liste des mots stop dans le fichier 
