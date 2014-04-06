@@ -1,26 +1,22 @@
-open(my $file_in1, "tfXidf_sort.txt" ) or die "Impossible d'ouvrir en lecture tfXidf_sort.txt\n";
-open(my $file_in2, "stopListFrench.txt" ) or die "Impossible d'ouvrir en lecture tfXidf_sort.txt\n";
-open(my $file_out, ">", "tfXidf_stop.txt") or die "Impossible d'ouvrir en écriture tfXidf_stop.txt\n";
+open(my $file_tfXidf, "tfXidf.txt" ) or die "Impossible d'ouvrir en lecture tfXidf.txt\n";
 
+my $limit = 0.183435383796074; #tf X idf du mot président
+my $stopList = " ";
 
-my $limit = 0.63;
-my $stopList;
-
-while (<$file_in2>) {
-	$stopList = $_;
-}
-
-while (<$file_in1>) {
+while (<$file_tfXidf>) {
 	#      1$lci     2$mot    3$tfXidf
 	if ( /(.+?)\t(.+?)\t(.+$)/ ) {
-		print ">" . $2 . "<\n";
-		if ( $stopList =~ m/\s$2\s/ ) {
-			print $2 . "\n";
-		}
-		else {
-			if ( $3 >= $limit ) {
-				print $file_out $_;
+		if ( $3 < $limit || length($2) <= 2  ) {
+			if ( $stopList =~ m/\s$2\s/ ) {
+				#le mot est déjà dans la stopList
+			}
+			else {
+				$stopList .= "$2 ";
+				print "$2\n";
 			}
 		}
 	}
 }
+
+print "\n$dump/$total";
+close($file_tfXidf);

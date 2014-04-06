@@ -1,5 +1,5 @@
 open(my $file_in, $ARGV[0] ) or die "Impossible d'ouvrir en lecture $file_in\n";
-open(my $file_out, ">", "idf.txt") or die "Impossible d'ouvrir en écriture idf.txt\n";
+#open(my $file_out, ">", "idf.txt") or die "Impossible d'ouvrir en écriture idf.txt\n";
 
 sub log10 {
 	my $n = shift;
@@ -20,7 +20,8 @@ while (<$file_in>) {
 			} 
 			if ( !($word eq $3) && !($word eq "") ){
 				$count = &log10($nb/$count);
-				print $file_out "$word\t$count\n";
+				#print $file_out "$word\t$count\n";
+				print "$word\t$count\n";
 				$word = $3;
 				$count = 1;
 			}
@@ -31,4 +32,5 @@ while (<$file_in>) {
 }
 
 $count = &log10($nb/$count);
-print $file_out "$word\t$count";
+#print $file_out "$word\t$count";
+print "$word\t$count\n";
