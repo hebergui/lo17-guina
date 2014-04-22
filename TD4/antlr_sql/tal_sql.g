@@ -1,6 +1,12 @@
 grammar tal_sql;
 
-SELECT : 'vouloir' 'veux'
+SELECT : 'vouloir' | 'veux'
+;
+
+VERBE 	: ('savoir' | 'consulter') {skip();}
+;
+
+COUNT 	: ('nombre')*
 ;
 
 ARTICLE : 'article'
@@ -15,14 +21,16 @@ CONJ : 'et' | 'ou'
 POINT : '.'
 ;
 
-MOT : 'mot' | 'contenir' | 'parler'
+ABOUT : 'mot' | 'contenir' | 'parler' | 'sur'
 ;
  
-WS  : (' ' |'\t' | '\r' | 'je' | 'qui' | 'dont') {skip();} | '\n' 
+WS  : (' ' | '\'' |'\t' | '\r' | 'je' | 'qui' | 'dont' | 'le' | 'd') {skip();} | '\n' 
 ;
 
 VAR 	: ('A'..'Z' | 'a'..'z') ('a'..'z')+
 ;
+
+
 
 listerequetes returns [String sql = ""]
 	@init	{Arbre lr_arbre;}: 
@@ -39,6 +47,10 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			{
 				req_arbre.ajouteFils(new Arbre("","select distinct"));
 			} 
+		COUNT 
+			{
+				req_arbre.ajouteFils(new Arbre("","count(*)"));
+			}
 		(ARTICLE
 			{
 			req_arbre.ajouteFils(new Arbre("","article"));
@@ -47,7 +59,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			{
 			req_arbre.ajouteFils(new Arbre("","page"));
 			})
-		MOT
+		ABOUT
 			{
 				req_arbre.ajouteFils(new Arbre("","from titreresume"));
 				req_arbre.ajouteFils(new Arbre("","where"));
