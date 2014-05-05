@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 12 elements from project &apos;antlr&apos;&#x0A;- Original project: &apos;antlr&apos;&#x0A;- Original elements:&#x0A;     antlr&#x0A;     com&#x0A;     icons&#x0A;     META-INF&#x0A;     org&#x0A;     antlr&#x0A;     stringtemplate&#x0A;     properties&#x0A;     templates&#x0A;     LICENSE.txt&#x0A;     README.html&#x0A;     RELEASE-NOTES.txt" description="Delete elements" element1="templates" element10="RELEASE-NOTES.txt" element2="LICENSE.txt" element3="org" element4="com" element5="icons" element6="antlr" element7="README.html" element8="properties" element9="META-INF" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="10" stamp="1397480187575" subPackages="false" version="1.0"/>
-</session>
