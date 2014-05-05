@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g 2014-04-14 15:49:02
+// $ANTLR 3.5.1 /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g 2014-04-22 14:16:53
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -54,11 +54,11 @@ public class tal_sqlParser extends Parser {
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:28:25: (r= requete POINT )
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:29:3: r= requete POINT
 			{
-			pushFollow(FOLLOW_requete_in_listerequetes158);
+			pushFollow(FOLLOW_requete_in_listerequetes160);
 			r=requete();
 			state._fsp--;
 
-			match(input,POINT,FOLLOW_POINT_in_listerequetes160); 
+			match(input,POINT,FOLLOW_POINT_in_listerequetes162); 
 
 							lr_arbre = r;
 							sql = lr_arbre.sortArbre();
@@ -92,7 +92,7 @@ public class tal_sqlParser extends Parser {
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:37:26: ( SELECT ( ARTICLE | PAGE ) MOT ps= params )
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:38:3: SELECT ( ARTICLE | PAGE ) MOT ps= params
 			{
-			match(input,SELECT,FOLLOW_SELECT_in_requete187); 
+			match(input,SELECT,FOLLOW_SELECT_in_requete189); 
 
 							req_arbre.ajouteFils(new Arbre("","select distinct"));
 						
@@ -116,7 +116,7 @@ public class tal_sqlParser extends Parser {
 				case 1 :
 					// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:42:4: ARTICLE
 					{
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete199); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete201); 
 
 								req_arbre.ajouteFils(new Arbre("","article"));
 								
@@ -125,7 +125,7 @@ public class tal_sqlParser extends Parser {
 				case 2 :
 					// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:46:6: PAGE
 					{
-					match(input,PAGE,FOLLOW_PAGE_in_requete211); 
+					match(input,PAGE,FOLLOW_PAGE_in_requete213); 
 
 								req_arbre.ajouteFils(new Arbre("","page"));
 								
@@ -134,12 +134,12 @@ public class tal_sqlParser extends Parser {
 
 			}
 
-			match(input,MOT,FOLLOW_MOT_in_requete221); 
+			match(input,MOT,FOLLOW_MOT_in_requete223); 
 
 							req_arbre.ajouteFils(new Arbre("","from titreresume"));
 							req_arbre.ajouteFils(new Arbre("","where"));
 						
-			pushFollow(FOLLOW_params_in_requete234);
+			pushFollow(FOLLOW_params_in_requete236);
 			ps=params();
 			state._fsp--;
 
@@ -177,7 +177,7 @@ public class tal_sqlParser extends Parser {
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:63:40: (par1= param ( CONJ par2= param )* )
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:64:3: par1= param ( CONJ par2= param )*
 			{
-			pushFollow(FOLLOW_param_in_params266);
+			pushFollow(FOLLOW_param_in_params268);
 			par1=param();
 			state._fsp--;
 
@@ -198,8 +198,8 @@ public class tal_sqlParser extends Parser {
 				case 1 :
 					// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:69:4: CONJ par2= param
 					{
-					match(input,CONJ,FOLLOW_CONJ_in_params277); 
-					pushFollow(FOLLOW_param_in_params283);
+					match(input,CONJ,FOLLOW_CONJ_in_params279); 
+					pushFollow(FOLLOW_param_in_params285);
 					par2=param();
 					state._fsp--;
 
@@ -244,7 +244,7 @@ public class tal_sqlParser extends Parser {
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:78:51: (a= VAR )
 			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:79:2: a= VAR
 			{
-			a=(Token)match(input,VAR,FOLLOW_VAR_in_param311); 
+			a=(Token)match(input,VAR,FOLLOW_VAR_in_param313); 
 			 lepar_arbre.ajouteFils(new Arbre("mot =", "'"+a.getText()+"'"));
 			}
 
@@ -264,15 +264,15 @@ public class tal_sqlParser extends Parser {
 
 
 
-	public static final BitSet FOLLOW_requete_in_listerequetes158 = new BitSet(new long[]{0x0000000000000100L});
-	public static final BitSet FOLLOW_POINT_in_listerequetes160 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete187 = new BitSet(new long[]{0x0000000000000090L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete199 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_PAGE_in_requete211 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_MOT_in_requete221 = new BitSet(new long[]{0x0000000000000400L});
-	public static final BitSet FOLLOW_params_in_requete234 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_param_in_params266 = new BitSet(new long[]{0x0000000000000022L});
-	public static final BitSet FOLLOW_CONJ_in_params277 = new BitSet(new long[]{0x0000000000000400L});
-	public static final BitSet FOLLOW_param_in_params283 = new BitSet(new long[]{0x0000000000000022L});
-	public static final BitSet FOLLOW_VAR_in_param311 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_requete_in_listerequetes160 = new BitSet(new long[]{0x0000000000000100L});
+	public static final BitSet FOLLOW_POINT_in_listerequetes162 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete189 = new BitSet(new long[]{0x0000000000000090L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete201 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_PAGE_in_requete213 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_MOT_in_requete223 = new BitSet(new long[]{0x0000000000000400L});
+	public static final BitSet FOLLOW_params_in_requete236 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_param_in_params268 = new BitSet(new long[]{0x0000000000000022L});
+	public static final BitSet FOLLOW_CONJ_in_params279 = new BitSet(new long[]{0x0000000000000400L});
+	public static final BitSet FOLLOW_param_in_params285 = new BitSet(new long[]{0x0000000000000022L});
+	public static final BitSet FOLLOW_VAR_in_param313 = new BitSet(new long[]{0x0000000000000002L});
 }

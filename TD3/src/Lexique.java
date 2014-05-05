@@ -115,13 +115,13 @@ public class Lexique {
 			
 			if(distance==distance_min)
 			{
-				System.out.println("mot : " + mot_candidat + " distance : " + distance);
+				//System.out.println("mot : " + mot_candidat + " distance : " + distance);
 				meilleurs_candidats.add(mot_candidat);
 			}
 				
 			if (distance<distance_min)
 			{
-				System.out.println("mot : " + mot_candidat + " distance : " + distance);
+				//System.out.println("mot : " + mot_candidat + " distance : " + distance);
 				distance_min = distance;
 				meilleurs_candidats.clear();
 				meilleurs_candidats.add(mot_candidat);

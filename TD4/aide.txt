@@ -1,0 +1,8 @@
+aide :
+
+Pour les dates, envisager plusieurs formats :
+- jour mois annee
+- mois annee
+- annee
+
+('0'..'9')('0'..'9') --> 2 chiffres

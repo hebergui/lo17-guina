@@ -1,0 +1,14 @@
+veux	vouloir
+voudrais	vouloir
+articles	article
+pages	page
+ecrits	ecrit
+écrit	ecrit
+écrits ecrit
+le 	stop
+les	stop
+la	stop
+de	stop
+des	stop
+du	stop
+je	stop

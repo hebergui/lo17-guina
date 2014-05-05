@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g 2014-04-14 15:49:02
+// $ANTLR 3.5.1 /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g 2014-04-22 14:16:53
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -37,10 +37,12 @@ public class tal_sqlLexer extends Lexer {
 		try {
 			int _type = SELECT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:3:8: ( 'vouloir' )
-			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:3:10: 'vouloir'
+			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:3:8: ( 'vouloir' 'veux' )
+			// /Users/Nina/Documents/UV/UV(CURRENT)/LO17/lo17-guina/TD4/antlr_sql/tal_sql.g:3:10: 'vouloir' 'veux'
 			{
 			match("vouloir"); 
+
+			match("veux"); 
 
 			}
 
@@ -429,12 +431,44 @@ public class tal_sqlLexer extends Lexer {
 								int LA6_45 = input.LA(7);
 								if ( (LA6_45=='r') ) {
 									int LA6_49 = input.LA(8);
-									if ( ((LA6_49 >= 'a' && LA6_49 <= 'z')) ) {
-										alt6=8;
+									if ( (LA6_49=='v') ) {
+										int LA6_52 = input.LA(9);
+										if ( (LA6_52=='e') ) {
+											int LA6_55 = input.LA(10);
+											if ( (LA6_55=='u') ) {
+												int LA6_56 = input.LA(11);
+												if ( (LA6_56=='x') ) {
+													int LA6_57 = input.LA(12);
+													if ( ((LA6_57 >= 'a' && LA6_57 <= 'z')) ) {
+														alt6=8;
+													}
+
+													else {
+														alt6=1;
+													}
+
+												}
+
+												else {
+													alt6=8;
+												}
+
+											}
+
+											else {
+												alt6=8;
+											}
+
+										}
+
+										else {
+											alt6=8;
+										}
+
 									}
 
 									else {
-										alt6=1;
+										alt6=8;
 									}
 
 								}
