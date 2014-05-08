@@ -91,7 +91,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 ;
 
 params returns [Arbre les_pars_arbre = new Arbre("")]
-	@init	{par1_arbre, par2_arbre, par3_arbre, par4_arbre;} : 
+	@init	{par1_arbre, par2_arbre, par3_arbre, j_arbre, m_arbre, a_arbre;} : 
 		(ABOUT par1 = mot 
 			{
 				par1_arbre = $par1.lepar_arbre;
@@ -105,42 +105,68 @@ params returns [Arbre les_pars_arbre = new Arbre("")]
 				les_pars_arbre.ajouteFils(par2_arbre);
 			}
 		)*
-		(WHEN par3 = date
+		(j=jour m=mois a=annee
+			{
+				j_arbre = $j.lepar_arbre;
+				les_pars_arbre.ajouteFils(j_arbre);
+				
+				m_arbre = $m.lepar_arbre;
+				les_pars_arbre.ajouteFils(m_arbre);
+				
+				a_arbre = $a.lepar_arbre;
+				les_pars_arbre.ajouteFils(a_arbre);
+			}
+		)*
+		/*(WHEN par3 = date
+			{
+
+			}		
+		)* */
+		(BY par3 = auteur
 			{
 				par3_arbre = $par3.lepar_arbre;
 				les_pars_arbre.ajouteFils(par3_arbre);
 			}		
 		)*
-		(BY par4 = auteur
-			{
-				par4_arbre = $par4.lepar_arbre;
-				les_pars_arbre.ajouteFils(par4_arbre);
-			}		
-		)*
 ;
 
-date returns [Arbre date_arbre = new Arbre("")]
-	@init	{mois_arbre, annee_arbre;} : 
-		(jour = NUMBER 
+/*date returns [Arbre date_arbre = new Arbre("")]
+	@init	{par1_arbre, par2_arbre, par3_arbre;} : 
+		(par1 = jour 
 			{
-				jour_arbre = $jour.lepar_arbre;
-				date_arbre.ajouteFils(jour_arbre);
+				jour_arbre = $par1.lepar_arbre;
+				date_arbre.ajouteFils(par1_arbre);
 			}
 		)?
-		(mois = MOIS 
+		(par2 = mois 
 			{
-				mois_arbre = $mois.lepar_arbre;
-				date_arbre.ajouteFils(mois_arbre);
+				mois_arbre = $par2.lepar_arbre;
+				date_arbre.ajouteFils(par2_arbre);
 			}
 		)?
-		(annee = NUMBER
+		(par3 = annee
 			{
-				annee_arbre = $annee.lepar_arbre;
-				date_arbre.ajouteFils(annee_arbre);
+				annee_arbre = $par3.lepar_arbre;
+				date_arbre.ajouteFils(par3_arbre);
 			}
 		)?
 	;
+*/
 
+jour returns [Arbre abr = new Arbre("")] :
+	m = NUMBER
+		{ abr.ajouteFils(new Arbre("jour = ", "'"+a.getText()+"'"));}
+;
+
+mois returns [Arbre abr = new Arbre("")] :
+	m = MOIS
+		{ abr.ajouteFils(new Arbre("mois = ", "'"+a.getText()+"'"));}
+;
+
+annee returns [Arbre abr = new Arbre("")] :
+	m = NUMBER
+		{ abr.ajouteFils(new Arbre("annee = ", "'"+a.getText()+"'"));}
+;
 
 auteur returns [Arbre abr = new Arbre("")] :
 	a = VAR+
