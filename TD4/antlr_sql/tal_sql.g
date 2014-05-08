@@ -27,10 +27,13 @@ POINT : '.'
 ABOUT : 'mot' | 'contenir' | 'parler' | 'sur'
 ;
  
-WS  : (' ' | '\'' |'\t' | '\r' | 'je' | 'Je'| 'qui' | 'dont' | 'le' | 'd' | '?crits' | 'ecrits' | '?crit' | 'ecrit') {skip();} | '\n' 
+WS  : (' ' | '\'' |'\t' | '\r' | 'stop') {skip();} | '\n' 
 ;
 
 WHEN 	:	'en'
+;
+
+MOIS	:	'janvier' | 'fevrier' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'septembre' | 'octobre' | 'novembre' | 'decembre'
 ;
 
 NUMBER	: 	('0'..'9')+
@@ -38,8 +41,8 @@ NUMBER	: 	('0'..'9')+
 
 BY	:	'par'
 ;
-	
-VAR 	: ('A'..'Z' | 'a'..'z') ('a'..'z')+
+
+VAR 	: ('A'..'Z' | 'a'..'z') ('a'..'z'|'-'|'A'..'Z')+
 ;
 
 listerequetes returns [String sql = ""]
@@ -56,7 +59,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		(
 		(SELECT 
 			{
-				req_arbre.ajouteFils(new Arbre("","select distinct"));
+				req_arbre.ajouteFils(new Arbre("","select"));
 			} 
 		COUNT 
 			{
@@ -74,15 +77,12 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("","article"));
 			}
 		 | //OU
+			 
 		 PAGE
 			{
 			req_arbre.ajouteFils(new Arbre("","page"));
-			})
-		ABOUT
-			{
-				req_arbre.ajouteFils(new Arbre("","from titreresume"));
-				req_arbre.ajouteFils(new Arbre("","where"));
 			}
+		 )
 		ps = params 
 			{
 				ps_arbre = $ps.les_pars_arbre;
@@ -91,12 +91,13 @@ requete returns [Arbre req_arbre = new Arbre("")]
 ;
 
 params returns [Arbre les_pars_arbre = new Arbre("")]
-	@init	{Arbre par1_arbre, par2_arbre;} : 
-		par1 = mot 
+	@init	{par1_arbre, par2_arbre, par3_arbre, par4_arbre;} : 
+		(ABOUT par1 = mot 
 			{
 				par1_arbre = $par1.lepar_arbre;
 				les_pars_arbre.ajouteFils(par1_arbre);
 			}
+		)*
 		(CONJ par2 = mot
 			{
 				par2_arbre = $par2.lepar_arbre;
@@ -104,13 +105,13 @@ params returns [Arbre les_pars_arbre = new Arbre("")]
 				les_pars_arbre.ajouteFils(par2_arbre);
 			}
 		)*
-		(WHEN par3 = annee
+		(WHEN par3 = date
 			{
 				par3_arbre = $par3.lepar_arbre;
 				les_pars_arbre.ajouteFils(par3_arbre);
 			}		
 		)*
-		(BY par3 = mot
+		(BY par4 = auteur
 			{
 				par4_arbre = $par4.lepar_arbre;
 				les_pars_arbre.ajouteFils(par4_arbre);
@@ -118,13 +119,36 @@ params returns [Arbre les_pars_arbre = new Arbre("")]
 		)*
 ;
 
-annee returns [Arbre abr = new Arbre("")] :
-	a = NUMBER
-		{ abr.ajouteFils(new Arbre("annee = ", "'"+a.getText()+"'"));}
+date returns [Arbre date_arbre = new Arbre("")]
+	@init	{mois_arbre, annee_arbre;} : 
+		(jour = NUMBER 
+			{
+				jour_arbre = $jour.lepar_arbre;
+				date_arbre.ajouteFils(jour_arbre);
+			}
+		)?
+		(mois = MOIS 
+			{
+				mois_arbre = $mois.lepar_arbre;
+				date_arbre.ajouteFils(mois_arbre);
+			}
+		)?
+		(annee = NUMBER
+			{
+				annee_arbre = $annee.lepar_arbre;
+				date_arbre.ajouteFils(annee_arbre);
+			}
+		)?
+	;
+
+
+auteur returns [Arbre abr = new Arbre("")] :
+	a = VAR+
+		{ abr.ajouteFils(new Arbre("auteur = ", "'"+a.getText()+"'"));}
 ;
 
 mot returns [Arbre lepar_arbre = new Arbre("")] :
-	a = VAR
+	a = VAR+
 		{ lepar_arbre.ajouteFils(new Arbre("mot =", "'"+a.getText()+"'"));}
 ;
 
