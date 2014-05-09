@@ -1,0 +1,12 @@
+1. On tape une phrase
+2. Mots simplifiés par une syntax compréhensible par notre ANTRL
+3. Phrase corrigée par notre analiseur basé sur le corpus lexicA12.txt pour éliminer les fautes d'orthographes, fautes de frappe...
+4. Donner la phrase à notre lexer/parseur ANTLR
+5. Sortir une phrase en syntax SQL
+
+On a inversé 2 et 3 puisqu'on s'est dit que l'analyseur allait corriger des mots de la stoplist (exemple de sur qui n'est pas dans le corpus, 
+et qui est corrigé en un autre mot...)
+
+1. en
+2. when (stopListFrench)
+
