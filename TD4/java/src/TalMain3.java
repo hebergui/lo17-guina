@@ -23,5 +23,6 @@ public static void main(String args[]) {
                   System.out.print("Texte : ");
                   s = scanner.nextLine();
                 }
+                scanner.close();
         }
 }

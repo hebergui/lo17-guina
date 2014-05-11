@@ -50,7 +50,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		//Combien d'articles traitent à la fois de l'Irak et de Bush? == COMBIEN ARTICLE PARLER params(Irak ET Bush)
 		//Combien d'articles évoque Berlusconi et le fascisme ? == COMBIEN ARTICLE PARLER params(Berlusconi ET fascisme)
 		//Combien il y t-il d'articles traitants du Pape? == COMBIEN ARTICLE PARLER params(pape)
-		|COMBIEN ARTICLE PARLER ps = params {
+		| COMBIEN ARTICLE PARLER ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 			req_arbre.ajouteFils(new Arbre("", "from ... "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
