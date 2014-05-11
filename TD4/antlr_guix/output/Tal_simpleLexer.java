@@ -1,4 +1,4 @@
-// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-11 14:46:40
+// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-11 14:55:16
 package antlr.output;
 
 import org.antlr.runtime.*;

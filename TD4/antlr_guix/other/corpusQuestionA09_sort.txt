@@ -37,21 +37,21 @@ Combien y a-t-il d'articles sur le théme des Etats-Unis traitant de Bush ? == C
 
 ==================== NON FAITS =====================
 Combien de rappels y-a-t-il par page en moyenne ?
+Dans quelle rubrique apparaissent le plus grands nombre d'articles parlant des Etats-Unis ?
+Dans quelle rubrique parle-t-on le plus de Michael Jackson ?
+Dans quelles sections (grostitre,breve...) les articles sur Téhéran apparraissent-ils le plus souvent?
+De quand date la dernière Une à propos de Mickael Jackson ?
+De quoi parlait-on le plus du 27 mars au 4 avril 2005 ? 
+De quoi parlait-on le plus du 27 mars au 4 avril 2005 ?
 ====================================================
 
 ==================== TO FINISH ====================
-Comment puis-je contacter l'auteur Hervé Moustache ?
-Dans combien d'article parle-t-on du Pape ?
-Dans quelle rubrique apparaissent le plus grands nombre d'articles parlant des Etats-Unis ?
-Dans quelle rubrique parle-t-on le plus de Michael Jackson ?
-Dans quelles pages trouvent-on des articles écrits par un auteur dont l'adresse mail est agautier@tf1.fr ?
-Dans quelles sections (grostitre,breve...) les articles sur Téhéran apparraissent-ils le plus souvent?
-Dans quels articles est intervenu Nicolas Sarkozy sur le thème de la défense ?
-Dans quels articles parlent-t-on de Nicolas Sarkozy ?
-De quand date la dernière Une à propos de Mickael Jackson ?
-De quoi parlait-on le plus du 27 mars au 4 avril 2005 ?
-De quoi parlait-on le plus du 27 mars au 4 avril 2005 ?
-Donne moi l'ensemble des articles qui traitent à la fois d'économie, de politique et du président des USA.
+Comment puis-je contacter l'auteur Hervé Moustache ? == SELECT EMAIL AUTEUR params(Hervé Moustache)
+Dans combien d'article parle-t-on du Pape ? == COMBIEN ARTICLE parler params(pape)
+Dans quelles pages trouvent-on des articles écrits par un auteur dont l'adresse mail est agautier@tf1.fr ? == SELECT PAGE ARTICLE PARLER AUTEUR EMAIL email
+Dans quels articles est intervenu Nicolas Sarkozy sur le thème de la défense ? == SELECT ARTICLE params(Nicolas Sarkozy) PARLER params(défense)
+Dans quels articles parlent-t-on de Nicolas Sarkozy ? == SELECT ARTICLE PARLER params(Nicolas Sarkozy)
+Donne moi l'ensemble des articles qui traitent à la fois d'économie, de politique et du président des USA. == SELECT 
 Donne moi l'ensemble des titres concernant la politique.
 Donne moi la liste des auteurs ayant écris au moins de 5 articles sur le théme de la Russie
 Donne moi la liste des dates des articles traitant du Pape.

@@ -1,4 +1,4 @@
-// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-11 14:46:39
+// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-11 14:55:16
 package antlr.output;
 
 import org.antlr.runtime.*;
@@ -60,7 +60,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "requete"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:32:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= jour ET d2= jour | COMBIEN JOURS PARLER ps= params | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE ps= params );
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:32:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN JOURS PARLER ps= params | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE ps= params );
 	public final Arbre requete() throws  {
 		Arbre req_arbre =  new Arbre("");
 
@@ -76,7 +76,7 @@ public class Tal_simpleParser extends Parser {
 
 		Arbre ps_arbre, d_arbre;
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:33:35: ( ARTICLE d= dat PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= jour ET d2= jour | COMBIEN JOURS PARLER ps= params | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE ps= params )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:33:35: ( ARTICLE d= dat PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN JOURS PARLER ps= params | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE ps= params )
 			int alt1=20;
 			alt1 = dfa1.predict(input);
 			switch (alt1) {
@@ -433,7 +433,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 16 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:213:5: COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= jour ET d2= jour
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:213:5: COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete766); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete772); 
@@ -443,13 +443,13 @@ public class Tal_simpleParser extends Parser {
 					state._fsp--;
 
 					match(input,ENTRE,FOLLOW_ENTRE_in_requete782); 
-					pushFollow(FOLLOW_jour_in_requete788);
-					d1=jour();
+					pushFollow(FOLLOW_dat_in_requete788);
+					d1=dat();
 					state._fsp--;
 
 					match(input,ET,FOLLOW_ET_in_requete790); 
-					pushFollow(FOLLOW_jour_in_requete796);
-					d2=jour();
+					pushFollow(FOLLOW_dat_in_requete796);
+					d2=dat();
 					state._fsp--;
 
 
@@ -851,28 +851,67 @@ public class Tal_simpleParser extends Parser {
 
 
 
-	// $ANTLR start "jour"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:308:1: jour returns [Arbre les_pars_arbre = new Arbre(\"\")] : (j= NBR m= MOIS a= NBR |j= NBR m= MOIS );
-	public final Arbre jour() throws  {
-		Arbre les_pars_arbre =  new Arbre("");
+	// $ANTLR start "listerequetes"
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:308:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
+	public final String listerequetes() throws  {
+		String sql =  "";
 
 
-		Token j=null;
-		Token m=null;
+		Arbre r =null;
+
+		Arbre lr_arbre;
+		try {
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:309:26: (r= requete POINT )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:310:3: r= requete POINT
+			{
+			pushFollow(FOLLOW_requete_in_listerequetes1160);
+			r=requete();
+			state._fsp--;
+
+			match(input,POINT,FOLLOW_POINT_in_listerequetes1162); 
+
+						lr_arbre = r;
+						sql = lr_arbre.sortArbre();
+					
+			}
+
+		}
+		catch (RecognitionException re) {
+			reportError(re);
+			recover(input,re);
+		}
+		finally {
+			// do for sure before leaving
+		}
+		return sql;
+	}
+	// $ANTLR end "listerequetes"
+
+
+
+	// $ANTLR start "param"
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:315:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR );
+	public final Arbre param() throws  {
+		Arbre lepar_arbre =  new Arbre("");
+
+
 		Token a=null;
+		Token a1=null;
+		Token a2=null;
+		Token a3=null;
 
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:308:53: (j= NBR m= MOIS a= NBR |j= NBR m= MOIS )
-			int alt5=2;
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:315:51: (a= VAR |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR )
+			int alt5=3;
 			int LA5_0 = input.LA(1);
-			if ( (LA5_0==NBR) ) {
+			if ( (LA5_0==VAR) ) {
 				int LA5_1 = input.LA(2);
-				if ( (LA5_1==MOIS) ) {
+				if ( (LA5_1==VAR) ) {
 					int LA5_2 = input.LA(3);
-					if ( (LA5_2==NBR) ) {
-						alt5=1;
+					if ( (LA5_2==VAR) ) {
+						alt5=3;
 					}
-					else if ( (LA5_2==ET||LA5_2==POINT) ) {
+					else if ( ((LA5_2 >= ENTRE && LA5_2 <= ET)||LA5_2==MOIS||(LA5_2 >= NBR && LA5_2 <= OU)||(LA5_2 >= PARLER && LA5_2 <= POINT)||LA5_2==RUBRIQUE) ) {
 						alt5=2;
 					}
 
@@ -890,6 +929,9 @@ public class Tal_simpleParser extends Parser {
 						}
 					}
 
+				}
+				else if ( ((LA5_1 >= ENTRE && LA5_1 <= ET)||LA5_1==MOIS||(LA5_1 >= NBR && LA5_1 <= OU)||(LA5_1 >= PARLER && LA5_1 <= POINT)||LA5_1==RUBRIQUE) ) {
+					alt5=1;
 				}
 
 				else {
@@ -914,160 +956,19 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt5) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:309:3: j= NBR m= MOIS a= NBR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:316:2: a= VAR
 					{
-					j=(Token)match(input,NBR,FOLLOW_NBR_in_jour1154); 
-					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_jour1160); 
-					a=(Token)match(input,NBR,FOLLOW_NBR_in_jour1166); 
-
-							les_pars_arbre.ajouteFils(new Arbre("", "'" + j.getText() + m.getText() + a.getText() + "' "));
-						
-					}
-					break;
-				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:312:5: j= NBR m= MOIS
-					{
-					j=(Token)match(input,NBR,FOLLOW_NBR_in_jour1178); 
-					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_jour1184); 
-
-							les_pars_arbre.ajouteFils(new Arbre("", "'" + j.getText() + m.getText() + "' "));
-						
-					}
-					break;
-
-			}
-		}
-		catch (RecognitionException re) {
-			reportError(re);
-			recover(input,re);
-		}
-		finally {
-			// do for sure before leaving
-		}
-		return les_pars_arbre;
-	}
-	// $ANTLR end "jour"
-
-
-
-	// $ANTLR start "listerequetes"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:316:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
-	public final String listerequetes() throws  {
-		String sql =  "";
-
-
-		Arbre r =null;
-
-		Arbre lr_arbre;
-		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:317:26: (r= requete POINT )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:318:3: r= requete POINT
-			{
-			pushFollow(FOLLOW_requete_in_listerequetes1210);
-			r=requete();
-			state._fsp--;
-
-			match(input,POINT,FOLLOW_POINT_in_listerequetes1212); 
-
-						lr_arbre = r;
-						sql = lr_arbre.sortArbre();
-					
-			}
-
-		}
-		catch (RecognitionException re) {
-			reportError(re);
-			recover(input,re);
-		}
-		finally {
-			// do for sure before leaving
-		}
-		return sql;
-	}
-	// $ANTLR end "listerequetes"
-
-
-
-	// $ANTLR start "param"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:323:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR );
-	public final Arbre param() throws  {
-		Arbre lepar_arbre =  new Arbre("");
-
-
-		Token a=null;
-		Token a1=null;
-		Token a2=null;
-		Token a3=null;
-
-		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:323:51: (a= VAR |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR )
-			int alt6=3;
-			int LA6_0 = input.LA(1);
-			if ( (LA6_0==VAR) ) {
-				int LA6_1 = input.LA(2);
-				if ( (LA6_1==VAR) ) {
-					int LA6_2 = input.LA(3);
-					if ( (LA6_2==VAR) ) {
-						alt6=3;
-					}
-					else if ( ((LA6_2 >= ENTRE && LA6_2 <= ET)||LA6_2==MOIS||(LA6_2 >= NBR && LA6_2 <= OU)||(LA6_2 >= PARLER && LA6_2 <= POINT)||LA6_2==RUBRIQUE) ) {
-						alt6=2;
-					}
-
-					else {
-						int nvaeMark = input.mark();
-						try {
-							for (int nvaeConsume = 0; nvaeConsume < 3 - 1; nvaeConsume++) {
-								input.consume();
-							}
-							NoViableAltException nvae =
-								new NoViableAltException("", 6, 2, input);
-							throw nvae;
-						} finally {
-							input.rewind(nvaeMark);
-						}
-					}
-
-				}
-				else if ( ((LA6_1 >= ENTRE && LA6_1 <= ET)||LA6_1==MOIS||(LA6_1 >= NBR && LA6_1 <= OU)||(LA6_1 >= PARLER && LA6_1 <= POINT)||LA6_1==RUBRIQUE) ) {
-					alt6=1;
-				}
-
-				else {
-					int nvaeMark = input.mark();
-					try {
-						input.consume();
-						NoViableAltException nvae =
-							new NoViableAltException("", 6, 1, input);
-						throw nvae;
-					} finally {
-						input.rewind(nvaeMark);
-					}
-				}
-
-			}
-
-			else {
-				NoViableAltException nvae =
-					new NoViableAltException("", 6, 0, input);
-				throw nvae;
-			}
-
-			switch (alt6) {
-				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:324:2: a= VAR
-					{
-					a=(Token)match(input,VAR,FOLLOW_VAR_in_param1231); 
+					a=(Token)match(input,VAR,FOLLOW_VAR_in_param1181); 
 
 							lepar_arbre.ajouteFils(new Arbre("", a.getText() + "' "));
 						
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:327:4: a1= VAR a2= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:319:4: a1= VAR a2= VAR
 					{
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1242); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1248); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1192); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1198); 
 
 							lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
@@ -1075,11 +976,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:331:4: a1= VAR a2= VAR a3= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:323:4: a1= VAR a2= VAR a3= VAR
 					{
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1259); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1265); 
-					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param1271); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1209); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1215); 
+					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param1221); 
 
 							lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
@@ -1104,7 +1005,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "params"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:337:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:329:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
 	public final Arbre params() throws  {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -1117,10 +1018,10 @@ public class Tal_simpleParser extends Parser {
 				Arbre par1_arbre, par2_arbre, conj_arbre, dat_arbre;
 			
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:340:4: (par1= param (c= conj par2= param )* )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:341:3: par1= param (c= conj par2= param )*
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:332:4: (par1= param (c= conj par2= param )* )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:333:3: par1= param (c= conj par2= param )*
 			{
-			pushFollow(FOLLOW_param_in_params1297);
+			pushFollow(FOLLOW_param_in_params1247);
 			par1=param();
 			state._fsp--;
 
@@ -1128,31 +1029,31 @@ public class Tal_simpleParser extends Parser {
 						par1_arbre = par1;
 						les_pars_arbre.ajouteFils(par1_arbre);
 					
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:345:3: (c= conj par2= param )*
-			loop7:
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:337:3: (c= conj par2= param )*
+			loop6:
 			while (true) {
-				int alt7=2;
-				int LA7_0 = input.LA(1);
-				if ( (LA7_0==ET) ) {
-					int LA7_2 = input.LA(2);
-					if ( (LA7_2==VAR) ) {
-						alt7=1;
+				int alt6=2;
+				int LA6_0 = input.LA(1);
+				if ( (LA6_0==ET) ) {
+					int LA6_2 = input.LA(2);
+					if ( (LA6_2==VAR) ) {
+						alt6=1;
 					}
 
 				}
-				else if ( (LA7_0==OU) ) {
-					alt7=1;
+				else if ( (LA6_0==OU) ) {
+					alt6=1;
 				}
 
-				switch (alt7) {
+				switch (alt6) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:345:4: c= conj par2= param
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:337:4: c= conj par2= param
 					{
-					pushFollow(FOLLOW_conj_in_params1308);
+					pushFollow(FOLLOW_conj_in_params1258);
 					c=conj();
 					state._fsp--;
 
-					pushFollow(FOLLOW_param_in_params1314);
+					pushFollow(FOLLOW_param_in_params1264);
 					par2=param();
 					state._fsp--;
 
@@ -1167,7 +1068,7 @@ public class Tal_simpleParser extends Parser {
 					break;
 
 				default :
-					break loop7;
+					break loop6;
 				}
 			}
 
@@ -1339,7 +1240,7 @@ public class Tal_simpleParser extends Parser {
 		}
 		@Override
 		public String getDescription() {
-			return "32:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= jour ET d2= jour | COMBIEN JOURS PARLER ps= params | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE ps= params );";
+			return "32:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN JOURS PARLER ps= params | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE ps= params );";
 		}
 	}
 
@@ -1422,10 +1323,10 @@ public class Tal_simpleParser extends Parser {
 	public static final BitSet FOLLOW_RUBRIQUE_in_requete772 = new BitSet(new long[]{0x0000000000040000L});
 	public static final BitSet FOLLOW_PARLER_in_requete774 = new BitSet(new long[]{0x0000000002000000L});
 	public static final BitSet FOLLOW_params_in_requete780 = new BitSet(new long[]{0x0000000000000400L});
-	public static final BitSet FOLLOW_ENTRE_in_requete782 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_jour_in_requete788 = new BitSet(new long[]{0x0000000000000800L});
-	public static final BitSet FOLLOW_ET_in_requete790 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_jour_in_requete796 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ENTRE_in_requete782 = new BitSet(new long[]{0x000000000000A000L});
+	public static final BitSet FOLLOW_dat_in_requete788 = new BitSet(new long[]{0x0000000000000800L});
+	public static final BitSet FOLLOW_ET_in_requete790 = new BitSet(new long[]{0x000000000000A000L});
+	public static final BitSet FOLLOW_dat_in_requete796 = new BitSet(new long[]{0x0000000000000002L});
 	public static final BitSet FOLLOW_COMBIEN_in_requete810 = new BitSet(new long[]{0x0000000000001000L});
 	public static final BitSet FOLLOW_JOURS_in_requete812 = new BitSet(new long[]{0x0000000000040000L});
 	public static final BitSet FOLLOW_PARLER_in_requete814 = new BitSet(new long[]{0x0000000002000000L});
@@ -1473,20 +1374,15 @@ public class Tal_simpleParser extends Parser {
 	public static final BitSet FOLLOW_VAR_in_email1122 = new BitSet(new long[]{0x0000000000080000L});
 	public static final BitSet FOLLOW_POINT_in_email1128 = new BitSet(new long[]{0x0000000002000000L});
 	public static final BitSet FOLLOW_VAR_in_email1134 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NBR_in_jour1154 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_MOIS_in_jour1160 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_NBR_in_jour1166 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NBR_in_jour1178 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_MOIS_in_jour1184 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_requete_in_listerequetes1210 = new BitSet(new long[]{0x0000000000080000L});
-	public static final BitSet FOLLOW_POINT_in_listerequetes1212 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_VAR_in_param1231 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_VAR_in_param1242 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_VAR_in_param1248 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_VAR_in_param1259 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_VAR_in_param1265 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_VAR_in_param1271 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_param_in_params1297 = new BitSet(new long[]{0x0000000000010802L});
-	public static final BitSet FOLLOW_conj_in_params1308 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_param_in_params1314 = new BitSet(new long[]{0x0000000000010802L});
+	public static final BitSet FOLLOW_requete_in_listerequetes1160 = new BitSet(new long[]{0x0000000000080000L});
+	public static final BitSet FOLLOW_POINT_in_listerequetes1162 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param1181 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param1192 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_VAR_in_param1198 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param1209 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_VAR_in_param1215 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_VAR_in_param1221 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_param_in_params1247 = new BitSet(new long[]{0x0000000000010802L});
+	public static final BitSet FOLLOW_conj_in_params1258 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_param_in_params1264 = new BitSet(new long[]{0x0000000000010802L});
 }

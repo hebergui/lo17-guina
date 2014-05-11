@@ -14,6 +14,7 @@ articles 	article
 articules 	article
 auteurs	auteur
 au stop
+aujourd'hui aujourd
 aux	stop
 avec	stop
 ayant	stop
@@ -48,6 +49,7 @@ est	stop
 eu	stop
 fois	stop
 font	stop
+hui stop
 il	stop
 intervenu	stop
 je	stop
@@ -121,7 +123,7 @@ traitants	parler
 traite 	parler
 traitent 	parler
 traité	parler
-trouvent-on	stop
+trouve-t-on	stop
 un	stop
 unes	une
 veux 	vouloir
@@ -134,3 +136,5 @@ y-a-t-il	vouloir
 étant	stop
 été	stop
 évoque	parler
+première premier
+dernière dernier
