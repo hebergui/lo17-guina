@@ -11,10 +11,6 @@ ENTRE :'entre';
 WS : (' ' | '\t' | '\r' | 'stop') { skip(); } | '\n';
 MOIS : 'janvier'|'fevrier'|'mars'|'avril'|'mai'|'juin'|'juillet'|'aout'|'septembre'|'octobre'|'novembre'|'décembre';
 MOT : 'mot';
-NBR : ('0'..'9')+;
-POINT : '.';
-AT :'@';
-VAR : ('A'..'Z' | 'a'..'z') ('a'..'z'|'-'|'A'..'Z')+; //rajouter auUTEUssi les accens
 
 RUBRIQUE : 'une'|'gros titre'|'focus'|'rappels'|'voiraussi';
 
@@ -28,6 +24,10 @@ PUBLIE : 'publie';
 RESUME : 'resume';
 TITRE : 'titre';
 
+NBR : ('0'..'9')+;
+POINT : '.';
+AT :'@';
+VAR : ('A'..'Z' | 'a'..'z') ('a'..'z'|'-'|'A'..'Z')+; //rajouter aussi les accens
 
 requete returns [Arbre req_arbre = new Arbre("")]
 	@init {Arbre ps_arbre, d_arbre;} :
