@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.Normalizer;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
@@ -18,6 +19,15 @@ class main{
               br = new BufferedReader(new InputStreamReader(System.in));
               System.out.print("saisissez une phrase : ");
               chaine=br.readLine(); 
+              
+              //Remplacement accents
+              chaine = Normalizer.normalize(chaine, Normalizer.Form.NFD);
+              chaine = chaine.replaceAll("[^\\p{ASCII}]", "");
+              
+              //parsing Date
+              //DateParser parser = new DateParser(chaine);
+              //System.out.println(parser.parseDate());
+              
               String mot="", lemme = "";
               Hashtable meilleurs_candidats = new Hashtable();
               Hashtable corrections_mots = new Hashtable(); 
@@ -32,21 +42,23 @@ class main{
             	  
                   // System.out.println("\n" + mot_courant + "\n");      
                    
-             	  if(lex.hasCorrection(mot_courant)!="")
+             	  /*if(lex.hasCorrection(mot_courant)!="")
              	  {
             		  lemme = lex.hasCorrection(mot_courant);
             		  chaineRetour += lemme + " ";
-            		  //System.out.println("lemme = " + lemme);
+            		  System.out.println("lemme = " + lemme);
              	  }
              	  else
-             	  {
+             	  {*/
 		                Lexique l = new Lexique("lexicA12.txt");		
 		      			l.lireFichier();		
 		      			
 		      			lemme = l.retournerLemme(mot_courant);
 		      			if(lemme!="")
+		      			{
 		      				chaineRetour += lemme + " ";
 		      				//System.out.println("mot existe, lemme = " + lemme + "\n");
+		      			}
 		      			else
 		      			{
 		      				//System.out.println("***Lemmes retournés par l'algorithme de proximité***");
@@ -77,11 +89,12 @@ class main{
 		      				}
 		      				if(meilleurs_candidats.isEmpty())
 		      				{
+		      					chaineRetour += mot_courant + " ";
 		      					//System.out.println("Aucun mot trouve");
 		      				}
 		      			}
              	  }
-               } 
+              // } 
               System.out.println(chaineRetour);
           }
           catch(EOFException e) {

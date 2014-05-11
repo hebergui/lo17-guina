@@ -39,6 +39,7 @@ public class LexiqueG {
 	               {
 	            	    tokens = chaine.split("\\s+");
 	            	    corrections.put(tokens[0], tokens[1]);
+	            	   // System.out.println(tokens[0] + " " + tokens[1]);
 	               }
 	           } 
 	          catch(EOFException e) {
