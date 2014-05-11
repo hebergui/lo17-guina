@@ -1,4 +1,4 @@
-1er je01
+1er 01
 a stop
 a-t-il vouloir
 a-t-on stop
@@ -13,6 +13,7 @@ articlent article
 articles article
 articules article
 auteurs auteur
+l'auteur auteur
 au stop
 aujourd'hui aujourd
 aux stop
@@ -138,3 +139,5 @@ y-a-t-il vouloir
 évoque parler
 première premier
 dernière dernier
+W. stop
+et stop

@@ -33,6 +33,19 @@ Combien de rappels traitent de Silvio Berlusconi? == COMBIEN rubrique(rappels) P
 
 Combien il y t-il d'articles traitants du Pape? == COMBIEN ARTICLE PARLER params(pape)
 Combien y a-t-il d'articles sur le théme des Etats-Unis traitant de Bush ? == COMBIEN ARTICLE PARLER params(Etats-Unis) PARLER Bush
+
+Comment puis-je contacter l'auteur Hervé Moustache ? == SELECT EMAIL AUTEUR params(Hervé Moustache)
+Dans combien d'article parle-t-on du Pape ? == COMBIEN ARTICLE parler params(pape)
+Dans quelles pages trouvent-on des articles écrits par un auteur dont l'adresse mail est agautier@tf1.fr ? == SELECT PAGE ARTICLE PARLER AUTEUR EMAIL email
+Dans quels articles est intervenu Nicolas Sarkozy sur le thème de la défense ? == SELECT ARTICLE params(Nicolas Sarkozy) PARLER params(défense)
+Dans quels articles parlent-t-on de Nicolas Sarkozy ? == SELECT ARTICLE PARLER params(Nicolas Sarkozy)
+Donne moi l'ensemble des articles qui traitent à la fois d'économie, de politique et du président des USA. == SELECT ARTICLE PARLER(économie, politique, président, USA)
+Donne moi l'ensemble des titres concernant la politique. == SELECT ARTICLE PARLER params(politique)
+Donne moi la liste des dates des articles traitant du Pape. == SELECT DATE PARLER(pape)
+Donne moi les articles de 2005 dont l'auteur a pour adresse e-mail fauvert@tf1.fr == SELECT ARTICLE date(2005) AUTEUR email(fauvert@tf1.fr)
+Donne moi les articles en rapport avec la politique de l'Italie. == SELECT ARTICLE PARLER params(politique, Italie) 
+Donne moi les titres et les dates des articles traitant de George W. Bush. == SELECT DATE TITRE PARLER params(george bush)
+Donne moi tous les articles sur le théme de la guerre paru entre le 23 avril 2005 et le 1er Juillet 2005 == SELECT ARTICLE PARLER params(guerre) ENTRE date(23 janvier 2005) ET date(1er juillet 2005)
 ====================================================
 
 ==================== NON FAITS =====================
@@ -43,23 +56,11 @@ Dans quelles sections (grostitre,breve...) les articles sur Téhéran apparraiss
 De quand date la dernière Une à propos de Mickael Jackson ?
 De quoi parlait-on le plus du 27 mars au 4 avril 2005 ? 
 De quoi parlait-on le plus du 27 mars au 4 avril 2005 ?
+Donne moi la liste des auteurs ayant écris au moins de 5 articles sur le théme de la Russie
 ====================================================
 
 ==================== TO FINISH ====================
-Comment puis-je contacter l'auteur Hervé Moustache ? == SELECT EMAIL AUTEUR params(Hervé Moustache)
-Dans combien d'article parle-t-on du Pape ? == COMBIEN ARTICLE parler params(pape)
-Dans quelles pages trouvent-on des articles écrits par un auteur dont l'adresse mail est agautier@tf1.fr ? == SELECT PAGE ARTICLE PARLER AUTEUR EMAIL email
-Dans quels articles est intervenu Nicolas Sarkozy sur le thème de la défense ? == SELECT ARTICLE params(Nicolas Sarkozy) PARLER params(défense)
-Dans quels articles parlent-t-on de Nicolas Sarkozy ? == SELECT ARTICLE PARLER params(Nicolas Sarkozy)
-Donne moi l'ensemble des articles qui traitent à la fois d'économie, de politique et du président des USA. == SELECT 
-Donne moi l'ensemble des titres concernant la politique.
-Donne moi la liste des auteurs ayant écris au moins de 5 articles sur le théme de la Russie
-Donne moi la liste des dates des articles traitant du Pape.
-Donne moi les articles de 2005 dont l'auteur a pour adresse e-mail fauvert@tf1.fr
-Donne moi les articles en rapport avec la politique de l'Italie.
-Donne moi les titres et les dates des articles traitant de George W. Bush.
 Donne moi tous les article concernant le procès de Mickael Jackson
-Donne moi tous les articles sur le théme de la guerre paru entre le 23 avril 2005 et le 1er Juillet 2005
 Donne moi tous les articles traitant de la menace terroriste Al-Qaïda
 Donne-moi la liste des articules où l'on a parlé du président des états Unis depuis 3 semaines.
 Donne-moi la liste des gros titres parus entre le 10 septembre 2001 et le 12 septembre 2001.
