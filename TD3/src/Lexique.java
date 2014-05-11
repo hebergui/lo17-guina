@@ -83,7 +83,6 @@ public class Lexique {
 				prox_max = prox;
 				meilleurs_candidats.clear();
 				meilleurs_candidats.add(mot_candidat);
-				//System.out.println("mot : " + mot_candidat + " prox : " + prox);
 			}
 		}
 		
@@ -101,7 +100,7 @@ public class Lexique {
 	public Hashtable getLemmeByLevenshtein(String mot)
 	{
 		int distance;
-		int distance_min = mot.length()/3;
+		int distance_min = mot.length()/2;
 		
 		Enumeration enum_keys=lemmes.keys();
 		String mot_candidat="";

@@ -2,13 +2,9 @@ veux	vouloir
 voudrais	vouloir
 articles	article
 pages	page
-en	en
-par	par
-sur	sur
-parle	sur
-parlent	sur
-ecrits	stop
-ecrit	stop
+ecrits	ecrit
+écrit	ecrit
+écrits ecrit
 le 	stop
 les	stop
 la	stop
@@ -16,9 +12,3 @@ de	stop
 des	stop
 du	stop
 je	stop
-est	stop
-je	stop
-Je	stop
-tous	stop
-toutes	stop
-qui	stop
