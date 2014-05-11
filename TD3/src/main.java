@@ -18,6 +18,12 @@ class main{
               br = new BufferedReader(new InputStreamReader(System.in));
               System.out.print("saisissez une phrase : ");
               chaine=br.readLine();
+              chaine = chaine.replaceAll("Une", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
+              chaine = chaine.replaceAll("UNE", "rubriqueune"); //idem
+              chaine = chaine.replaceAll("\\?", "");
+              chaine = chaine.replaceAll("\\.", "");
+              chaine = chaine.toLowerCase();
+
               String mot="", lemme = "";
               Hashtable meilleurs_candidats = new Hashtable();
               Hashtable corrections_mots = new Hashtable();
@@ -30,7 +36,7 @@ class main{
               while (st.hasMoreTokens()) {
             	  String mot_courant = st.nextToken();
 
-                  // System.out.println("\n" + mot_courant + "\n");
+                  //System.out.println("\n" + mot_courant + "\n");
 
              	  if(lex.hasCorrection(mot_courant)!="")
              	  {
@@ -77,6 +83,7 @@ class main{
 		      				}
 		      				if(meilleurs_candidats.isEmpty())
 		      				{
+                                                    chaineRetour += mot_courant + " ";
 		      					//System.out.println("Aucun mot trouve");
 		      				}
 		      			}
