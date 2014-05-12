@@ -46,6 +46,27 @@ Donne moi les articles de 2005 dont l'auteur a pour adresse e-mail fauvert@tf1.f
 Donne moi les articles en rapport avec la politique de l'Italie. == SELECT ARTICLE PARLER params(politique, Italie) 
 Donne moi les titres et les dates des articles traitant de George W. Bush. == SELECT DATE TITRE PARLER params(george bush)
 Donne moi tous les articles sur le théme de la guerre paru entre le 23 avril 2005 et le 1er Juillet 2005 == SELECT ARTICLE PARLER params(guerre) ENTRE date(23 janvier 2005) ET date(1er juillet 2005)
+Donne moi tous les article concernant le procès de Mickael Jackson == vouloir article parler proc�s mich jackson
+Donne moi tous les articles traitant de la menace terroriste Al-Qaïda == vouloir article parler menace terroris al-qaïda 
+Donne-moi la liste des gros titres parus entre le 10 septembre 2001 et le 12 septembre 2001.
+Donnez les dates de parution des articles parus dans la rubrique " Le focus " dont le mail de l'auteur est dstraus@tf1.fr ? 
+Donnez-moi les gros titres qui parlent du cyclone Katrina.
+Entre le 12 Septembre et le 17 Octobre 2005, dans la rubrique " Le focus ", combien d'articles ont été écrit par Guillaume DEBRE et parlent du pape ?
+Existe-t-il un article parlant du Sénégal (apparition improbable d'un sujet donné)?
+J'aimerais connaitre les dates des articles de l'auteur AFP.
+J'aimerais consulter les articles liés à la Belgique.
+Je voudrais toutes les pages qui parlent de George W.Bush.
+Je souhaiterais les articles écrit par dstraus@tf1.fr et étant contenus dans la Une.
+Je souhaiterais savoir s'il y a des articles qui traitent de "l'élection de Jean Sarkozy"
+Je veux la Une du 3 Mars 2005.
+Je veux la liste de toutes les unes de février 2005
+Je veux les articles datant de Février et traitant de la capture d'Ingrid Betancourt ?
+vouloir article parler juge .
+Je veux les articles sur l'Allemagne écrits par Franck Lefebvre.
+Je veux les articles traitant de l'Irak ou de l'Afghanistan
+Je veux les auteurs des articles parlant du G8 ?
+Je veux les auteurs et leur adresse e-mail des articules d'aujourd'hui.
+Je veux les gros titres et les rappels traitant de Guantanamo ou de l'Irak ou de Bush.
 ====================================================
 
 ==================== NON FAITS =====================
@@ -57,38 +78,16 @@ De quand date la dernière Une à propos de Mickael Jackson ?
 De quoi parlait-on le plus du 27 mars au 4 avril 2005 ? 
 De quoi parlait-on le plus du 27 mars au 4 avril 2005 ?
 Donne moi la liste des auteurs ayant écris au moins de 5 articles sur le théme de la Russie
+Donner le théme le plus récurrent dans la rubrique Focus parmi ces thémes : " La guerre en Irak ", " les attentats ", " les actions humanitaires " et " les visites du Pape "?
+Donne-moi la liste des articules où l'on a parlé du président des états Unis depuis 3 semaines.
+Donnez-moi les résumés de tous les textes traitant du terrorisme.
+Entre quelle date de début et quelle date de fin sont parrus les articles sur Katrina?
+J'aimerais le nombre de une sur Chirac par année.
+Je veux les 10 derniers articles qui traitent de la crise économique.
+Je veux les 5 derniers articles qui traitent de cyclones.
 ====================================================
 
 ==================== TO FINISH ====================
-Donne moi tous les article concernant le procès de Mickael Jackson
-Donne moi tous les articles traitant de la menace terroriste Al-Qaïda
-Donne-moi la liste des articules où l'on a parlé du président des états Unis depuis 3 semaines.
-Donne-moi la liste des gros titres parus entre le 10 septembre 2001 et le 12 septembre 2001.
-Donner le théme le plus récurrent dans la rubrique Focus parmi ces thémes : " La guerre en Irak ", " les attentats ", " les actions humanitaires " et " les visites du Pape "?
-Donnez les dates de parution des articles parus dans la rubrique " Le focus " dont le mail de l'auteur est dstraus@tf1.fr ?
-Donnez-moi les gros titres qui parlent du cyclone Katrina.
-Donnez-moi les gros titres qui parlent du cyclone Katrina.
-Donnez-moi les résumés de tous les textes traitant du terrorisme.
-Entre le 12 Septembre et le 17 Octobre 2005, dans la rubrique " Le focus ", combien d'articles ont été écrit par Guillaume DEBRE et parlent du pape ?
-Entre quelle date de début et quelle date de fin sont parrus les articles sur Katrina?
-Existe-t-il un article parlant du Sénégal (apparition improbable d'un sujet donné)?
-J'aimerais connaitre les dates des articles de l'auteur AFP.
-J'aimerais consulter les articles liés à la Belgique.Je voudrais toutes les pages qui parlent de George W.Bush.
-J'aimerais le nombre de une sur Chirac par année.
-Je souhaiterais les articles écrit par dstraus@tf1.fr et étant contenus dans la Une.
-Je souhaiterais savoir s'il y a des articles qui traitent de "l'élection de Jean Sarkozy"
-Je veux la Une du 3 Mars 2005.
-Je veux la liste de toutes les unes de février 2005
-Je veux les 10 derniers articles qui traitent de la crise économique.
-Je veux les 5 derniers articles qui traitent de cyclones.
-Je veux les articles datant de Février et traitant de la capture d'Ingrid Betancourt ?
-Je veux les articles possédant le terme juge.
-Je veux les articles sur l'Allemagne écrits par Franck Lefebvre.
-Je veux les articles sur l'Allemagne écrits par Franck Lefebvre.
-Je veux les articles traitant de l'Irak ou de l'Afghanistan
-Je veux les auteurs des articles parlant du G8 ?
-Je veux les auteurs et leur adresse e-mail des articules d'aujourd'hui.
-Je veux les gros titres et les rappels traitant de Guantanamo ou de l'Irak ou de Bush.
 Je veux les unes de chaque début de mois.
 Je veux savoir le nombre d'articles sur le pape écrits en 2004.
 Je veux tous les articles concernant la politique de Bush pour l'année 2005

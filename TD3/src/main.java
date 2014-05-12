@@ -21,7 +21,8 @@ class main{
               chaine = chaine.replaceAll("Une", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
               chaine = chaine.replaceAll("UNE", "rubriqueune"); //idem
               chaine = chaine.replaceAll("\\?", "");
-              chaine = chaine.replaceAll("\\.", "");
+              chaine = chaine.replaceAll("\\,", "");
+              chaine = chaine.replaceAll("\"", "");
               chaine = chaine.toLowerCase();
 
               String mot="", lemme = "";
@@ -89,6 +90,7 @@ class main{
 		      			}
              	  }
                }
+              //System.out.println(chaineRetour.replaceAll("stop ", "") + ".");
               System.out.println(chaineRetour);
           }
           catch(EOFException e) {
