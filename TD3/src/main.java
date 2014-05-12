@@ -20,6 +20,8 @@ class main{
               chaine=br.readLine();
               chaine = chaine.replaceAll("Une", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
               chaine = chaine.replaceAll("UNE", "rubriqueune"); //idem
+              chaine = chaine.replaceAll("Unes", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
+              chaine = chaine.replaceAll("UNES", "rubriqueune"); //idem
               chaine = chaine.replaceAll("\\?", "");
               chaine = chaine.replaceAll("\\,", "");
               chaine = chaine.replaceAll("\"", "");
@@ -90,8 +92,8 @@ class main{
 		      			}
              	  }
                }
-              //System.out.println(chaineRetour.replaceAll("stop ", "") + ".");
-              System.out.println(chaineRetour);
+              System.out.println(chaineRetour.replaceAll("rubriqueune", "une") + ".");
+              //System.out.println(chaineRetour);
           }
           catch(EOFException e) {
                br.close();
