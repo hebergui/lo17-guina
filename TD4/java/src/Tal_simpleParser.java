@@ -1,5 +1,5 @@
 // $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-12 15:43:10
-package antlr.output;
+
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -65,7 +65,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "requete"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:36:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params );
-	public final Arbre requete() throws  {
+	public final Arbre requete()  {
 		Arbre req_arbre =  new Arbre("");
 
 
@@ -80,7 +80,7 @@ public class Tal_simpleParser extends Parser {
 		Arbre d2 =null;
 		Arbre e =null;
 
-		Arbre ps_arbre, d_arbre;
+		Arbre ps_arbre, d_arbre, e_arbre;
 		try {
 			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:37:35: ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params )
 			int alt1=50;
@@ -1248,7 +1248,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "conj"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:603:1: conj returns [Arbre conj_arbre = new Arbre(\"\")] : ( ET | OU );
-	public final Arbre conj() throws  {
+	public final Arbre conj() {
 		Arbre conj_arbre =  new Arbre("");
 
 
@@ -1306,7 +1306,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "dat"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:611:1: dat returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR );
-	public final Arbre dat() throws  {
+	public final Arbre dat() {
 		Arbre les_pars_arbre =  new Arbre("");
 
 
@@ -1448,7 +1448,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "email"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:632:1: email returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR );
-	public final Arbre email() throws  {
+	public final Arbre email() {
 		Arbre les_pars_arbre =  new Arbre("");
 
 
@@ -1592,7 +1592,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "listerequetes"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:647:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
-	public final String listerequetes() throws  {
+	public final String listerequetes() {
 		String sql =  "";
 
 
@@ -1630,7 +1630,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "param"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:654:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR );
-	public final Arbre param() throws  {
+	public final Arbre param() {
 		Arbre lepar_arbre =  new Arbre("");
 
 
@@ -1796,7 +1796,7 @@ public class Tal_simpleParser extends Parser {
 
 	// $ANTLR start "params"
 	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:678:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
-	public final Arbre params() throws  {
+	public final Arbre params() {
 		Arbre les_pars_arbre =  new Arbre("");
 
 
@@ -1864,10 +1864,6 @@ public class Tal_simpleParser extends Parser {
 
 			}
 
-		}
-		catch (RecognitionException re) {
-			reportError(re);
-			recover(input,re);
 		}
 		finally {
 			// do for sure before leaving
