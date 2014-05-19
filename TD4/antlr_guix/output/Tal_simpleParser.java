@@ -1,4 +1,4 @@
-// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-12 15:43:10
+// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-19 15:21:03
 package antlr.output;
 
 import org.antlr.runtime.*;
@@ -64,7 +64,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "requete"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:36:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params );
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:36:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR d= dat | COMBIEN AUTEUR ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params );
 	public final Arbre requete() throws  {
 		Arbre req_arbre =  new Arbre("");
 
@@ -80,9 +80,9 @@ public class Tal_simpleParser extends Parser {
 		Arbre d2 =null;
 		Arbre e =null;
 
-		Arbre ps_arbre, d_arbre;
+		Arbre ps_arbre, d_arbre, e_arbre;
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:37:35: ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:37:44: ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR d= dat | COMBIEN AUTEUR ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params )
 			int alt1=50;
 			alt1 = dfa1.predict(input);
 			switch (alt1) {
@@ -100,17 +100,21 @@ public class Tal_simpleParser extends Parser {
 					state._fsp--;
 
 
-								req_arbre.ajouteFils(new Arbre("", "select distinct "));
+								req_arbre.ajouteFils(new Arbre("", "select distinct"));
 								req_arbre.ajouteFils(new Arbre("", "article "));
-								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where "));
+								req_arbre.ajouteFils(new Arbre("", "from public.titre, public.datearticle "));
+								req_arbre.ajouteFils(new Arbre("", "where public.titre.article = public.datearticle.article "));
+								req_arbre.ajouteFils(new Arbre("", "AND "));
+								d_arbre = d;
+								req_arbre.ajouteFils(d_arbre);
+								req_arbre.ajouteFils(new Arbre("", "AND "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:52:5: ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:56:5: ARTICLE PARLER ps= params
 					{
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete355); 
 					match(input,PARLER,FOLLOW_PARLER_in_requete357); 
@@ -129,7 +133,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:75:5: COMBIEN ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:79:5: COMBIEN ARTICLE PARLER ps= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete407); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete409); 
@@ -140,7 +144,7 @@ public class Tal_simpleParser extends Parser {
 
 
 								req_arbre.ajouteFils(new Arbre("", "select count(article) "));
-								req_arbre.ajouteFils(new Arbre("", "from ... "));
+								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
@@ -148,7 +152,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 4 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:84:5: COMBIEN ARTICLE ps1= params PARLER ps2= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:88:5: COMBIEN ARTICLE ps1= params PARLER ps2= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete431); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete433); 
@@ -164,17 +168,17 @@ public class Tal_simpleParser extends Parser {
 
 								req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where'"));
+								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = ps1;
 								req_arbre.ajouteFils(ps_arbre);
-								req_arbre.ajouteFils(new Arbre("", " AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", " AND mot = "));
 								ps_arbre = ps2;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 5 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:96:5: COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:100:5: COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete461); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete463); 
@@ -191,17 +195,17 @@ public class Tal_simpleParser extends Parser {
 
 								req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where'"));
+								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = ps1;
 								req_arbre.ajouteFils(ps_arbre);
-								req_arbre.ajouteFils(new Arbre("", " AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", " AND "));
 								ps_arbre = ps2;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 6 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:108:5: COMBIEN ARTICLE ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:112:5: COMBIEN ARTICLE ps= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete493); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete495); 
@@ -212,14 +216,14 @@ public class Tal_simpleParser extends Parser {
 
 								req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where '"));
+								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 7 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:118:5: COMBIEN ARTICLE PARLER ps= params d= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:122:5: COMBIEN ARTICLE PARLER ps= params d= dat
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete518); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete520); 
@@ -245,19 +249,18 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 8 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:131:5: COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:135:5: COMBIEN AUTEUR ARTICLE ENTRE d1= dat ET d2= dat
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete550); 
 					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete552); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete554); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete556); 
-					match(input,ENTRE,FOLLOW_ENTRE_in_requete558); 
-					pushFollow(FOLLOW_dat_in_requete564);
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete554); 
+					match(input,ENTRE,FOLLOW_ENTRE_in_requete556); 
+					pushFollow(FOLLOW_dat_in_requete562);
 					d1=dat();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete566); 
-					pushFollow(FOLLOW_dat_in_requete572);
+					match(input,ET,FOLLOW_ET_in_requete564); 
+					pushFollow(FOLLOW_dat_in_requete570);
 					d2=dat();
 					state._fsp--;
 
@@ -275,12 +278,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 9 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:144:5: COMBIEN AUTEUR PARLER d= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:148:5: COMBIEN AUTEUR d= dat
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete586); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete588); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete590); 
-					pushFollow(FOLLOW_dat_in_requete597);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete584); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete586); 
+					pushFollow(FOLLOW_dat_in_requete593);
 					d=dat();
 					state._fsp--;
 
@@ -294,14 +296,13 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 10 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:153:5: COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:157:5: COMBIEN AUTEUR ARTICLE PARLER ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete611); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete613); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete615); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete618); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete620); 
-					pushFollow(FOLLOW_params_in_requete626);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete607); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete609); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete612); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete614); 
+					pushFollow(FOLLOW_params_in_requete620);
 					ps=params();
 					state._fsp--;
 
@@ -315,11 +316,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 11 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:161:5: COMBIEN AUTEUR e= email
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:165:5: COMBIEN AUTEUR e= email
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete635); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete637); 
-					pushFollow(FOLLOW_email_in_requete643);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete629); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete631); 
+					pushFollow(FOLLOW_email_in_requete637);
 					e=email();
 					state._fsp--;
 
@@ -333,16 +334,16 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 12 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:170:5: COMBIEN AUTEUR e= email PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:174:5: COMBIEN AUTEUR e= email PARLER ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete657); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete659); 
-					pushFollow(FOLLOW_email_in_requete665);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete651); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete653); 
+					pushFollow(FOLLOW_email_in_requete659);
 					e=email();
 					state._fsp--;
 
-					match(input,PARLER,FOLLOW_PARLER_in_requete667); 
-					pushFollow(FOLLOW_params_in_requete673);
+					match(input,PARLER,FOLLOW_PARLER_in_requete661); 
+					pushFollow(FOLLOW_params_in_requete667);
 					ps=params();
 					state._fsp--;
 
@@ -352,19 +353,19 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = e;
 								req_arbre.ajouteFils(ps_arbre);
-								req_arbre.ajouteFils(new Arbre("", "' AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "' AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 13 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:183:5: COMBIEN JOURS PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:187:5: COMBIEN JOURS PARLER ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete687); 
-					match(input,JOURS,FOLLOW_JOURS_in_requete689); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete691); 
-					pushFollow(FOLLOW_params_in_requete697);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete681); 
+					match(input,JOURS,FOLLOW_JOURS_in_requete683); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete685); 
+					pushFollow(FOLLOW_params_in_requete691);
 					ps=params();
 					state._fsp--;
 
@@ -379,77 +380,77 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 14 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:194:5: COMBIEN MOT ps= params ET SELECT ARTICLE
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:198:5: COMBIEN MOT ps= params ET SELECT ARTICLE
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete713); 
-					match(input,MOT,FOLLOW_MOT_in_requete715); 
-					pushFollow(FOLLOW_params_in_requete721);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete707); 
+					match(input,MOT,FOLLOW_MOT_in_requete709); 
+					pushFollow(FOLLOW_params_in_requete715);
 					ps=params();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete723); 
-					match(input,SELECT,FOLLOW_SELECT_in_requete725); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete727); 
+					match(input,ET,FOLLOW_ET_in_requete717); 
+					match(input,SELECT,FOLLOW_SELECT_in_requete719); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete721); 
 
 								req_arbre.ajouteFils(new Arbre("", "select count(mot)"));
 								req_arbre.ajouteFils(new Arbre("", ", article "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "where mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 15 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:204:5: COMBIEN MOT ps= params r= RUBRIQUE
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:208:5: COMBIEN MOT ps= params r= RUBRIQUE
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete741); 
-					match(input,MOT,FOLLOW_MOT_in_requete743); 
-					pushFollow(FOLLOW_params_in_requete749);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete735); 
+					match(input,MOT,FOLLOW_MOT_in_requete737); 
+					pushFollow(FOLLOW_params_in_requete743);
 					ps=params();
 					state._fsp--;
 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete755); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete749); 
 
 								req_arbre.ajouteFils(new Arbre("", "select count(mot) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", " AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", " AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 16 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:214:5: COMBIEN PAGE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:218:5: COMBIEN PAGE PARLER ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete766); 
-					match(input,PAGE,FOLLOW_PAGE_in_requete768); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete770); 
-					pushFollow(FOLLOW_params_in_requete776);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete760); 
+					match(input,PAGE,FOLLOW_PAGE_in_requete762); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete764); 
+					pushFollow(FOLLOW_params_in_requete770);
 					ps=params();
 					state._fsp--;
 
 
 								req_arbre.ajouteFils(new Arbre("", "select count(page) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "where mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 17 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:223:5: COMBIEN PAGE PARLER ps= params d= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:227:5: COMBIEN PAGE PARLER ps= params d= dat
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete790); 
-					match(input,PAGE,FOLLOW_PAGE_in_requete792); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete794); 
-					pushFollow(FOLLOW_params_in_requete800);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete784); 
+					match(input,PAGE,FOLLOW_PAGE_in_requete786); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete788); 
+					pushFollow(FOLLOW_params_in_requete794);
 					ps=params();
 					state._fsp--;
 
-					pushFollow(FOLLOW_dat_in_requete806);
+					pushFollow(FOLLOW_dat_in_requete800);
 					d=dat();
 					state._fsp--;
 
@@ -457,7 +458,7 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select count(page) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 								req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -467,22 +468,22 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 18 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:237:5: COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:241:5: COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete822); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete828); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete830); 
-					pushFollow(FOLLOW_params_in_requete836);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete816); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete822); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete824); 
+					pushFollow(FOLLOW_params_in_requete830);
 					ps=params();
 					state._fsp--;
 
-					match(input,ENTRE,FOLLOW_ENTRE_in_requete838); 
-					pushFollow(FOLLOW_dat_in_requete844);
+					match(input,ENTRE,FOLLOW_ENTRE_in_requete832); 
+					pushFollow(FOLLOW_dat_in_requete838);
 					d1=dat();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete846); 
-					pushFollow(FOLLOW_dat_in_requete852);
+					match(input,ET,FOLLOW_ET_in_requete840); 
+					pushFollow(FOLLOW_dat_in_requete846);
 					d2=dat();
 					state._fsp--;
 
@@ -504,12 +505,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 19 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:260:5: COMBIEN r= RUBRIQUE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:264:5: COMBIEN r= RUBRIQUE PARLER ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete882); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete888); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete890); 
-					pushFollow(FOLLOW_params_in_requete896);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete876); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete882); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete884); 
+					pushFollow(FOLLOW_params_in_requete890);
 					ps=params();
 					state._fsp--;
 
@@ -524,22 +525,22 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 20 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:270:5: COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:274:5: COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete910); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete916); 
-					match(input,ENTRE,FOLLOW_ENTRE_in_requete918); 
-					pushFollow(FOLLOW_dat_in_requete924);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete904); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete910); 
+					match(input,ENTRE,FOLLOW_ENTRE_in_requete912); 
+					pushFollow(FOLLOW_dat_in_requete918);
 					d1=dat();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete926); 
-					pushFollow(FOLLOW_dat_in_requete932);
+					match(input,ET,FOLLOW_ET_in_requete920); 
+					pushFollow(FOLLOW_dat_in_requete926);
 					d2=dat();
 					state._fsp--;
 
-					match(input,PARLER,FOLLOW_PARLER_in_requete934); 
-					pushFollow(FOLLOW_params_in_requete941);
+					match(input,PARLER,FOLLOW_PARLER_in_requete928); 
+					pushFollow(FOLLOW_params_in_requete935);
 					ps=params();
 					state._fsp--;
 
@@ -554,18 +555,18 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", " AND jour <= "));
 								d_arbre = d2;
 								req_arbre.ajouteFils(d_arbre);
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 21 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:286:5: COMBIEN r= RUBRIQUE ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:290:5: COMBIEN r= RUBRIQUE ps= params
 					{
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete952); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete958); 
-					pushFollow(FOLLOW_params_in_requete964);
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete946); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete952); 
+					pushFollow(FOLLOW_params_in_requete958);
 					ps=params();
 					state._fsp--;
 
@@ -573,18 +574,18 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select count(rubrique) "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 22 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:298:5: EMAIL AUTEUR ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:302:5: EMAIL AUTEUR ps= params
 					{
-					match(input,EMAIL,FOLLOW_EMAIL_in_requete980); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete982); 
-					pushFollow(FOLLOW_params_in_requete988);
+					match(input,EMAIL,FOLLOW_EMAIL_in_requete974); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete976); 
+					pushFollow(FOLLOW_params_in_requete982);
 					ps=params();
 					state._fsp--;
 
@@ -592,29 +593,29 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select distinct email "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "auteur = '"));
+								req_arbre.ajouteFils(new Arbre("", "auteur = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 23 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:312:5: SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:316:5: SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1007); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1009); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1011); 
-					pushFollow(FOLLOW_params_in_requete1018);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1001); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1003); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1005); 
+					pushFollow(FOLLOW_params_in_requete1012);
 					ps=params();
 					state._fsp--;
 
-					match(input,ENTRE,FOLLOW_ENTRE_in_requete1020); 
-					pushFollow(FOLLOW_dat_in_requete1026);
+					match(input,ENTRE,FOLLOW_ENTRE_in_requete1014); 
+					pushFollow(FOLLOW_dat_in_requete1020);
 					d1=dat();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete1028); 
-					pushFollow(FOLLOW_dat_in_requete1034);
+					match(input,ET,FOLLOW_ET_in_requete1022); 
+					pushFollow(FOLLOW_dat_in_requete1028);
 					d2=dat();
 					state._fsp--;
 
@@ -635,16 +636,16 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 24 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:328:5: SELECT ARTICLE ps1= params PARLER ps2= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:332:5: SELECT ARTICLE ps1= params PARLER ps2= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1048); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1050); 
-					pushFollow(FOLLOW_params_in_requete1056);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1042); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1044); 
+					pushFollow(FOLLOW_params_in_requete1050);
 					ps1=params();
 					state._fsp--;
 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1058); 
-					pushFollow(FOLLOW_params_in_requete1064);
+					match(input,PARLER,FOLLOW_PARLER_in_requete1052); 
+					pushFollow(FOLLOW_params_in_requete1058);
 					ps2=params();
 					state._fsp--;
 
@@ -653,7 +654,7 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "article "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps1;
 								req_arbre.ajouteFils(ps_arbre);
 								ps_arbre = ps2;
@@ -662,12 +663,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 25 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:343:5: SELECT ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:347:5: SELECT ARTICLE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1082); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1084); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1086); 
-					pushFollow(FOLLOW_params_in_requete1092);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1076); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1078); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1080); 
+					pushFollow(FOLLOW_params_in_requete1086);
 					ps=params();
 					state._fsp--;
 
@@ -676,24 +677,24 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "article "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 26 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:353:5: SELECT ARTICLE PARLER ps= params DATE d= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:357:5: SELECT ARTICLE PARLER ps= params DATE d= dat
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1103); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1105); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1107); 
-					pushFollow(FOLLOW_params_in_requete1113);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1097); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1099); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1101); 
+					pushFollow(FOLLOW_params_in_requete1107);
 					ps=params();
 					state._fsp--;
 
-					match(input,DATE,FOLLOW_DATE_in_requete1115); 
-					pushFollow(FOLLOW_dat_in_requete1121);
+					match(input,DATE,FOLLOW_DATE_in_requete1109); 
+					pushFollow(FOLLOW_dat_in_requete1115);
 					d=dat();
 					state._fsp--;
 
@@ -710,16 +711,16 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 27 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:365:5: SELECT ARTICLE d= dat AUTEUR e= email
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:369:5: SELECT ARTICLE d= dat AUTEUR e= email
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1132); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1134); 
-					pushFollow(FOLLOW_dat_in_requete1140);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1126); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1128); 
+					pushFollow(FOLLOW_dat_in_requete1134);
 					d=dat();
 					state._fsp--;
 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1142); 
-					pushFollow(FOLLOW_email_in_requete1148);
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1136); 
+					pushFollow(FOLLOW_email_in_requete1142);
 					e=email();
 					state._fsp--;
 
@@ -730,24 +731,24 @@ public class Tal_simpleParser extends Parser {
 								d_arbre = d;
 								req_arbre.ajouteFils(d_arbre);
 								req_arbre.ajouteFils(new Arbre("", "AND email = "));
-								e_arbre = d;
+								e_arbre = e;
 								req_arbre.ajouteFils(e_arbre);
 							
 					}
 					break;
 				case 28 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:376:5: SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:380:5: SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1157); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1159); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1161); 
-					pushFollow(FOLLOW_email_in_requete1167);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1151); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1153); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1155); 
+					pushFollow(FOLLOW_email_in_requete1161);
 					e=email();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete1169); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1171); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1177); 
+					match(input,ET,FOLLOW_ET_in_requete1163); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1165); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1171); 
 
 								req_arbre.ajouteFils(new Arbre("", "select distinct article"));
 								req_arbre.ajouteFils(new Arbre("", "from "));
@@ -759,31 +760,31 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 29 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:385:5: SELECT ARTICLE AUTEUR ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:389:5: SELECT ARTICLE AUTEUR ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1186); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1188); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1190); 
-					pushFollow(FOLLOW_params_in_requete1196);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1180); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1182); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1184); 
+					pushFollow(FOLLOW_params_in_requete1190);
 					ps=params();
 					state._fsp--;
 
 
 								req_arbre.ajouteFils(new Arbre("", "select distinct article"));
 								req_arbre.ajouteFils(new Arbre("", "from "));
-								req_arbre.ajouteFils(new Arbre("", "where '"));
+								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 30 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:393:5: SELECT ARTICLE AUTEUR e= email
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:397:5: SELECT ARTICLE AUTEUR e= email
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1205); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1207); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1209); 
-					pushFollow(FOLLOW_email_in_requete1215);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1199); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1201); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1203); 
+					pushFollow(FOLLOW_email_in_requete1209);
 					e=email();
 					state._fsp--;
 
@@ -797,16 +798,16 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 31 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:401:5: SELECT ARTICLE ps1= params AUTEUR ps2= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:405:5: SELECT ARTICLE ps1= params AUTEUR ps2= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1224); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1226); 
-					pushFollow(FOLLOW_params_in_requete1232);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1218); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1220); 
+					pushFollow(FOLLOW_params_in_requete1226);
 					ps1=params();
 					state._fsp--;
 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1234); 
-					pushFollow(FOLLOW_params_in_requete1240);
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1228); 
+					pushFollow(FOLLOW_params_in_requete1234);
 					ps2=params();
 					state._fsp--;
 
@@ -817,24 +818,24 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "mot = '"));
 								ps_arbre = ps1;
 								req_arbre.ajouteFils(ps_arbre);
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps2;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 32 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:413:5: SELECT ARTICLE d= dat ET PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:417:5: SELECT ARTICLE d= dat ET PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1251); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1253); 
-					pushFollow(FOLLOW_dat_in_requete1259);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1245); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1247); 
+					pushFollow(FOLLOW_dat_in_requete1253);
 					d=dat();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete1261); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1263); 
-					pushFollow(FOLLOW_params_in_requete1269);
+					match(input,ET,FOLLOW_ET_in_requete1255); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1257); 
+					pushFollow(FOLLOW_params_in_requete1263);
 					ps=params();
 					state._fsp--;
 
@@ -851,13 +852,13 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 33 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:425:5: SELECT AUTEUR ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:429:5: SELECT AUTEUR ARTICLE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1280); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1282); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1284); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1286); 
-					pushFollow(FOLLOW_params_in_requete1292);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1274); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1276); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1278); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1280); 
+					pushFollow(FOLLOW_params_in_requete1286);
 					ps=params();
 					state._fsp--;
 
@@ -865,19 +866,19 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select distinct auteur, article "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 34 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:434:5: SELECT AUTEUR ARTICLE ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:438:5: SELECT AUTEUR ARTICLE ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1301); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1303); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1305); 
-					pushFollow(FOLLOW_params_in_requete1311);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1295); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1297); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1299); 
+					pushFollow(FOLLOW_params_in_requete1305);
 					ps=params();
 					state._fsp--;
 
@@ -885,21 +886,21 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select distinct auteur, article "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 35 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:443:5: SELECT AUTEUR ET EMAIL ARTICLE TODAY
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:447:5: SELECT AUTEUR ET EMAIL ARTICLE TODAY
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1320); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1322); 
-					match(input,ET,FOLLOW_ET_in_requete1324); 
-					match(input,EMAIL,FOLLOW_EMAIL_in_requete1326); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1328); 
-					match(input,TODAY,FOLLOW_TODAY_in_requete1330); 
+					match(input,SELECT,FOLLOW_SELECT_in_requete1314); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1316); 
+					match(input,ET,FOLLOW_ET_in_requete1318); 
+					match(input,EMAIL,FOLLOW_EMAIL_in_requete1320); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1322); 
+					match(input,TODAY,FOLLOW_TODAY_in_requete1324); 
 
 								req_arbre.ajouteFils(new Arbre("", "select auteur, email "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
@@ -909,36 +910,36 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 36 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:451:5: SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:455:5: SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1343); 
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete1345); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1351); 
-					pushFollow(FOLLOW_params_in_requete1357);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1337); 
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete1339); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1345); 
+					pushFollow(FOLLOW_params_in_requete1351);
 					ps=params();
 					state._fsp--;
 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1359); 
-					match(input,DATE,FOLLOW_DATE_in_requete1361); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1353); 
+					match(input,DATE,FOLLOW_DATE_in_requete1355); 
 
 								req_arbre.ajouteFils(new Arbre("", "select count(rubrique), date"));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
 								req_arbre.ajouteFils(new Arbre("", "rubrique = '" + r.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 37 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:461:5: SELECT COMBIEN r= RUBRIQUE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:465:5: SELECT COMBIEN r= RUBRIQUE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1372); 
-					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete1374); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1380); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1382); 
-					pushFollow(FOLLOW_params_in_requete1388);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1366); 
+					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete1368); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1374); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1376); 
+					pushFollow(FOLLOW_params_in_requete1382);
 					ps=params();
 					state._fsp--;
 
@@ -947,20 +948,20 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
 								req_arbre.ajouteFils(new Arbre("", "rubrique = '" + r.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 38 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:472:5: SELECT DATE ARTICLE AUTEUR ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:476:5: SELECT DATE ARTICLE AUTEUR ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1399); 
-					match(input,DATE,FOLLOW_DATE_in_requete1401); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1403); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1405); 
-					pushFollow(FOLLOW_params_in_requete1411);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1393); 
+					match(input,DATE,FOLLOW_DATE_in_requete1395); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1397); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1399); 
+					pushFollow(FOLLOW_params_in_requete1405);
 					ps=params();
 					state._fsp--;
 
@@ -975,13 +976,13 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 39 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:481:5: SELECT DATE ARTICLE r= RUBRIQUE e= email
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:485:5: SELECT DATE ARTICLE r= RUBRIQUE e= email
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1420); 
-					match(input,DATE,FOLLOW_DATE_in_requete1422); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1424); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1430); 
-					pushFollow(FOLLOW_email_in_requete1436);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1414); 
+					match(input,DATE,FOLLOW_DATE_in_requete1416); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1418); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1424); 
+					pushFollow(FOLLOW_email_in_requete1430);
 					e=email();
 					state._fsp--;
 
@@ -996,13 +997,13 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 40 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:490:5: SELECT DATE ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:494:5: SELECT DATE ARTICLE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1445); 
-					match(input,DATE,FOLLOW_DATE_in_requete1447); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1449); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1451); 
-					pushFollow(FOLLOW_params_in_requete1457);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1439); 
+					match(input,DATE,FOLLOW_DATE_in_requete1441); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1443); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1445); 
+					pushFollow(FOLLOW_params_in_requete1451);
 					ps=params();
 					state._fsp--;
 
@@ -1017,12 +1018,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 41 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:500:5: SELECT DATE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:504:5: SELECT DATE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1469); 
-					match(input,DATE,FOLLOW_DATE_in_requete1471); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1473); 
-					pushFollow(FOLLOW_params_in_requete1477);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1463); 
+					match(input,DATE,FOLLOW_DATE_in_requete1465); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1467); 
+					pushFollow(FOLLOW_params_in_requete1471);
 					ps=params();
 					state._fsp--;
 
@@ -1030,19 +1031,19 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select date "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 42 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:511:5: SELECT EMAIL AUTEUR ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:515:5: SELECT EMAIL AUTEUR ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1491); 
-					match(input,EMAIL,FOLLOW_EMAIL_in_requete1493); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1495); 
-					pushFollow(FOLLOW_params_in_requete1501);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1485); 
+					match(input,EMAIL,FOLLOW_EMAIL_in_requete1487); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1489); 
+					pushFollow(FOLLOW_params_in_requete1495);
 					ps=params();
 					state._fsp--;
 
@@ -1056,14 +1057,14 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 43 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:521:5: SELECT PAGE ARTICLE AUTEUR AUTEUR e= email
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:525:5: SELECT PAGE ARTICLE AUTEUR AUTEUR e= email
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1515); 
-					match(input,PAGE,FOLLOW_PAGE_in_requete1517); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1519); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1521); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1523); 
-					pushFollow(FOLLOW_email_in_requete1529);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1509); 
+					match(input,PAGE,FOLLOW_PAGE_in_requete1511); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1513); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1515); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1517); 
+					pushFollow(FOLLOW_email_in_requete1523);
 					e=email();
 					state._fsp--;
 
@@ -1078,12 +1079,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 44 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:530:5: SELECT PAGE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:534:5: SELECT PAGE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1540); 
-					match(input,PAGE,FOLLOW_PAGE_in_requete1542); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1544); 
-					pushFollow(FOLLOW_params_in_requete1550);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1534); 
+					match(input,PAGE,FOLLOW_PAGE_in_requete1536); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1538); 
+					pushFollow(FOLLOW_params_in_requete1544);
 					ps=params();
 					state._fsp--;
 
@@ -1098,17 +1099,17 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 45 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:540:5: SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:544:5: SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1561); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1567); 
-					match(input,ENTRE,FOLLOW_ENTRE_in_requete1569); 
-					pushFollow(FOLLOW_dat_in_requete1575);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1555); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1561); 
+					match(input,ENTRE,FOLLOW_ENTRE_in_requete1563); 
+					pushFollow(FOLLOW_dat_in_requete1569);
 					d1=dat();
 					state._fsp--;
 
-					match(input,ET,FOLLOW_ET_in_requete1577); 
-					pushFollow(FOLLOW_dat_in_requete1583);
+					match(input,ET,FOLLOW_ET_in_requete1571); 
+					pushFollow(FOLLOW_dat_in_requete1577);
 					d2=dat();
 					state._fsp--;
 
@@ -1126,12 +1127,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 46 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:552:5: SELECT r= RUBRIQUE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:556:5: SELECT r= RUBRIQUE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1592); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1598); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1600); 
-					pushFollow(FOLLOW_params_in_requete1606);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1586); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1592); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1594); 
+					pushFollow(FOLLOW_params_in_requete1600);
 					ps=params();
 					state._fsp--;
 
@@ -1139,18 +1140,18 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select distinct rubrique "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 47 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:561:5: SELECT r= RUBRIQUE d= dat
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:565:5: SELECT r= RUBRIQUE d= dat
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1617); 
-					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1623); 
-					pushFollow(FOLLOW_dat_in_requete1629);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1611); 
+					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1617); 
+					pushFollow(FOLLOW_dat_in_requete1623);
 					d=dat();
 					state._fsp--;
 
@@ -1158,21 +1159,21 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select distinct rubrique "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", "AND date = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND date = "));
 								ps_arbre = d;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 48 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:570:5: SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:574:5: SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1640); 
-					r1=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1646); 
-					match(input,ET,FOLLOW_ET_in_requete1648); 
-					r2=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1654); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1656); 
-					pushFollow(FOLLOW_params_in_requete1662);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1634); 
+					r1=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1640); 
+					match(input,ET,FOLLOW_ET_in_requete1642); 
+					r2=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1648); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1650); 
+					pushFollow(FOLLOW_params_in_requete1656);
 					ps=params();
 					state._fsp--;
 
@@ -1181,22 +1182,22 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r1.getText() + "' "));
 								req_arbre.ajouteFils(new Arbre("", "OR rubrique = '" + r2.getText() + "' "));
-								req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 49 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:583:5: SELECT TITRE ET DATE ARTICLE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:587:5: SELECT TITRE ET DATE ARTICLE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1680); 
-					match(input,TITRE,FOLLOW_TITRE_in_requete1682); 
-					match(input,ET,FOLLOW_ET_in_requete1684); 
-					match(input,DATE,FOLLOW_DATE_in_requete1686); 
-					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1688); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1690); 
-					pushFollow(FOLLOW_params_in_requete1694);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1674); 
+					match(input,TITRE,FOLLOW_TITRE_in_requete1676); 
+					match(input,ET,FOLLOW_ET_in_requete1678); 
+					match(input,DATE,FOLLOW_DATE_in_requete1680); 
+					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1682); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1684); 
+					pushFollow(FOLLOW_params_in_requete1688);
 					ps=params();
 					state._fsp--;
 
@@ -1204,19 +1205,19 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select titre, date "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where"));
-								req_arbre.ajouteFils(new Arbre("", "mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
 					}
 					break;
 				case 50 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:593:5: SELECT TITRE PARLER ps= params
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:597:5: SELECT TITRE PARLER ps= params
 					{
-					match(input,SELECT,FOLLOW_SELECT_in_requete1706); 
-					match(input,TITRE,FOLLOW_TITRE_in_requete1708); 
-					match(input,PARLER,FOLLOW_PARLER_in_requete1710); 
-					pushFollow(FOLLOW_params_in_requete1714);
+					match(input,SELECT,FOLLOW_SELECT_in_requete1700); 
+					match(input,TITRE,FOLLOW_TITRE_in_requete1702); 
+					match(input,PARLER,FOLLOW_PARLER_in_requete1704); 
+					pushFollow(FOLLOW_params_in_requete1708);
 					ps=params();
 					state._fsp--;
 
@@ -1224,7 +1225,7 @@ public class Tal_simpleParser extends Parser {
 								req_arbre.ajouteFils(new Arbre("", "select titre "));
 								req_arbre.ajouteFils(new Arbre("", "from "));
 								req_arbre.ajouteFils(new Arbre("", "where"));
-								req_arbre.ajouteFils(new Arbre("", "mot = '"));
+								req_arbre.ajouteFils(new Arbre("", "mot = "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
 							
@@ -1247,13 +1248,13 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "conj"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:603:1: conj returns [Arbre conj_arbre = new Arbre(\"\")] : ( ET | OU );
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:607:1: conj returns [Arbre conj_arbre = new Arbre(\"\")] : ( ET | OU );
 	public final Arbre conj() throws  {
 		Arbre conj_arbre =  new Arbre("");
 
 
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:603:49: ( ET | OU )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:607:49: ( ET | OU )
 			int alt2=2;
 			int LA2_0 = input.LA(1);
 			if ( (LA2_0==ET) ) {
@@ -1271,18 +1272,18 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt2) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:604:2: ET
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:608:2: ET
 					{
-					match(input,ET,FOLLOW_ET_in_conj1730); 
+					match(input,ET,FOLLOW_ET_in_conj1724); 
 
 							conj_arbre.ajouteFils(new Arbre("", "AND "));
 						
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:607:4: OU
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:611:4: OU
 					{
-					match(input,OU,FOLLOW_OU_in_conj1737); 
+					match(input,OU,FOLLOW_OU_in_conj1731); 
 
 							conj_arbre.ajouteFils(new Arbre("", "OR "));
 						
@@ -1305,7 +1306,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "dat"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:611:1: dat returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR );
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:615:1: dat returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR );
 	public final Arbre dat() throws  {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -1315,7 +1316,7 @@ public class Tal_simpleParser extends Parser {
 		Token j=null;
 
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:611:52: (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:615:52: (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR )
 			int alt3=5;
 			switch ( input.LA(1) ) {
 			case NBR:
@@ -1378,28 +1379,28 @@ public class Tal_simpleParser extends Parser {
 			}
 			switch (alt3) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:612:2: a= NBR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:616:2: a= NBR
 					{
-					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1756); 
+					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1750); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "annee = '" + a.getText() + "' "));
 						
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:615:4: m= MOIS
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:619:4: m= MOIS
 					{
-					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1767); 
+					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1761); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "mois = '" + m.getText() + "' "));
 						
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:618:4: m= MOIS a= NBR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:622:4: m= MOIS a= NBR
 					{
-					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1778); 
-					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1784); 
+					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1772); 
+					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1778); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "mois = '" + m.getText() + "' "));
 							les_pars_arbre.ajouteFils(new Arbre("", "AND annee = '" + a.getText() + "' "));
@@ -1407,10 +1408,10 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 4 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:622:4: j= JOURS m= MOIS
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:626:4: j= JOURS m= MOIS
 					{
-					j=(Token)match(input,JOURS,FOLLOW_JOURS_in_dat1795); 
-					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1801); 
+					j=(Token)match(input,JOURS,FOLLOW_JOURS_in_dat1789); 
+					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1795); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "jour = '" + j.getText() + "' "));
 							les_pars_arbre.ajouteFils(new Arbre("", "AND mois = '" + m.getText() + "' "));
@@ -1418,11 +1419,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 5 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:626:4: j= NBR m= MOIS a= NBR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:630:4: j= NBR m= MOIS a= NBR
 					{
-					j=(Token)match(input,NBR,FOLLOW_NBR_in_dat1812); 
-					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1818); 
-					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1824); 
+					j=(Token)match(input,NBR,FOLLOW_NBR_in_dat1806); 
+					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1812); 
+					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1818); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "jj = '" + j.getText() + "' "));
 							les_pars_arbre.ajouteFils(new Arbre("", "AND mois = '" + m.getText() + "' "));
@@ -1447,7 +1448,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "email"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:632:1: email returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR );
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:636:1: email returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR );
 	public final Arbre email() throws  {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -1460,7 +1461,7 @@ public class Tal_simpleParser extends Parser {
 		Token a3=null;
 
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:632:54: (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:636:54: (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR )
 			int alt5=4;
 			int LA5_0 = input.LA(1);
 			if ( (LA5_0==VAR) ) {
@@ -1504,12 +1505,12 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt5) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:633:2: a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:637:2: a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR
 					{
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1843); 
-					a=(Token)match(input,AT,FOLLOW_AT_in_email1849); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1855); 
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:633:29: (n= NBR )?
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1837); 
+					a=(Token)match(input,AT,FOLLOW_AT_in_email1843); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1849); 
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:637:29: (n= NBR )?
 					int alt4=2;
 					int LA4_0 = input.LA(1);
 					if ( (LA4_0==NBR) ) {
@@ -1517,58 +1518,58 @@ public class Tal_simpleParser extends Parser {
 					}
 					switch (alt4) {
 						case 1 :
-							// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:633:29: n= NBR
+							// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:637:29: n= NBR
 							{
-							n=(Token)match(input,NBR,FOLLOW_NBR_in_email1861); 
+							n=(Token)match(input,NBR,FOLLOW_NBR_in_email1855); 
 							}
 							break;
 
 					}
 
-					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1868); 
-					a3=(Token)match(input,VAR,FOLLOW_VAR_in_email1874); 
+					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1862); 
+					a3=(Token)match(input,VAR,FOLLOW_VAR_in_email1868); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "email = '" + a1.getText() + a.getText() + a2.getText() + n.getText() + p.getText() + a3.getText() + "' "));
 						
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:637:4: EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:641:4: EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR
 					{
-					match(input,EMAIL,FOLLOW_EMAIL_in_email1882); 
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1888); 
-					a=(Token)match(input,AT,FOLLOW_AT_in_email1894); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1900); 
-					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1906); 
-					a3=(Token)match(input,VAR,FOLLOW_VAR_in_email1912); 
+					match(input,EMAIL,FOLLOW_EMAIL_in_email1876); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1882); 
+					a=(Token)match(input,AT,FOLLOW_AT_in_email1888); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1894); 
+					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1900); 
+					a3=(Token)match(input,VAR,FOLLOW_VAR_in_email1906); 
 
 								les_pars_arbre.ajouteFils(new Arbre("", "email = '" + a1.getText() + a.getText() + a2.getText() + p.getText() + a3.getText() + "' "));
 						
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:640:4: EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:644:4: EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR
 					{
-					match(input,EMAIL,FOLLOW_EMAIL_in_email1919); 
-					match(input,AUTEUR,FOLLOW_AUTEUR_in_email1921); 
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1927); 
-					a=(Token)match(input,AT,FOLLOW_AT_in_email1933); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1939); 
-					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1945); 
-					a3=(Token)match(input,VAR,FOLLOW_VAR_in_email1951); 
+					match(input,EMAIL,FOLLOW_EMAIL_in_email1913); 
+					match(input,AUTEUR,FOLLOW_AUTEUR_in_email1915); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1921); 
+					a=(Token)match(input,AT,FOLLOW_AT_in_email1927); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1933); 
+					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1939); 
+					a3=(Token)match(input,VAR,FOLLOW_VAR_in_email1945); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "email = '" + a1.getText() + a.getText() + a2.getText() + p.getText() + a3.getText() + "' "));
 						
 					}
 					break;
 				case 4 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:643:4: EMAIL a= AT a1= VAR p= POINT a2= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:647:4: EMAIL a= AT a1= VAR p= POINT a2= VAR
 					{
-					match(input,EMAIL,FOLLOW_EMAIL_in_email1958); 
-					a=(Token)match(input,AT,FOLLOW_AT_in_email1964); 
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1970); 
-					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1976); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1982); 
+					match(input,EMAIL,FOLLOW_EMAIL_in_email1952); 
+					a=(Token)match(input,AT,FOLLOW_AT_in_email1958); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1964); 
+					p=(Token)match(input,POINT,FOLLOW_POINT_in_email1970); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1976); 
 
 							les_pars_arbre.ajouteFils(new Arbre("", "email = '" + a.getText() + a1.getText() + p.getText() + a2.getText() + "' "));
 						
@@ -1591,7 +1592,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "listerequetes"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:647:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:651:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
 	public final String listerequetes() throws  {
 		String sql =  "";
 
@@ -1600,14 +1601,14 @@ public class Tal_simpleParser extends Parser {
 
 		Arbre lr_arbre;
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:648:26: (r= requete POINT )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:649:3: r= requete POINT
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:652:26: (r= requete POINT )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:653:3: r= requete POINT
 			{
-			pushFollow(FOLLOW_requete_in_listerequetes2008);
+			pushFollow(FOLLOW_requete_in_listerequetes2002);
 			r=requete();
 			state._fsp--;
 
-			match(input,POINT,FOLLOW_POINT_in_listerequetes2010); 
+			match(input,POINT,FOLLOW_POINT_in_listerequetes2004); 
 
 						lr_arbre = r;
 						sql = lr_arbre.sortArbre();
@@ -1629,7 +1630,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "param"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:654:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR );
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:658:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR );
 	public final Arbre param() throws  {
 		Arbre lepar_arbre =  new Arbre("");
 
@@ -1641,7 +1642,7 @@ public class Tal_simpleParser extends Parser {
 		Token a4=null;
 
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:654:51: (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:658:51: (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR )
 			int alt6=5;
 			int LA6_0 = input.LA(1);
 			if ( (LA6_0==VAR) ) {
@@ -1720,58 +1721,58 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt6) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:655:2: a= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:659:2: a= VAR
 					{
-					a=(Token)match(input,VAR,FOLLOW_VAR_in_param2029); 
+					a=(Token)match(input,VAR,FOLLOW_VAR_in_param2023); 
 
-							lepar_arbre.ajouteFils(new Arbre("", a.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "mot = '" + a.getText() + "' "));
 						
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:658:4: a1= NBR a2= MOIS
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:662:4: a1= NBR a2= MOIS
 					{
-					a1=(Token)match(input,NBR,FOLLOW_NBR_in_param2040); 
-					a2=(Token)match(input,MOIS,FOLLOW_MOIS_in_param2046); 
+					a1=(Token)match(input,NBR,FOLLOW_NBR_in_param2034); 
+					a2=(Token)match(input,MOIS,FOLLOW_MOIS_in_param2040); 
 
-						 	lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+						 	lepar_arbre.ajouteFils(new Arbre("", "mot = '" + a1.getText() + "' "));
 						 	lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 						 
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:662:5: a1= VAR a2= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:666:5: a1= VAR a2= VAR
 					{
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2058); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2064); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2052); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2058); 
 
-							lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "mot = '" +a1.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 						
 					}
 					break;
 				case 4 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:666:4: a1= VAR a2= VAR a3= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:670:4: a1= VAR a2= VAR a3= VAR
 					{
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2075); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2081); 
-					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param2087); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2069); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2075); 
+					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param2081); 
 
-							lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "mot = '" +a1.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a3.getText() + "' "));
 						
 					}
 					break;
 				case 5 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:671:4: a1= VAR a2= VAR a3= VAR a4= VAR
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:675:4: a1= VAR a2= VAR a3= VAR a4= VAR
 					{
-					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2098); 
-					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2104); 
-					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param2110); 
-					a4=(Token)match(input,VAR,FOLLOW_VAR_in_param2116); 
+					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2092); 
+					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2098); 
+					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param2104); 
+					a4=(Token)match(input,VAR,FOLLOW_VAR_in_param2110); 
 
-							lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "mot = '" + a1.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a3.getText() + "' "));
 							lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a4.getText() + "' "));
@@ -1795,7 +1796,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "params"
-	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:678:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
+	// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:682:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
 	public final Arbre params() throws  {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -1808,10 +1809,10 @@ public class Tal_simpleParser extends Parser {
 				Arbre par1_arbre, par2_arbre, conj_arbre, dat_arbre;
 			
 		try {
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:681:4: (par1= param (c= conj par2= param )* )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:682:3: par1= param (c= conj par2= param )*
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:685:4: (par1= param (c= conj par2= param )* )
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:686:3: par1= param (c= conj par2= param )*
 			{
-			pushFollow(FOLLOW_param_in_params2141);
+			pushFollow(FOLLOW_param_in_params2135);
 			par1=param();
 			state._fsp--;
 
@@ -1819,7 +1820,7 @@ public class Tal_simpleParser extends Parser {
 						par1_arbre = par1;
 						les_pars_arbre.ajouteFils(par1_arbre);
 					
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:686:3: (c= conj par2= param )*
+			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:690:3: (c= conj par2= param )*
 			loop7:
 			while (true) {
 				int alt7=2;
@@ -1837,13 +1838,13 @@ public class Tal_simpleParser extends Parser {
 
 				switch (alt7) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:686:4: c= conj par2= param
+					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:690:4: c= conj par2= param
 					{
-					pushFollow(FOLLOW_conj_in_params2152);
+					pushFollow(FOLLOW_conj_in_params2146);
 					c=conj();
 					state._fsp--;
 
-					pushFollow(FOLLOW_param_in_params2158);
+					pushFollow(FOLLOW_param_in_params2152);
 					par2=param();
 					state._fsp--;
 
@@ -1851,7 +1852,6 @@ public class Tal_simpleParser extends Parser {
 								conj_arbre = c;
 								par2_arbre = par2;
 								les_pars_arbre.ajouteFils(conj_arbre);
-								les_pars_arbre.ajouteFils(new Arbre("", "mot = '"));
 								les_pars_arbre.ajouteFils(par2_arbre);
 							
 					}
@@ -1881,45 +1881,45 @@ public class Tal_simpleParser extends Parser {
 
 	protected DFA1 dfa1 = new DFA1(this);
 	static final String DFA1_eotS =
-		"\u00df\uffff";
+		"\u00de\uffff";
 	static final String DFA1_eofS =
-		"\u00df\uffff";
+		"\u00de\uffff";
 	static final String DFA1_minS =
-		"\1\4\1\16\1\4\1\uffff\1\4\2\uffff\1\21\1\13\1\uffff\1\21\1\24\1\14\1\6"+
-		"\1\4\1\31\1\4\1\uffff\1\4\1\14\1\15\1\21\1\15\1\17\1\4\2\5\1\15\1\17\2"+
-		"\21\2\uffff\1\21\1\13\3\6\1\17\1\21\1\uffff\1\21\1\6\11\uffff\1\15\1\17"+
-		"\1\15\2\21\2\uffff\1\15\1\14\1\uffff\1\35\1\5\2\35\1\15\2\21\1\uffff\2"+
-		"\15\1\17\1\14\1\17\1\11\1\17\2\5\1\uffff\1\6\2\21\2\uffff\1\6\2\uffff"+
-		"\2\6\7\uffff\1\15\2\21\3\uffff\3\15\1\17\2\uffff\1\21\1\35\1\5\1\25\1"+
-		"\15\1\uffff\1\15\1\17\1\15\2\21\2\uffff\1\15\1\14\2\21\2\uffff\1\14\1"+
-		"\11\2\21\3\uffff\1\11\1\35\1\5\2\35\2\6\1\17\1\6\2\15\1\17\3\15\1\25\1"+
-		"\35\1\25\2\35\5\15\1\17\2\14\1\17\2\11\1\17\1\21\1\35\1\5\1\25\3\6\4\15"+
-		"\1\24\1\35\1\25\1\24\4\15\3\14\3\11\1\25\1\35\1\25\2\35\1\6\2\15\2\uffff"+
-		"\1\24\1\35\2\15\1\14\1\11\1\15\1\35\1\25\1\15\1\6\1\15\1\24\1\15\1\14"+
-		"\1\11\2\uffff\1\15\1\35\1\15";
+		"\1\4\1\16\1\4\1\uffff\1\4\2\uffff\1\21\1\4\1\uffff\1\21\1\24\1\14\1\6"+
+		"\1\4\1\31\1\4\1\uffff\1\4\1\14\1\15\1\21\1\15\1\17\1\14\1\uffff\2\5\1"+
+		"\15\1\17\2\21\2\uffff\1\21\1\13\3\6\1\17\1\21\1\uffff\1\21\1\6\11\uffff"+
+		"\1\15\1\17\1\15\2\21\2\uffff\1\15\2\uffff\1\35\1\5\2\35\1\15\2\21\1\uffff"+
+		"\2\15\1\17\1\14\1\17\1\11\1\17\2\5\1\uffff\1\6\2\21\2\uffff\1\6\2\uffff"+
+		"\2\6\7\uffff\1\15\2\21\3\uffff\3\15\1\17\1\21\1\35\1\5\1\25\1\15\1\uffff"+
+		"\1\15\1\17\1\15\2\21\2\uffff\1\15\1\14\2\21\2\uffff\1\14\1\11\2\21\3\uffff"+
+		"\1\11\1\35\1\5\2\35\2\6\1\17\1\6\2\15\1\17\3\15\1\25\1\35\1\25\2\35\5"+
+		"\15\1\17\2\14\1\17\2\11\1\17\1\21\1\35\1\5\1\25\3\6\4\15\1\24\1\35\1\25"+
+		"\1\24\4\15\3\14\3\11\1\25\1\35\1\25\2\35\1\6\2\15\2\uffff\1\24\1\35\2"+
+		"\15\1\14\1\11\1\15\1\35\1\25\1\15\1\6\1\15\1\24\1\15\1\14\1\11\2\uffff"+
+		"\1\15\1\35\1\15";
 	static final String DFA1_maxS =
 		"\1\32\1\24\1\31\1\uffff\1\33\2\uffff\2\35\1\uffff\1\35\1\24\2\35\1\15"+
-		"\1\31\1\24\1\uffff\3\24\2\35\1\17\1\21\1\5\2\35\1\17\2\35\2\uffff\3\35"+
-		"\1\17\1\21\1\17\1\35\1\uffff\1\35\1\31\11\uffff\1\35\1\17\3\35\2\uffff"+
-		"\1\25\1\24\1\uffff\1\35\1\5\5\35\1\uffff\1\31\1\35\1\17\1\35\1\17\1\35"+
+		"\1\31\1\24\1\uffff\3\24\2\35\1\17\1\24\1\uffff\1\5\2\35\1\17\2\35\2\uffff"+
+		"\3\35\1\17\1\21\1\17\1\35\1\uffff\1\35\1\31\11\uffff\1\35\1\17\3\35\2"+
+		"\uffff\1\25\2\uffff\1\35\1\5\5\35\1\uffff\1\31\1\35\1\17\1\35\1\17\1\35"+
 		"\1\17\2\35\1\uffff\3\35\2\uffff\1\24\2\uffff\2\15\7\uffff\3\35\3\uffff"+
-		"\1\25\2\35\1\17\2\uffff\1\25\1\35\1\5\1\25\1\35\1\uffff\1\35\1\17\3\35"+
-		"\2\uffff\1\25\3\35\2\uffff\1\25\3\35\3\uffff\1\25\1\35\1\5\4\35\1\17\1"+
-		"\15\2\35\1\17\1\25\1\35\2\25\1\35\1\25\2\35\1\31\1\35\1\31\2\35\1\17\2"+
-		"\35\1\17\2\35\1\17\1\25\1\35\1\5\1\25\1\24\1\35\1\24\1\25\1\35\1\25\1"+
-		"\35\1\25\1\35\2\25\1\35\1\25\1\35\2\25\1\35\2\25\1\35\2\25\1\35\1\25\4"+
-		"\35\1\25\2\uffff\1\25\1\35\1\31\3\35\1\25\1\35\2\25\1\24\5\25\2\uffff"+
-		"\1\25\1\35\1\25";
+		"\1\25\2\35\1\17\1\25\1\35\1\5\1\25\1\35\1\uffff\1\35\1\17\3\35\2\uffff"+
+		"\1\25\3\35\2\uffff\1\25\3\35\3\uffff\1\25\1\35\1\5\4\35\1\17\1\15\2\35"+
+		"\1\17\1\25\1\35\2\25\1\35\1\25\2\35\1\31\1\35\1\31\2\35\1\17\2\35\1\17"+
+		"\2\35\1\17\1\25\1\35\1\5\1\25\1\24\1\35\1\24\1\25\1\35\1\25\1\35\1\25"+
+		"\1\35\2\25\1\35\1\25\1\35\2\25\1\35\2\25\1\35\2\25\1\35\1\25\4\35\1\25"+
+		"\2\uffff\1\25\1\35\1\31\3\35\1\25\1\35\2\25\1\24\5\25\2\uffff\1\25\1\35"+
+		"\1\25";
 	static final String DFA1_acceptS =
-		"\3\uffff\1\26\1\uffff\1\2\1\1\2\uffff\1\15\7\uffff\1\52\15\uffff\1\24"+
-		"\1\25\7\uffff\1\43\2\uffff\1\51\1\53\1\54\1\55\1\56\1\60\1\57\1\61\1\62"+
-		"\5\uffff\1\4\1\6\2\uffff\1\11\7\uffff\1\17\11\uffff\1\35\3\uffff\1\30"+
-		"\1\37\1\uffff\1\33\1\40\2\uffff\1\41\1\42\1\45\1\44\1\46\1\47\1\50\3\uffff"+
-		"\1\3\1\5\1\7\4\uffff\1\10\1\12\5\uffff\1\16\5\uffff\1\20\1\21\4\uffff"+
-		"\1\22\1\23\4\uffff\1\27\1\31\1\32\101\uffff\1\13\1\14\20\uffff\1\34\1"+
-		"\36\3\uffff";
+		"\3\uffff\1\26\1\uffff\1\2\1\1\2\uffff\1\15\7\uffff\1\52\7\uffff\1\11\6"+
+		"\uffff\1\24\1\25\7\uffff\1\43\2\uffff\1\51\1\53\1\54\1\55\1\56\1\60\1"+
+		"\57\1\61\1\62\5\uffff\1\4\1\6\1\uffff\1\10\1\12\7\uffff\1\17\11\uffff"+
+		"\1\35\3\uffff\1\30\1\37\1\uffff\1\33\1\40\2\uffff\1\41\1\42\1\45\1\44"+
+		"\1\46\1\47\1\50\3\uffff\1\3\1\5\1\7\11\uffff\1\16\5\uffff\1\20\1\21\4"+
+		"\uffff\1\22\1\23\4\uffff\1\27\1\31\1\32\101\uffff\1\13\1\14\20\uffff\1"+
+		"\34\1\36\3\uffff";
 	static final String DFA1_specialS =
-		"\u00df\uffff}>";
+		"\u00de\uffff}>";
 	static final String[] DFA1_transitionS = {
 			"\1\1\2\uffff\1\2\3\uffff\1\3\16\uffff\1\4",
 			"\2\6\1\uffff\1\6\2\uffff\1\5",
@@ -1930,89 +1930,90 @@ public class Tal_simpleParser extends Parser {
 			"",
 			"",
 			"\1\27\2\uffff\1\25\10\uffff\1\26",
-			"\1\32\10\uffff\1\30\10\uffff\1\31",
+			"\1\30\6\uffff\1\33\2\uffff\2\31\1\uffff\1\31\13\uffff\1\32",
 			"",
-			"\1\34\13\uffff\1\33",
-			"\1\35",
-			"\1\37\4\uffff\1\40\2\uffff\1\36\10\uffff\1\40",
-			"\1\42\7\uffff\1\46\1\45\1\uffff\1\44\2\uffff\1\41\10\uffff\1\43",
-			"\1\47\10\uffff\1\50",
-			"\1\51",
-			"\1\52\17\uffff\1\53",
+			"\1\35\13\uffff\1\34",
+			"\1\36",
+			"\1\40\4\uffff\1\41\2\uffff\1\37\10\uffff\1\41",
+			"\1\43\7\uffff\1\47\1\46\1\uffff\1\45\2\uffff\1\42\10\uffff\1\44",
+			"\1\50\10\uffff\1\51",
+			"\1\52",
+			"\1\53\17\uffff\1\54",
 			"",
-			"\1\54\17\uffff\1\55",
-			"\1\56\1\60\2\61\1\uffff\1\61\2\uffff\1\57",
-			"\1\62\6\uffff\1\63",
-			"\1\65\13\uffff\1\64",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72\7\uffff\1\66",
-			"\1\73",
-			"\1\74\11\uffff\2\75\1\uffff\1\75",
-			"\1\76",
-			"\1\101\1\100\26\uffff\1\77",
-			"\1\103\4\uffff\1\104\6\uffff\1\105\3\uffff\1\102",
-			"\1\106",
-			"\1\110\13\uffff\1\107",
-			"\1\112\13\uffff\1\111",
+			"\1\55\17\uffff\1\56",
+			"\1\57\1\61\2\62\1\uffff\1\62\2\uffff\1\60",
+			"\1\63\6\uffff\1\64",
+			"\1\66\13\uffff\1\65",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73\7\uffff\1\67",
+			"\1\74",
+			"\1\75\7\uffff\1\76",
 			"",
-			"",
-			"\1\114\13\uffff\1\113",
-			"\1\116\5\uffff\1\117\13\uffff\1\115",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123\10\uffff\1\120",
-			"\1\126\6\uffff\1\127\1\uffff\1\125",
-			"\1\126\6\uffff\1\127\3\uffff\1\130",
-			"\1\131",
-			"\1\133\2\uffff\1\132\10\uffff\1\133",
-			"",
-			"\1\135\2\uffff\1\134\10\uffff\1\135",
-			"\1\136\15\uffff\1\140\4\uffff\1\137",
+			"\1\77",
+			"\1\102\1\101\26\uffff\1\100",
+			"\1\104\4\uffff\1\105\6\uffff\1\106\3\uffff\1\103",
+			"\1\107",
+			"\1\111\13\uffff\1\110",
+			"\1\113\13\uffff\1\112",
 			"",
 			"",
+			"\1\115\13\uffff\1\114",
+			"\1\117\5\uffff\1\120\13\uffff\1\116",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124\10\uffff\1\121",
+			"\1\127\6\uffff\1\130\1\uffff\1\126",
+			"\1\127\6\uffff\1\130\3\uffff\1\131",
+			"\1\132",
+			"\1\134\2\uffff\1\133\10\uffff\1\134",
 			"",
+			"\1\136\2\uffff\1\135\10\uffff\1\136",
+			"\1\137\15\uffff\1\141\4\uffff\1\140",
 			"",
 			"",
 			"",
 			"",
 			"",
 			"",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144\7\uffff\1\141",
-			"\1\147",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72\7\uffff\1\150",
-			"\1\152\13\uffff\1\151",
-			"\1\152\13\uffff\1\151",
 			"",
 			"",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72",
-			"\1\153\7\uffff\1\154",
 			"",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145\7\uffff\1\142",
+			"\1\150",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73\7\uffff\1\151",
+			"\1\153\13\uffff\1\152",
+			"\1\153\13\uffff\1\152",
+			"",
+			"",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73",
+			"",
+			"",
+			"\1\154",
 			"\1\155",
 			"\1\156",
 			"\1\157",
-			"\1\160",
-			"\1\103\4\uffff\1\104\6\uffff\1\105\3\uffff\1\161",
-			"\1\164\10\uffff\1\162\2\uffff\1\163",
-			"\1\164\13\uffff\1\163",
+			"\1\104\4\uffff\1\105\6\uffff\1\106\3\uffff\1\160",
+			"\1\163\10\uffff\1\161\2\uffff\1\162",
+			"\1\163\13\uffff\1\162",
 			"",
-			"\1\103\4\uffff\1\104\6\uffff\1\105",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170\7\uffff\1\165",
-			"\1\172",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177\7\uffff\1\173",
+			"\1\104\4\uffff\1\105\6\uffff\1\106",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167\7\uffff\1\164",
+			"\1\171",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176\7\uffff\1\172",
+			"\1\177",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084\7\uffff"+
 			"\1\u0080",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085\7\uffff"+
-			"\1\u0081",
-			"\1\u0087",
-			"\1\u0088\7\uffff\1\117\4\uffff\1\117\2\uffff\1\117\7\uffff\1\117",
-			"\1\u008b\1\u008a\26\uffff\1\u0089",
+			"\1\u0086",
+			"\1\u0087\7\uffff\1\120\4\uffff\1\120\2\uffff\1\120\7\uffff\1\120",
+			"\1\u008a\1\u0089\26\uffff\1\u0088",
 			"",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123\10\uffff\1\u008c",
-			"\1\u008e\13\uffff\1\u008d",
-			"\1\u008e\13\uffff\1\u008d",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124\10\uffff\1\u008b",
+			"\1\u008d\13\uffff\1\u008c",
+			"\1\u008d\13\uffff\1\u008c",
 			"",
 			"",
-			"\1\124\6\uffff\1\121\3\uffff\1\u008f\1\122\1\uffff\1\123",
+			"\1\125\6\uffff\1\122\3\uffff\1\u008e\1\123\1\uffff\1\124",
 			"",
 			"",
-			"\1\126\6\uffff\1\127",
-			"\1\126\6\uffff\1\127",
+			"\1\127\6\uffff\1\130",
+			"\1\127\6\uffff\1\130",
 			"",
 			"",
 			"",
@@ -2020,137 +2021,135 @@ public class Tal_simpleParser extends Parser {
 			"",
 			"",
 			"",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144\7\uffff\1\u0090",
-			"\1\u0092\13\uffff\1\u0091",
-			"\1\u0092\13\uffff\1\u0091",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145\7\uffff\1\u008f",
+			"\1\u0091\13\uffff\1\u0090",
+			"\1\u0091\13\uffff\1\u0090",
 			"",
 			"",
 			"",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72\7\uffff\1\u0093",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72\7\uffff\1\u0094",
-			"\1\u0095",
-			"",
-			"",
-			"\1\u0096\3\uffff\1\u0097",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73\7\uffff\1\u0092",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73\7\uffff\1\u0093",
+			"\1\u0094",
+			"\1\u0095\3\uffff\1\u0096",
+			"\1\u0097",
 			"\1\u0098",
 			"\1\u0099",
-			"\1\u009a",
-			"\1\103\4\uffff\1\104\6\uffff\1\105\3\uffff\1\u009b",
+			"\1\104\4\uffff\1\105\6\uffff\1\106\3\uffff\1\u009a",
 			"",
-			"\1\103\4\uffff\1\104\6\uffff\1\105\3\uffff\1\u009c",
-			"\1\u009d",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170\7\uffff\1\u009e",
-			"\1\u00a0\13\uffff\1\u009f",
-			"\1\u00a0\13\uffff\1\u009f",
-			"",
-			"",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177\7\uffff\1\u00a1",
-			"\1\u00a3\13\uffff\1\u00a2",
-			"\1\u00a3\13\uffff\1\u00a2",
+			"\1\104\4\uffff\1\105\6\uffff\1\106\3\uffff\1\u009b",
+			"\1\u009c",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167\7\uffff\1\u009d",
+			"\1\u009f\13\uffff\1\u009e",
+			"\1\u009f\13\uffff\1\u009e",
 			"",
 			"",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085\7\uffff"+
-			"\1\u00a4",
-			"\1\u00a6\13\uffff\1\u00a5",
-			"\1\u00a6\13\uffff\1\u00a5",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176\7\uffff\1\u00a0",
+			"\1\u00a2\13\uffff\1\u00a1",
+			"\1\u00a2\13\uffff\1\u00a1",
+			"",
+			"",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084\7\uffff"+
+			"\1\u00a3",
+			"\1\u00a5\13\uffff\1\u00a4",
+			"\1\u00a5\13\uffff\1\u00a4",
 			"",
 			"",
 			"",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084",
+			"\1\u00a6",
 			"\1\u00a7",
 			"\1\u00a8",
 			"\1\u00a9",
-			"\1\u00aa",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123\10\uffff\1\u00ab",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123\10\uffff\1\u00ac",
-			"\1\u00ad",
-			"\1\126\6\uffff\1\127",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144\7\uffff\1\u00ae",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144\7\uffff\1\u00af",
-			"\1\u00b0",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72\7\uffff\1\u00b1",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72",
-			"\1\u0097",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124\10\uffff\1\u00aa",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124\10\uffff\1\u00ab",
+			"\1\u00ac",
+			"\1\127\6\uffff\1\130",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145\7\uffff\1\u00ad",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145\7\uffff\1\u00ae",
+			"\1\u00af",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73\7\uffff\1\u00b0",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73",
+			"\1\u0096",
+			"\1\u00b1",
 			"\1\u00b2",
 			"\1\u00b3",
 			"\1\u00b4",
-			"\1\u00b5",
-			"\1\103\4\uffff\1\104\6\uffff\1\105",
-			"\1\103\4\uffff\1\104\6\uffff\1\105\3\uffff\1\u00b6",
-			"\1\103\4\uffff\1\104\6\uffff\1\105",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170\7\uffff\1\u00b7",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170\7\uffff\1\u00b8",
-			"\1\u00b9",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177\7\uffff\1\u00ba",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177\7\uffff\1\u00bb",
+			"\1\104\4\uffff\1\105\6\uffff\1\106",
+			"\1\104\4\uffff\1\105\6\uffff\1\106\3\uffff\1\u00b5",
+			"\1\104\4\uffff\1\105\6\uffff\1\106",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167\7\uffff\1\u00b6",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167\7\uffff\1\u00b7",
+			"\1\u00b8",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176\7\uffff\1\u00b9",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176\7\uffff\1\u00ba",
+			"\1\u00bb",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084\7\uffff"+
 			"\1\u00bc",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085\7\uffff"+
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084\7\uffff"+
 			"\1\u00bd",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085\7\uffff"+
 			"\1\u00be",
-			"\1\u00bf",
-			"\1\u00c0\3\uffff\1\u00c1",
+			"\1\u00bf\3\uffff\1\u00c0",
+			"\1\u00c1",
 			"\1\u00c2",
 			"\1\u00c3",
-			"\1\u00c4",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123\10\uffff\1\u00c5",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144\7\uffff\1\u00c6",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72\7\uffff\1\u00c7",
-			"\1\u00c9\1\u00c8",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124\10\uffff\1\u00c4",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145\7\uffff\1\u00c5",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73\7\uffff\1\u00c6",
+			"\1\u00c8\1\u00c7",
+			"\1\u00c9",
 			"\1\u00ca",
-			"\1\u00cb",
-			"\1\u00c9\1\u00c8",
-			"\1\103\4\uffff\1\104\6\uffff\1\105\3\uffff\1\u00cc",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170\7\uffff\1\u00cd",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177\7\uffff\1\u00ce",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085\7\uffff"+
+			"\1\u00c8\1\u00c7",
+			"\1\104\4\uffff\1\105\6\uffff\1\106\3\uffff\1\u00cb",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167\7\uffff\1\u00cc",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176\7\uffff\1\u00cd",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084\7\uffff"+
+			"\1\u00ce",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084",
+			"\1\u00c0",
 			"\1\u00cf",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085",
-			"\1\u00c1",
 			"\1\u00d0",
 			"\1\u00d1",
 			"\1\u00d2",
-			"\1\u00d3",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123\10\uffff\1\u00d4",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144\7\uffff\1\u00d5",
-			"\1\67\4\uffff\1\70\1\uffff\1\71\1\72",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124\10\uffff\1\u00d3",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145\7\uffff\1\u00d4",
+			"\1\70\4\uffff\1\71\1\uffff\1\72\1\73",
 			"",
 			"",
-			"\1\u00c9\1\u00c8",
-			"\1\u00d6",
-			"\1\103\4\uffff\1\104\6\uffff\1\105",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170\7\uffff\1\u00d7",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177\7\uffff\1\u00d8",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085\7\uffff"+
-			"\1\u00d9",
-			"\1\u00da\7\uffff\1\u00db",
+			"\1\u00c8\1\u00c7",
+			"\1\u00d5",
+			"\1\104\4\uffff\1\105\6\uffff\1\106",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167\7\uffff\1\u00d6",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176\7\uffff\1\u00d7",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084\7\uffff"+
+			"\1\u00d8",
+			"\1\u00d9\7\uffff\1\u00da",
+			"\1\u00db",
 			"\1\u00dc",
+			"\1\u00d9\7\uffff\1\u00da",
+			"\1\125\6\uffff\1\122\4\uffff\1\123\1\uffff\1\124",
+			"\1\143\2\147\1\uffff\1\147\1\144\1\uffff\1\146\1\145",
+			"\1\u00c8\1\u00c7",
+			"\1\165\2\170\1\uffff\1\170\1\166\2\uffff\1\167",
+			"\1\175\1\173\4\uffff\1\174\2\uffff\1\176",
+			"\1\u0085\2\uffff\1\u0083\1\u0081\4\uffff\1\u0082\2\uffff\1\u0084",
+			"",
+			"",
+			"\1\u00d9\7\uffff\1\u00da",
 			"\1\u00dd",
-			"\1\u00da\7\uffff\1\u00db",
-			"\1\124\6\uffff\1\121\4\uffff\1\122\1\uffff\1\123",
-			"\1\142\2\146\1\uffff\1\146\1\143\1\uffff\1\145\1\144",
-			"\1\u00c9\1\u00c8",
-			"\1\166\2\171\1\uffff\1\171\1\167\2\uffff\1\170",
-			"\1\176\1\174\4\uffff\1\175\2\uffff\1\177",
-			"\1\u0086\2\uffff\1\u0084\1\u0082\4\uffff\1\u0083\2\uffff\1\u0085",
-			"",
-			"",
-			"\1\u00da\7\uffff\1\u00db",
-			"\1\u00de",
-			"\1\u00da\7\uffff\1\u00db"
+			"\1\u00d9\7\uffff\1\u00da"
 	};
 
 	static final short[] DFA1_eot = DFA.unpackEncodedString(DFA1_eotS);
@@ -2184,7 +2183,7 @@ public class Tal_simpleParser extends Parser {
 		}
 		@Override
 		public String getDescription() {
-			return "36:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR PARLER ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR PARLER d= dat | COMBIEN AUTEUR PARLER ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params );";
+			return "36:1: requete returns [Arbre req_arbre = new Arbre(\"\")] : ( ARTICLE d= dat PARLER ps= params | ARTICLE PARLER ps= params | COMBIEN ARTICLE PARLER ps= params | COMBIEN ARTICLE ps1= params PARLER ps2= params | COMBIEN ARTICLE PARLER ps1= params PARLER ps2= params | COMBIEN ARTICLE ps= params | COMBIEN ARTICLE PARLER ps= params d= dat | COMBIEN AUTEUR ARTICLE ENTRE d1= dat ET d2= dat | COMBIEN AUTEUR d= dat | COMBIEN AUTEUR ARTICLE PARLER ps= params | COMBIEN AUTEUR e= email | COMBIEN AUTEUR e= email PARLER ps= params | COMBIEN JOURS PARLER ps= params | COMBIEN MOT ps= params ET SELECT ARTICLE | COMBIEN MOT ps= params r= RUBRIQUE | COMBIEN PAGE PARLER ps= params | COMBIEN PAGE PARLER ps= params d= dat | COMBIEN r= RUBRIQUE PARLER ps= params ENTRE d1= dat ET d2= dat | COMBIEN r= RUBRIQUE PARLER ps= params | COMBIEN r= RUBRIQUE ENTRE d1= dat ET d2= dat PARLER ps= params | COMBIEN r= RUBRIQUE ps= params | EMAIL AUTEUR ps= params | SELECT ARTICLE PARLER ps= params ENTRE d1= dat ET d2= dat | SELECT ARTICLE ps1= params PARLER ps2= params | SELECT ARTICLE PARLER ps= params | SELECT ARTICLE PARLER ps= params DATE d= dat | SELECT ARTICLE d= dat AUTEUR e= email | SELECT ARTICLE AUTEUR e= email ET PARLER r= RUBRIQUE | SELECT ARTICLE AUTEUR ps= params | SELECT ARTICLE AUTEUR e= email | SELECT ARTICLE ps1= params AUTEUR ps2= params | SELECT ARTICLE d= dat ET PARLER ps= params | SELECT AUTEUR ARTICLE PARLER ps= params | SELECT AUTEUR ARTICLE ps= params | SELECT AUTEUR ET EMAIL ARTICLE TODAY | SELECT COMBIEN r= RUBRIQUE ps= params AUTEUR DATE | SELECT COMBIEN r= RUBRIQUE PARLER ps= params | SELECT DATE ARTICLE AUTEUR ps= params | SELECT DATE ARTICLE r= RUBRIQUE e= email | SELECT DATE ARTICLE PARLER ps= params | SELECT DATE PARLER ps= params | SELECT EMAIL AUTEUR ps= params | SELECT PAGE ARTICLE AUTEUR AUTEUR e= email | SELECT PAGE PARLER ps= params | SELECT r= RUBRIQUE ENTRE d1= dat ET d2= dat | SELECT r= RUBRIQUE PARLER ps= params | SELECT r= RUBRIQUE d= dat | SELECT r1= RUBRIQUE ET r2= RUBRIQUE PARLER ps= params | SELECT TITRE ET DATE ARTICLE PARLER ps= params | SELECT TITRE PARLER ps= params );";
 		}
 	}
 
@@ -2219,273 +2218,270 @@ public class Tal_simpleParser extends Parser {
 	public static final BitSet FOLLOW_params_in_requete528 = new BitSet(new long[]{0x000000000002C000L});
 	public static final BitSet FOLLOW_dat_in_requete534 = new BitSet(new long[]{0x0000000000000002L});
 	public static final BitSet FOLLOW_COMBIEN_in_requete550 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete552 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete554 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete556 = new BitSet(new long[]{0x0000000000001000L});
-	public static final BitSet FOLLOW_ENTRE_in_requete558 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete564 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete566 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete572 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete586 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete588 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete590 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete597 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete611 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete613 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete615 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete618 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete620 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete626 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete635 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete637 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete643 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete657 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete659 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete665 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete667 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete673 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete687 = new BitSet(new long[]{0x0000000000004000L});
-	public static final BitSet FOLLOW_JOURS_in_requete689 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete691 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete697 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete713 = new BitSet(new long[]{0x0000000000010000L});
-	public static final BitSet FOLLOW_MOT_in_requete715 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete721 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete723 = new BitSet(new long[]{0x0000000004000000L});
-	public static final BitSet FOLLOW_SELECT_in_requete725 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete727 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete741 = new BitSet(new long[]{0x0000000000010000L});
-	public static final BitSet FOLLOW_MOT_in_requete743 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete749 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete755 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete766 = new BitSet(new long[]{0x0000000000080000L});
-	public static final BitSet FOLLOW_PAGE_in_requete768 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete770 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete776 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete790 = new BitSet(new long[]{0x0000000000080000L});
-	public static final BitSet FOLLOW_PAGE_in_requete792 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete794 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete800 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete806 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete822 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete828 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete830 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete836 = new BitSet(new long[]{0x0000000000001000L});
-	public static final BitSet FOLLOW_ENTRE_in_requete838 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete844 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete846 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete852 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete882 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete888 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete890 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete896 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete910 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete916 = new BitSet(new long[]{0x0000000000001000L});
-	public static final BitSet FOLLOW_ENTRE_in_requete918 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete924 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete926 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete932 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete934 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete941 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete952 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete958 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete964 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EMAIL_in_requete980 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete982 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete988 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1007 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1009 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1011 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1018 = new BitSet(new long[]{0x0000000000001000L});
-	public static final BitSet FOLLOW_ENTRE_in_requete1020 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1026 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1028 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1034 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1048 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1050 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1056 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1058 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1064 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1082 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1084 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1086 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1092 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1103 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1105 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1107 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1113 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1115 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1121 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1132 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1134 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1140 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1142 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete1148 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1157 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1159 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1161 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete1167 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1169 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1171 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1177 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1186 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1188 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1190 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1196 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1205 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1207 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1209 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete1215 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1224 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1226 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1232 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1234 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1240 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1251 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1253 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1259 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1261 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1263 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1269 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1280 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1282 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1284 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1286 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1292 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1301 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1303 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1305 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1311 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1320 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1322 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1324 = new BitSet(new long[]{0x0000000000000800L});
-	public static final BitSet FOLLOW_EMAIL_in_requete1326 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1328 = new BitSet(new long[]{0x0000000010000000L});
-	public static final BitSet FOLLOW_TODAY_in_requete1330 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1343 = new BitSet(new long[]{0x0000000000000080L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete1345 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1351 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1357 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1359 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1361 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1372 = new BitSet(new long[]{0x0000000000000080L});
-	public static final BitSet FOLLOW_COMBIEN_in_requete1374 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1380 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1382 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1388 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1399 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1401 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1403 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1405 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1411 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1420 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1422 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1424 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1430 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete1436 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1445 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1447 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1449 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1451 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1457 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1469 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1471 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1473 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1477 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1491 = new BitSet(new long[]{0x0000000000000800L});
-	public static final BitSet FOLLOW_EMAIL_in_requete1493 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1495 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1501 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1515 = new BitSet(new long[]{0x0000000000080000L});
-	public static final BitSet FOLLOW_PAGE_in_requete1517 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1519 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1521 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_requete1523 = new BitSet(new long[]{0x0000000020000800L});
-	public static final BitSet FOLLOW_email_in_requete1529 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1540 = new BitSet(new long[]{0x0000000000080000L});
-	public static final BitSet FOLLOW_PAGE_in_requete1542 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1544 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1550 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1561 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1567 = new BitSet(new long[]{0x0000000000001000L});
-	public static final BitSet FOLLOW_ENTRE_in_requete1569 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1575 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1577 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1583 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1592 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1598 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1600 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1606 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1617 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1623 = new BitSet(new long[]{0x000000000002C000L});
-	public static final BitSet FOLLOW_dat_in_requete1629 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1640 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1646 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1648 = new BitSet(new long[]{0x0000000002000000L});
-	public static final BitSet FOLLOW_RUBRIQUE_in_requete1654 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1656 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1662 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1680 = new BitSet(new long[]{0x0000000008000000L});
-	public static final BitSet FOLLOW_TITRE_in_requete1682 = new BitSet(new long[]{0x0000000000002000L});
-	public static final BitSet FOLLOW_ET_in_requete1684 = new BitSet(new long[]{0x0000000000000200L});
-	public static final BitSet FOLLOW_DATE_in_requete1686 = new BitSet(new long[]{0x0000000000000010L});
-	public static final BitSet FOLLOW_ARTICLE_in_requete1688 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1690 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1694 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_SELECT_in_requete1706 = new BitSet(new long[]{0x0000000008000000L});
-	public static final BitSet FOLLOW_TITRE_in_requete1708 = new BitSet(new long[]{0x0000000000100000L});
-	public static final BitSet FOLLOW_PARLER_in_requete1710 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_params_in_requete1714 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_ET_in_conj1730 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_OU_in_conj1737 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NBR_in_dat1756 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MOIS_in_dat1767 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_MOIS_in_dat1778 = new BitSet(new long[]{0x0000000000020000L});
-	public static final BitSet FOLLOW_NBR_in_dat1784 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_JOURS_in_dat1795 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_MOIS_in_dat1801 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NBR_in_dat1812 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_MOIS_in_dat1818 = new BitSet(new long[]{0x0000000000020000L});
-	public static final BitSet FOLLOW_NBR_in_dat1824 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_VAR_in_email1843 = new BitSet(new long[]{0x0000000000000020L});
-	public static final BitSet FOLLOW_AT_in_email1849 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1855 = new BitSet(new long[]{0x0000000000220000L});
-	public static final BitSet FOLLOW_NBR_in_email1861 = new BitSet(new long[]{0x0000000000200000L});
-	public static final BitSet FOLLOW_POINT_in_email1868 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1874 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EMAIL_in_email1882 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1888 = new BitSet(new long[]{0x0000000000000020L});
-	public static final BitSet FOLLOW_AT_in_email1894 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1900 = new BitSet(new long[]{0x0000000000200000L});
-	public static final BitSet FOLLOW_POINT_in_email1906 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1912 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EMAIL_in_email1919 = new BitSet(new long[]{0x0000000000000040L});
-	public static final BitSet FOLLOW_AUTEUR_in_email1921 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1927 = new BitSet(new long[]{0x0000000000000020L});
-	public static final BitSet FOLLOW_AT_in_email1933 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1939 = new BitSet(new long[]{0x0000000000200000L});
-	public static final BitSet FOLLOW_POINT_in_email1945 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1951 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_EMAIL_in_email1958 = new BitSet(new long[]{0x0000000000000020L});
-	public static final BitSet FOLLOW_AT_in_email1964 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1970 = new BitSet(new long[]{0x0000000000200000L});
-	public static final BitSet FOLLOW_POINT_in_email1976 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_email1982 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_requete_in_listerequetes2008 = new BitSet(new long[]{0x0000000000200000L});
-	public static final BitSet FOLLOW_POINT_in_listerequetes2010 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_VAR_in_param2029 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_NBR_in_param2040 = new BitSet(new long[]{0x0000000000008000L});
-	public static final BitSet FOLLOW_MOIS_in_param2046 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_VAR_in_param2058 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_param2064 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete552 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete554 = new BitSet(new long[]{0x0000000000001000L});
+	public static final BitSet FOLLOW_ENTRE_in_requete556 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete562 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete564 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete570 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete584 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete586 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete593 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete607 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete609 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete612 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete614 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete620 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete629 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete631 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete637 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete651 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete653 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete659 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete661 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete667 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete681 = new BitSet(new long[]{0x0000000000004000L});
+	public static final BitSet FOLLOW_JOURS_in_requete683 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete685 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete691 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete707 = new BitSet(new long[]{0x0000000000010000L});
+	public static final BitSet FOLLOW_MOT_in_requete709 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete715 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete717 = new BitSet(new long[]{0x0000000004000000L});
+	public static final BitSet FOLLOW_SELECT_in_requete719 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete721 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete735 = new BitSet(new long[]{0x0000000000010000L});
+	public static final BitSet FOLLOW_MOT_in_requete737 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete743 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete749 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete760 = new BitSet(new long[]{0x0000000000080000L});
+	public static final BitSet FOLLOW_PAGE_in_requete762 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete764 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete770 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete784 = new BitSet(new long[]{0x0000000000080000L});
+	public static final BitSet FOLLOW_PAGE_in_requete786 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete788 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete794 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete800 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete816 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete822 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete824 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete830 = new BitSet(new long[]{0x0000000000001000L});
+	public static final BitSet FOLLOW_ENTRE_in_requete832 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete838 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete840 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete846 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete876 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete882 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete884 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete890 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete904 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete910 = new BitSet(new long[]{0x0000000000001000L});
+	public static final BitSet FOLLOW_ENTRE_in_requete912 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete918 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete920 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete926 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete928 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete935 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete946 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete952 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete958 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EMAIL_in_requete974 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete976 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete982 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1001 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1003 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1005 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1012 = new BitSet(new long[]{0x0000000000001000L});
+	public static final BitSet FOLLOW_ENTRE_in_requete1014 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1020 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1022 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1028 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1042 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1044 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1050 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1052 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1058 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1076 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1078 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1080 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1086 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1097 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1099 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1101 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1107 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1109 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1115 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1126 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1128 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1134 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1136 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete1142 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1151 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1153 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1155 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete1161 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1163 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1165 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1171 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1180 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1182 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1184 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1190 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1199 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1201 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1203 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete1209 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1218 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1220 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1226 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1228 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1234 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1245 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1247 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1253 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1255 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1257 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1263 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1274 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1276 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1278 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1280 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1286 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1295 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1297 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1299 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1305 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1314 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1316 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1318 = new BitSet(new long[]{0x0000000000000800L});
+	public static final BitSet FOLLOW_EMAIL_in_requete1320 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1322 = new BitSet(new long[]{0x0000000010000000L});
+	public static final BitSet FOLLOW_TODAY_in_requete1324 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1337 = new BitSet(new long[]{0x0000000000000080L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete1339 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1345 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1351 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1353 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1355 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1366 = new BitSet(new long[]{0x0000000000000080L});
+	public static final BitSet FOLLOW_COMBIEN_in_requete1368 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1374 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1376 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1382 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1393 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1395 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1397 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1399 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1405 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1414 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1416 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1418 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1424 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete1430 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1439 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1441 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1443 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1445 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1451 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1463 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1465 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1467 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1471 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1485 = new BitSet(new long[]{0x0000000000000800L});
+	public static final BitSet FOLLOW_EMAIL_in_requete1487 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1489 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1495 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1509 = new BitSet(new long[]{0x0000000000080000L});
+	public static final BitSet FOLLOW_PAGE_in_requete1511 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1513 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1515 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_requete1517 = new BitSet(new long[]{0x0000000020000800L});
+	public static final BitSet FOLLOW_email_in_requete1523 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1534 = new BitSet(new long[]{0x0000000000080000L});
+	public static final BitSet FOLLOW_PAGE_in_requete1536 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1538 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1544 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1555 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1561 = new BitSet(new long[]{0x0000000000001000L});
+	public static final BitSet FOLLOW_ENTRE_in_requete1563 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1569 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1571 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1577 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1586 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1592 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1594 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1600 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1611 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1617 = new BitSet(new long[]{0x000000000002C000L});
+	public static final BitSet FOLLOW_dat_in_requete1623 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1634 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1640 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1642 = new BitSet(new long[]{0x0000000002000000L});
+	public static final BitSet FOLLOW_RUBRIQUE_in_requete1648 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1650 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1656 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1674 = new BitSet(new long[]{0x0000000008000000L});
+	public static final BitSet FOLLOW_TITRE_in_requete1676 = new BitSet(new long[]{0x0000000000002000L});
+	public static final BitSet FOLLOW_ET_in_requete1678 = new BitSet(new long[]{0x0000000000000200L});
+	public static final BitSet FOLLOW_DATE_in_requete1680 = new BitSet(new long[]{0x0000000000000010L});
+	public static final BitSet FOLLOW_ARTICLE_in_requete1682 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1684 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1688 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_SELECT_in_requete1700 = new BitSet(new long[]{0x0000000008000000L});
+	public static final BitSet FOLLOW_TITRE_in_requete1702 = new BitSet(new long[]{0x0000000000100000L});
+	public static final BitSet FOLLOW_PARLER_in_requete1704 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_params_in_requete1708 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_ET_in_conj1724 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_OU_in_conj1731 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NBR_in_dat1750 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MOIS_in_dat1761 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_MOIS_in_dat1772 = new BitSet(new long[]{0x0000000000020000L});
+	public static final BitSet FOLLOW_NBR_in_dat1778 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_JOURS_in_dat1789 = new BitSet(new long[]{0x0000000000008000L});
+	public static final BitSet FOLLOW_MOIS_in_dat1795 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NBR_in_dat1806 = new BitSet(new long[]{0x0000000000008000L});
+	public static final BitSet FOLLOW_MOIS_in_dat1812 = new BitSet(new long[]{0x0000000000020000L});
+	public static final BitSet FOLLOW_NBR_in_dat1818 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_email1837 = new BitSet(new long[]{0x0000000000000020L});
+	public static final BitSet FOLLOW_AT_in_email1843 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1849 = new BitSet(new long[]{0x0000000000220000L});
+	public static final BitSet FOLLOW_NBR_in_email1855 = new BitSet(new long[]{0x0000000000200000L});
+	public static final BitSet FOLLOW_POINT_in_email1862 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1868 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EMAIL_in_email1876 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1882 = new BitSet(new long[]{0x0000000000000020L});
+	public static final BitSet FOLLOW_AT_in_email1888 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1894 = new BitSet(new long[]{0x0000000000200000L});
+	public static final BitSet FOLLOW_POINT_in_email1900 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1906 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EMAIL_in_email1913 = new BitSet(new long[]{0x0000000000000040L});
+	public static final BitSet FOLLOW_AUTEUR_in_email1915 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1921 = new BitSet(new long[]{0x0000000000000020L});
+	public static final BitSet FOLLOW_AT_in_email1927 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1933 = new BitSet(new long[]{0x0000000000200000L});
+	public static final BitSet FOLLOW_POINT_in_email1939 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1945 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_EMAIL_in_email1952 = new BitSet(new long[]{0x0000000000000020L});
+	public static final BitSet FOLLOW_AT_in_email1958 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1964 = new BitSet(new long[]{0x0000000000200000L});
+	public static final BitSet FOLLOW_POINT_in_email1970 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_email1976 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_requete_in_listerequetes2002 = new BitSet(new long[]{0x0000000000200000L});
+	public static final BitSet FOLLOW_POINT_in_listerequetes2004 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param2023 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_NBR_in_param2034 = new BitSet(new long[]{0x0000000000008000L});
+	public static final BitSet FOLLOW_MOIS_in_param2040 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param2052 = new BitSet(new long[]{0x0000000020000000L});
+	public static final BitSet FOLLOW_VAR_in_param2058 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param2069 = new BitSet(new long[]{0x0000000020000000L});
 	public static final BitSet FOLLOW_VAR_in_param2075 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_param2081 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_param2087 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param2081 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_VAR_in_param2092 = new BitSet(new long[]{0x0000000020000000L});
 	public static final BitSet FOLLOW_VAR_in_param2098 = new BitSet(new long[]{0x0000000020000000L});
 	public static final BitSet FOLLOW_VAR_in_param2104 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_param2110 = new BitSet(new long[]{0x0000000020000000L});
-	public static final BitSet FOLLOW_VAR_in_param2116 = new BitSet(new long[]{0x0000000000000002L});
-	public static final BitSet FOLLOW_param_in_params2141 = new BitSet(new long[]{0x0000000000042002L});
-	public static final BitSet FOLLOW_conj_in_params2152 = new BitSet(new long[]{0x0000000020020000L});
-	public static final BitSet FOLLOW_param_in_params2158 = new BitSet(new long[]{0x0000000000042002L});
+	public static final BitSet FOLLOW_VAR_in_param2110 = new BitSet(new long[]{0x0000000000000002L});
+	public static final BitSet FOLLOW_param_in_params2135 = new BitSet(new long[]{0x0000000000042002L});
+	public static final BitSet FOLLOW_conj_in_params2146 = new BitSet(new long[]{0x0000000020020000L});
+	public static final BitSet FOLLOW_param_in_params2152 = new BitSet(new long[]{0x0000000000042002L});
 }

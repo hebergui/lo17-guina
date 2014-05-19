@@ -34,26 +34,30 @@ AT :'@';
 VAR : ('A'..'Z' | 'a'..'z') ('a'..'z'|'-'|'A'..'Z'|'\u00a0'..'\u00ff')+; //aussi les accents
 
 requete returns [Arbre req_arbre = new Arbre("")]
-	@init {Arbre ps_arbre, d_arbre;} :
+	@init {Arbre ps_arbre, d_arbre, e_arbre;} :
 	//******************//
 //////* REQUETES ARTICLE */
 	//******************//
 	//********* DATE **********//
 		//Articles ??crits en septembre 2005 qui parlent du 11 septembre ? == ARTICLE date(septembre, 2005) PARLER params(11, septembre)
 		 ARTICLE d = dat PARLER ps=params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct "));
+			req_arbre.ajouteFils(new Arbre("", "select distinct"));
 			req_arbre.ajouteFils(new Arbre("", "article "));
-			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where "));
+			req_arbre.ajouteFils(new Arbre("", "from titre, datearticle "));
+			req_arbre.ajouteFils(new Arbre("", "where titre.article = datearticle.article "));
+			req_arbre.ajouteFils(new Arbre("", "AND "));
+			d_arbre = $d.les_pars_arbre;
+			req_arbre.ajouteFils(d_arbre);
+			req_arbre.ajouteFils(new Arbre("", "AND "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
 		| ARTICLE PARLER ps=params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct "));
-			req_arbre.ajouteFils(new Arbre("", "article "));
-			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where "));
+			req_arbre.ajouteFils(new Arbre("", "etiquette) "));
+			req_arbre.ajouteFils(new Arbre("", "from auteur "));
+			req_arbre.ajouteFils(new Arbre("", "where etiquette = '"));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -74,7 +78,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		//Dans combien d'article parle-t-on du Pape ? == COMBIEN ARTICLE parler params(pape)
 		| COMBIEN ARTICLE PARLER ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(article) "));
-			req_arbre.ajouteFils(new Arbre("", "from ... "));
+			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
@@ -84,10 +88,10 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		| COMBIEN ARTICLE ps1 = params PARLER ps2 = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where'"));
+			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps1.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
-			req_arbre.ajouteFils(new Arbre("", " AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", " AND mot = "));
 			ps_arbre = $ps2.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -96,10 +100,10 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		| COMBIEN ARTICLE PARLER ps1 = params PARLER ps2 = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where'"));
+			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps1.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
-			req_arbre.ajouteFils(new Arbre("", " AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", " AND "));
 			ps_arbre = $ps2.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -108,7 +112,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		| COMBIEN ARTICLE ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(article) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where '"));
+			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -128,7 +132,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		
 	//********* AUTEUR **********//
 		//Combien d'auteurs diff??rents on ??crit des articles entre  le 10 janvier 2005 et le 10 juillet 2005? == COMBIEN AUTEUR PARLER ARTICLE ENTRE date(10 janvier 2005) ET date(10 juillet 2005)
-		| COMBIEN AUTEUR PARLER ARTICLE ENTRE d1 = dat ET d2 = dat {
+		| COMBIEN AUTEUR ARTICLE ENTRE d1 = dat ET d2 = dat {
 			req_arbre.ajouteFils(new Arbre("", "select count(auteur)"));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -141,7 +145,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien d'auteurs diff??rents ont ??crit des articles le 24 octobre 2005 ? == COMBIEN AUTEUR PARLER date(24 octobre 2005)
-		| COMBIEN AUTEUR PARLER  d = dat {
+		| COMBIEN AUTEUR  d = dat {
 			req_arbre.ajouteFils(new Arbre("", "select count(auteur) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -150,7 +154,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien d'auteurs ont ??crit un article parlant d'attentats ? == COMBIEN AUTEUR PARLER ARTICLE PARLER params(attentat)
-		| COMBIEN AUTEUR PARLER  ARTICLE PARLER ps = params {
+		| COMBIEN AUTEUR  ARTICLE PARLER ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(auteur) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -173,7 +177,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $e.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
-			req_arbre.ajouteFils(new Arbre("", "' AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "' AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -195,7 +199,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select count(mot)"));
 			req_arbre.ajouteFils(new Arbre("", ", article "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "where mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -205,7 +209,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select count(mot) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", " AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", " AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -214,7 +218,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		| COMBIEN PAGE PARLER ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(page) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "where mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -224,7 +228,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select count(page) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 			req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -278,7 +282,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", " AND jour <= "));
 			d_arbre = $d2.les_pars_arbre;
 			req_arbre.ajouteFils(d_arbre);
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -287,7 +291,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select count(rubrique) "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -299,7 +303,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select distinct email "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "auteur = '"));
+			req_arbre.ajouteFils(new Arbre("", "auteur = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -330,7 +334,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "article "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps1.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 			ps_arbre = $ps2.les_pars_arbre;
@@ -345,7 +349,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "article "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -369,7 +373,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			d_arbre = $d.les_pars_arbre;
 			req_arbre.ajouteFils(d_arbre);
 			req_arbre.ajouteFils(new Arbre("", "AND email = "));
-			e_arbre = $d.les_pars_arbre;
+			e_arbre = $e.les_pars_arbre;
 			req_arbre.ajouteFils(e_arbre);
 		}
 
@@ -385,7 +389,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		| SELECT ARTICLE AUTEUR ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct article"));
 			req_arbre.ajouteFils(new Arbre("", "from "));
-			req_arbre.ajouteFils(new Arbre("", "where '"));
+			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -405,7 +409,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "mot = '"));
 			ps_arbre = $ps1.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps2.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -426,7 +430,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select distinct auteur, article "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -435,7 +439,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select distinct auteur, article "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -453,7 +457,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			req_arbre.ajouteFils(new Arbre("", "rubrique = '" + r.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -463,7 +467,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			req_arbre.ajouteFils(new Arbre("", "rubrique = '" + r.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -501,7 +505,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select date "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -553,7 +557,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select distinct rubrique "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -562,7 +566,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select distinct rubrique "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", "AND date = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND date = "));
 			ps_arbre = $d.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -572,7 +576,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where rubrique = '" + r1.getText() + "' "));
 			req_arbre.ajouteFils(new Arbre("", "OR rubrique = '" + r2.getText() + "' "));
-			req_arbre.ajouteFils(new Arbre("", "AND mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "AND mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -584,7 +588,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select titre, date "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where"));
-			req_arbre.ajouteFils(new Arbre("", "mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -594,7 +598,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(new Arbre("", "select titre "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
 			req_arbre.ajouteFils(new Arbre("", "where"));
-			req_arbre.ajouteFils(new Arbre("", "mot = '"));
+			req_arbre.ajouteFils(new Arbre("", "mot = "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
@@ -653,23 +657,23 @@ listerequetes returns [String sql = ""]
 
 param returns [Arbre lepar_arbre = new Arbre("")] :
 	a = VAR {
-		lepar_arbre.ajouteFils(new Arbre("", a.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "mot = '" + a.getText() + "' "));
 	}
 	| a1 = NBR a2 = MOIS {
-	 	lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+	 	lepar_arbre.ajouteFils(new Arbre("", "mot = '" + a1.getText() + "' "));
 	 	lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 	 }
 	 | a1 = VAR a2 = VAR {
-		lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "mot = '" +a1.getText() + "' "));
 		lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 	}
 	| a1 = VAR a2 = VAR a3 = VAR {
-		lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "mot = '" +a1.getText() + "' "));
 		lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 		lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a3.getText() + "' "));
 	}
 	| a1 = VAR a2 = VAR a3 = VAR a4 = VAR{
-		lepar_arbre.ajouteFils(new Arbre("", a1.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "mot = '" + a1.getText() + "' "));
 		lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a2.getText() + "' "));
 		lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a3.getText() + "' "));
 		lepar_arbre.ajouteFils(new Arbre("", "AND mot = '" + a4.getText() + "' "));
@@ -687,6 +691,5 @@ params returns [Arbre les_pars_arbre = new Arbre("")]
 			conj_arbre = $c.conj_arbre;
 			par2_arbre = $par2.lepar_arbre;
 			les_pars_arbre.ajouteFils(conj_arbre);
-			les_pars_arbre.ajouteFils(new Arbre("", "mot = '"));
 			les_pars_arbre.ajouteFils(par2_arbre);
 		})*;
