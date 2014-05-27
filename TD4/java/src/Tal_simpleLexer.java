@@ -1,4 +1,5 @@
-// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-19 15:21:03
+// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-26 16:10:21
+
 
 import org.antlr.runtime.*;
 import java.util.Stack;
