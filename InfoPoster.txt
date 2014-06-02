@@ -1,0 +1,28 @@
+LO17 : Poster de pub du projet
+
+Recto :
+promotionnel
+comment ça fonctionne
+ce à quoi il sert
+
+Verso :
+Description du produit
+Tomcat
+pg
+qualité
+défaut
+ce qu'il sait faire
+ce qu'il ne sait pas faire
+v1 : sait faire
+v2 : à améliorer
+avoir des ref informatique
+
+Présentation 
+On se met devant la console
+2m30 par binome (donc 5 minutes)
+présentation global
+puis mode manipulation
+on tape des requètes avec le prof
+(préparer des requetes que l'on puisse faire marcher sans souci)
+Le prof regardera la robustesse
+(15-20 min)
