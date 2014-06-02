@@ -1,5 +1,4 @@
-// $ANTLR 3.5 /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g 2014-05-26 16:10:21
-
+// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-02 17:50:36
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -50,15 +49,15 @@ public class Tal_simpleLexer extends Lexer {
 	public Tal_simpleLexer(CharStream input, RecognizerSharedState state) {
 		super(input,state);
 	}
-	@Override public String getGrammarFileName() { return "/home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g"; }
+	@Override public String getGrammarFileName() { return "C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g"; }
 
 	// $ANTLR start "SELECT"
 	public final void mSELECT() throws RecognitionException {
 		try {
 			int _type = SELECT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:5:8: ( 'vouloir' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:5:10: 'vouloir'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:5:8: ( 'vouloir' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:5:10: 'vouloir'
 			{
 			match("vouloir"); 
 
@@ -78,8 +77,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = COMBIEN;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:6:9: ( 'combien' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:6:11: 'combien'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:6:9: ( 'combien' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:6:11: 'combien'
 			{
 			match("combien"); 
 
@@ -99,8 +98,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = ET;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:7:4: ( 'et' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:7:6: 'et'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:7:4: ( 'et' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:7:6: 'et'
 			{
 			match("et"); 
 
@@ -120,8 +119,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = OU;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:8:4: ( 'ou' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:8:6: 'ou'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:8:4: ( 'ou' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:8:6: 'ou'
 			{
 			match("ou"); 
 
@@ -141,10 +140,10 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = PARLER;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:9:8: ( ( 'parler' )+ )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:9:10: ( 'parler' )+
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:9:8: ( ( 'parler' )+ )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:9:10: ( 'parler' )+
 			{
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:9:10: ( 'parler' )+
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:9:10: ( 'parler' )+
 			int cnt1=0;
 			loop1:
 			while (true) {
@@ -156,7 +155,7 @@ public class Tal_simpleLexer extends Lexer {
 
 				switch (alt1) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:9:10: 'parler'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:9:10: 'parler'
 					{
 					match("parler"); 
 
@@ -187,8 +186,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = ENTRE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:10:7: ( 'entre' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:10:8: 'entre'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:10:7: ( 'entre' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:10:8: 'entre'
 			{
 			match("entre"); 
 
@@ -208,7 +207,7 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = WS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:4: ( ( ' ' | '\\t' | '\\r' | 'stop' ) | '\\n' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:4: ( ( ' ' | '\\t' | '\\r' | 'stop' ) | '\\n' )
 			int alt3=2;
 			int LA3_0 = input.LA(1);
 			if ( (LA3_0=='\t'||LA3_0=='\r'||LA3_0==' '||LA3_0=='s') ) {
@@ -226,9 +225,9 @@ public class Tal_simpleLexer extends Lexer {
 
 			switch (alt3) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:6: ( ' ' | '\\t' | '\\r' | 'stop' )
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:6: ( ' ' | '\\t' | '\\r' | 'stop' )
 					{
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:6: ( ' ' | '\\t' | '\\r' | 'stop' )
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:6: ( ' ' | '\\t' | '\\r' | 'stop' )
 					int alt2=4;
 					switch ( input.LA(1) ) {
 					case ' ':
@@ -258,25 +257,25 @@ public class Tal_simpleLexer extends Lexer {
 					}
 					switch (alt2) {
 						case 1 :
-							// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:7: ' '
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:7: ' '
 							{
 							match(' '); 
 							}
 							break;
 						case 2 :
-							// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:13: '\\t'
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:13: '\\t'
 							{
 							match('\t'); 
 							}
 							break;
 						case 3 :
-							// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:20: '\\r'
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:20: '\\r'
 							{
 							match('\r'); 
 							}
 							break;
 						case 4 :
-							// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:27: 'stop'
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:27: 'stop'
 							{
 							match("stop"); 
 
@@ -289,7 +288,7 @@ public class Tal_simpleLexer extends Lexer {
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:11:49: '\\n'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:11:49: '\\n'
 					{
 					match('\n'); 
 					}
@@ -310,7 +309,7 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = MOIS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:6: ( 'janvier' | 'fevrier' | 'février' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'août' | 'sept' | 'octobre' | 'novembre' | 'decembre' | 'décembre' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:6: ( 'janvier' | 'fevrier' | 'février' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'août' | 'sept' | 'octobre' | 'novembre' | 'decembre' | 'décembre' )
 			int alt4=15;
 			switch ( input.LA(1) ) {
 			case 'j':
@@ -382,7 +381,7 @@ public class Tal_simpleLexer extends Lexer {
 				if ( (LA4_2=='e') ) {
 					alt4=2;
 				}
-				else if ( (LA4_2=='\u00E9') ) {
+				else if ( (LA4_2=='\u00C3') ) {
 					alt4=3;
 				}
 
@@ -453,7 +452,7 @@ public class Tal_simpleLexer extends Lexer {
 					if ( (LA4_15=='u') ) {
 						alt4=9;
 					}
-					else if ( (LA4_15=='\u00FB') ) {
+					else if ( (LA4_15=='\u00C3') ) {
 						alt4=10;
 					}
 
@@ -508,7 +507,7 @@ public class Tal_simpleLexer extends Lexer {
 				if ( (LA4_8=='e') ) {
 					alt4=14;
 				}
-				else if ( (LA4_8=='\u00E9') ) {
+				else if ( (LA4_8=='\u00C3') ) {
 					alt4=15;
 				}
 
@@ -533,105 +532,105 @@ public class Tal_simpleLexer extends Lexer {
 			}
 			switch (alt4) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:8: 'janvier'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:8: 'janvier'
 					{
 					match("janvier"); 
 
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:18: 'fevrier'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:18: 'fevrier'
 					{
 					match("fevrier"); 
 
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:28: 'février'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:28: 'février'
 					{
 					match("février"); 
 
 					}
 					break;
 				case 4 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:38: 'mars'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:39: 'mars'
 					{
 					match("mars"); 
 
 					}
 					break;
 				case 5 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:45: 'avril'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:46: 'avril'
 					{
 					match("avril"); 
 
 					}
 					break;
 				case 6 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:53: 'mai'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:54: 'mai'
 					{
 					match("mai"); 
 
 					}
 					break;
 				case 7 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:59: 'juin'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:60: 'juin'
 					{
 					match("juin"); 
 
 					}
 					break;
 				case 8 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:66: 'juillet'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:67: 'juillet'
 					{
 					match("juillet"); 
 
 					}
 					break;
 				case 9 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:76: 'aout'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:77: 'aout'
 					{
 					match("aout"); 
 
 					}
 					break;
 				case 10 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:83: 'août'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:84: 'août'
 					{
 					match("août"); 
 
 					}
 					break;
 				case 11 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:90: 'sept'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:92: 'sept'
 					{
 					match("sept"); 
 
 					}
 					break;
 				case 12 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:97: 'octobre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:99: 'octobre'
 					{
 					match("octobre"); 
 
 					}
 					break;
 				case 13 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:107: 'novembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:109: 'novembre'
 					{
 					match("novembre"); 
 
 					}
 					break;
 				case 14 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:118: 'decembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:120: 'decembre'
 					{
 					match("decembre"); 
 
 					}
 					break;
 				case 15 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:12:129: 'décembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:131: 'décembre'
 					{
 					match("décembre"); 
 
@@ -653,8 +652,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = MOT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:13:5: ( 'mot' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:13:7: 'mot'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:13:5: ( 'mot' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:13:7: 'mot'
 			{
 			match("mot"); 
 
@@ -674,8 +673,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = TODAY;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:14:7: ( 'aujourd' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:14:9: 'aujourd'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:14:7: ( 'aujourd' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:14:9: 'aujourd'
 			{
 			match("aujourd"); 
 
@@ -695,8 +694,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = PREMIER;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:15:9: ( 'premier' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:15:11: 'premier'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:15:9: ( 'premier' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:15:11: 'premier'
 			{
 			match("premier"); 
 
@@ -716,8 +715,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = DERNIER;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:16:9: ( 'dernier' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:16:11: 'dernier'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:16:9: ( 'dernier' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:16:11: 'dernier'
 			{
 			match("dernier"); 
 
@@ -737,8 +736,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = CONTACTER;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:17:11: ( 'contacter' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:17:13: 'contacter'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:17:11: ( 'contacter' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:17:13: 'contacter'
 			{
 			match("contacter"); 
 
@@ -758,7 +757,7 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = RUBRIQUE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:19:10: ( 'rubriqueune' | 'gros titre' | 'focus' | 'rappels' | 'voiraussi' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:19:10: ( 'rubriqueune' | 'gros titre' | 'focus' | 'rappels' | 'voiraussi' )
 			int alt5=5;
 			switch ( input.LA(1) ) {
 			case 'r':
@@ -807,35 +806,35 @@ public class Tal_simpleLexer extends Lexer {
 			}
 			switch (alt5) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:19:12: 'rubriqueune'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:19:12: 'rubriqueune'
 					{
 					match("rubriqueune"); 
 
 					}
 					break;
 				case 2 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:19:26: 'gros titre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:19:26: 'gros titre'
 					{
 					match("gros titre"); 
 
 					}
 					break;
 				case 3 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:19:39: 'focus'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:19:39: 'focus'
 					{
 					match("focus"); 
 
 					}
 					break;
 				case 4 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:19:47: 'rappels'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:19:47: 'rappels'
 					{
 					match("rappels"); 
 
 					}
 					break;
 				case 5 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:19:57: 'voiraussi'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:19:57: 'voiraussi'
 					{
 					match("voiraussi"); 
 
@@ -857,8 +856,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = ARTICLE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:21:9: ( 'article' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:21:11: 'article'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:21:9: ( 'article' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:21:11: 'article'
 			{
 			match("article"); 
 
@@ -878,8 +877,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = AUTEUR;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:22:8: ( 'auteur' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:22:10: 'auteur'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:22:8: ( 'auteur' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:22:10: 'auteur'
 			{
 			match("auteur"); 
 
@@ -899,8 +898,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = DATE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:23:6: ( 'date' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:23:8: 'date'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:23:6: ( 'date' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:23:8: 'date'
 			{
 			match("date"); 
 
@@ -920,8 +919,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = EMAIL;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:24:7: ( 'email' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:24:9: 'email'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:24:7: ( 'email' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:24:9: 'email'
 			{
 			match("email"); 
 
@@ -941,8 +940,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = JOURS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:25:7: ( 'jours' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:25:9: 'jours'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:25:7: ( 'jours' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:25:9: 'jours'
 			{
 			match("jours"); 
 
@@ -962,8 +961,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = PAGE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:26:6: ( 'page' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:26:8: 'page'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:26:6: ( 'page' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:26:8: 'page'
 			{
 			match("page"); 
 
@@ -983,8 +982,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = PUBLIE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:27:8: ( 'publie' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:27:10: 'publie'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:27:8: ( 'publie' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:27:10: 'publie'
 			{
 			match("publie"); 
 
@@ -1004,8 +1003,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = RESUME;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:28:8: ( 'resume' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:28:10: 'resume'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:28:8: ( 'resume' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:28:10: 'resume'
 			{
 			match("resume"); 
 
@@ -1025,8 +1024,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = TITRE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:29:7: ( 'titre' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:29:9: 'titre'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:29:7: ( 'titre' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:29:9: 'titre'
 			{
 			match("titre"); 
 
@@ -1046,10 +1045,10 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = NBR;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:31:5: ( ( '0' .. '9' )+ )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:31:7: ( '0' .. '9' )+
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:31:5: ( ( '0' .. '9' )+ )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:31:7: ( '0' .. '9' )+
 			{
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:31:7: ( '0' .. '9' )+
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:31:7: ( '0' .. '9' )+
 			int cnt6=0;
 			loop6:
 			while (true) {
@@ -1061,7 +1060,7 @@ public class Tal_simpleLexer extends Lexer {
 
 				switch (alt6) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:
 					{
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
 						input.consume();
@@ -1098,8 +1097,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = POINT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:32:7: ( '.' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:32:9: '.'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:32:7: ( '.' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:32:9: '.'
 			{
 			match('.'); 
 			}
@@ -1118,8 +1117,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = AT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:33:4: ( '@' )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:33:5: '@'
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:33:4: ( '@' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:33:5: '@'
 			{
 			match('@'); 
 			}
@@ -1138,8 +1137,8 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = VAR;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:34:5: ( ( 'A' .. 'Z' | 'a' .. 'z' ) ( 'a' .. 'z' | '-' | 'A' .. 'Z' | '\\u00a0' .. '\\u00ff' )+ )
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:34:7: ( 'A' .. 'Z' | 'a' .. 'z' ) ( 'a' .. 'z' | '-' | 'A' .. 'Z' | '\\u00a0' .. '\\u00ff' )+
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:34:5: ( ( 'A' .. 'Z' | 'a' .. 'z' ) ( 'a' .. 'z' | '-' | 'A' .. 'Z' | '\\u00a0' .. '\\u00ff' )+ )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:34:7: ( 'A' .. 'Z' | 'a' .. 'z' ) ( 'a' .. 'z' | '-' | 'A' .. 'Z' | '\\u00a0' .. '\\u00ff' )+
 			{
 			if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
 				input.consume();
@@ -1149,7 +1148,7 @@ public class Tal_simpleLexer extends Lexer {
 				recover(mse);
 				throw mse;
 			}
-			// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:34:29: ( 'a' .. 'z' | '-' | 'A' .. 'Z' | '\\u00a0' .. '\\u00ff' )+
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:34:29: ( 'a' .. 'z' | '-' | 'A' .. 'Z' | '\\u00a0' .. '\\u00ff' )+
 			int cnt7=0;
 			loop7:
 			while (true) {
@@ -1161,7 +1160,7 @@ public class Tal_simpleLexer extends Lexer {
 
 				switch (alt7) {
 				case 1 :
-					// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:
 					{
 					if ( input.LA(1)=='-'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00A0' && input.LA(1) <= '\u00FF') ) {
 						input.consume();
@@ -1195,194 +1194,194 @@ public class Tal_simpleLexer extends Lexer {
 
 	@Override
 	public void mTokens() throws RecognitionException {
-		// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:8: ( SELECT | COMBIEN | ET | OU | PARLER | ENTRE | WS | MOIS | MOT | TODAY | PREMIER | DERNIER | CONTACTER | RUBRIQUE | ARTICLE | AUTEUR | DATE | EMAIL | JOURS | PAGE | PUBLIE | RESUME | TITRE | NBR | POINT | AT | VAR )
+		// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:8: ( SELECT | COMBIEN | ET | OU | PARLER | ENTRE | WS | MOIS | MOT | TODAY | PREMIER | DERNIER | CONTACTER | RUBRIQUE | ARTICLE | AUTEUR | DATE | EMAIL | JOURS | PAGE | PUBLIE | RESUME | TITRE | NBR | POINT | AT | VAR )
 		int alt8=27;
 		alt8 = dfa8.predict(input);
 		switch (alt8) {
 			case 1 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:10: SELECT
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:10: SELECT
 				{
 				mSELECT(); 
 
 				}
 				break;
 			case 2 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:17: COMBIEN
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:17: COMBIEN
 				{
 				mCOMBIEN(); 
 
 				}
 				break;
 			case 3 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:25: ET
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:25: ET
 				{
 				mET(); 
 
 				}
 				break;
 			case 4 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:28: OU
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:28: OU
 				{
 				mOU(); 
 
 				}
 				break;
 			case 5 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:31: PARLER
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:31: PARLER
 				{
 				mPARLER(); 
 
 				}
 				break;
 			case 6 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:38: ENTRE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:38: ENTRE
 				{
 				mENTRE(); 
 
 				}
 				break;
 			case 7 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:44: WS
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:44: WS
 				{
 				mWS(); 
 
 				}
 				break;
 			case 8 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:47: MOIS
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:47: MOIS
 				{
 				mMOIS(); 
 
 				}
 				break;
 			case 9 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:52: MOT
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:52: MOT
 				{
 				mMOT(); 
 
 				}
 				break;
 			case 10 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:56: TODAY
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:56: TODAY
 				{
 				mTODAY(); 
 
 				}
 				break;
 			case 11 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:62: PREMIER
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:62: PREMIER
 				{
 				mPREMIER(); 
 
 				}
 				break;
 			case 12 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:70: DERNIER
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:70: DERNIER
 				{
 				mDERNIER(); 
 
 				}
 				break;
 			case 13 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:78: CONTACTER
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:78: CONTACTER
 				{
 				mCONTACTER(); 
 
 				}
 				break;
 			case 14 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:88: RUBRIQUE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:88: RUBRIQUE
 				{
 				mRUBRIQUE(); 
 
 				}
 				break;
 			case 15 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:97: ARTICLE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:97: ARTICLE
 				{
 				mARTICLE(); 
 
 				}
 				break;
 			case 16 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:105: AUTEUR
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:105: AUTEUR
 				{
 				mAUTEUR(); 
 
 				}
 				break;
 			case 17 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:112: DATE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:112: DATE
 				{
 				mDATE(); 
 
 				}
 				break;
 			case 18 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:117: EMAIL
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:117: EMAIL
 				{
 				mEMAIL(); 
 
 				}
 				break;
 			case 19 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:123: JOURS
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:123: JOURS
 				{
 				mJOURS(); 
 
 				}
 				break;
 			case 20 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:129: PAGE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:129: PAGE
 				{
 				mPAGE(); 
 
 				}
 				break;
 			case 21 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:134: PUBLIE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:134: PUBLIE
 				{
 				mPUBLIE(); 
 
 				}
 				break;
 			case 22 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:141: RESUME
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:141: RESUME
 				{
 				mRESUME(); 
 
 				}
 				break;
 			case 23 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:148: TITRE
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:148: TITRE
 				{
 				mTITRE(); 
 
 				}
 				break;
 			case 24 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:154: NBR
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:154: NBR
 				{
 				mNBR(); 
 
 				}
 				break;
 			case 25 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:158: POINT
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:158: POINT
 				{
 				mPOINT(); 
 
 				}
 				break;
 			case 26 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:164: AT
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:164: AT
 				{
 				mAT(); 
 
 				}
 				break;
 			case 27 :
-				// /home/guix/Documents/LO17-Project/lo17-guina/TD4/antlr_guix/Tal_simple.g:1:167: VAR
+				// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:1:167: VAR
 				{
 				mVAR(); 
 
@@ -1396,57 +1395,61 @@ public class Tal_simpleLexer extends Lexer {
 	protected DFA8 dfa8 = new DFA8(this);
 	static final String DFA8_eotS =
 		"\25\uffff\2\24\1\72\2\24\1\75\37\24\1\uffff\2\24\1\uffff\16\24\1\163\1"+
-		"\164\30\24\1\u008d\2\24\1\6\1\163\1\24\1\163\5\24\1\163\2\uffff\1\24\2"+
-		"\163\7\24\1\u009e\11\24\1\u00a8\1\u00a9\2\24\1\uffff\4\24\1\u00b0\2\24"+
-		"\1\u00a2\1\163\7\24\1\uffff\3\24\1\uffff\1\u00bd\4\24\2\uffff\1\24\1\u00c3"+
-		"\1\24\1\u00c6\2\24\1\uffff\3\24\1\u00cc\7\24\1\u00d4\1\uffff\1\u00d5\1"+
-		"\24\1\u00d7\1\24\1\163\1\uffff\1\24\1\u00da\1\uffff\4\163\1\u00db\1\uffff"+
-		"\1\u00dc\2\24\1\u00df\2\24\1\u00a2\2\uffff\1\24\1\uffff\2\24\3\uffff\2"+
-		"\163\1\uffff\1\163\1\24\1\u00a2\1\u00e5\1\24\1\uffff\1\24\1\u00a2";
+		"\164\30\24\1\u008d\2\24\1\6\1\163\1\24\1\163\5\24\1\163\2\uffff\1\24\1"+
+		"\163\10\24\1\u009f\11\24\1\u00a9\1\u00aa\2\24\1\uffff\4\24\1\u00b1\2\24"+
+		"\1\u00a3\2\163\7\24\1\uffff\3\24\1\uffff\1\u00be\4\24\2\uffff\1\24\1\u00c4"+
+		"\1\24\1\u00c7\2\24\1\uffff\3\24\1\u00cd\7\24\1\u00d5\1\uffff\1\u00d6\1"+
+		"\24\1\u00d8\1\24\1\163\1\uffff\1\24\1\u00db\1\uffff\3\163\1\24\1\u00dd"+
+		"\1\uffff\1\u00de\2\24\1\u00e1\2\24\1\u00a3\2\uffff\1\24\1\uffff\2\24\1"+
+		"\uffff\1\163\2\uffff\2\163\1\uffff\2\24\1\u00a3\1\u00e8\1\163\1\24\1\uffff"+
+		"\1\24\1\u00a3";
 	static final String DFA8_eofS =
-		"\u00e8\uffff";
+		"\u00eb\uffff";
 	static final String DFA8_minS =
 		"\1\11\5\55\1\uffff\12\55\4\uffff\1\151\1\155\1\55\1\164\1\141\1\55\1\164"+
-		"\1\147\1\145\1\142\1\157\1\160\1\156\1\151\1\165\2\166\1\143\1\151\1\164"+
-		"\1\162\1\165\1\152\1\164\1\166\2\143\1\164\1\142\1\160\1\163\1\157\1\164"+
-		"\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151\1\uffff\1\157\1\154\1\145"+
-		"\1\155\1\154\1\160\1\164\1\166\1\154\3\162\1\165\1\163\2\55\1\151\2\164"+
-		"\1\157\1\145\1\151\2\145\1\156\2\145\1\162\1\160\1\165\1\163\1\162\1\157"+
-		"\1\141\1\151\1\141\1\145\1\154\1\142\1\145\1\55\2\151\2\55\1\151\1\55"+
-		"\1\154\1\163\2\151\1\163\1\55\2\uffff\1\154\2\55\2\165\1\143\2\155\1\151"+
-		"\1\155\1\55\1\151\1\145\1\155\1\40\1\145\1\151\1\165\1\145\1\143\2\55"+
-		"\2\162\1\uffff\4\145\1\55\2\145\2\55\2\162\1\154\2\142\1\145\1\142\1\uffff"+
-		"\1\161\1\154\1\145\1\uffff\1\55\1\162\1\163\1\156\1\164\2\uffff\1\145"+
-		"\1\55\1\162\1\55\1\162\1\164\1\uffff\2\162\1\144\1\55\1\145\4\162\1\165"+
+		"\1\147\1\145\1\142\1\157\1\160\1\156\1\151\1\165\1\166\1\u00a9\1\143\1"+
+		"\151\1\164\1\162\1\165\1\152\1\164\1\166\1\143\1\u00a9\1\164\1\142\1\160"+
+		"\1\163\1\157\1\164\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151\1\uffff"+
+		"\1\157\1\154\1\145\1\155\1\154\1\160\1\164\1\166\1\154\2\162\1\166\1\165"+
+		"\1\163\2\55\1\151\1\164\1\u00bb\1\157\1\145\1\151\2\145\1\156\1\143\1"+
+		"\145\1\162\1\160\1\165\1\163\1\162\1\157\1\141\1\151\1\141\1\145\1\154"+
+		"\1\142\1\145\1\55\2\151\2\55\1\151\1\55\1\154\1\163\1\151\1\162\1\163"+
+		"\1\55\2\uffff\1\154\1\55\1\164\2\165\1\143\2\155\1\151\1\145\1\55\1\151"+
+		"\1\145\1\155\1\40\1\145\1\151\1\165\1\145\1\143\2\55\2\162\1\uffff\4\145"+
+		"\1\55\1\145\1\151\3\55\2\162\1\154\2\142\1\145\1\155\1\uffff\1\161\1\154"+
+		"\1\145\1\uffff\1\55\1\162\1\163\1\156\1\164\2\uffff\1\145\1\55\1\162\1"+
+		"\55\1\162\1\164\1\uffff\1\162\1\145\1\144\1\55\1\145\3\162\1\142\1\165"+
 		"\1\163\1\55\1\uffff\1\55\1\163\1\55\1\145\1\55\1\uffff\1\141\1\55\1\uffff"+
-		"\5\55\1\uffff\1\55\2\145\1\55\2\145\1\55\2\uffff\1\151\1\uffff\2\162\3"+
-		"\uffff\2\55\1\uffff\1\55\1\165\2\55\1\156\1\uffff\1\145\1\55";
+		"\3\55\1\162\1\55\1\uffff\1\55\2\145\1\55\1\162\1\145\1\55\2\uffff\1\151"+
+		"\1\uffff\2\162\1\uffff\1\55\2\uffff\2\55\1\uffff\1\145\1\165\3\55\1\156"+
+		"\1\uffff\1\145\1\55";
 	static final String DFA8_maxS =
 		"\1\172\5\u00ff\1\uffff\12\u00ff\4\uffff\1\165\1\156\1\u00ff\1\164\1\141"+
-		"\1\u00ff\1\164\1\162\1\145\1\142\1\157\1\160\1\156\1\151\1\165\2\166\1"+
-		"\143\1\162\1\164\1\162\1\u00fb\2\164\1\166\1\162\1\143\1\164\1\142\1\160"+
-		"\1\163\1\157\1\164\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151\1\uffff"+
-		"\1\157\1\154\1\145\1\155\1\154\1\160\1\164\1\166\1\156\3\162\1\165\1\163"+
-		"\2\u00ff\1\151\2\164\1\157\1\145\1\151\2\145\1\156\2\145\1\162\1\160\1"+
-		"\165\1\163\1\162\1\157\1\141\1\151\1\141\1\145\1\154\1\142\1\145\1\u00ff"+
-		"\2\151\2\u00ff\1\151\1\u00ff\1\154\1\163\2\151\1\163\1\u00ff\2\uffff\1"+
-		"\154\2\u00ff\2\165\1\143\2\155\1\151\1\155\1\u00ff\1\151\1\145\1\155\1"+
-		"\40\1\145\1\151\1\165\1\145\1\143\2\u00ff\2\162\1\uffff\4\145\1\u00ff"+
-		"\2\145\2\u00ff\2\162\1\154\2\142\1\145\1\142\1\uffff\1\161\1\154\1\145"+
-		"\1\uffff\1\u00ff\1\162\1\163\1\156\1\164\2\uffff\1\145\1\u00ff\1\162\1"+
-		"\u00ff\1\162\1\164\1\uffff\2\162\1\144\1\u00ff\1\145\4\162\1\165\1\163"+
-		"\1\u00ff\1\uffff\1\u00ff\1\163\1\u00ff\1\145\1\u00ff\1\uffff\1\141\1\u00ff"+
-		"\1\uffff\5\u00ff\1\uffff\1\u00ff\2\145\1\u00ff\2\145\1\u00ff\2\uffff\1"+
-		"\151\1\uffff\2\162\3\uffff\2\u00ff\1\uffff\1\u00ff\1\165\2\u00ff\1\156"+
-		"\1\uffff\1\145\1\u00ff";
+		"\1\u00ff\1\164\1\162\1\145\1\142\1\157\1\160\1\156\1\151\1\165\1\166\1"+
+		"\u00a9\1\143\1\162\1\164\1\162\1\u00c3\2\164\1\166\1\162\1\u00a9\1\164"+
+		"\1\142\1\160\1\163\1\157\1\164\1\154\1\162\1\142\1\164\1\uffff\1\162\1"+
+		"\151\1\uffff\1\157\1\154\1\145\1\155\1\154\1\160\1\164\1\166\1\156\2\162"+
+		"\1\166\1\165\1\163\2\u00ff\1\151\1\164\1\u00bb\1\157\1\145\1\151\2\145"+
+		"\1\156\1\143\1\145\1\162\1\160\1\165\1\163\1\162\1\157\1\141\1\151\1\141"+
+		"\1\145\1\154\1\142\1\145\1\u00ff\2\151\2\u00ff\1\151\1\u00ff\1\154\1\163"+
+		"\1\151\1\162\1\163\1\u00ff\2\uffff\1\154\1\u00ff\1\164\2\165\1\143\2\155"+
+		"\1\151\1\145\1\u00ff\1\151\1\145\1\155\1\40\1\145\1\151\1\165\1\145\1"+
+		"\143\2\u00ff\2\162\1\uffff\4\145\1\u00ff\1\145\1\151\3\u00ff\2\162\1\154"+
+		"\2\142\1\145\1\155\1\uffff\1\161\1\154\1\145\1\uffff\1\u00ff\1\162\1\163"+
+		"\1\156\1\164\2\uffff\1\145\1\u00ff\1\162\1\u00ff\1\162\1\164\1\uffff\1"+
+		"\162\1\145\1\144\1\u00ff\1\145\3\162\1\142\1\165\1\163\1\u00ff\1\uffff"+
+		"\1\u00ff\1\163\1\u00ff\1\145\1\u00ff\1\uffff\1\141\1\u00ff\1\uffff\3\u00ff"+
+		"\1\162\1\u00ff\1\uffff\1\u00ff\2\145\1\u00ff\1\162\1\145\1\u00ff\2\uffff"+
+		"\1\151\1\uffff\2\162\1\uffff\1\u00ff\2\uffff\2\u00ff\1\uffff\1\145\1\165"+
+		"\3\u00ff\1\156\1\uffff\1\145\1\u00ff";
 	static final String DFA8_acceptS =
 		"\6\uffff\1\7\12\uffff\1\30\1\31\1\32\1\33\45\uffff\1\3\2\uffff\1\4\65"+
-		"\uffff\1\10\1\11\30\uffff\1\24\20\uffff\1\21\3\uffff\1\16\5\uffff\1\6"+
+		"\uffff\1\10\1\11\30\uffff\1\24\21\uffff\1\21\3\uffff\1\16\5\uffff\1\6"+
 		"\1\22\6\uffff\1\23\14\uffff\1\27\5\uffff\1\5\2\uffff\1\25\5\uffff\1\20"+
-		"\7\uffff\1\26\1\1\1\uffff\1\2\2\uffff\1\13\1\12\1\17\2\uffff\1\14\5\uffff"+
-		"\1\15\2\uffff";
+		"\7\uffff\1\26\1\1\1\uffff\1\2\2\uffff\1\13\1\uffff\1\12\1\17\2\uffff\1"+
+		"\14\6\uffff\1\15\2\uffff";
 	static final String DFA8_specialS =
-		"\u00e8\uffff}>";
+		"\u00eb\uffff}>";
 	static final String[] DFA8_transitionS = {
 			"\2\6\2\uffff\1\6\22\uffff\1\6\15\uffff\1\22\1\uffff\12\21\6\uffff\1\23"+
 			"\32\24\6\uffff\1\13\1\24\1\2\1\15\1\3\1\11\1\17\2\24\1\10\2\24\1\12\1"+
@@ -1464,14 +1467,14 @@ public class Tal_simpleLexer extends Lexer {
 			"\24",
 			"\1\24\23\uffff\32\24\6\uffff\1\41\15\24\1\43\5\24\1\42\5\24\45\uffff"+
 			"\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\4\24\1\44\11\24\1\46\13\24\45\uffff\111"+
-			"\24\1\45\26\24",
+			"\1\24\23\uffff\32\24\6\uffff\4\24\1\44\11\24\1\46\13\24\45\uffff\43"+
+			"\24\1\45\74\24",
 			"\1\24\23\uffff\32\24\6\uffff\1\47\15\24\1\50\13\24\45\uffff\140\24",
 			"\1\24\23\uffff\32\24\6\uffff\16\24\1\52\2\24\1\54\2\24\1\53\1\51\4\24"+
 			"\45\uffff\140\24",
 			"\1\24\23\uffff\32\24\6\uffff\16\24\1\55\13\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\1\60\3\24\1\56\25\24\45\uffff\111\24\1"+
-			"\57\26\24",
+			"\1\24\23\uffff\32\24\6\uffff\1\60\3\24\1\56\25\24\45\uffff\43\24\1\57"+
+			"\74\24",
 			"\1\24\23\uffff\32\24\6\uffff\1\62\3\24\1\63\17\24\1\61\5\24\45\uffff"+
 			"\140\24",
 			"\1\24\23\uffff\32\24\6\uffff\21\24\1\64\10\24\45\uffff\140\24",
@@ -1501,7 +1504,7 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\114\10\uffff\1\113",
 			"\1\115",
 			"\1\116",
-			"\1\117\u0085\uffff\1\120",
+			"\1\117\115\uffff\1\120",
 			"\1\121\11\uffff\1\122",
 			"\1\123",
 			"\1\124",
@@ -1578,7 +1581,6 @@ public class Tal_simpleLexer extends Lexer {
 			"",
 			"\1\u0096",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\u0097",
 			"\1\u0098",
 			"\1\u0099",
@@ -1586,8 +1588,8 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u009b",
 			"\1\u009c",
 			"\1\u009d",
+			"\1\u009e",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u009f",
 			"\1\u00a0",
 			"\1\u00a1",
 			"\1\u00a2",
@@ -1596,100 +1598,104 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u00a5",
 			"\1\u00a6",
 			"\1\u00a7",
+			"\1\u00a8",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00aa",
 			"\1\u00ab",
-			"",
 			"\1\u00ac",
+			"",
 			"\1\u00ad",
 			"\1\u00ae",
 			"\1\u00af",
+			"\1\u00b0",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00b1",
 			"\1\u00b2",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\u00b3",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\u00b4",
 			"\1\u00b5",
 			"\1\u00b6",
 			"\1\u00b7",
 			"\1\u00b8",
 			"\1\u00b9",
-			"",
 			"\1\u00ba",
+			"",
 			"\1\u00bb",
 			"\1\u00bc",
+			"\1\u00bd",
 			"",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00be",
 			"\1\u00bf",
 			"\1\u00c0",
 			"\1\u00c1",
-			"",
-			"",
 			"\1\u00c2",
-			"\1\24\23\uffff\32\24\6\uffff\17\24\1\u00c4\12\24\45\uffff\140\24",
-			"\1\u00c5",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00c7",
-			"\1\u00c8",
 			"",
+			"",
+			"\1\u00c3",
+			"\1\24\23\uffff\32\24\6\uffff\17\24\1\u00c5\12\24\45\uffff\140\24",
+			"\1\u00c6",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\u00c8",
 			"\1\u00c9",
+			"",
 			"\1\u00ca",
 			"\1\u00cb",
+			"\1\u00cc",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00cd",
 			"\1\u00ce",
 			"\1\u00cf",
 			"\1\u00d0",
 			"\1\u00d1",
 			"\1\u00d2",
 			"\1\u00d3",
+			"\1\u00d4",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00d6",
+			"\1\u00d7",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00d8",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"",
 			"\1\u00d9",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\u00da",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00dd",
-			"\1\u00de",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\u00dc",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\u00df",
 			"\1\u00e0",
-			"\1\u00e1",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\u00e2",
+			"\1\u00e3",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"",
 			"",
-			"\1\u00e2",
+			"\1\u00e4",
 			"",
-			"\1\u00e3",
+			"\1\u00e5",
 			"\1\77",
 			"",
-			"",
-			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"",
+			"",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00e4",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"",
 			"\1\u00e6",
-			"",
 			"\1\u00e7",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\u00e9",
+			"",
+			"\1\u00ea",
 			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24"
 	};
 

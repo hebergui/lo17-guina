@@ -9,7 +9,7 @@ OU : 'ou';
 PARLER : 'parler'+; //pour la phrase "...traite des sujets concernant..."
 ENTRE :'entre';
 WS : (' ' | '\t' | '\r' | 'stop') { skip(); } | '\n';
-MOIS : 'janvier'|'fevrier'|'février'|'mars'|'avril'|'mai'|'juin'|'juillet'|'aout'|'aot'|'sept'|'octobre'|'novembre'|'decembre'|'décembre';
+MOIS : 'janvier'|'fevrier'|'février'|'mars'|'avril'|'mai'|'juin'|'juillet'|'aout'|'août'|'sept'|'octobre'|'novembre'|'decembre'|'décembre';
 MOT : 'mot';
 TODAY : 'aujourd';
 PREMIER : 'premier';
@@ -344,7 +344,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		//Dans quels articles parlent-t-on de Nicolas Sarkozy ? == SELECT ARTICLE PARLER params(Nicolas Sarkozy)
 		//Donne moi tous les article concernant le procès de Mickael Jackson == vouloir article parler proc�s mich jackson
 		//Donne moi tous les articles traitant de la menace terroriste Al-Qaïda == vouloir article parler menace terroris al-qaïda 
-		| SELECT ARTICLE PARLER? ps = params {
+		| SELECT ARTICLE PARLER ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.article "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
