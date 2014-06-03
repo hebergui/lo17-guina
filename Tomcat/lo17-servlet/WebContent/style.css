@@ -1,0 +1,64 @@
+.header {
+	height:100%;
+	text-align:center;
+	background:#EEE;
+	padding: 0;
+	margin: 0;
+	margin-top:25px;
+}
+
+h1 {
+	font-size:3em;
+	color:#555;
+}
+
+input {
+	height:50px;
+	font-size: 30px;
+	color:#555;
+}
+
+.sample {
+	font-size: 0.5em;
+}
+
+.info-title {
+	font-size: 1.2em;
+	background:#EEE;
+}
+
+#info-table {
+	margin-left:400px;
+	font-size: 15px;
+}
+
+.info {
+	background:#EEE;
+	padding:10px;
+	font-size: 1.5em;
+}
+
+.table-th {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.error {
+	color:red;
+}
+
+.no-error {
+	color:blue;
+}
+
+.results {
+	text-align: center;
+}
+
+.div-link {
+	margin-top:3px;}
+
+.link {
+	color:green;
+}

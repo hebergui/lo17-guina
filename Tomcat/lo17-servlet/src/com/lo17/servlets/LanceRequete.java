@@ -10,96 +10,106 @@ import com.lo17.projet.TalMain;
 import java.sql.*;
 
 public class LanceRequete extends HttpServlet {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+
+private static final long serialVersionUID = 1L;
 	String username;
 	String password;
 	String url;
 	String requete ="";
 	String nom;
 	int nbre;
-
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
-    throws IOException, ServletException
-    {
-    	response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
-        out.println("<html>");
-        out.println("<head>");
-        out.println("<title>Lance requete</title>");
-        out.println("</head>");
-        out.println("<body>");
-        out.println("<h1>Lance requete!</h1>");
-
-	// ---- configure START
-	username = "lo17xxx";
-	password = "dblo17";
-	// The URL that will connect to TECFA's MySQL server
-        // Syntax: jdbc:TYPE:machine:port/DB_NAME
-    //url = "jdbc:postgresql://tuxa/dblo17";
-	// dans certaines configurations locales il faut d�finir l'url par :
-	 url = "jdbc:postgresql://tuxa.sme.utc/dblo17";
-	// ---- configure END
-
-	String requete;
-        requete = request.getParameter("requete");
-	if (requete != null) {
-		out.println("REQUETE : " + requete + "<br>");
-		
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		String path = getServletContext().getRealPath("/");
 		
-		LexiqueMain lexiqueMain = new LexiqueMain(requete, path);
-		requete = lexiqueMain.getPhrase();
-		out.println("REQUETE : " + requete + "<br>");
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		out.println("<html>");
+        out.println("<head>");
+        out.println("<link rel='stylesheet' type='text/css' href='"+path+"style.css'>");
+        out.println("<title>Lance requete!</title>");
+        out.println("</head>");
+        out.println("<body>");
+        out.println("<div class='results'>");
 		
-		TalMain talMain = new TalMain(requete, path);
-		requete = talMain.getPhrase();
-		out.println("REQUETE : " + requete + "<br>");
+		username = "lo17xxx";
+		password = "dblo17";
+		url = "jdbc:postgresql://tuxa.sme.utc/dblo17"; //url = "jdbc:postgresql://tuxa/dblo17";
 		
-		// INSTALL/load the Driver (Vendor specific Code)
-		try {
-			Class.forName("org.postgresql.Driver");
+		String requete;
+		requete = request.getParameter("requete");
+		
+		if (requete != null) {
+			
+			
+			LexiqueMain lexiqueMain = new LexiqueMain(requete, path);
+			TalMain talMain = new TalMain(lexiqueMain.getPhrase(), path);
+			
+			out.println("<div class='info'>");
+			if (requete.length() < 3) {
+		        out.println("<span class='error'> La requte a retourne 0 resultat </span>");
+			}
+
+			out.println("<table id='info-table'><tr><td class='table-th'>Requete NL: </td><td>"+requete+"</td></tr>");
+			out.println("<tr><td class='table-th'>Normalisation: </td><td>"+lexiqueMain.getPhrase()+"</td></tr>");
+			out.println("<tr><td class='table-th'>Requete SQL: </td><td>"+talMain.getPhrase()+"</td></tr></table>");
+	        out.println("</div>");
+	        
+	        requete = talMain.getPhrase();
+			
+			// INSTALL/load the Driver
+			try {
+				Class.forName("org.postgresql.Driver");
 			} catch(java.lang.ClassNotFoundException e) {
-	    		System.err.print("ClassNotFoundException: ");
-	    		System.err.println(e.getMessage());
+				System.err.print("ClassNotFoundException: ");
+				System.err.println(e.getMessage());
 			}
-		try {
-			Connection con;
-			Statement stmt;
-			// Establish Connection to the database at URL with username and password
-			con = DriverManager.getConnection(url, username, password);
-			stmt = con.createStatement();
-			// Send the query and bind to the result set
-			ResultSet rs = stmt.executeQuery(requete);
-			ResultSetMetaData rsmd=rs.getMetaData();
-			nbre=rsmd.getColumnCount();
-			while (rs.next()) {
-				for (int i=1; i<=nbre;i++){
-				nom = rsmd.getColumnName(i);
-				String s = rs.getString(nom);
-				out.print("<a href=\"\">"+ s +"</a>");
+			try {
+				Connection con;
+				Statement stmt;
+				// Establish Connection to the database at URL with username and password
+				con = DriverManager.getConnection(url, username, password);
+				stmt = con.createStatement();
+				// Send the query and bind to the result set
+				ResultSet rs = stmt.executeQuery(requete);
+				ResultSetMetaData rsmd=rs.getMetaData();
+				nbre=rsmd.getColumnCount();
+				
+				int rowcount = 0;
+				/*if (rs.last()) {
+				  rowcount = rs.getRow();
+				  rs.beforeFirst();
+				}*/
+				
+				out.println("<div class='info'>");
+				out.println("<span class='no-error'> La requte a retourne "+nbre+" resultats</span>");
+				out.println("</div>");				
+				
+				while (rs.next()) {
+					for (int i=1; i<=nbre;i++){
+						nom = rsmd.getColumnName(i);
+						String s = rs.getString(nom);
+						out.print("<div class='div-link'><a class='link' href='"+path+"LCI/"+s+"'>"+s+"</a></div>");
+					}
 				}
-			out.print("<p>");
+				
+				out.println("</div>");
+				out.println("</body>");
+				out.println("</html>");
+				// Close resources
+				stmt.close();
+				con.close();
+			} catch(SQLException ex) {
+				System.err.println("==> SQLException: ");
+				
+				while (ex != null) {
+					System.out.println("Message:   " + ex.getMessage ());
+					System.out.println("SQLState:  " + ex.getSQLState ());
+					System.out.println("ErrorCode: " + ex.getErrorCode ());
+					ex = ex.getNextException();
+					System.out.println("");
+				}
 			}
-		out.println("</body>");
-		out.println("</html>");
-		// Close resources
-		stmt.close();
-		con.close();
 		}
-		// print out decent erreur messages
-		catch(SQLException ex) {
-			System.err.println("==> SQLException: ");
-			while (ex != null) {
-				System.out.println("Message:   " + ex.getMessage ());
-				System.out.println("SQLState:  " + ex.getSQLState ());
-				System.out.println("ErrorCode: " + ex.getErrorCode ());
-				ex = ex.getNextException();
-				System.out.println("");
-	    			}
-			}
-        	}
 	}
 }
