@@ -1,5 +1,6 @@
-// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-02 18:03:20
-package antlr.output;
+package com.lo17.projet;
+
+// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-09 17:00:08
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -310,7 +311,7 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = MOIS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:6: ( 'janvier' | 'fevrier' | 'fÃ©vrier' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'aot' | 'sept' | 'octobre' | 'novembre' | 'decembre' | 'dÃ©cembre' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:6: ( 'janvier' | 'fevrier' | 'février' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'aot' | 'sept' | 'octobre' | 'novembre' | 'decembre' | 'décembre' )
 			int alt4=15;
 			switch ( input.LA(1) ) {
 			case 'j':
@@ -547,9 +548,9 @@ public class Tal_simpleLexer extends Lexer {
 					}
 					break;
 				case 3 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:28: 'fÃ©vrier'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:28: 'février'
 					{
-					match("fÃ©vrier"); 
+					match("février"); 
 
 					}
 					break;
@@ -631,9 +632,9 @@ public class Tal_simpleLexer extends Lexer {
 					}
 					break;
 				case 15 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:129: 'dÃ©cembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g:12:129: 'décembre'
 					{
-					match("dÃ©cembre"); 
+					match("décembre"); 
 
 					}
 					break;

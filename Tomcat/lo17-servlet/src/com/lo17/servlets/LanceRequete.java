@@ -26,7 +26,8 @@ private static final long serialVersionUID = 1L;
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
         out.println("<head>");
-        out.println("<link rel='stylesheet' type='text/css' href='"+path+"style.css'>");
+        //out.println("<link rel='stylesheet' type='text/css' href='"+path+"style.css'>");
+        out.println("<link rel='stylesheet' type='text/css' href='style.css'>");
         out.println("<title>Lance requete!</title>");
         out.println("</head>");
         out.println("<body>");
@@ -47,12 +48,12 @@ private static final long serialVersionUID = 1L;
 			
 			out.println("<div class='info'>");
 			if (requete.length() < 3) {
-		        out.println("<span class='error'> La requte a retourne 0 resultat </span>");
+		        out.println("<span class='error'> La requete a retourne 0 resultat </span>");
 			}
 
-			out.println("<table id='info-table'><tr><td class='table-th'>Requete NL: </td><td>"+requete+"</td></tr>");
-			out.println("<tr><td class='table-th'>Normalisation: </td><td>"+lexiqueMain.getPhrase()+"</td></tr>");
-			out.println("<tr><td class='table-th'>Requete SQL: </td><td>"+talMain.getPhrase()+"</td></tr></table>");
+			out.println("<table id='info-table'><tr><td class='table-th'>Requete NL : </td><td>"+requete+"</td></tr>");
+			out.println("<tr><td class='table-th'>Normalisation : </td><td>"+lexiqueMain.getPhrase()+"</td></tr>");
+			out.println("<tr><td class='table-th'>Requete SQL : </td><td>"+talMain.getPhrase()+"</td></tr></table>");
 	        out.println("</div>");
 	        
 	        requete = talMain.getPhrase();
@@ -82,7 +83,7 @@ private static final long serialVersionUID = 1L;
 				}*/
 				
 				out.println("<div class='info'>");
-				out.println("<span class='no-error'> La requte a retourne "+nbre+" resultats</span>");
+				out.println("<span class='no-error'> La requete a retourne "+nbre+" resultats</span>");
 				out.println("</div>");				
 				
 				while (rs.next()) {
