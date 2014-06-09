@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-02 18:03:19
+// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-09 17:00:08
 package antlr.output;
 
 import org.antlr.runtime.*;
@@ -1538,7 +1538,7 @@ public class Tal_simpleParser extends Parser {
 					{
 					a=(Token)match(input,VAR,FOLLOW_VAR_in_param1747); 
 
-							lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" + a.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '%" + a.getText() + "%' "));
 						
 					}
 					break;
@@ -1548,8 +1548,8 @@ public class Tal_simpleParser extends Parser {
 					a1=(Token)match(input,NBR,FOLLOW_NBR_in_param1758); 
 					a2=(Token)match(input,MOIS,FOLLOW_MOIS_in_param1764); 
 
-						 	lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" + a1.getText() + "' "));
-						 	lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a2.getText() + "' "));
+						 	lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '%" + a1.getText() + "%' "));
+						 	lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a2.getText() + "%' "));
 						 
 					}
 					break;
@@ -1559,8 +1559,8 @@ public class Tal_simpleParser extends Parser {
 					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1776); 
 					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1782); 
 
-							lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" +a1.getText() + "' "));
-							lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a2.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '%" +a1.getText() + "%' "));
+							lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a2.getText() + "%' "));
 						
 					}
 					break;
@@ -1571,9 +1571,9 @@ public class Tal_simpleParser extends Parser {
 					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1799); 
 					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param1805); 
 
-							lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" +a1.getText() + "' "));
-							lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a2.getText() + "' "));
-							lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a3.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '%" +a1.getText() + "%' "));
+							lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a2.getText() + "%' "));
+							lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a3.getText() + "%' "));
 						
 					}
 					break;
@@ -1585,10 +1585,10 @@ public class Tal_simpleParser extends Parser {
 					a3=(Token)match(input,VAR,FOLLOW_VAR_in_param1828); 
 					a4=(Token)match(input,VAR,FOLLOW_VAR_in_param1834); 
 
-							lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" + a1.getText() + "' "));
-							lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a2.getText() + "' "));
-							lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a3.getText() + "' "));
-							lepar_arbre.ajouteFils(new Arbre("", "AND m.mot = '" + a4.getText() + "' "));
+							lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '%" + a1.getText() + "%' "));
+							lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a2.getText() + "%' "));
+							lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a3.getText() + "%' "));
+							lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '%" + a4.getText() + "%' "));
 						
 					}
 					break;

@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-02 18:03:20
+// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\TD4\\antlr_guix\\Tal_simple.g 2014-06-09 17:00:08
 package antlr.output;
 
 import org.antlr.runtime.*;
