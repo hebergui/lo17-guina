@@ -1,6 +1,6 @@
 package com.lo17.servlets;
-
 import java.io.*;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 
@@ -86,11 +86,29 @@ private static final long serialVersionUID = 1L;
 				out.println("<span class='no-error'> La requete a retourne "+nbre+" resultats</span>");
 				out.println("</div>");				
 				
-				while (rs.next()) {
-					for (int i=1; i<=nbre;i++){
-						nom = rsmd.getColumnName(i);
-						String s = rs.getString(nom);
-						out.print("<div class='div-link'><a class='link' href='"+path+"LCI/"+s+"'>"+s+"</a></div>");
+				if(nbre==1)
+				{
+					while (rs.next()) {
+						for (int i=1; i<=nbre;i++){
+							nom = rsmd.getColumnName(i);
+							String s = rs.getString(nom);
+							out.print("<div class='div-link'><a class='link' href=http://www4.utc.fr/~lo17/LCI/"+s+"'>"+s+"</a></div>");
+						}
+					}
+				}
+				else
+				{
+					int j=0;
+					while (rs.next()) {
+						for (int i=1; i<=nbre;i++){
+							j++;
+							nom = rsmd.getColumnName(i);
+							String s = rs.getString(nom);
+							if(j%2!=0)
+								out.print("<div class='div-link'><a class='link' href=http://www4.utc.fr/~lo17/LCI/"+s+"'>"+s+"</a>");
+							else
+								out.print(" | <a class='link' href=http://www4.utc.fr/~lo17/LCI/"+s+"'>"+s+"</a></div>");
+						}
 					}
 				}
 				
