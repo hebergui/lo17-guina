@@ -56,6 +56,8 @@ d'un stop
 du stop
 écrits stop
 écrit stop
+ecrits stop
+ecrit stop
 e-mail email
 ensemble stop
 en stop
@@ -87,6 +89,7 @@ le stop
 leur stop
 liÃ©s parler
 l'irak irak
+l'Irak irak
 liste stop
 l stop
 mail email
