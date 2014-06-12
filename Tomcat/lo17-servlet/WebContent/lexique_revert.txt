@@ -66,6 +66,7 @@ est stop
 etats-unis etats-unis
 états-unis etats-unis
 été stop
+ete stop
 et et
 eus top
 évoque parler
@@ -87,7 +88,7 @@ l'auteur auteur
 les stop
 le stop
 leur stop
-liÃ©s parler
+liés parler
 l'irak irak
 l'Irak irak
 liste stop
@@ -146,7 +147,7 @@ souhaiterais vouloir
 s stop
 successifs stop
 sujets stop
-sur stop
+sur parler
 temps stop
 terme stop
 textes stop

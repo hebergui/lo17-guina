@@ -94,10 +94,11 @@ public class LexiqueMain {
 	      			}
         	  }
           }
-         System.out.println(chaineRetour.replaceAll("rubriqueune", "une") + ".");
-         //System.out.println(chaineRetour);
+         //System.out.println(chaineRetour.replaceAll("rubriqueune", "UNE") + ".");
+         System.out.println(chaineRetour + ".");
 		
 		
-		return chaineRetour.replaceAll("rubriqueune", "une") + ".";
+		//return chaineRetour.replaceAll("rubriqueune", "UNE") + ".";
+         return chaineRetour + ".";
 	}
 }

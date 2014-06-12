@@ -28,6 +28,7 @@ private static final long serialVersionUID = 1L;
         out.println("<head>");
         //out.println("<link rel='stylesheet' type='text/css' href='"+path+"style.css'>");
         out.println("<link rel='stylesheet' type='text/css' href='style.css'>");
+       // out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />");
         out.println("<title>Lance requete!</title>");
         out.println("</head>");
         out.println("<body>");
@@ -51,9 +52,9 @@ private static final long serialVersionUID = 1L;
 		        out.println("<span class='error'> La requete a retourne 0 resultat </span>");
 			}
 
-			out.println("<table id='info-table'><tr><td class='table-th'>Requete NL : </td><td>"+requete+"</td></tr>");
+			out.println("<table id='info-table'><tr><td class='table-th'>Requete NL : </td><td>"+requete+"</td></tr>");
 			out.println("<tr><td class='table-th'>Normalisation : </td><td>"+lexiqueMain.getPhrase()+"</td></tr>");
-			out.println("<tr><td class='table-th'>Requete SQL : </td><td>"+talMain.getPhrase()+"</td></tr></table>");
+			out.println("<tr><td class='table-th'>Requete SQL : </td><td>"+talMain.getPhrase()+"</td></tr></table>");
 	        out.println("</div>");
 	        
 	        requete = talMain.getPhrase();
@@ -83,13 +84,14 @@ private static final long serialVersionUID = 1L;
 				}*/
 				
 				out.println("<div class='info'>");
-				out.println("<span class='no-error'> La requete a retourne "+nbre+" resultats</span>");
+				out.println("<span class='no-error'> La requete a retourne <span id='countrow'></span> resultats</span>");
 				out.println("</div>");				
 				
 				if(nbre==1)
 				{
 					while (rs.next()) {
 						for (int i=1; i<=nbre;i++){
+							rowcount++;
 							nom = rsmd.getColumnName(i);
 							String s = rs.getString(nom);
 							out.print("<div class='div-link'><a class='link' href=http://www4.utc.fr/~lo17/LCI/"+s+"'>"+s+"</a></div>");
@@ -101,6 +103,7 @@ private static final long serialVersionUID = 1L;
 					int j=0;
 					while (rs.next()) {
 						for (int i=1; i<=nbre;i++){
+							rowcount++;
 							j++;
 							nom = rsmd.getColumnName(i);
 							String s = rs.getString(nom);
@@ -113,6 +116,9 @@ private static final long serialVersionUID = 1L;
 				}
 				
 				out.println("</div>");
+				out.println("<script type='text/javascript'>");
+				out.println("document.getElementById('countrow').innerHTML="+rowcount/nbre+";");
+				out.println("</script>");
 				out.println("</body>");
 				out.println("</html>");
 				// Close resources

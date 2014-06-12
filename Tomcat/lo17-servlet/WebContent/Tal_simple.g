@@ -40,7 +40,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 	//******************//
 	//********* DATE **********//
 		//Articles ??crits en septembre 2005 qui parlent du 11 septembre ? == ARTICLE date(septembre, 2005) PARLER params(11, septembre)
-		 ARTICLE d = dat PARLER ps=params {
+		 ARTICLE d = dat PARLER+ ps=params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct"));
 			req_arbre.ajouteFils(new Arbre("", "m.page "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d"));
@@ -53,8 +53,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
-		| ARTICLE PARLER ps=params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct m.page ) "));
+		| ARTICLE PARLER+ ps=params {
+			req_arbre.ajouteFils(new Arbre("", "select distinct m.page"));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m"));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
@@ -75,8 +75,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		//Combien d'articles ??voque Berlusconi et le fascisme ? == COMBIEN ARTICLE PARLER params(Berlusconi ET fascisme)
 		//Combien il y t-il d'articles traitants du Pape? == COMBIEN ARTICLE PARLER params(pape)
 		//Dans combien d'article parle-t-on du Pape ? == COMBIEN ARTICLE parler params(pape)
-		| COMBIEN ARTICLE PARLER ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.article) "));
+		| COMBIEN ARTICLE PARLER+ ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.article) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
@@ -84,8 +84,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien d'articles de l'AFP traitent de Florence Aubenas? == COMBIEN ARTICLE params(AFP) PARLER params(Florence, Aubenas)
-		| COMBIEN ARTICLE ps1 = params PARLER ps2 = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.article) "));
+		| COMBIEN ARTICLE ps1 = params PARLER+ ps2 = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.article) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps1.les_pars_arbre;
@@ -96,7 +96,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		// y a-t-il d'articles sur le th??me des Etats-Unis traitant de Bush ? == COMBIEN ARTICLE PARLER params(Etats-Unis) PARLER Bush
-		| COMBIEN ARTICLE PARLER ps1 = params PARLER ps2 = params {
+		| COMBIEN ARTICLE PARLER+ ps1 = params PARLER ps2 = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.article) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -107,20 +107,11 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
-		//Combien d'articles proviennent de l'AFP? == COMBIEN ARTICLE param(AFP)
-		| COMBIEN ARTICLE ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.article) "));
-			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
-			req_arbre.ajouteFils(new Arbre("", "where "));
-			ps_arbre = $ps.les_pars_arbre;
-			req_arbre.ajouteFils(ps_arbre);
-		}
-		
 		//Combien d'articles traitent de la politique ??trang??re des Etats-Unis en 2005 ? == COMBIEN ARTICLE PARLER params(politique, ??trang??re, Etats_Unis) date(2005)
 		//Combien d'articles traitent du Royaume-Uni en 2005 ? == COMBIEN ARTICLE PARLER params(Royaume-Uni) date(2005)
-		| COMBIEN ARTICLE PARLER ps = params d = dat {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.article) "));
-			req_arbre.ajouteFils(new Arbre("", "from titrearticle m, datearticle d "));
+		| COMBIEN ARTICLE PARLER+ ps = params d = dat {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.article) "));
+			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d "));
 			req_arbre.ajouteFils(new Arbre("", "where m.article = d.article "));
 			req_arbre.ajouteFils(new Arbre("", " AND "));
 			ps_arbre = $ps.les_pars_arbre;
@@ -130,10 +121,19 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(d_arbre);
 		}
 		
+		| COMBIEN ARTICLE d = dat {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.article) "));
+			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d "));
+			req_arbre.ajouteFils(new Arbre("", "where m.article = d.article "));
+			req_arbre.ajouteFils(new Arbre("", " AND "));
+			d_arbre = $d.les_pars_arbre;
+			req_arbre.ajouteFils(d_arbre);
+		}
+		
 	//********* AUTEUR **********//
 		//NE MARCHE PAS
 		| COMBIEN AUTEUR ARTICLE ENTRE d1 = dat ET d2 = dat {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(e.email)"));
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct e.email)"));
 			req_arbre.ajouteFils(new Arbre("", "from datearticle m, email e"));
 			req_arbre.ajouteFils(new Arbre("", "where d.article = e.article "));
 			req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -146,7 +146,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		
 		//Combien d'auteurs diff??rents ont ??crit des articles le 24 octobre 2005 ? == COMBIEN AUTEUR PARLER date(24 octobre 2005)
 		| COMBIEN AUTEUR  d = dat {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(e.email) "));
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct e.email) "));
 			req_arbre.ajouteFils(new Arbre("", "from datearticle d, email e"));
 			req_arbre.ajouteFils(new Arbre("", "where d.article = e.article"));
 			req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -155,8 +155,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien d'auteurs ont ??crit un article parlant d'attentats ? == COMBIEN AUTEUR PARLER ARTICLE PARLER params(attentat)
-		| COMBIEN AUTEUR  ARTICLE PARLER ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(e.email) "));
+		| COMBIEN AUTEUR  ARTICLE PARLER+ ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct e.email) "));
 			req_arbre.ajouteFils(new Arbre("", "from datearticle d, email e, titreresume m"));
 			req_arbre.ajouteFils(new Arbre("", "where d.article = e.article AND e.article = m.article "));
 			req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -173,8 +173,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien de fois l'auteur dont l'adresse mail est dstraus@tf1.fr parle t-il de Florence Aubenas ? == COMBIEN AUTEUR email(dstraus@tf1.fr) PARLER params(Florence, Aubenas)
-		| COMBIEN AUTEUR e = email PARLER ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(e.email) "));
+		| COMBIEN AUTEUR e = email PARLER+ ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct e.email) "));
 			req_arbre.ajouteFils(new Arbre("", "from email e, titreresume m"));
 			req_arbre.ajouteFils(new Arbre("", "where e.article = m.article "));
 			req_arbre.ajouteFils(new Arbre("", "' AND "));
@@ -187,8 +187,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 
 	//********* JOUR **********//
 		//Combien de jours successifs parle-t-on du pape? == COMBIEN JOURS PARLER params(pape)
-		| COMBIEN JOURS PARLER ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(datearticle.jj) "));
+		| COMBIEN JOURS PARLER+ ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct datearticle.jj) "));
 			req_arbre.ajouteFils(new Arbre("", "from datearticle, titreresume "));
 			req_arbre.ajouteFils(new Arbre("", "where datearticle.article = titreresume.article "));
 			req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -199,7 +199,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 	//********* MOT **********//
 		//Combien de fois est cit??s le mot "mort" et dans quels articles? == COMBIEN MOT params(mort) ET SELECT ARTICLE
 		| COMBIEN MOT ps = params ET SELECT ARTICLE {
-			req_arbre.ajouteFils(new Arbre("", "select count(m.mot), m.page"));
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.mot), m.page"));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
@@ -217,8 +217,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 
 	//********* PAGE **********//
-		| COMBIEN PAGE PARLER ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.page) "));
+		| COMBIEN PAGE PARLER+ ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.page) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
@@ -226,8 +226,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien de pqges traitent du proc??s de Mickael Jackson pour le mois d'avril 2005 ? == COMBIEN PAGE PARLER params(proc??s, Mickael, Jackson) date(avril 2005)
-		| COMBIEN PAGE PARLER ps = params d = dat {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.page) "));
+		| COMBIEN PAGE PARLER+ ps = params d = dat {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.page) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datepage d "));
 			req_arbre.ajouteFils(new Arbre("", "where m.page = d.page "));
 			req_arbre.ajouteFils(new Arbre("", "AND "));
@@ -240,8 +240,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		
 	//********* RUBRIQUE **********//
 		//NE MARCHE PAS
-		| COMBIEN r = RUBRIQUE PARLER ps = params ENTRE d1 = dat ET d2 = dat {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.rubrique) "));
+		| COMBIEN r = RUBRIQUE PARLER+ ps = params ENTRE d1 = dat ET d2 = dat {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.rubrique) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d "));
 			req_arbre.ajouteFils(new Arbre("", "where m.article = d.article "));
 			req_arbre.ajouteFils(new Arbre("", "AND m.rubrique = '" + r.getText() + "' "));
@@ -263,8 +263,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		//Combien de Une parle du Pape ? == COMBIEN rubrique(une) PARLER params(pape)
 		//Combien de gros titres font r??f??rence ?? Al-Qa??da ? == COMBIEN rubrique(gros titre) PARLER params(Al-Qa??da)
 		//Combien de rappels traitent de Silvio Berlusconi? == COMBIEN rubrique(rappels) PARLER params(Silvio Berlusconi)
-		| COMBIEN r = RUBRIQUE PARLER ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.rubrique) "));
+		| COMBIEN r = RUBRIQUE PARLER+ ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.rubrique) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where m.rubrique = '" + r.getText() + "' "));
 			req_arbre.ajouteFils(new Arbre("", " AND "));
@@ -273,8 +273,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 		
 		//Combien de Une parue entre le 25 Janvier et le 17 Avril 2006 traite des sujets concernant l'Afrique ? == COMBIEN rubrique(une) ENTRE date(25 janvier) ET date(17 avril) PARLER PARLER params(Afrique)
-		| COMBIEN r = RUBRIQUE ENTRE d1 = dat ET d2 = dat PARLER  ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct count(m.rubrique) "));
+		| COMBIEN r = RUBRIQUE ENTRE d1 = dat ET d2 = dat PARLER+  ps = params {
+			req_arbre.ajouteFils(new Arbre("", "select count(m.rubrique) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d"));
 			req_arbre.ajouteFils(new Arbre("", "where m.article = d.article"));
 			req_arbre.ajouteFils(new Arbre("", "AND m.rubrique = '" + r.getText() + "' "));
@@ -314,7 +314,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 	//******************//
 	//********* ARTICLE **********//
 		//Donne moi tous les articles sur le th?me de la guerre paru entre le 23 avril 2005 et le 1er Juillet 2005 == SELECT ARTICLE PARLER params(guerre) ENTRE date(23 janvier 2005) ET date(1er juillet 2005)
-		| SELECT ARTICLE PARLER?  ps = params ENTRE d1 = dat ET d2 = dat  {
+		| SELECT ARTICLE PARLER+  ps = params ENTRE d1 = dat ET d2 = dat  {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.page "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d"));
 			req_arbre.ajouteFils(new Arbre("", "where m.article = d.article"));
@@ -328,9 +328,8 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
 		}
-		
 						
-		| SELECT ARTICLE PARLER ps = params DATE? d = dat{
+		| SELECT ARTICLE PARLER+ ps = params DATE? d = dat{
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.page "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d "));
 			req_arbre.ajouteFils(new Arbre("", "where d.article = m.article"));
@@ -342,8 +341,17 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
+		| SELECT ARTICLE DATE? d = dat{
+			req_arbre.ajouteFils(new Arbre("", "select distinct m.page "));
+			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d "));
+			req_arbre.ajouteFils(new Arbre("", "where d.article = m.article"));
+			req_arbre.ajouteFils(new Arbre("", "AND "));
+			ps_arbre = $d.les_pars_arbre;
+			req_arbre.ajouteFils(ps_arbre);
+		}
+		
 		//Dans quels articles est intervenu Nicolas Sarkozy sur le th??me de la d??fense ? == SELECT ARTICLE params(Nicolas Sarkozy) PARLER params(d??fense)
-		| SELECT ARTICLE ps1 = params PARLER ps2 = params {
+		| SELECT ARTICLE ps1 = params PARLER+ ps2 = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct "));
 			req_arbre.ajouteFils(new Arbre("", "article "));
 			req_arbre.ajouteFils(new Arbre("", "from "));
@@ -354,10 +362,11 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
+		
 		//Dans quels articles parlent-t-on de Nicolas Sarkozy ? == SELECT ARTICLE PARLER params(Nicolas Sarkozy)
 		//Donne moi tous les article concernant le procès de Mickael Jackson == vouloir article parler proc�s mich jackson
 		//Donne moi tous les articles traitant de la menace terroriste Al-Qaïda == vouloir article parler menace terroris al-qaïda 
-		| SELECT ARTICLE PARLER? ps = params {
+		| SELECT ARTICLE PARLER+ ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.page "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -378,7 +387,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(e_arbre);
 		}
 
-		| SELECT ARTICLE AUTEUR e = email ET PARLER r = RUBRIQUE {
+		| SELECT ARTICLE AUTEUR e = email ET PARLER+ r = RUBRIQUE {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.page"));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, email e "));
 			req_arbre.ajouteFils(new Arbre("", "where m.article = e.article "));
@@ -417,9 +426,9 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
-		| SELECT ARTICLE d = dat ET PARLER ps = params {
+		| SELECT ARTICLE d = dat ET PARLER+ ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.artiçle "));
-			req_arbre.ajouteFils(new Arbre("", "from titrearticle m, datearticle d"));
+			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d"));
 			req_arbre.ajouteFils(new Arbre("", "where d.article = m.article "));
 			req_arbre.ajouteFils(new Arbre("", "AND "));
 			d_arbre = $d.les_pars_arbre;
@@ -430,7 +439,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 
 	//********* AUTEUR **********//
-		| SELECT AUTEUR ARTICLE PARLER ps = params {
+		| SELECT AUTEUR ARTICLE PARLER+ ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.email, m.page "));
 			req_arbre.ajouteFils(new Arbre("", "from emailarticle m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -447,7 +456,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 		}
 
 	//********* COMBIEN **********//		
-		| SELECT COMBIEN r = RUBRIQUE PARLER ps = params {
+		| SELECT COMBIEN r = RUBRIQUE PARLER+ ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select count(m.rubrique) "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m, datearticle d"));
 			req_arbre.ajouteFils(new Arbre("", "where m.article = d.article "));
@@ -459,7 +468,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 
 	//********* DATE **********//
 		//Donne moi la liste des dates des articles traitant du Pape. == SELECT DATE PARLER(pape)
-		| SELECT DATE ARTICLE? PARLER ps=params {
+		| SELECT DATE ARTICLE? PARLER+ ps=params {
 			req_arbre.ajouteFils(new Arbre("", "select d.jj, d.mois, d.annee "));
 			req_arbre.ajouteFils(new Arbre("", "from datearticle d, titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where d.article = m.titreresume "));
@@ -490,7 +499,7 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 		}
 		
-		| SELECT PAGE PARLER ps = params {
+		| SELECT PAGE PARLER+ ps = params {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.page "));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
@@ -553,26 +562,26 @@ listerequetes returns [String sql = ""]
 
 param returns [Arbre lepar_arbre = new Arbre("")] :
 	a = VAR {
-		lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '\%" + a.getText() + "\%' "));
+		lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" + a.getText() + "' "));
 	}
 	| a1 = NBR a2 = MOIS {
-	 	lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '\%" + a1.getText() + "\%' "));
-	 	lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a2.getText() + "\%' "));
+	 	lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" + a1.getText() + "' "));
+	 	lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a2.getText() + "' "));
 	 }
 	 | a1 = VAR a2 = VAR {
-		lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '\%" +a1.getText() + "\%' "));
-		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a2.getText() + "\%' "));
+		lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" +a1.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a2.getText() + "' "));
 	}
 	| a1 = VAR a2 = VAR a3 = VAR {
-		lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '\%" +a1.getText() + "\%' "));
-		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a2.getText() + "\%' "));
-		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a3.getText() + "\%' "));
+		lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" +a1.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a2.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a3.getText() + "' "));
 	}
 	| a1 = VAR a2 = VAR a3 = VAR a4 = VAR{
-		lepar_arbre.ajouteFils(new Arbre("", "m.mot LIKE '\%" + a1.getText() + "\%' "));
-		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a2.getText() + "\%' "));
-		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a3.getText() + "\%' "));
-		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot LIKE '\%" + a4.getText() + "\%' "));
+		lepar_arbre.ajouteFils(new Arbre("", "m.mot = '" + a1.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a2.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a3.getText() + "' "));
+		lepar_arbre.ajouteFils(new Arbre("", "OR m.mot = '" + a4.getText() + "' "));
 	};
 
 params returns [Arbre les_pars_arbre = new Arbre("")]

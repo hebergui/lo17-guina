@@ -1,5 +1,5 @@
 // $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g 2014-06-12 10:38:24
-package com.lo17.projet;
+package antlr.output;
 
 import org.antlr.runtime.*;
 import java.util.Stack;

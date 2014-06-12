@@ -1,3 +1,5 @@
 eclipse.preferences.version=1
+encoding//WebContent/lexicA12.txt=UTF-8
+encoding//WebContent/lexique_revert.txt=UTF-8
 encoding//src/com/lo17/projet/LexiqueMain.java=UTF-8
 encoding//src/com/lo17/servlets/LanceRequete.java=UTF-8
