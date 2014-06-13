@@ -35,7 +35,7 @@ consulter stop
 contacter email
 contenant parler
 contenus parler
-contient sparler
+contient parler
 corpus stop
 dans stop
 datant stop
@@ -66,7 +66,6 @@ est stop
 etats-unis etats-unis
 états-unis etats-unis
 été stop
-ete stop
 et et
 eus top
 évoque parler
@@ -75,6 +74,7 @@ focus focus
 fois stop
 font stop
 franck franck
+grostitre grostitre
 hui stop
 il stop
 informations stop
@@ -88,7 +88,7 @@ l'auteur auteur
 les stop
 le stop
 leur stop
-liés parler
+liÃ©s parler
 l'irak irak
 l'Irak irak
 liste stop
@@ -172,6 +172,7 @@ une stop
 un stop
 veux vouloir
 veut vouloir
+voiraussi voiraussi
 voudrais vouloir
 y-a-t-il vouloir
 y stop
