@@ -202,11 +202,12 @@ requete returns [Arbre req_arbre = new Arbre("")]
 	//********* MOT **********//
 		//Combien de fois est cit??s le mot "mort" et dans quels articles? == COMBIEN MOT params(mort) ET SELECT ARTICLE
 		| COMBIEN MOT ps = params ET SELECT ARTICLE {
-			req_arbre.ajouteFils(new Arbre("", "select count(distinct m.mot), m.page"));
+			req_arbre.ajouteFils(new Arbre("", "select count(m.mot), m.page"));
 			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 			req_arbre.ajouteFils(new Arbre("", "where "));
 			ps_arbre = $ps.les_pars_arbre;
 			req_arbre.ajouteFils(ps_arbre);
+			req_arbre.ajouteFils(new Arbre("", "group by m.page "));			
 		}
 		
 		//Combien de fois le mot Vatican est apparu dans les rappels ? == COMBIEN mot(vatican) rubrique(rappels)

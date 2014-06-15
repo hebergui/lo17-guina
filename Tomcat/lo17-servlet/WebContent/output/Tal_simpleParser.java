@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g 2014-06-15 12:28:26
+// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g 2014-06-15 12:52:46
 package antlr.output;
 
 import org.antlr.runtime.*;
@@ -635,16 +635,17 @@ public class Tal_simpleParser extends Parser {
 					match(input,SELECT,FOLLOW_SELECT_in_requete736); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete738); 
 
-								req_arbre.ajouteFils(new Arbre("", "select count(distinct m.mot), m.page"));
+								req_arbre.ajouteFils(new Arbre("", "select count(m.mot), m.page"));
 								req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
 								req_arbre.ajouteFils(new Arbre("", "where "));
 								ps_arbre = ps;
 								req_arbre.ajouteFils(ps_arbre);
+								req_arbre.ajouteFils(new Arbre("", "group by m.page "));			
 							
 					}
 					break;
 				case 15 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:213:5: COMBIEN MOT ps= params r= RUBRIQUE
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:214:5: COMBIEN MOT ps= params r= RUBRIQUE
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete752); 
 					match(input,MOT,FOLLOW_MOT_in_requete754); 
@@ -664,11 +665,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 16 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:223:5: COMBIEN PAGE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:224:5: COMBIEN PAGE ( PARLER )+ ps= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete777); 
 					match(input,PAGE,FOLLOW_PAGE_in_requete779); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:223:18: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:224:18: ( PARLER )+
 					int cnt11=0;
 					loop11:
 					while (true) {
@@ -680,7 +681,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt11) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:223:18: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:224:18: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete781); 
 							}
@@ -708,11 +709,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 17 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:232:5: COMBIEN PAGE ( PARLER )+ ps= params d= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:233:5: COMBIEN PAGE ( PARLER )+ ps= params d= dat
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete802); 
 					match(input,PAGE,FOLLOW_PAGE_in_requete804); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:232:18: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:233:18: ( PARLER )+
 					int cnt12=0;
 					loop12:
 					while (true) {
@@ -724,7 +725,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt12) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:232:18: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:233:18: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete806); 
 							}
@@ -760,11 +761,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 18 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:246:5: COMBIEN r= RUBRIQUE ( PARLER )+ ps= params ENTRE d1= dat ET d2= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:247:5: COMBIEN r= RUBRIQUE ( PARLER )+ ps= params ENTRE d1= dat ET d2= dat
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete835); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete841); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:246:26: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:247:26: ( PARLER )+
 					int cnt13=0;
 					loop13:
 					while (true) {
@@ -776,7 +777,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt13) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:246:26: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:247:26: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete843); 
 							}
@@ -822,11 +823,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 19 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:269:5: COMBIEN r= RUBRIQUE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:270:5: COMBIEN r= RUBRIQUE ( PARLER )+ ps= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete896); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete902); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:269:26: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:270:26: ( PARLER )+
 					int cnt14=0;
 					loop14:
 					while (true) {
@@ -838,7 +839,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt14) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:269:26: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:270:26: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete904); 
 							}
@@ -867,11 +868,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 20 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:279:5: COMBIEN ARTICLE ( PARLER )+ ps= params ENTRE d1= datinf ET d2= datsup
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:280:5: COMBIEN ARTICLE ( PARLER )+ ps= params ENTRE d1= datinf ET d2= datsup
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete925); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete927); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:279:21: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:280:21: ( PARLER )+
 					int cnt15=0;
 					loop15:
 					while (true) {
@@ -883,7 +884,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt15) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:279:21: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:280:21: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete929); 
 							}
@@ -929,7 +930,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 21 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:295:5: COMBIEN r= RUBRIQUE ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:296:5: COMBIEN r= RUBRIQUE ps= params
 					{
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete965); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete971); 
@@ -948,7 +949,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 22 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:307:5: EMAIL AUTEUR ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:308:5: EMAIL AUTEUR ps= params
 					{
 					match(input,EMAIL,FOLLOW_EMAIL_in_requete993); 
 					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete995); 
@@ -966,11 +967,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 23 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:320:5: SELECT ARTICLE ( PARLER )+ ps= params ENTRE d1= datinf ET d2= datsup
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:321:5: SELECT ARTICLE ( PARLER )+ ps= params ENTRE d1= datinf ET d2= datsup
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1020); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1022); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:320:20: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:321:20: ( PARLER )+
 					int cnt16=0;
 					loop16:
 					while (true) {
@@ -982,7 +983,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt16) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:320:20: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:321:20: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1024); 
 							}
@@ -1027,11 +1028,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 24 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:335:5: SELECT ARTICLE ( PARLER )+ ps= params ( DATE )? d= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:336:5: SELECT ARTICLE ( PARLER )+ ps= params ( DATE )? d= dat
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1064); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1066); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:335:20: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:336:20: ( PARLER )+
 					int cnt17=0;
 					loop17:
 					while (true) {
@@ -1043,7 +1044,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt17) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:335:20: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:336:20: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1068); 
 							}
@@ -1061,7 +1062,7 @@ public class Tal_simpleParser extends Parser {
 					ps=params();
 					state._fsp--;
 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:335:40: ( DATE )?
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:336:40: ( DATE )?
 					int alt18=2;
 					int LA18_0 = input.LA(1);
 					if ( (LA18_0==DATE) ) {
@@ -1069,7 +1070,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					switch (alt18) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:335:40: DATE
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:336:40: DATE
 							{
 							match(input,DATE,FOLLOW_DATE_in_requete1077); 
 							}
@@ -1095,11 +1096,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 25 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:347:5: SELECT ARTICLE ( DATE )? d= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:348:5: SELECT ARTICLE ( DATE )? d= dat
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1094); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1096); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:347:20: ( DATE )?
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:348:20: ( DATE )?
 					int alt19=2;
 					int LA19_0 = input.LA(1);
 					if ( (LA19_0==DATE) ) {
@@ -1107,7 +1108,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					switch (alt19) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:347:20: DATE
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:348:20: DATE
 							{
 							match(input,DATE,FOLLOW_DATE_in_requete1098); 
 							}
@@ -1130,7 +1131,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 26 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:357:5: SELECT ARTICLE ps1= params ( PARLER )+ ps2= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:358:5: SELECT ARTICLE ps1= params ( PARLER )+ ps2= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1118); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1120); 
@@ -1138,7 +1139,7 @@ public class Tal_simpleParser extends Parser {
 					ps1=params();
 					state._fsp--;
 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:357:33: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:358:33: ( PARLER )+
 					int cnt20=0;
 					loop20:
 					while (true) {
@@ -1150,7 +1151,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt20) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:357:33: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:358:33: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1128); 
 							}
@@ -1181,11 +1182,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 27 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:372:5: SELECT ARTICLE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:373:5: SELECT ARTICLE ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1158); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1160); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:372:20: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:373:20: ( PARLER )+
 					int cnt21=0;
 					loop21:
 					while (true) {
@@ -1197,7 +1198,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt21) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:372:20: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:373:20: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1162); 
 							}
@@ -1225,7 +1226,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 28 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:381:5: SELECT ARTICLE d= dat AUTEUR e= email
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:382:5: SELECT ARTICLE d= dat AUTEUR e= email
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1181); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1183); 
@@ -1252,7 +1253,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 29 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:393:5: SELECT ARTICLE AUTEUR e= email ET ( PARLER )+ r= RUBRIQUE
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:394:5: SELECT ARTICLE AUTEUR e= email ET ( PARLER )+ r= RUBRIQUE
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1206); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1208); 
@@ -1262,7 +1263,7 @@ public class Tal_simpleParser extends Parser {
 					state._fsp--;
 
 					match(input,ET,FOLLOW_ET_in_requete1218); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:393:40: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:394:40: ( PARLER )+
 					int cnt22=0;
 					loop22:
 					while (true) {
@@ -1274,7 +1275,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt22) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:393:40: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:394:40: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1220); 
 							}
@@ -1301,7 +1302,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 30 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:403:5: SELECT ARTICLE AUTEUR e= email
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:404:5: SELECT ARTICLE AUTEUR e= email
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1236); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1238); 
@@ -1321,7 +1322,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 31 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:412:5: SELECT ARTICLE ps1= params AUTEUR ps2= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:413:5: SELECT ARTICLE ps1= params AUTEUR ps2= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1255); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1257); 
@@ -1347,7 +1348,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 32 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:423:5: SELECT ARTICLE d= dat ET ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:424:5: SELECT ARTICLE d= dat ET ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1282); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1284); 
@@ -1356,7 +1357,7 @@ public class Tal_simpleParser extends Parser {
 					state._fsp--;
 
 					match(input,ET,FOLLOW_ET_in_requete1292); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:423:31: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:424:31: ( PARLER )+
 					int cnt23=0;
 					loop23:
 					while (true) {
@@ -1368,7 +1369,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt23) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:423:31: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:424:31: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1294); 
 							}
@@ -1400,11 +1401,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 33 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:437:5: SELECT AUTEUR ( ARTICLE )? d= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:438:5: SELECT AUTEUR ( ARTICLE )? d= dat
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1315); 
 					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1317); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:437:19: ( ARTICLE )?
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:438:19: ( ARTICLE )?
 					int alt24=2;
 					int LA24_0 = input.LA(1);
 					if ( (LA24_0==ARTICLE) ) {
@@ -1412,7 +1413,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					switch (alt24) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:437:19: ARTICLE
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:438:19: ARTICLE
 							{
 							match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1319); 
 							}
@@ -1435,12 +1436,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 34 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:446:5: SELECT AUTEUR ARTICLE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:447:5: SELECT AUTEUR ARTICLE ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1337); 
 					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1339); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1341); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:446:27: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:447:27: ( PARLER )+
 					int cnt25=0;
 					loop25:
 					while (true) {
@@ -1452,7 +1453,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt25) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:446:27: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:447:27: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1343); 
 							}
@@ -1481,7 +1482,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 35 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:455:5: SELECT AUTEUR ARTICLE ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:456:5: SELECT AUTEUR ARTICLE ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1359); 
 					match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1361); 
@@ -1501,12 +1502,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 36 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:466:5: SELECT COMBIEN r= RUBRIQUE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:467:5: SELECT COMBIEN r= RUBRIQUE ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1384); 
 					match(input,COMBIEN,FOLLOW_COMBIEN_in_requete1386); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1392); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:466:33: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:467:33: ( PARLER )+
 					int cnt26=0;
 					loop26:
 					while (true) {
@@ -1518,7 +1519,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt26) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:466:33: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:467:33: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1394); 
 							}
@@ -1548,11 +1549,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 37 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:477:5: SELECT r= RUBRIQUE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:478:5: SELECT r= RUBRIQUE ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1417); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1423); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:477:25: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:478:25: ( PARLER )+
 					int cnt27=0;
 					loop27:
 					while (true) {
@@ -1564,7 +1565,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt27) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:477:25: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:478:25: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1425); 
 							}
@@ -1593,7 +1594,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 38 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:486:5: SELECT r= RUBRIQUE d= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:487:5: SELECT r= RUBRIQUE d= dat
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1443); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1449); 
@@ -1613,11 +1614,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 39 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:496:5: SELECT r= RUBRIQUE ( PARLER )+ ps= params d= dat
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:497:5: SELECT r= RUBRIQUE ( PARLER )+ ps= params d= dat
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1466); 
 					r=(Token)match(input,RUBRIQUE,FOLLOW_RUBRIQUE_in_requete1472); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:496:25: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:497:25: ( PARLER )+
 					int cnt28=0;
 					loop28:
 					while (true) {
@@ -1629,7 +1630,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt28) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:496:25: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:497:25: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1474); 
 							}
@@ -1666,11 +1667,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 40 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:510:5: SELECT DATE ( ARTICLE )? ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:511:5: SELECT DATE ( ARTICLE )? ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1500); 
 					match(input,DATE,FOLLOW_DATE_in_requete1502); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:510:17: ( ARTICLE )?
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:511:17: ( ARTICLE )?
 					int alt29=2;
 					int LA29_0 = input.LA(1);
 					if ( (LA29_0==ARTICLE) ) {
@@ -1678,7 +1679,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					switch (alt29) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:510:17: ARTICLE
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:511:17: ARTICLE
 							{
 							match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1504); 
 							}
@@ -1686,7 +1687,7 @@ public class Tal_simpleParser extends Parser {
 
 					}
 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:510:26: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:511:26: ( PARLER )+
 					int cnt30=0;
 					loop30:
 					while (true) {
@@ -1698,7 +1699,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt30) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:510:26: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:511:26: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1507); 
 							}
@@ -1727,7 +1728,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 41 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:521:5: SELECT EMAIL AUTEUR ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:522:5: SELECT EMAIL AUTEUR ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1526); 
 					match(input,EMAIL,FOLLOW_EMAIL_in_requete1528); 
@@ -1747,12 +1748,12 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 42 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:532:5: SELECT PAGE ARTICLE ( AUTEUR )* e= email
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:533:5: SELECT PAGE ARTICLE ( AUTEUR )* e= email
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1550); 
 					match(input,PAGE,FOLLOW_PAGE_in_requete1552); 
 					match(input,ARTICLE,FOLLOW_ARTICLE_in_requete1554); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:532:25: ( AUTEUR )*
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:533:25: ( AUTEUR )*
 					loop31:
 					while (true) {
 						int alt31=2;
@@ -1763,7 +1764,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt31) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:532:25: AUTEUR
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:533:25: AUTEUR
 							{
 							match(input,AUTEUR,FOLLOW_AUTEUR_in_requete1556); 
 							}
@@ -1789,11 +1790,11 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 43 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:541:5: SELECT PAGE ( PARLER )+ ps= params
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:542:5: SELECT PAGE ( PARLER )+ ps= params
 					{
 					match(input,SELECT,FOLLOW_SELECT_in_requete1574); 
 					match(input,PAGE,FOLLOW_PAGE_in_requete1576); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:541:17: ( PARLER )+
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:542:17: ( PARLER )+
 					int cnt32=0;
 					loop32:
 					while (true) {
@@ -1805,7 +1806,7 @@ public class Tal_simpleParser extends Parser {
 
 						switch (alt32) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:541:17: PARLER
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:542:17: PARLER
 							{
 							match(input,PARLER,FOLLOW_PARLER_in_requete1578); 
 							}
@@ -1849,13 +1850,13 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "conj"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:550:1: conj returns [Arbre conj_arbre = new Arbre(\"\")] : ( ET | OU );
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:551:1: conj returns [Arbre conj_arbre = new Arbre(\"\")] : ( ET | OU );
 	public final Arbre conj() throws RecognitionException {
 		Arbre conj_arbre =  new Arbre("");
 
 
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:550:49: ( ET | OU )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:551:49: ( ET | OU )
 			int alt34=2;
 			int LA34_0 = input.LA(1);
 			if ( (LA34_0==ET) ) {
@@ -1873,7 +1874,7 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt34) {
 				case 1 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:551:2: ET
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:552:2: ET
 					{
 					match(input,ET,FOLLOW_ET_in_conj1601); 
 
@@ -1882,7 +1883,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 2 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:554:4: OU
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:555:4: OU
 					{
 					match(input,OU,FOLLOW_OU_in_conj1608); 
 
@@ -1907,7 +1908,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "dat"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:558:1: dat returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR );
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:559:1: dat returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR );
 	public final Arbre dat() throws RecognitionException {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -1917,7 +1918,7 @@ public class Tal_simpleParser extends Parser {
 		Token j=null;
 
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:558:52: (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:559:52: (a= NBR |m= MOIS |m= MOIS a= NBR |j= JOURS m= MOIS |j= NBR m= MOIS a= NBR )
 			int alt35=5;
 			switch ( input.LA(1) ) {
 			case NBR:
@@ -1980,7 +1981,7 @@ public class Tal_simpleParser extends Parser {
 			}
 			switch (alt35) {
 				case 1 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:559:2: a= NBR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:560:2: a= NBR
 					{
 					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1627); 
 
@@ -1989,7 +1990,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 2 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:562:4: m= MOIS
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:563:4: m= MOIS
 					{
 					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1638); 
 
@@ -1998,7 +1999,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 3 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:565:4: m= MOIS a= NBR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:566:4: m= MOIS a= NBR
 					{
 					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1649); 
 					a=(Token)match(input,NBR,FOLLOW_NBR_in_dat1655); 
@@ -2009,7 +2010,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 4 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:569:4: j= JOURS m= MOIS
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:570:4: j= JOURS m= MOIS
 					{
 					j=(Token)match(input,JOURS,FOLLOW_JOURS_in_dat1666); 
 					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1672); 
@@ -2020,7 +2021,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 5 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:573:4: j= NBR m= MOIS a= NBR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:574:4: j= NBR m= MOIS a= NBR
 					{
 					j=(Token)match(input,NBR,FOLLOW_NBR_in_dat1683); 
 					m=(Token)match(input,MOIS,FOLLOW_MOIS_in_dat1689); 
@@ -2049,7 +2050,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "datinf"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:579:1: datinf returns [Arbre les_pars_arbre = new Arbre(\"\")] : a= NBR ;
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:580:1: datinf returns [Arbre les_pars_arbre = new Arbre(\"\")] : a= NBR ;
 	public final Arbre datinf() throws RecognitionException {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -2057,8 +2058,8 @@ public class Tal_simpleParser extends Parser {
 		Token a=null;
 
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:579:55: (a= NBR )
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:580:2: a= NBR
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:580:55: (a= NBR )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:581:2: a= NBR
 			{
 			a=(Token)match(input,NBR,FOLLOW_NBR_in_datinf1715); 
 
@@ -2081,7 +2082,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "datsup"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:584:1: datsup returns [Arbre les_pars_arbre = new Arbre(\"\")] : a= NBR ;
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:585:1: datsup returns [Arbre les_pars_arbre = new Arbre(\"\")] : a= NBR ;
 	public final Arbre datsup() throws RecognitionException {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -2089,8 +2090,8 @@ public class Tal_simpleParser extends Parser {
 		Token a=null;
 
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:584:55: (a= NBR )
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:585:2: a= NBR
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:585:55: (a= NBR )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:586:2: a= NBR
 			{
 			a=(Token)match(input,NBR,FOLLOW_NBR_in_datsup1734); 
 
@@ -2113,7 +2114,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "email"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:589:1: email returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR |a= VAR );
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:590:1: email returns [Arbre les_pars_arbre = new Arbre(\"\")] : (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR |a= VAR );
 	public final Arbre email() throws RecognitionException {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -2126,7 +2127,7 @@ public class Tal_simpleParser extends Parser {
 		Token a3=null;
 
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:589:54: (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR |a= VAR )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:590:54: (a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR | EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR | EMAIL a= AT a1= VAR p= POINT a2= VAR |a= VAR )
 			int alt37=5;
 			int LA37_0 = input.LA(1);
 			if ( (LA37_0==VAR) ) {
@@ -2189,12 +2190,12 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt37) {
 				case 1 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:590:2: a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:591:2: a1= VAR a= AT a2= VAR (n= NBR )? p= POINT a3= VAR
 					{
 					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1753); 
 					a=(Token)match(input,AT,FOLLOW_AT_in_email1759); 
 					a2=(Token)match(input,VAR,FOLLOW_VAR_in_email1765); 
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:590:29: (n= NBR )?
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:591:29: (n= NBR )?
 					int alt36=2;
 					int LA36_0 = input.LA(1);
 					if ( (LA36_0==NBR) ) {
@@ -2202,7 +2203,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					switch (alt36) {
 						case 1 :
-							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:590:29: n= NBR
+							// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:591:29: n= NBR
 							{
 							n=(Token)match(input,NBR,FOLLOW_NBR_in_email1771); 
 							}
@@ -2218,7 +2219,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 2 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:594:4: EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:595:4: EMAIL a1= VAR a= AT a2= VAR p= POINT a3= VAR
 					{
 					match(input,EMAIL,FOLLOW_EMAIL_in_email1792); 
 					a1=(Token)match(input,VAR,FOLLOW_VAR_in_email1798); 
@@ -2232,7 +2233,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 3 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:597:4: EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:598:4: EMAIL AUTEUR a1= VAR a= AT a2= VAR p= POINT a3= VAR
 					{
 					match(input,EMAIL,FOLLOW_EMAIL_in_email1829); 
 					match(input,AUTEUR,FOLLOW_AUTEUR_in_email1831); 
@@ -2247,7 +2248,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 4 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:600:4: EMAIL a= AT a1= VAR p= POINT a2= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:601:4: EMAIL a= AT a1= VAR p= POINT a2= VAR
 					{
 					match(input,EMAIL,FOLLOW_EMAIL_in_email1868); 
 					a=(Token)match(input,AT,FOLLOW_AT_in_email1874); 
@@ -2260,7 +2261,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 5 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:603:4: a= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:604:4: a= VAR
 					{
 					a=(Token)match(input,VAR,FOLLOW_VAR_in_email1903); 
 
@@ -2285,7 +2286,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "listerequetes"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:608:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:609:1: listerequetes returns [String sql = \"\"] : r= requete POINT ;
 	public final String listerequetes() throws RecognitionException {
 		String sql =  "";
 
@@ -2294,8 +2295,8 @@ public class Tal_simpleParser extends Parser {
 
 		Arbre lr_arbre;
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:609:26: (r= requete POINT )
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:610:3: r= requete POINT
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:610:26: (r= requete POINT )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:611:3: r= requete POINT
 			{
 			pushFollow(FOLLOW_requete_in_listerequetes1931);
 			r=requete();
@@ -2323,7 +2324,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "param"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:615:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR );
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:616:1: param returns [Arbre lepar_arbre = new Arbre(\"\")] : (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR );
 	public final Arbre param() throws RecognitionException {
 		Arbre lepar_arbre =  new Arbre("");
 
@@ -2335,7 +2336,7 @@ public class Tal_simpleParser extends Parser {
 		Token a4=null;
 
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:615:51: (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:616:51: (a= VAR |a1= NBR a2= MOIS |a1= VAR a2= VAR |a1= VAR a2= VAR a3= VAR |a1= VAR a2= VAR a3= VAR a4= VAR )
 			int alt38=5;
 			int LA38_0 = input.LA(1);
 			if ( (LA38_0==VAR) ) {
@@ -2414,7 +2415,7 @@ public class Tal_simpleParser extends Parser {
 
 			switch (alt38) {
 				case 1 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:616:2: a= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:617:2: a= VAR
 					{
 					a=(Token)match(input,VAR,FOLLOW_VAR_in_param1952); 
 
@@ -2423,7 +2424,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 2 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:619:4: a1= NBR a2= MOIS
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:620:4: a1= NBR a2= MOIS
 					{
 					a1=(Token)match(input,NBR,FOLLOW_NBR_in_param1963); 
 					a2=(Token)match(input,MOIS,FOLLOW_MOIS_in_param1969); 
@@ -2434,7 +2435,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 3 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:623:5: a1= VAR a2= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:624:5: a1= VAR a2= VAR
 					{
 					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1981); 
 					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param1987); 
@@ -2445,7 +2446,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 4 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:627:4: a1= VAR a2= VAR a3= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:628:4: a1= VAR a2= VAR a3= VAR
 					{
 					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param1998); 
 					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2004); 
@@ -2458,7 +2459,7 @@ public class Tal_simpleParser extends Parser {
 					}
 					break;
 				case 5 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:632:4: a1= VAR a2= VAR a3= VAR a4= VAR
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:633:4: a1= VAR a2= VAR a3= VAR a4= VAR
 					{
 					a1=(Token)match(input,VAR,FOLLOW_VAR_in_param2021); 
 					a2=(Token)match(input,VAR,FOLLOW_VAR_in_param2027); 
@@ -2489,7 +2490,7 @@ public class Tal_simpleParser extends Parser {
 
 
 	// $ANTLR start "params"
-	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:639:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
+	// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:640:1: params returns [Arbre les_pars_arbre = new Arbre(\"\")] : par1= param (c= conj par2= param )* ;
 	public final Arbre params() throws RecognitionException {
 		Arbre les_pars_arbre =  new Arbre("");
 
@@ -2502,8 +2503,8 @@ public class Tal_simpleParser extends Parser {
 				Arbre par1_arbre, par2_arbre, conj_arbre, dat_arbre;
 			
 		try {
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:642:4: (par1= param (c= conj par2= param )* )
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:643:3: par1= param (c= conj par2= param )*
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:643:4: (par1= param (c= conj par2= param )* )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:644:3: par1= param (c= conj par2= param )*
 			{
 			pushFollow(FOLLOW_param_in_params2064);
 			par1=param();
@@ -2513,7 +2514,7 @@ public class Tal_simpleParser extends Parser {
 						par1_arbre = par1;
 						les_pars_arbre.ajouteFils(par1_arbre);
 					
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:647:3: (c= conj par2= param )*
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:648:3: (c= conj par2= param )*
 			loop39:
 			while (true) {
 				int alt39=2;
@@ -2531,7 +2532,7 @@ public class Tal_simpleParser extends Parser {
 
 				switch (alt39) {
 				case 1 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:647:4: c= conj par2= param
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:648:4: c= conj par2= param
 					{
 					pushFollow(FOLLOW_conj_in_params2075);
 					c=conj();

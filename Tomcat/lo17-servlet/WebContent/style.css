@@ -36,6 +36,8 @@ input {
 	background:#EEE;
 	padding:10px;
 	font-size: 1.5em;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
 
 .table-th {
@@ -57,7 +59,10 @@ input {
 }
 
 .div-link {
-	margin-top:3px;}
+	border-radius: 10px;
+	margin-top:3px;
+	background:#DDF8EC;
+}
 
 .link {
 	color:green;
