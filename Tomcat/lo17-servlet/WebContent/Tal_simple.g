@@ -16,7 +16,7 @@ PREMIER : 'premier';
 DERNIER : 'dernier';
 CONTACTER : 'contacter';	
 
-RUBRIQUE : 'une'|'grostitre'|'focus'|'rappels'|'voiraussi';
+RUBRIQUE : 'rubriqueune'|'grostitre'|'focus'|'rappels'|'voiraussi';
 
 ARTICLE : 'article';
 AUTEUR : 'auteur';
