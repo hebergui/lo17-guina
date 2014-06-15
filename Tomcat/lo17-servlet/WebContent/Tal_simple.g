@@ -9,14 +9,14 @@ OU : 'ou';
 PARLER : 'parler'+; //pour la phrase "...traite des sujets concernant..."
 ENTRE :'entre';
 WS : (' ' | '\t' | '\r' | 'stop') { skip(); } | '\n';
-MOIS : 'janvier'|'fevrier'|'fÃ©vrier'|'mars'|'avril'|'mai'|'juin'|'juillet'|'aout'|'aot'|'sept'|'octobre'|'novembre'|'decembre'|'dÃ©cembre';
+MOIS : 'janvier'|'fevrier'|'février'|'mars'|'avril'|'mai'|'juin'|'juillet'|'aout'|'aot'|'sept'|'octobre'|'novembre'|'decembre'|'décembre';
 MOT : 'mot';
 TODAY : 'aujourd';
 PREMIER : 'premier';
 DERNIER : 'dernier';
 CONTACTER : 'contacter';	
 
-RUBRIQUE : 'rubriqueune'|'grostitre'|'focus'|'rappels'|'voiraussi';
+RUBRIQUE : 'une'|'grostitre'|'focus'|'rappels'|'voiraussi';
 
 ARTICLE : 'article';
 AUTEUR : 'auteur';
@@ -399,15 +399,6 @@ requete returns [Arbre req_arbre = new Arbre("")]
 			req_arbre.ajouteFils(ps_arbre);
 			req_arbre.ajouteFils(new Arbre("", "AND m.rubrique = '" + r.getText() + "' "));
 		}
-		
-
-		| SELECT ARTICLE AUTEUR ps = params {
-			req_arbre.ajouteFils(new Arbre("", "select distinct m.page"));
-			req_arbre.ajouteFils(new Arbre("", "from titreresume m "));
-			req_arbre.ajouteFils(new Arbre("", "where "));
-			ps_arbre = $ps.les_pars_arbre;
-			req_arbre.ajouteFils(ps_arbre);
-		}
 
 		| SELECT ARTICLE AUTEUR e = email {
 			req_arbre.ajouteFils(new Arbre("", "select distinct m.page"));
@@ -608,7 +599,11 @@ email returns [Arbre les_pars_arbre = new Arbre("")] :
 	}
 	| EMAIL a = AT a1 = VAR p = POINT a2 = VAR {
 		les_pars_arbre.ajouteFils(new Arbre("", "e.email = '" + a.getText() + a1.getText() + p.getText() + a2.getText() + "' "));
-	};
+	}
+	| a = VAR {
+		les_pars_arbre.ajouteFils(new Arbre("", "e.email LIKE '\%" + a.getText() + "\%' "));
+	}
+	;
 
 listerequetes returns [String sql = ""]
 	@init {Arbre lr_arbre;} :

@@ -1,4 +1,4 @@
-// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g 2014-06-12 10:38:24
+// $ANTLR 3.5.1 C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g 2014-06-15 12:28:26
 package com.lo17.projet;
 
 import org.antlr.runtime.*;
@@ -310,7 +310,7 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = MOIS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:6: ( 'janvier' | 'fevrier' | 'fÃ©vrier' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'aot' | 'sept' | 'octobre' | 'novembre' | 'decembre' | 'dÃ©cembre' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:6: ( 'janvier' | 'fevrier' | 'février' | 'mars' | 'avril' | 'mai' | 'juin' | 'juillet' | 'aout' | 'aot' | 'sept' | 'octobre' | 'novembre' | 'decembre' | 'décembre' )
 			int alt4=15;
 			switch ( input.LA(1) ) {
 			case 'j':
@@ -382,7 +382,7 @@ public class Tal_simpleLexer extends Lexer {
 				if ( (LA4_2=='e') ) {
 					alt4=2;
 				}
-				else if ( (LA4_2=='\u00C3') ) {
+				else if ( (LA4_2=='\u00E9') ) {
 					alt4=3;
 				}
 
@@ -508,7 +508,7 @@ public class Tal_simpleLexer extends Lexer {
 				if ( (LA4_8=='e') ) {
 					alt4=14;
 				}
-				else if ( (LA4_8=='\u00C3') ) {
+				else if ( (LA4_8=='\u00E9') ) {
 					alt4=15;
 				}
 
@@ -547,93 +547,93 @@ public class Tal_simpleLexer extends Lexer {
 					}
 					break;
 				case 3 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:28: 'fÃ©vrier'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:28: 'février'
 					{
-					match("fÃ©vrier"); 
+					match("février"); 
 
 					}
 					break;
 				case 4 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:39: 'mars'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:38: 'mars'
 					{
 					match("mars"); 
 
 					}
 					break;
 				case 5 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:46: 'avril'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:45: 'avril'
 					{
 					match("avril"); 
 
 					}
 					break;
 				case 6 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:54: 'mai'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:53: 'mai'
 					{
 					match("mai"); 
 
 					}
 					break;
 				case 7 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:60: 'juin'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:59: 'juin'
 					{
 					match("juin"); 
 
 					}
 					break;
 				case 8 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:67: 'juillet'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:66: 'juillet'
 					{
 					match("juillet"); 
 
 					}
 					break;
 				case 9 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:77: 'aout'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:76: 'aout'
 					{
 					match("aout"); 
 
 					}
 					break;
 				case 10 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:84: 'aot'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:83: 'aot'
 					{
 					match("aot"); 
 
 					}
 					break;
 				case 11 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:90: 'sept'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:89: 'sept'
 					{
 					match("sept"); 
 
 					}
 					break;
 				case 12 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:97: 'octobre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:96: 'octobre'
 					{
 					match("octobre"); 
 
 					}
 					break;
 				case 13 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:107: 'novembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:106: 'novembre'
 					{
 					match("novembre"); 
 
 					}
 					break;
 				case 14 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:118: 'decembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:117: 'decembre'
 					{
 					match("decembre"); 
 
 					}
 					break;
 				case 15 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:129: 'dÃ©cembre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:12:128: 'décembre'
 					{
-					match("dÃ©cembre"); 
+					match("décembre"); 
 
 					}
 					break;
@@ -758,31 +758,12 @@ public class Tal_simpleLexer extends Lexer {
 		try {
 			int _type = RUBRIQUE;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:10: ( 'rubriqueune' | 'gros titre' | 'focus' | 'rappels' | 'voiraussi' )
+			// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:10: ( 'une' | 'grostitre' | 'focus' | 'rappels' | 'voiraussi' )
 			int alt5=5;
 			switch ( input.LA(1) ) {
-			case 'r':
+			case 'u':
 				{
-				int LA5_1 = input.LA(2);
-				if ( (LA5_1=='u') ) {
-					alt5=1;
-				}
-				else if ( (LA5_1=='a') ) {
-					alt5=4;
-				}
-
-				else {
-					int nvaeMark = input.mark();
-					try {
-						input.consume();
-						NoViableAltException nvae =
-							new NoViableAltException("", 5, 1, input);
-						throw nvae;
-					} finally {
-						input.rewind(nvaeMark);
-					}
-				}
-
+				alt5=1;
 				}
 				break;
 			case 'g':
@@ -793,6 +774,11 @@ public class Tal_simpleLexer extends Lexer {
 			case 'f':
 				{
 				alt5=3;
+				}
+				break;
+			case 'r':
+				{
+				alt5=4;
 				}
 				break;
 			case 'v':
@@ -807,35 +793,35 @@ public class Tal_simpleLexer extends Lexer {
 			}
 			switch (alt5) {
 				case 1 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:12: 'rubriqueune'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:12: 'une'
 					{
-					match("rubriqueune"); 
+					match("une"); 
 
 					}
 					break;
 				case 2 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:26: 'gros titre'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:18: 'grostitre'
 					{
-					match("gros titre"); 
+					match("grostitre"); 
 
 					}
 					break;
 				case 3 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:39: 'focus'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:30: 'focus'
 					{
 					match("focus"); 
 
 					}
 					break;
 				case 4 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:47: 'rappels'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:38: 'rappels'
 					{
 					match("rappels"); 
 
 					}
 					break;
 				case 5 :
-					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:57: 'voiraussi'
+					// C:\\Users\\Guillaume\\Documents\\GitHub\\lo17-guina\\Tomcat\\lo17-servlet\\WebContent\\Tal_simple.g:19:48: 'voiraussi'
 					{
 					match("voiraussi"); 
 
@@ -1395,104 +1381,99 @@ public class Tal_simpleLexer extends Lexer {
 
 	protected DFA8 dfa8 = new DFA8(this);
 	static final String DFA8_eotS =
-		"\25\uffff\2\24\1\72\2\24\1\75\37\24\1\uffff\2\24\1\uffff\16\24\1\163\1"+
-		"\164\2\24\1\163\25\24\1\u008c\2\24\1\6\1\163\1\24\1\163\5\24\1\163\2\uffff"+
-		"\1\24\1\163\7\24\1\u009d\11\24\1\u00a7\1\u00a8\2\24\1\uffff\4\24\1\u00af"+
-		"\2\24\1\u00a1\1\163\7\24\1\uffff\3\24\1\uffff\1\u00bc\4\24\2\uffff\1\24"+
-		"\1\u00c2\1\24\1\u00c5\2\24\1\uffff\3\24\1\u00cb\7\24\1\u00d3\1\uffff\1"+
-		"\u00d4\1\24\1\u00d6\1\24\1\163\1\uffff\1\24\1\u00d9\1\uffff\3\163\1\24"+
-		"\1\u00db\1\uffff\1\u00dc\2\24\1\u00df\2\24\1\u00a1\2\uffff\1\24\1\uffff"+
-		"\2\24\1\uffff\1\163\2\uffff\2\163\1\uffff\2\24\1\u00a1\1\u00e6\1\163\1"+
-		"\24\1\uffff\1\24\1\u00a1";
+		"\26\uffff\2\25\1\73\2\25\1\76\37\25\1\uffff\2\25\1\uffff\16\25\1\164\1"+
+		"\165\2\25\1\164\10\25\1\u0080\14\25\1\u008d\2\25\1\6\1\164\1\25\1\164"+
+		"\5\25\1\164\2\uffff\1\25\1\164\7\25\1\u009e\1\uffff\10\25\1\u00a7\1\u00a8"+
+		"\2\25\1\uffff\4\25\1\u00af\2\25\1\u0080\1\164\7\25\1\uffff\3\25\1\u00bc"+
+		"\4\25\2\uffff\1\25\1\u00c2\1\25\1\u00c5\2\25\1\uffff\3\25\1\u00cb\7\25"+
+		"\1\u00d3\1\uffff\1\u00d4\1\25\1\u00d6\1\25\1\164\1\uffff\1\25\1\u00d9"+
+		"\1\uffff\4\164\1\u00da\1\uffff\1\u00db\2\25\1\u00de\2\25\1\u0080\2\uffff"+
+		"\1\25\1\uffff\2\25\3\uffff\2\164\1\uffff\1\164\1\25\1\u0080\1\u00e4\1"+
+		"\u0080\1\uffff";
 	static final String DFA8_eofS =
-		"\u00e9\uffff";
+		"\u00e5\uffff";
 	static final String DFA8_minS =
-		"\1\11\5\55\1\uffff\12\55\4\uffff\1\151\1\155\1\55\1\164\1\141\1\55\1\164"+
-		"\1\147\1\145\1\142\1\157\1\160\1\156\1\151\1\165\1\166\1\u00a9\1\143\1"+
-		"\151\1\164\1\162\1\164\1\152\1\164\1\166\1\143\1\u00a9\1\164\1\142\1\160"+
-		"\1\163\1\157\1\164\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151\1\uffff"+
-		"\1\157\1\154\1\145\1\155\1\154\1\160\1\164\1\166\1\154\2\162\1\166\1\165"+
-		"\1\163\2\55\1\151\1\164\1\55\1\157\1\145\1\151\2\145\1\156\1\143\1\145"+
-		"\1\162\1\160\1\165\1\163\1\162\1\157\1\141\1\151\1\141\1\145\1\154\1\142"+
-		"\1\145\1\55\2\151\2\55\1\151\1\55\1\154\1\163\1\151\1\162\1\163\1\55\2"+
-		"\uffff\1\154\1\55\2\165\1\143\2\155\1\151\1\145\1\55\1\151\1\145\1\155"+
-		"\1\40\1\145\1\151\1\165\1\145\1\143\2\55\2\162\1\uffff\4\145\1\55\1\145"+
-		"\1\151\2\55\2\162\1\154\2\142\1\145\1\155\1\uffff\1\161\1\154\1\145\1"+
-		"\uffff\1\55\1\162\1\163\1\156\1\164\2\uffff\1\145\1\55\1\162\1\55\1\162"+
-		"\1\164\1\uffff\1\162\1\145\1\144\1\55\1\145\3\162\1\142\1\165\1\163\1"+
-		"\55\1\uffff\1\55\1\163\1\55\1\145\1\55\1\uffff\1\141\1\55\1\uffff\3\55"+
-		"\1\162\1\55\1\uffff\1\55\2\145\1\55\1\162\1\145\1\55\2\uffff\1\151\1\uffff"+
-		"\2\162\1\uffff\1\55\2\uffff\2\55\1\uffff\1\145\1\165\3\55\1\156\1\uffff"+
-		"\1\145\1\55";
+		"\1\11\5\55\1\uffff\13\55\4\uffff\1\151\1\155\1\55\1\164\1\141\1\55\1\164"+
+		"\1\147\1\145\1\142\1\157\1\160\1\156\1\151\1\165\2\166\1\143\1\151\1\164"+
+		"\1\162\1\164\1\152\1\164\1\166\2\143\1\164\1\145\1\157\1\160\1\163\1\164"+
+		"\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151\1\uffff\1\157\1\154\1\145"+
+		"\1\155\1\154\1\160\1\164\1\166\1\154\3\162\1\165\1\163\2\55\1\151\1\164"+
+		"\1\55\1\157\1\145\1\151\2\145\1\156\2\145\1\55\1\163\1\160\1\165\1\162"+
+		"\1\157\1\141\1\151\1\141\1\145\1\154\1\142\1\145\1\55\2\151\2\55\1\151"+
+		"\1\55\1\154\1\163\2\151\1\163\1\55\2\uffff\1\154\1\55\2\165\1\143\2\155"+
+		"\1\151\1\155\1\55\1\uffff\1\164\1\145\1\155\1\145\1\151\1\165\1\145\1"+
+		"\143\2\55\2\162\1\uffff\4\145\1\55\2\145\2\55\2\162\1\154\2\142\1\145"+
+		"\1\142\1\uffff\1\151\1\154\1\145\1\55\1\162\1\163\1\156\1\164\2\uffff"+
+		"\1\145\1\55\1\162\1\55\1\162\1\164\1\uffff\2\162\1\144\1\55\1\145\4\162"+
+		"\1\164\1\163\1\55\1\uffff\1\55\1\163\1\55\1\145\1\55\1\uffff\1\141\1\55"+
+		"\1\uffff\5\55\1\uffff\1\55\2\145\1\55\1\145\1\162\1\55\2\uffff\1\151\1"+
+		"\uffff\2\162\3\uffff\2\55\1\uffff\1\55\1\145\3\55\1\uffff";
 	static final String DFA8_maxS =
-		"\1\172\5\u00ff\1\uffff\12\u00ff\4\uffff\1\165\1\156\1\u00ff\1\164\1\141"+
-		"\1\u00ff\1\164\1\162\1\145\1\142\1\157\1\160\1\156\1\151\1\165\1\166\1"+
-		"\u00a9\1\143\1\162\1\164\1\162\1\165\2\164\1\166\1\162\1\u00a9\1\164\1"+
-		"\142\1\160\1\163\1\157\1\164\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151"+
-		"\1\uffff\1\157\1\154\1\145\1\155\1\154\1\160\1\164\1\166\1\156\2\162\1"+
-		"\166\1\165\1\163\2\u00ff\1\151\1\164\1\u00ff\1\157\1\145\1\151\2\145\1"+
-		"\156\1\143\1\145\1\162\1\160\1\165\1\163\1\162\1\157\1\141\1\151\1\141"+
-		"\1\145\1\154\1\142\1\145\1\u00ff\2\151\2\u00ff\1\151\1\u00ff\1\154\1\163"+
-		"\1\151\1\162\1\163\1\u00ff\2\uffff\1\154\1\u00ff\2\165\1\143\2\155\1\151"+
-		"\1\145\1\u00ff\1\151\1\145\1\155\1\40\1\145\1\151\1\165\1\145\1\143\2"+
-		"\u00ff\2\162\1\uffff\4\145\1\u00ff\1\145\1\151\2\u00ff\2\162\1\154\2\142"+
-		"\1\145\1\155\1\uffff\1\161\1\154\1\145\1\uffff\1\u00ff\1\162\1\163\1\156"+
-		"\1\164\2\uffff\1\145\1\u00ff\1\162\1\u00ff\1\162\1\164\1\uffff\1\162\1"+
-		"\145\1\144\1\u00ff\1\145\3\162\1\142\1\165\1\163\1\u00ff\1\uffff\1\u00ff"+
-		"\1\163\1\u00ff\1\145\1\u00ff\1\uffff\1\141\1\u00ff\1\uffff\3\u00ff\1\162"+
-		"\1\u00ff\1\uffff\1\u00ff\2\145\1\u00ff\1\162\1\145\1\u00ff\2\uffff\1\151"+
-		"\1\uffff\2\162\1\uffff\1\u00ff\2\uffff\2\u00ff\1\uffff\1\145\1\165\3\u00ff"+
-		"\1\156\1\uffff\1\145\1\u00ff";
+		"\1\172\5\u00ff\1\uffff\13\u00ff\4\uffff\1\165\1\156\1\u00ff\1\164\1\141"+
+		"\1\u00ff\1\164\1\162\1\145\1\142\1\157\1\160\1\156\1\151\1\165\2\166\1"+
+		"\143\1\162\1\164\1\162\1\165\2\164\1\166\1\162\1\143\1\164\1\145\1\157"+
+		"\1\160\1\163\1\164\1\154\1\162\1\142\1\164\1\uffff\1\162\1\151\1\uffff"+
+		"\1\157\1\154\1\145\1\155\1\154\1\160\1\164\1\166\1\156\3\162\1\165\1\163"+
+		"\2\u00ff\1\151\1\164\1\u00ff\1\157\1\145\1\151\2\145\1\156\2\145\1\u00ff"+
+		"\1\163\1\160\1\165\1\162\1\157\1\141\1\151\1\141\1\145\1\154\1\142\1\145"+
+		"\1\u00ff\2\151\2\u00ff\1\151\1\u00ff\1\154\1\163\2\151\1\163\1\u00ff\2"+
+		"\uffff\1\154\1\u00ff\2\165\1\143\2\155\1\151\1\155\1\u00ff\1\uffff\1\164"+
+		"\1\145\1\155\1\145\1\151\1\165\1\145\1\143\2\u00ff\2\162\1\uffff\4\145"+
+		"\1\u00ff\2\145\2\u00ff\2\162\1\154\2\142\1\145\1\142\1\uffff\1\151\1\154"+
+		"\1\145\1\u00ff\1\162\1\163\1\156\1\164\2\uffff\1\145\1\u00ff\1\162\1\u00ff"+
+		"\1\162\1\164\1\uffff\2\162\1\144\1\u00ff\1\145\4\162\1\164\1\163\1\u00ff"+
+		"\1\uffff\1\u00ff\1\163\1\u00ff\1\145\1\u00ff\1\uffff\1\141\1\u00ff\1\uffff"+
+		"\5\u00ff\1\uffff\1\u00ff\2\145\1\u00ff\1\145\1\162\1\u00ff\2\uffff\1\151"+
+		"\1\uffff\2\162\3\uffff\2\u00ff\1\uffff\1\u00ff\1\145\3\u00ff\1\uffff";
 	static final String DFA8_acceptS =
-		"\6\uffff\1\7\12\uffff\1\30\1\31\1\32\1\33\45\uffff\1\3\2\uffff\1\4\65"+
-		"\uffff\1\10\1\11\27\uffff\1\24\20\uffff\1\21\3\uffff\1\16\5\uffff\1\6"+
-		"\1\22\6\uffff\1\23\14\uffff\1\27\5\uffff\1\5\2\uffff\1\25\5\uffff\1\20"+
-		"\7\uffff\1\26\1\1\1\uffff\1\2\2\uffff\1\13\1\uffff\1\12\1\17\2\uffff\1"+
-		"\14\6\uffff\1\15\2\uffff";
+		"\6\uffff\1\7\13\uffff\1\30\1\31\1\32\1\33\45\uffff\1\3\2\uffff\1\4\65"+
+		"\uffff\1\10\1\11\12\uffff\1\16\14\uffff\1\24\20\uffff\1\21\10\uffff\1"+
+		"\6\1\22\6\uffff\1\23\14\uffff\1\27\5\uffff\1\5\2\uffff\1\25\5\uffff\1"+
+		"\20\7\uffff\1\26\1\1\1\uffff\1\2\2\uffff\1\13\1\12\1\17\2\uffff\1\14\5"+
+		"\uffff\1\15";
 	static final String DFA8_specialS =
-		"\u00e9\uffff}>";
+		"\u00e5\uffff}>";
 	static final String[] DFA8_transitionS = {
-			"\2\6\2\uffff\1\6\22\uffff\1\6\15\uffff\1\22\1\uffff\12\21\6\uffff\1\23"+
-			"\32\24\6\uffff\1\13\1\24\1\2\1\15\1\3\1\11\1\17\2\24\1\10\2\24\1\12\1"+
-			"\14\1\4\1\5\1\24\1\16\1\7\1\20\1\24\1\1\4\24",
-			"\1\24\23\uffff\32\24\6\uffff\16\24\1\25\13\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\16\24\1\26\13\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\14\24\1\31\1\30\5\24\1\27\6\24\45\uffff"+
-			"\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\2\24\1\33\21\24\1\32\5\24\45\uffff\140"+
-			"\24",
-			"\1\24\23\uffff\32\24\6\uffff\1\34\20\24\1\35\2\24\1\36\5\24\45\uffff"+
-			"\140\24",
+			"\2\6\2\uffff\1\6\22\uffff\1\6\15\uffff\1\23\1\uffff\12\22\6\uffff\1\24"+
+			"\32\25\6\uffff\1\13\1\25\1\2\1\15\1\3\1\11\1\17\2\25\1\10\2\25\1\12\1"+
+			"\14\1\4\1\5\1\25\1\20\1\7\1\21\1\16\1\1\4\25",
+			"\1\25\23\uffff\32\25\6\uffff\16\25\1\26\13\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\16\25\1\27\13\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\14\25\1\32\1\31\5\25\1\30\6\25\45\uffff"+
+			"\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\2\25\1\34\21\25\1\33\5\25\45\uffff\140"+
+			"\25",
+			"\1\25\23\uffff\32\25\6\uffff\1\35\20\25\1\36\2\25\1\37\5\25\45\uffff"+
+			"\140\25",
 			"",
-			"\1\24\23\uffff\32\24\6\uffff\4\24\1\40\16\24\1\37\6\24\45\uffff\140"+
-			"\24",
-			"\1\24\23\uffff\32\24\6\uffff\1\41\15\24\1\43\5\24\1\42\5\24\45\uffff"+
-			"\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\4\24\1\44\11\24\1\46\13\24\45\uffff\43"+
-			"\24\1\45\74\24",
-			"\1\24\23\uffff\32\24\6\uffff\1\47\15\24\1\50\13\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\16\24\1\52\2\24\1\54\2\24\1\53\1\51\4\24"+
-			"\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\16\24\1\55\13\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\1\60\3\24\1\56\25\24\45\uffff\43\24\1\57"+
-			"\74\24",
-			"\1\24\23\uffff\32\24\6\uffff\1\62\3\24\1\63\17\24\1\61\5\24\45\uffff"+
-			"\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\21\24\1\64\10\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\10\24\1\65\21\24\45\uffff\140\24",
-			"",
-			"",
+			"\1\25\23\uffff\32\25\6\uffff\4\25\1\41\16\25\1\40\6\25\45\uffff\140"+
+			"\25",
+			"\1\25\23\uffff\32\25\6\uffff\1\42\15\25\1\44\5\25\1\43\5\25\45\uffff"+
+			"\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\4\25\1\45\11\25\1\47\13\25\45\uffff\111"+
+			"\25\1\46\26\25",
+			"\1\25\23\uffff\32\25\6\uffff\1\50\15\25\1\51\13\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\16\25\1\53\2\25\1\55\2\25\1\54\1\52\4\25"+
+			"\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\16\25\1\56\13\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\1\61\3\25\1\57\25\25\45\uffff\111\25\1"+
+			"\60\26\25",
+			"\1\25\23\uffff\32\25\6\uffff\15\25\1\62\14\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\21\25\1\63\10\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\1\64\3\25\1\65\25\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\10\25\1\66\21\25\45\uffff\140\25",
 			"",
 			"",
-			"\1\67\13\uffff\1\66",
-			"\1\70\1\71",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\73",
+			"",
+			"",
+			"\1\70\13\uffff\1\67",
+			"\1\71\1\72",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\74",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\76",
-			"\1\100\12\uffff\1\77",
-			"\1\101",
+			"\1\75",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\77",
+			"\1\101\12\uffff\1\100",
 			"\1\102",
 			"\1\103",
 			"\1\104",
@@ -1502,15 +1483,15 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\110",
 			"\1\111",
 			"\1\112",
-			"\1\114\10\uffff\1\113",
-			"\1\115",
+			"\1\113",
+			"\1\115\10\uffff\1\114",
 			"\1\116",
-			"\1\120\1\117",
-			"\1\121\11\uffff\1\122",
-			"\1\123",
+			"\1\117",
+			"\1\121\1\120",
+			"\1\122\11\uffff\1\123",
 			"\1\124",
-			"\1\125\16\uffff\1\126",
-			"\1\127",
+			"\1\125",
+			"\1\126\16\uffff\1\127",
 			"\1\130",
 			"\1\131",
 			"\1\132",
@@ -1521,11 +1502,11 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\137",
 			"\1\140",
 			"\1\141",
-			"",
 			"\1\142",
-			"\1\143",
 			"",
+			"\1\143",
 			"\1\144",
+			"",
 			"\1\145",
 			"\1\146",
 			"\1\147",
@@ -1533,18 +1514,18 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\151",
 			"\1\152",
 			"\1\153",
-			"\1\155\1\uffff\1\154",
-			"\1\156",
+			"\1\154",
+			"\1\156\1\uffff\1\155",
 			"\1\157",
 			"\1\160",
 			"\1\161",
 			"\1\162",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\165",
+			"\1\163",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\166",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\167",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\170",
 			"\1\171",
 			"\1\172",
@@ -1553,7 +1534,7 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\175",
 			"\1\176",
 			"\1\177",
-			"\1\u0080",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u0081",
 			"\1\u0082",
 			"\1\u0083",
@@ -1565,32 +1546,33 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u0089",
 			"\1\u008a",
 			"\1\u008b",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u008d",
+			"\1\u008c",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u008e",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
 			"\1\u008f",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u0090",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u0091",
 			"\1\u0092",
 			"\1\u0093",
 			"\1\u0094",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"",
-			"",
 			"\1\u0095",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"",
+			"",
 			"\1\u0096",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u0097",
 			"\1\u0098",
 			"\1\u0099",
 			"\1\u009a",
 			"\1\u009b",
 			"\1\u009c",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u009e",
+			"\1\u009d",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"",
 			"\1\u009f",
 			"\1\u00a0",
 			"\1\u00a1",
@@ -1599,8 +1581,8 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u00a4",
 			"\1\u00a5",
 			"\1\u00a6",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00a9",
 			"\1\u00aa",
 			"",
@@ -1608,11 +1590,11 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u00ac",
 			"\1\u00ad",
 			"\1\u00ae",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00b0",
 			"\1\u00b1",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00b2",
 			"\1\u00b3",
 			"\1\u00b4",
@@ -1624,8 +1606,7 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u00b9",
 			"\1\u00ba",
 			"\1\u00bb",
-			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00bd",
 			"\1\u00be",
 			"\1\u00bf",
@@ -1633,16 +1614,16 @@ public class Tal_simpleLexer extends Lexer {
 			"",
 			"",
 			"\1\u00c1",
-			"\1\24\23\uffff\32\24\6\uffff\17\24\1\u00c3\12\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\17\25\1\u00c3\12\25\45\uffff\140\25",
 			"\1\u00c4",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00c6",
 			"\1\u00c7",
 			"",
 			"\1\u00c8",
 			"\1\u00c9",
 			"\1\u00ca",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00cc",
 			"\1\u00cd",
 			"\1\u00ce",
@@ -1650,52 +1631,48 @@ public class Tal_simpleLexer extends Lexer {
 			"\1\u00d0",
 			"\1\u00d1",
 			"\1\u00d2",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00d5",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00d7",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"",
 			"\1\u00d8",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00da",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\u00dc",
 			"\1\u00dd",
-			"\1\u00de",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\u00df",
 			"\1\u00e0",
-			"\1\u00e1",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"",
+			"",
+			"\1\u00e1",
 			"",
 			"\1\u00e2",
+			"\1\100",
 			"",
+			"",
+			"",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
 			"\1\u00e3",
-			"\1\77",
-			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"",
-			"",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"",
-			"\1\u00e4",
-			"\1\u00e5",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24",
-			"\1\u00e7",
-			"",
-			"\1\u00e8",
-			"\1\24\23\uffff\32\24\6\uffff\32\24\45\uffff\140\24"
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			"\1\25\23\uffff\32\25\6\uffff\32\25\45\uffff\140\25",
+			""
 	};
 
 	static final short[] DFA8_eot = DFA.unpackEncodedString(DFA8_eotS);

@@ -98,7 +98,7 @@ public class LexiqueMain {
          System.out.println(chaineRetour + ".");
 		
 		
-		//return chaineRetour.replaceAll("rubriqueune", "UNE") + ".";
-         return chaineRetour + ".";
+		return chaineRetour.replaceAll("rubriqueune", "une") + ".";
+         //return chaineRetour + ".";
 	}
 }

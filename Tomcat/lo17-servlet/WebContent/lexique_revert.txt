@@ -151,6 +151,7 @@ sur parler
 temps stop
 terme stop
 textes stop
+theme parler
 thème parler
 théme parler
 thèmes parler
