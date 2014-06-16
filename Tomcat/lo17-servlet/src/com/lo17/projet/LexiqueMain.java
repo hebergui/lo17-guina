@@ -20,10 +20,10 @@ public class LexiqueMain {
 	
 	public String conversion(String chaine){
 		String chaineRetour = "";
-         chaine = chaine.replaceAll("Une", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
+         /*chaine = chaine.replaceAll("Une", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
          chaine = chaine.replaceAll("UNE", "rubriqueune"); //idem
          chaine = chaine.replaceAll("Unes", "rubriqueune"); //gère le pb de Une la rubrique et une l'article
-         chaine = chaine.replaceAll("UNES", "rubriqueune"); //idem
+         chaine = chaine.replaceAll("UNES", "rubriqueune"); //idem*/
          chaine = chaine.replaceAll("\\?", "");
          chaine = chaine.replaceAll("\\,", "");
          chaine = chaine.replaceAll("\"", "");
@@ -98,7 +98,7 @@ public class LexiqueMain {
          System.out.println(chaineRetour + ".");
 		
 		
-		return chaineRetour.replaceAll("rubriqueune", "une") + ".";
-         //return chaineRetour + ".";
+		//return chaineRetour.replaceAll("rubriqueune", "une") + ".";
+         return chaineRetour + ".";
 	}
 }
